@@ -47,7 +47,6 @@ service.
 - `frozen_data/` — anonymized saved run/evaluation evidence in gzip JSONL form.
 - `third_party/pyhdl-eval/` — public benchmark sources needed to inspect the
   frozen benchmark identity.
-- `RESULTS_GUIDE_ZH.md` — Chinese guide to the locked experimental results.
 - `ANONYMIZATION.md` and `THIRD_PARTY_NOTICES.md` — release scope and notices.
 
 The central result files are `analysis/table_iv.csv`, `analysis/table_v.csv`,

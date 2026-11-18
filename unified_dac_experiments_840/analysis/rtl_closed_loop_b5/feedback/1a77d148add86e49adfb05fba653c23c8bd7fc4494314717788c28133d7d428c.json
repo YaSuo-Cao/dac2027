@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 28:\n    Local variable may be referenced before assignment: s0"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "b0c375d1cafa5907d9b264488cd8592318d8d770444cccc3b3f20f3d326e8a89",
+  "candidate_source_sha256": "48b1104117b9a485d49063af27fdd549a38ac95d5e693c9eaf67397d12b76904",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

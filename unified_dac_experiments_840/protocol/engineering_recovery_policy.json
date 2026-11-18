@@ -1,0 +1,35 @@
+{
+  "scope": "Authoritative unified 168-task x 5-HCL experiment; superseded historical cohorts remain archived",
+  "model_transport": {
+    "claude-haiku-5-5": {
+      "protocol": "anthropic_messages",
+      "endpoint": "https://opencode.ai/zen/go/v1/messages",
+      "anthropic_version": "2023-06-01",
+      "max_tokens": 4096,
+      "unsupported_or_deprecated_fields_omitted_on_wire": ["seed", "reasoning_effort", "temperature", "top_p"],
+      "sampling_parity_with_other_models_claimed": false
+    },
+    "credential_source": "Existing user-scoped encrypted credential; never persist plaintext",
+    "execution_environment": "Authenticated native user environment for DPAPI, TLS and SSH"
+  },
+  "transport_recovery": {
+    "retry_statuses": [0, 429, 500, 502, 503, 504],
+    "request_payload": "Immutable; preserve canonical SHA256 across retries",
+    "rate_limit_policy": "Bounded concurrency, paced starts, backoff with deferred worker release",
+    "failure_scoring": "Missing valid response is an unscored infrastructure blocker",
+    "unknown_billing": "Retain as unknown; never impute zero"
+  },
+  "evaluation_recovery": {
+    "parallel_workers": 2,
+    "isolation": "Per-candidate build directory; isolated serial retries after process abort or timeout",
+    "unresolved_infrastructure": "Blocks publication; never counted as a candidate failure",
+    "candidate_nonconvergence": "Requires saved candidate-only structural or dynamic evidence after isolated retries",
+    "evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67"
+  },
+  "model_output_failure": {
+    "code_policy": "Fixed output budget; syntax, truncation and ambiguous multiple source blocks remain scored failures",
+    "contract_format_corrections_max": 2,
+    "contract_budget_exhausted": "End only the affected repair branch; retain accepted predecessor; charge every support attempt",
+    "selectively_increased_output_budget": false
+  }
+}

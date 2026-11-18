@@ -1,0 +1,18 @@
+{
+  "scan_passed": true,
+  "identity_or_secret_hits": 0,
+  "python_files_syntax_checked": 261,
+  "sanitization_replacements": {
+    "junit_hostname": 28226,
+    "linux_user_path": 28629,
+    "provider_receipt": 18468,
+    "windows_user_path": 2016
+  },
+  "changed_plain_experiment_files": 33,
+  "git_history_included": false,
+  "credentials_included": false,
+  "original_runtime_preserved": true,
+  "new_model_calls": 0,
+  "new_simulations": 0,
+  "external_uploads": 0
+}

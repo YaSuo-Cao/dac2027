@@ -1,0 +1,17 @@
+﻿method,round,metric,n,newly_passed,newly_failed,net_gain
+NativeOnly-B5,1,native_pass,840,67,0,67
+NativeOnly-B5,1,rtl_pass,840,62,0,62
+RTL-Aware-B5,1,native_pass,840,67,2,65
+RTL-Aware-B5,1,rtl_pass,840,83,0,83
+NativeOnly-B5,2,native_pass,840,14,0,14
+NativeOnly-B5,2,rtl_pass,840,13,0,13
+RTL-Aware-B5,2,native_pass,840,16,1,15
+RTL-Aware-B5,2,rtl_pass,840,15,0,15
+NativeOnly-B5,3,native_pass,840,10,0,10
+NativeOnly-B5,3,rtl_pass,840,8,0,8
+RTL-Aware-B5,3,native_pass,840,10,1,9
+RTL-Aware-B5,3,rtl_pass,840,11,0,11
+NativeOnly-B5,4,native_pass,840,5,0,5
+NativeOnly-B5,4,rtl_pass,840,5,0,5
+RTL-Aware-B5,4,native_pass,840,6,1,5
+RTL-Aware-B5,4,rtl_pass,840,6,0,6

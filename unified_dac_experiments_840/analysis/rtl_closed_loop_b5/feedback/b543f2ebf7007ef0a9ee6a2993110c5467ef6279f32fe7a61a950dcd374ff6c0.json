@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "TypeError: Unexpected type, missing final 'else:'?"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "04a6a0dc3fe8075a6ff37822ef2c6dc563b78d6e8045d7278db7c7c0f0e131cb",
+  "candidate_source_sha256": "4ada6a733abe367a6081493b8acaf8768b0a80f4e9959d962ba9072c6134cf1a",
+  "reference_source_accessed": false,
+  "failure_kind": "rtl_validation"
+}

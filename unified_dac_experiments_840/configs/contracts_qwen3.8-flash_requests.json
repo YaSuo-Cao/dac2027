@@ -1,0 +1,515 @@
+{
+  "contracts/qwen3.8-flash/Prob10p05_seq_gates_8b_dffre": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"d\", \"InputPort\", 8], [\"q\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  d (8 bits)\n - output q (8 bits)\n\nThe module should implement eight D flip-flops with an active-high\nsynchronous reset and an enable. The internal state should be reset to\nthe value 0xff when the reset input is one. The input should only be\nsampled when the enable (en) input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob11p04_seq_bool_waveform0": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - output f\n\nThe module should implement a sequential circuit with a single bit of\nstate described by the following simulation waveform. The waveform shows\nthe input values and the desired output values on every cycle of the\nsimulation. An X indicates that the output is undefined because there is\nno reset signal for this sequential circuit.\n\n   cycle | a f\n  -------+-----\n     0   | 1 X\n     1   | 0 1\n     2   | 0 0\n     3   | 0 0\n     4   | 0 0\n     5   | 1 0\n     6   | 1 1\n     7   | 0 1\n     8   | 1 0\n     9   | 0 1\n     10  | 0 0\n     11  | 1 0\n     12  | 1 1\n     13  | 0 1\n     14  | 1 0\n     15  | 0 1\n     16  | 1 0\n     17  | 1 1\n     18  | 0 1\n     19  | 1 0\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob12p01_seq_sreg_8b_siso": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"sin\", \"InputPort\", 1], [\"sout\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  sin\n - output sout\n\nThe module should implement an 8-bit, serial-input, serial-output shift\nregister with an active-high synchronous reset and an enable. When the\ninput en is high, then the shift register should shift all of its values\nby one bit to the left and use the input sin as the new least-significant\nbit of the shift register. The most-significant bit of the shift register\nshould connected to the output sout. The shift register should be reset\nto zero when the reset input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob12p02_seq_sreg_8b_piso": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"ld\", \"InputPort\", 1], [\"pin\", \"InputPort\", 8], [\"sout\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  ld\n - input  pin (8 bits)\n - output sout\n\nThe module should implement an 8-bit, parallel-input, serial-output shift\nregister with an active-high synchronous reset and an enable. When the\ninput ld is high (regardless of the value of the input en), then the\nparallel input (pin) should be loaded into the shift register. When the\ninput en is high, then the shift register should shift all of its values\nby one bit to the left and shift a zero into the least-significant bit of\nthe shift register. The most-significant bit of the shift register should\nbe connected to the output sout. The shift register should be reset to\nzero when the reset input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob12p03_seq_sreg_8b_sipo": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"sin\", \"InputPort\", 1], [\"pout\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  sin\n - output pout\n\nThe module should implement an 8-bit, serial-input, parallel-output shift\nregister with an active-high synchronous reset and an enable. When the\ninput en is high, then the shift register should shift all of its values\nby one bit to the left and use the input sin as the new the\nleast-significant bit of the shift register. All eight bits of the shift\nregister should be connected to the output pout. The shift register\nshould be reset to zero when the reset input is one. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob12p04_seq_sreg_8b_universal": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"ld\", \"InputPort\", 1], [\"pin\", \"InputPort\", 8], [\"sin\", \"InputPort\", 1], [\"pout\", \"OutputPort\", 8], [\"sout\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  ld\n - input  pin  (8 bits)\n - input  sin\n - output pout (8bits)\n - output sout\n\nThe module should implement an 8-bit universal shift register that\nsupports parallel-input, serial-input, parallel-output, and\nserial-output. The shift register should also include an active-high\nsynchronous reset and an enable. When the input ld is high (regardless of\nthe value of the input en and sin), then the parallel input (pin) should\nbe loaded into the shift register. When the input en is high, then the\nshift register should shift all of its values by one bit to the left and\nuse the input sin as the new least-significant bit of the shift register.\nAll eight bits of the shift register should be connected to the output\npout. The most-significant bit of the shift register should be connected\nto the output sout. The shift register should be reset to zero when the\nreset input is one. Assume all sequential logic is triggered on the\npositive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob12p06_seq_sreg_5b_lfsr": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"out\", \"OutputPort\", 5]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - output out (5 bits)\n\nThe module should implement a 5-bit maximum-length Galios linear feedback\nshift register (LFSR) with an active-high synchronous reset.\n\nWe can represent a 5-bit standard shift register which shifts bits to the\nright as follows:\n\n  in --> S[4] --> S[3] --> S[2] --> S[1] --> S[0] --> out\n\nS[i] refers to the ith flip-flop in the shift register, where i ranges\nfrom 0 to 4 inclusive. A Galois LFSR is a shift register with two-input\nXOR gates inserted between specific bits of the shift register; the\noutput of the shift register is connected to the free input of each XOR\ngate. If the XOR gates are inserted carefully, the LFSR can be made to be\n\"maximum-length\". A maximum-length LFSR of n bits cycles through 2**n-1\nstates before repeating (the all-zero state is never reached).\n\nThe module should implement the following 5-bit maximal-length Galois\nLFSR where a single XOR gate is inserted between S[2] and S[3].\n\n  .--> S[4] --> S[3] --> XOR --> S[2] --> S[1] --> S[0] --.\n  |                       ^                               |\n  '-----------------------'-------------------------------'\n\nAll five bits of the shift register should be connected to the output.\nThe module's internal shift register should be reset to binary one (i.e.,\nS[0] should be reset to one while the remaining bits should be reset to\nzero) one when the reset input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob13p08_seq_count_timer": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"restart\", \"InputPort\", 1], [\"tick\", \"InputPort\", 1], [\"run\", \"InputPort\", 1], [\"mins\", \"OutputPort\", 6], [\"secs\", \"OutputPort\", 6]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  restart\n - input  tick\n - input  run\n - output mins (6 bits)\n - output secs (6 bits)\n\nThe module should implement a timer with an active-high synchronous\nreset. The timer's input clk runs much faster than one Hertz, so the\ninput tick is used to indicate when the timer should increment. The\nmodule can assume the input tick is asserted for one cycle once a second.\n\nWhen the input restart is high, the timer should be cleared to zero. When\nboth the run and tick signals are high the timer should be incremented.\nWhen the run signal is low, the timer should hold its current value. The\noutputs mins and secs should be binary encoded values indicating the\namount of time the timer has been running. If the timer reaches 59\nxminutes and 59 seconds it should stop with an output of 59:59.\n\nThe outputs should be reset to zero when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob13p09_seq_count_clock": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"tick\", \"InputPort\", 1], [\"set_en\", \"InputPort\", 1], [\"set_hours\", \"InputPort\", 4], [\"set_mins\", \"InputPort\", 6], [\"set_pm\", \"InputPort\", 1], [\"hours\", \"OutputPort\", 4], [\"mins\", \"OutputPort\", 6], [\"pm\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  tick\n - input  set_en\n - input  set_hours (4 bits)\n - input  set_mins  (6 bits)\n - input  set_pm\n - output hours (4 bits)\n - output mins  (6 bits)\n - output pm\n\nThe module should implement a 12-hour clock with an active-high\nsynchronous reset. The 12-hour clock's input clk runs much faster than\none Hertz, so the input tick is used to indicate when the 12-hour clock\nshould increment. The 12-hour clock can assume the input tick is asserted\nfor one cycle once a minute.\n\nThe outputs hours and mins should be binary encoded values indicating the\ncurrent time. The output pm should be zero if the current time is in the\nmorning, and the output pm should be one if the current time is in the\nafternoon. The input set_en can be used to set the current time of the\n12-hour clock. When the input set_en is high, the 12-hour clock should\nset its internal hours state based on the set_hours, set_mins, and set_pm\ninputs.\n\nThe 12-hour clock should be reset to 12:00am, when the reset input is one\nwhen the reset input is one. Assume all sequential logic is triggered on\nthe positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob14p03_seq_edge_8b_capture": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"clear\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  clear\n - input  in_ (8 bits)\n - output out (8 bits)\n\nThe module should implement an 8-bit edge capture that will capture\npositive edges (0 to 1 transitions). Output out[i] should then be\n(combinationally) set to one if in_[i] was zero on the previous cycle and\nis now one on the current cycle; output out[i] should then remain one\nuntil cleared using the input clear. Here is an example execution trace.\nAn x indicates that the output bit is undefined because it is the first\ncycle and thus there is no previous cycle.\n\n   cycle | in_       out\n  -------+---------------------\n     0   | 0000_0000 xxxx_xxxx\n     1   | 0000_0000 0000_0000\n     2   | 0001_0001 0001_0001\n     3   | 0101_0101 0101_0101\n     4   | 0001_0001 0101_0101\n     5   | 0100_0100 0101_0101\n     6   | 0000_0000 0101_0101\n     7   | 0000_0000 0101_0101\n\nAll internal state should be set to zero when the clear input is one.\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob14p05_seq_edge_8b_max_switch": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"max_switching\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in_ (8 bits)\n - output max_switching\n\nThe module should detect a \"worst case switching event\" (i.e., when\nadjacent bits switch in opposite directions simultaneously). In other\nwords, the module should detect when the input switches from 01010101 to\n10101010 or when the input switches from 10101010 to 01010101. On the\ncycle a worst case switching event is detected, the output max_switching\nshould be (combinationally) set to one and set to zero otherwise. Here is\nan example execution trace. An X indicates that the output bit is\nundefined because it is the first cycle and thus there is no previous\ncycle.\n\n   cycle | in_       detected\n  -------+---------------------\n     0   | 0000_0000 X\n     1   | 0000_0000 0\n     2   | 0001_0001 0\n     3   | 0101_0101 0\n     4   | 1010_1010 1\n     5   | 1010_1010 0\n     6   | 0001_0001 0\n     7   | 1010_1010 0\n     8   | 0101_0101 1\n     9   | 1010_1010 1\n    10   | 0000_0000 0\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob15p04_seq_arb_4in_granthold": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"reqs\", \"InputPort\", 4], [\"holds\", \"InputPort\", 4], [\"grants\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  reqs   (4 bits)\n - input  holds  (4 bits)\n - output grants (4 bits)\n\nThe module should implement a 4-input grant-hold round-robin priority\narbiter with an active-high synchronous reset. Each bit of the input reqs\ncorresponds to one of the four requesters; if reqs[i] is high then this\nmeans requester i has a valid request. The output grants is either all\nzeros (meaning no requesters had a valid request on this cycle) or is a\none-hot bit vector indicating which requester won the arbitration.\n\nThe internal priority register should be reset to 0001 (i.e., requester 0\nhas the highest priority) when the reset input is one. When a request\nwins arbitration it should have the lowest priority in the next cycle of\narbitration. For example, if requester 2 wins arbitration, then on the\nnext cycle the priority register should be 1000 (i.e., requester 3 has\nthe highest priority and requester 2 has the lowest priority). If there\nare no valid requests then the priority should not change.\n\nThe input hold enables a requester to extend the duration of its grant.\nOnce a requester has won arbitration, it can continue to automatically\nwin arbitration as long as it keeps its corresponding hold signal high.\nWhen the requester sets its hold signal low, the arbiter should resume\nstandard round-robin arbitration. Any internal state tracking the\nprevious grant signals should be reset to zero when the reset input is\none.\n\nHere is an example execution trace.\n\n   cycle | reqs holds grants\n  -------+---------------------\n     0   | 1111 0001  0001\n     1   | 1111 0001  0001\n     2   | 1111 0001  0001\n     3   | 1111 0000  0010\n     4   | 1111 0000  0100\n     5   | 1111 0000  1000\n     6   | 1111 1000  1000\n     7   | 1111 1000  1000\n     8   | 1111 0000  0001\n     9   | 0000 0000  0000\n    10   | 1111 0000  0010\n    11   | 0000 0000  0000\n    12   | 0000 0000  0000\n    13   | 1111 0000  0100\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob15p05_seq_arb_4in_weighted": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"preset\", \"InputPort\", 1], [\"reqs\", \"InputPort\", 4], [\"grants\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  preset\n - input  reqs   (4 bits)\n - output grants (4 bits)\n\nThe module should implement a 4-input weighted round-robin priority\narbiter with an active-high synchronous reset. Each bit of the input reqs\ncorresponds to one of the four requesters; if reqs[i] is high then this\nmeans requester i has a valid request. The output grants is either all\nzeros (meaning no requesters had a valid request on this cycle) or is a\none-hot bit vector indicating which requester won the arbitration.\n\nThe internal priority register should be reset to 0001 (i.e., requester 0\nhas the highest priority) when the reset input is one. When a request\nwins arbitration it should have the lowest priority in the next cycle of\narbitration. For example, if requester 2 wins arbitration, then on the\nnext cycle the priority register should be 1000 (i.e., requester 3 has\nthe highest priority and requester 2 has the lowest priority). If there\nare no valid requests then the priority should not change. The internal\npriority register should be reset to 0001 (i.e., requester 0 has the\nhighest priority) when the reset input is one.\n\nStandard round-robin arbiters exhibit strong fairness, meaning all\nrequesters will be served equally often when averaged over a sufficient\nnumber of arbitrations. A weighted round-robin arbiter is specifically\ndesigned to serve some requesters more than others. This module should\nuse the following weights:\n\n - requester 0 : 0.375\n - requester 1 : 0.375\n - requester 2 : 0.125\n - requester 3 : 0.125\n\nEach requester should include a two-bit counter which is reset to either\n3 (for requesters 0 and 1) or 1 (for requesters 2 and 3). The counter\nshould be decremented every time the corresponding requester wins\narbitration. When the counter reaches zero, the requester can no longer\nwin arbitration until the counters are preset back to their original\nvalues by setting the input preset high. If all four counters are zero,\nthen no requesters will win arbitration until the counters are preset\nback to their original values. Here is an example execution trace.\n\n   cycle | preset reqs grants\n  -------+----------------------------\n     0   | 0      1111 0001\n     1   | 0      1111 0010\n     2   | 0      1111 0100\n     3   | 0      1111 1000\n     4   | 0      1111 0001\n     5   | 0      1111 0010\n     6   | 0      1111 0001\n     7   | 0      1111 0010\n     8   | 0      1111 0000\n     9   | 0      1111 0000\n    10   | 1      1111 0000\n    11   | 0      1111 0001\n    12   | 0      1111 0010\n    13   | 0      1111 0100\n    14   | 0      1111 1000\n    15   | 0      1111 0001\n    16   | 0      1111 0010\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob16p03_seq_fsm_4s1i1o_me_tbl": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"state\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output state (2 bits)\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) described\nby the following table. Each next state entry in the table is of the\nformat X/Y where X is the next state and Y is the output.\n\n   Current |  Next State/Output\n   State   | if in_=0    if in_=1\n  ---------+----------------------\n      A    |   A/0         B/1\n      B    |   C/1         B/0\n      C    |   A/0         D/1\n      D    |   C/0         B/0\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe FSM should reset to state A when the reset input is one. The internal\nstate register should be directly connected to the output port state so\nthat this output always reflects the current state of the FSM. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob16p08_seq_fsm_4s1i1o_me_dia": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"state\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output state (2 bits)\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) with four\nstates. The FSM will be described as a set of FSM transitions with each\ntransition specified using the following format.\n\n  X (0) --1--> Y\n\nIn this example, the FSM transitions from state X to state Y when the\ninput is 1 and the output of the FSM should be 0 during this transition.\nImplement the FSM with the following transitions.\n\n  A (0) --0--> A\n  A (1) --1--> B\n  B (1) --0--> C\n  B (0) --1--> B\n  C (0) --0--> A\n  C (1) --1--> D\n  D (0) --0--> C\n  D (0) --1--> B\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe FSM should reset to state A when the reset input is one. The internal\nstate register should be directly connected to the output port state so\nthat this output always reflects the current state of the FSM. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob16p11_seq_fsm_pattern2": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) with an\nactive-high synchronous reset. The FSM should recognize the target\npattern 1110 in the binary sequence sampled at the input one bit per\ncycle. When the FSM detects the target pattern 1110, it should\n(combinationally) set the output to one on the same cycle it sees the\nfinal bit of the target pattern. The FSM should detect overlapping target\npatterns. Here is an example execution trace.\n\n   cycle | in_ out\n  -------+-------------\n     0   | 0   0\n     1   | 1   0\n     2   | 1   0\n     3   | 1   0\n     4   | 1   0\n     5   | 0   1\n     6   | 1   0\n     7   | 0   0\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob16p12_seq_fsm_stop_light": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"starting_yellow\", \"InputPort\", 1], [\"change\", \"InputPort\", 1], [\"green_on\", \"OutputPort\", 1], [\"yellow_on\", \"OutputPort\", 1], [\"red_on\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  starting_yellow\n - input  change\n - output green_on\n - output yellow_on\n - output red_on\n\nThe module should implement a Moore finite-state machine (FSM) for a\ntraffic light controller with an active-high synchronous reset. The three\noutputs are used to turn on one of the three traffic lights. Only one\nlight should be on at a time. The FSM should reset to the state which\nturns on the green light. The input change is used to move between the\nstates of the FSM in one of two orders depending on whether the input\nstarting_yellow is high or low. If starting_yellow is high, then the FSM\nshould change from green, to yellow, to red, to yellow, and back to\ngreen. If starting_yellow is low, then the FSM should change from green,\nto yellow, to red, and back to green. Assume that the starting_yellow\nsignal will only switch when the traffic light is in the state which\nturns on the green light. Assume all sequential logic is triggered on the\npositive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob17p04_seq_mem_8x8b_1r1w_rf_pw": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"read_addr\", \"InputPort\", 3], [\"read_data\", \"OutputPort\", 8], [\"write_nibble_en\", \"InputPort\", 2], [\"write_addr\", \"InputPort\", 3], [\"write_data\", \"InputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  read_addr       (3 bits)\n - output read_data       (8 bits)\n - input  write_nibble_en (2 bits)\n - input  write_addr      (3 bits)\n - input  write_data      (8 bits)\n\nThe module should implement an 8-entry 8-bit register file with one read\nport and one write port. The read port should be combinational (i.e., the\nread data corresponds to the input read address on that cycle). The input\nwrite_nibble_en is used to specify a \"partial write\", i.e., which nibble\nshould be written into the register file as follows:\n\n - 00 : do not write any data\n - 01 : write least significant four bits\n - 10 : write most significant four bits\n - 11 : write all eight bits\n\nThe register file should always read the value currently stored in the\nregister file even if the write address equals the read address. Assume\nall sequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob18p01_seq_arith_4x1b_incr": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output out\n\nThe module should implement an 4-bit bit-serial incrementer which adds\none to an 4-bit value which is sampled at the input one bit per cycle.\nThe least-significant bit should be the first bit input into the\nbit-serial incrementer and the first bit output from the bit-serial\nincrementer. There should be no latency through the incrementer (i.e.,\nthe output should be a combinational function of the input). The\nincrementer should be able to achieve full throughput, i.e., it should be\nable to accept a new input bit every cycle and produce a valid output bit\nevery cycle. Here is an example execution trace which increments three\nvalues: 0001, 0010, and 0011.\n\n   cycle | in_ out\n  -------+-------------\n     0   | 1   0\n     1   | 0   1\n     2   | 0   0\n     3   | 0   0\n     4   | 0   1\n     5   | 1   1\n     6   | 0   0\n     7   | 0   0\n     8   | 1   0\n     9   | 1   0\n    10   | 0   1\n    11   | 0   0\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob18p02_seq_arith_4x1b_add": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in0\", \"InputPort\", 1], [\"in1\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in0\n - input  in0\n - output out\n\nThe module should implement an 4-bit two-input bit-serial adder which\nadds two 4-bit values sampled at the inputs one bit per cycle. The\nleast-significant bits should be the first bits input into the bit-serial\nadder and the first bit output from the bit-serial adder. There should be\nno latency through the adder (i.e., the output should be a combinational\nfunction of the inputs). The adder should be able to achieve full\nthroughput, i.e., it should be able to accept a new input bit every cycle\nand produce a valid output bit every cycle. Here is an example execution\ntrace which adds 0010 and 0011.\n\n   cycle | in0 in1 out\n  -------+-------------\n     0   | 0   1   1\n     1   | 1   1   0\n     2   | 0   0   1\n     3   | 0   0   0\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob18p03_seq_arith_2x4b_add": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in0\", \"InputPort\", 4], [\"in1\", \"InputPort\", 4], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in0 (4 bits)\n - input  in1 (4 bits)\n - output out (4 bits)\n\nThe module should implement a two-input serial adder which performs an\n8-bit addition over two cycles four bits at a time. The least-significant\nfour bits should be the first bits input into the serial adder and the\nfirst bits output from the serial adder. There should be no latency\nthrough the adder (i.e., the output should be a combinational function of\nthe inputs). The adder should be able to achieve full throughput, i.e.,\nit should be able to accept four new input bits every cycle and produce\nfour valid output bits every cycle. Here is an example execution trace\nwhich adds 0011_1010 and 0000_1011.\n\n   cycle | in0  in1  out\n  -------+----------------\n     0   | 1010 1011 0101\n     1   | 0011 0000 0100\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob18p04_seq_arith_8b_accum": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_ (8 bits)\n - output out (8 bits)\n\nThe module should implement an 8-bit accumulator with an internal 8-bit\naccumulator register and an active-high synchronous reset. The internal\naccumulator register should be reset to zero when the reset input is one.\nThere should be no latency through the accumulator (i.e., the output\nshould be a combinational function of the inputs). The accumulator should\nbe able to achieve full throughput, i.e., it should be able to accept a\nnew input every cycle and produce a valid output every cycle. Here is an\nexample execution trace.\n\n   cycle | in_ out\n  -------+-----------\n     0   | 00  00\n     1   | 01  01\n     1   | 02  03\n     1   | 04  07\n     1   | 04  0b\n\nAssume all sequential logic is triggered on the positive edge of the\nclock. Assume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob19p05_seq_pipe_add2_2stage": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"out_lsn\", \"OutputPort\", 4], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0     (8 bits)\n - input  in1     (8 bits)\n - output out_lsn (4 bits)\n - output out     (8 bits)\n\nThe module should implement a two-stage pipelined two-input adder. Just\nthe addition of the least-significant four bits should occur during the\nfirst stage, and then the addition of the most-significant four bits\nshould occur during the second stage. The final 8-bit output (out) should\nbe written at the end of the second stage. The module will need to\npipeline the carry out from the addition of the least significant four\nbits to serve as the carry input to the addition of the most significant\nfour bits. The module should write output out_lsn with the result of\nadding the least-significant four bits at the end of the first stage.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 out_lsn out\n  -------+------------------------\n     0   | 00  00  X       XX\n     1   | 01  01  0       XX\n     2   | 02  03  2       00\n     3   | 03  04  5       02\n     4   | 11  11  7       05\n     5   | 12  13  2       07\n     6   | 13  14  5       22\n     7   | 09  09  7       25\n     8   | 19  19  2       27\n     9   | 00  00  2       12\n     10  | 00  00  0       32\n     11  | 00  00  0       00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob19p06_seq_pipe_add3_2stage": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 8], [\"out01\", \"OutputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0   (8 bits)\n - input  in1   (8 bits)\n - input  in2   (8 bits)\n - output out01 (8 bits)\n - output out   (8 bits)\n\nThe module should implement a two-stage pipelined three-input adder. Just\nthe first addition of in0 and in1 should occur during the first stage,\nand then the second addition of this first sum and input in2 should occur\nduring the second stage. The final result should be written to the output\nout at the end of the second stage. The module should write output out01\nwith the result of the first addition at the end of the first stage.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 in2 out01 out\n  -------+-----------------------\n     0   | 00  00  00  XX    XX\n     1   | 01  02  04  00    XX\n     2   | 02  03  04  03    00\n     3   | 03  04  05  05    07\n     4   | 00  00  00  07    09\n     5   | 00  00  00  00    0c\n     6   | 00  00  00  00    00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob11p03_seq_bool_truth_jkff": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"q\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - input  b\n - output q\n\nThe module should implement a sequential circuit triggered by the\npositive edge of the clock. The module is described by the following\ntruth table where q indicates the previous value of the state holding\nelement before the rising edge of the clock and q_next indicates the next\nvalue of the state holding element after the rising edge of the clock.\n\n   a b q_prev | q_next\n  ------------+--------\n   0 0 0      | 0\n   0 0 1      | 1\n   0 1 0      | 0\n   0 1 1      | 0\n   1 0 0      | 1\n   1 0 1      | 1\n   1 1 0      | 1\n   1 1 1      | 0\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob11p05_seq_bool_waveform1": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - output f\n\nThe module should implement a sequential circuit with a single bit of\nstate described by the following simulation waveform. The waveform shows\nthe input values and the desired output values on every cycle of the\nsimulation. An X indicates that the output is undefined because there is\nno reset signal for this sequential circuit.\n\n   cycle | a f\n  -------+-----\n     0   | 1 X\n     1   | 0 0\n     2   | 0 1\n     3   | 0 1\n     4   | 0 1\n     5   | 1 1\n     6   | 1 0\n     7   | 0 0\n     8   | 1 1\n     9   | 0 0\n     10  | 0 1\n     11  | 1 1\n     12  | 1 0\n     13  | 0 0\n     14  | 1 1\n     15  | 0 0\n     16  | 1 1\n     17  | 1 0\n     18  | 0 0\n     19  | 1 1\n\n"
+      }
+    ]
+  },
+  "contracts/qwen3.8-flash/Prob16p13_seq_fsm_ps2": {
+    "model": "qwen3.8-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"done\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_ (8 bits)\n - output done\n\nThe module should implement an FSM to detect message boundries for the\nPS/2 mouse protocol with an active-high synchronous reset. The PS/2 mouse\nprotocol sends messages that are three bytes long. However, within a\ncontinuous byte stream, it's not obvious where messages start and end.\nThe only indication is that the first byte of each three byte message\nalways has in_[3]=1 (but in_[3] of the other two bytes may be 1 or 0\ndepending on data). The module should discard bytes until it sees one\nwith in[3]=1. The module should assume that this is byte 1 of a message,\nand should (combinationally) set the output done once all 3 bytes have\nbeen received. Here is an example execution trace.\n\n   cycle | in_       done\n  -------+----------------\n     0   | 0010_0101 0\n     1   | 0101_0010 0\n     2   | 0011_1000 0\n     3   | 1100_1000 0\n     4   | 0011_0010 1\n     5   | 1010_0011 0\n     6   | 0000_1000 0\n     7   | 0101_0100 0\n     7   | 0000_0010 1\n     7   | 0000_0000 0\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  }
+}

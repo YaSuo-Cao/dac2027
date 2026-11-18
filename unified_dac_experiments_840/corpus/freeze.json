@@ -1,0 +1,12 @@
+{
+  "source_manifest_sha256": "629de2b5e35b4cad151bab525e74b85b71f7da64c4eeb15b894b2a9ad08efeae",
+  "records_sha256": "37f5ee0354f421e0e912693465c6a72695f8152c990301fab971209747bc000a",
+  "inventory_sha256": "bfec7afca19947f5ad886ac0a2feff8b999b6e234c35c4c717d1677a3d7836b5",
+  "retrieval_sha256": "77b7cf904c91d3aa83d78e91aa1653f79e4e7bd111ed87ef464bf0a5542b7ff5",
+  "exclusions": "benchmark questions, truth HDL, tests, candidates, logs and example trees; official docs/API/compiler source retained",
+  "passages": "complete paragraphs/sections, no tokenizer prefix truncation",
+  "range": [
+    1001,
+    1492
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "jobs": 2520,
+  "states": {
+    "current_response": 2520
+  },
+  "by_arm": {
+    "Direct": {
+      "current_response": 840
+    },
+    "FullDocRAG": {
+      "current_response": 840
+    },
+    "Gen": {
+      "current_response": 840
+    }
+  }
+}

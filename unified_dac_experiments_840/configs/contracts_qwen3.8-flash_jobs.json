@@ -1,0 +1,272 @@
+[
+  {
+    "key": "contracts/qwen3.8-flash/Prob10p05_seq_gates_8b_dffre",
+    "task": "Prob10p05_seq_gates_8b_dffre",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "8a5f4567d78bf1897cb4e626d638c82e9605930a9d539fbaa47e5a9eecf1d9c9",
+    "prompt_sha256": "415e5206959969e686e1b2ae71ba388ea5802f40370dcd636744fa65e934ca0c"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob11p04_seq_bool_waveform0",
+    "task": "Prob11p04_seq_bool_waveform0",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "c3cb71a8a1eed5eff9d128d6742c76a9282cb6a0cb6aa5ef1460bfc4abc52629",
+    "prompt_sha256": "37fa5851826e659ae63b8357655fe39af46f6a7ef5ceab3c40ed039d75e93ae9"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p01_seq_sreg_8b_siso",
+    "task": "Prob12p01_seq_sreg_8b_siso",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "afea67425ece265a39837210edea26c20bb2ad00baa11a3b23f49d3a736b95d8",
+    "prompt_sha256": "a9c1a4975ea0686b03aa48ab7441b221c19157dfe4c3c5fa810d88ab1ffd3c01"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p02_seq_sreg_8b_piso",
+    "task": "Prob12p02_seq_sreg_8b_piso",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "f304b7bc4dfb59d84c66c1b1495eef04ea1b8ff5f14d59b62af1fa32be6641fe",
+    "prompt_sha256": "b438ccf95ab72a014b5eccfd2a0a1507430241af495ecd22c9f54c243ed9a29a"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p03_seq_sreg_8b_sipo",
+    "task": "Prob12p03_seq_sreg_8b_sipo",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "7033385ac26d4029bd6ff2a4dded966a3f15494187db44ed9ea6aad68dc84dac",
+    "prompt_sha256": "17d7ec352b54e3158c34ba9fbc17a4fce32ca5474c1c90e0df0396271a353c1e"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p04_seq_sreg_8b_universal",
+    "task": "Prob12p04_seq_sreg_8b_universal",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "4f7957a6d8d63f054b8a69d4d1d0bfd6fa5930f257380f2f5ecb6510b412b482",
+    "prompt_sha256": "25214d301bb4daece1efb3e3cfb850d860649412b8a0a92ad581a2e81f37cfcb"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p06_seq_sreg_5b_lfsr",
+    "task": "Prob12p06_seq_sreg_5b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "e4ea70ffabc6eff30604771161e150757db3fe2b356677165458f69219059e79",
+    "prompt_sha256": "da16e3a51775756bd3f58ff3b9f013acc62edc06f8613aa144445657b5540237"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob13p08_seq_count_timer",
+    "task": "Prob13p08_seq_count_timer",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "91834d8c52d73c0e98cc4ca9e8664bd1f87c3d4b4ec501b714d13e7cefdddf1d",
+    "prompt_sha256": "55853eaaa09907b99fb7a5218bc9e61f32c508ebb6016610a561a909c26d095d"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob13p09_seq_count_clock",
+    "task": "Prob13p09_seq_count_clock",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "e2170b474e858060a6758f9d3e5b2b0d9c33bca88f8bee9b0334bd6b16283d4a",
+    "prompt_sha256": "b20f5c824f44a9ea34466d407696a9254a05aafc25453b5f537962a092e487a7"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob14p03_seq_edge_8b_capture",
+    "task": "Prob14p03_seq_edge_8b_capture",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "9632c8736ee5a05797b242d25a85fcb32df0577e89181c898f12513576968f7d",
+    "prompt_sha256": "14f4e4965c2d801507caf7ab3e42b91a36c422700f463b8b7fbe031c28a02e4c"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob14p05_seq_edge_8b_max_switch",
+    "task": "Prob14p05_seq_edge_8b_max_switch",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "51d07e123e1d1c1b759fb13c82fb219f103e45cbd0a2f1276b659f3dc6a470bd",
+    "prompt_sha256": "2860fb5df825ff2825cc69d3bc43da5e794cc3757e3b6188ec5c252f81f153ac"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob15p04_seq_arb_4in_granthold",
+    "task": "Prob15p04_seq_arb_4in_granthold",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "207774cb71b04f22ad71d365af189a6ee3f11a6990e8c8c95469dd208bd39b8a",
+    "prompt_sha256": "786c63fc434ea874ff035c05b4c298718534ae0bbe0fb53ed8c190ba451605a2"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob15p05_seq_arb_4in_weighted",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "07751f4afa4875bbb4ded37f61820f605d16bc807916b353586450b828b7ac96",
+    "prompt_sha256": "e9ccb3c8204b05ddbc3404879ce52b0c83a90c25a17db1d7532f70be032cf3b7"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob16p03_seq_fsm_4s1i1o_me_tbl",
+    "task": "Prob16p03_seq_fsm_4s1i1o_me_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "86cef2f013b7f0c00c1cd0f60c69006f0cf42c3f701a6988fa41fac8def3ad7d",
+    "prompt_sha256": "80ca0fac58ec491a1b55202d6ef9142c70ce84b03b7d639093778de1db0591ef"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "e1d5fd20b9e192de0d94fe5536fc7879c758337fba94e2591b9a646e8b8aa658",
+    "prompt_sha256": "b9743fd447d57ff431b83af917eed4bc64a17d41201551c5bbea69a7891efeb0"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob16p11_seq_fsm_pattern2",
+    "task": "Prob16p11_seq_fsm_pattern2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "fb3651004f984a8eeff25235a3624b7ba0b16bd50a82ff860d9af4988207fb41",
+    "prompt_sha256": "42b6ea643b863d7aa8294a4734551479659f155ad035e4364f467e2cbc800010"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob16p12_seq_fsm_stop_light",
+    "task": "Prob16p12_seq_fsm_stop_light",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "3b73ac339b64ad7411e4a572135d6bb0c45fa3c6ad9053ccfb2a48a1c73ce6e6",
+    "prompt_sha256": "6eafe0b7ee238c303e40ad3720628a4815f614c7bd9698c3110068db4b722dd8"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob17p04_seq_mem_8x8b_1r1w_rf_pw",
+    "task": "Prob17p04_seq_mem_8x8b_1r1w_rf_pw",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "562a3a3a52b9626af9312ccbe30dad79998eb3940d68839d3cca7c5309433060",
+    "prompt_sha256": "bc207e3760b880fe5f1f39488e7e83160ff5e1c11cd94b03ceee320bd3bfeab1"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob18p01_seq_arith_4x1b_incr",
+    "task": "Prob18p01_seq_arith_4x1b_incr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "1038215d5d282272ddc53aa95cb2b3e29c89eaa0768785a7c2e40252547f7033",
+    "prompt_sha256": "63c2cb5b72ab92c24dc222e0fe969b34ee687a5a04031ea28055e2cdf1642132"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob18p02_seq_arith_4x1b_add",
+    "task": "Prob18p02_seq_arith_4x1b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "3b34dba722f27011ec961e92a4ece3a3ac8dbbab84d4b4d2d9e21ebc9c470eee",
+    "prompt_sha256": "4c7a36b1f55f1c71256d31f5945b9b46fcbaeacfe04962591ec1e7fd002fd5fd"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob18p03_seq_arith_2x4b_add",
+    "task": "Prob18p03_seq_arith_2x4b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "ae0e12075167b5b4fb7b3c27980efbea53e6cb53205684e51cd3f623dd48f508",
+    "prompt_sha256": "9c086fd0c16356396ad8c8246d9d1ef44e69b19a47bef3bcdb4f29008537f46a"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob18p04_seq_arith_8b_accum",
+    "task": "Prob18p04_seq_arith_8b_accum",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "4d303fe21aa8565b899c937500fc04a6d1c6b7ea40fa1cae114f6d5eebbbb0dd",
+    "prompt_sha256": "02eb48050d83b21e5358ffd0d22e401fd795ef1c9a1540668ea6a1dfd83cb80a"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob19p05_seq_pipe_add2_2stage",
+    "task": "Prob19p05_seq_pipe_add2_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "e3d47837c370f928830a883b41b1aa868d069a03c987bd9b7c2fb9b8ab6c5c4a",
+    "prompt_sha256": "6cee37ec9e2d4093107849872fd53e7e19081e4a6dccef99488e02589f98f0f2"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob19p06_seq_pipe_add3_2stage",
+    "task": "Prob19p06_seq_pipe_add3_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "d5e3a1a793c262f39ca6822615f684cf79e442f0e79876cd8298e906c1f310a0",
+    "prompt_sha256": "71a007a969b005e3c98b9d5d42a826c3c715ff839865839b42a88fcf0b13be98"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob11p03_seq_bool_truth_jkff",
+    "task": "Prob11p03_seq_bool_truth_jkff",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "c73aef32dfeb75081265f6ef132af4788d4b0574fe4903f5a485e1ee5366ecb8",
+    "prompt_sha256": "eb91ccae99425053377beb282e108fcea2cdc6be3ae79b68b5e24c54331b16c2"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob11p05_seq_bool_waveform1",
+    "task": "Prob11p05_seq_bool_waveform1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "abfd13c9f0290e5db2c90e6b8a81f817ec91589118f7365d90d7cff846abec2f",
+    "prompt_sha256": "1830b151ff0822d1f610bdcc071d198fcac029be20122e49016bae43d241cd04"
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob16p13_seq_fsm_ps2",
+    "task": "Prob16p13_seq_fsm_ps2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "07dbb2f99f84af4ff88f1d274fda9d9ee933e1fc1ea69b42f9daa2e75d51b99b",
+    "prompt_sha256": "b47eff7b576123890dd503e917f8c59f3f1a4bfba395bfc803e2c8573c215bad"
+  }
+]

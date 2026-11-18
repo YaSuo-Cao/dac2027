@@ -1,0 +1,7 @@
+{
+  "initial_native_passed": 641,
+  "initial_c0_rejected_and_FL_attempted": 87,
+  "after_shared_FL_native_passed": 672,
+  "remaining_c0_rejected": 47,
+  "functional_pool": 121
+}

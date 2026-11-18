@@ -1,0 +1,18 @@
+{
+  "image": "sha256:f55b7be23088a39a0dfbbae52f8f677022dfe6a734a99a9465e0cf1ad82c54e5",
+  "runtime": {
+    "construction_probe.py": "ccb6bbafc42eca0d6aa43028bd4782f802c250143d6e294a5e7f74c120a6af30",
+    "evaluate.py": "38bd190f8dbf7183ffe1f1080704576163f5ebe1fbb4c886a4e9faad0f313e2a",
+    "native_case.py": "9b8df79bb459b1f0ac739f54780389552e97eb0bcadcdc22316fd994fda867ff",
+    "observer.py": "4c132c22d648bc907dfaa454624b5fc975887cfca366956eb7906f4a3e2b56f9",
+    "rtl_plugin.py": "04838e12a17bf74f28898a6b0f3584258a3a803716f9e9aad6979cc3cc5d6ecf",
+    "slicer.py": "f333ebd227c33de91b890147886f950a2528580f7544ef81c0b9afa6925504f9",
+    "timeout_diagnostic.py": "990c951b31ecb5fc5e3752a9cfeff64051967c88fee87ce27e1698a4fd25a670"
+  },
+  "hypothesis_seed": 20261022,
+  "public_config_sha256": "dfaf2832faf104f9c3127359f99391c854b49a6efca38156451e06c2f0f5f28c",
+  "native_warning_policy": "unchanged official",
+  "rtl_warning_policy": "same nonfatal warnings for all five HCLs; syntax/functional failures retained",
+  "candidate_network": false,
+  "sha256": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67"
+}

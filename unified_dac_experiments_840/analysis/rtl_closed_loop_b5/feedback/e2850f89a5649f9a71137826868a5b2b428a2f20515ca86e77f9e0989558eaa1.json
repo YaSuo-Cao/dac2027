@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.backends.verilog.errors.VerilogImportError: \nError trying to perform import on s:\n- Fail to verilate model emitted_0a8ab8d5cd4f_d5413768313f\n  Verilator command:\n  verilator --cc --top-module emitted_0a8ab8d5cd4f_d5413768313f --Mdir obj_dir_emitted_0a8ab8d5cd4f_d5413768313f --assert -O3 --unroll-count 1000000 --unroll-stmts 1000000 --threads 1 --Wno-fatal --Wno-UNOPTFLAT --Wno-UNSIGNED --Wno-WIDTH emitted_0a8ab8d5cd4f_d5413768313f_translated.v\n\n  Verilator output:\n  %Error: emitted_0a8ab8d5cd4f_d5413768313f.v:22:33: syntax error, unexpected ')',\n  expecting \"'\"\n     22 | assign out = hasattr(in_, signed) ? $signed(in_) : in_;\n        |                                 ^\n  %Error: Exiting due to 1 error(s)"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "15606a830ecd5a9358d5be07d13926cfca59ffb0962feedaa9e17dd52ff1a8c9",
+  "candidate_source_sha256": "cf34a6343de95b1d6e96929e05322bd7ff7b87ca7b0c7a334f5c9e864dc24a2e",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

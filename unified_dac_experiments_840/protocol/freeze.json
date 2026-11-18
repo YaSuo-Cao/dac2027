@@ -1,0 +1,80 @@
+{
+  "schema_version": "unified840.v1",
+  "population": 840,
+  "tasks": 168,
+  "languages": [
+    "pyrtl",
+    "myhdl",
+    "amaranth",
+    "migen",
+    "pymtl3"
+  ],
+  "model": "deepseek-v4.1-flash",
+  "deterministic_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false
+  },
+  "hypothesis_seed": 20261022,
+  "image": "sha256:f55b7be23088a39a0dfbbae52f8f677022dfe6a734a99a9465e0cf1ad82c54e5",
+  "strata": {
+    "Comb": 485,
+    "Seq": 355
+  },
+  "rules": {
+    "pyrtl": {
+      "tokens_cl100k": 168,
+      "sha256": "cc20ffafa3375df7c11abd86226309954feed705988368de25034dc80c698c7f",
+      "inherited_source": "/home/anonymous\\Documents\\ChatGPT\\More_than_DATE\\hcl_full168_phase1_20261022\\prompts\\L_pyrtl.txt",
+      "source_sha256": "cc20ffafa3375df7c11abd86226309954feed705988368de25034dc80c698c7f"
+    },
+    "myhdl": {
+      "tokens_cl100k": 159,
+      "sha256": "eaf7c4ac797d16c44070cab39d478b78e4fe2099d182766ce8451cad2b119995",
+      "inherited_source": "/home/anonymous\\Documents\\ChatGPT\\More_than_DATE\\hcl_full168_phase1_20261022\\prompts\\L_myhdl.txt",
+      "source_sha256": "7f9992539eb3d24a6fc279c5d8350989f4a6e942a87a9c547d7ba4087ef95d14"
+    },
+    "amaranth": {
+      "tokens_cl100k": 170,
+      "sha256": "6427f2cf31289675b6e6d370dbead79dca1565031e33741e03267f7820094f7c",
+      "inherited_source": "/home/anonymous\\Documents\\ChatGPT\\More_than_DATE\\hcl_full168_phase1_20261022\\prompts\\L_amaranth.txt",
+      "source_sha256": "6427f2cf31289675b6e6d370dbead79dca1565031e33741e03267f7820094f7c"
+    },
+    "migen": {
+      "tokens_cl100k": 179,
+      "sha256": "24a7e214764c4e61a6935aa585332ce627ce1a6514eda0ee47ef6b8bba0822c3",
+      "inherited_source": "/home/anonymous\\Documents\\ChatGPT\\More_than_DATE\\hcl_full168_phase1_20261022\\prompts\\L_migen.txt",
+      "source_sha256": "24a7e214764c4e61a6935aa585332ce627ce1a6514eda0ee47ef6b8bba0822c3"
+    },
+    "pymtl3": {
+      "tokens_cl100k": 187,
+      "sha256": "b292d678890ca3f76d19c0f9000155f89b3345b3dbbbe1cbf5bb537bb35540e3",
+      "inherited_source": "/home/anonymous\\Documents\\ChatGPT\\More_than_DATE\\hcl_full168_phase1_20261022\\prompts\\L_pymtl.txt",
+      "source_sha256": "b292d678890ca3f76d19c0f9000155f89b3345b3dbbbe1cbf5bb537bb35540e3"
+    }
+  },
+  "router_patterns": {
+    "pipeline": "\\b(?:pipeline[ds]?|pipelining|\\d+[- ]stage|latency of \\d+)\\b",
+    "arithmetic": "\\b(?:adder|addition|add(?:s|ing)?|subtract(?:or|ion|s)?|multipl(?:ier|y|ies|ication)|accumulat(?:or|e|es|ion)|arithmetic|sum|product)\\b"
+  },
+  "router_sha256": "c8af04fe8da56a7b1c21a2f352f1bebfd08c14412cf724b8a331f4009be5a7e6",
+  "route_inputs": "public clk input port and original specification prose only",
+  "native_primary": "unmodified official pytest+Hypothesis native_case.py",
+  "rtl_primary": "lowering plus official test vectors; common nonfatal warning policy across five HCLs, all warnings retained",
+  "end_to_end_denominator": 840,
+  "functional_pool_denominator": "measured F_func, reported alongside /840",
+  "sampling_temperature": 0.7,
+  "sampling_seeds": [
+    20261022,
+    20261023,
+    20261024,
+    20261025,
+    20261026
+  ],
+  "pass_at_k": "unbiased combinatorial estimator from n=5 iid-distribution samples",
+  "infra_policy": "Retry resource/process failures serially at larger limits. An isolated repeat timeout plus candidate-only Verilator combinational-loop evidence is scored as candidate simulation nonconvergence; unexplained infrastructure remains unknown and blocks publication.",
+  "historical_results": "read-only; reuse requires full canonical request, returned model, candidate SHA256; evaluation additionally requires identical evaluation fingerprint"
+}

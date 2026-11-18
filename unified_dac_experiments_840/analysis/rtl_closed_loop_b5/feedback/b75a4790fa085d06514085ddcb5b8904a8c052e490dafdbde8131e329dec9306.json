@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 73, Col 9:\n  if s.prev_grant != Bits4(0) and (s.holds & s.prev_grant) != Bits4(0):\n     ^\n- Boolean operations are not translatable due to inconsistent semantics between Python and PyMTL. Please consider using bitwise &, |, and ~ instead!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "f8a90a5a14fa08207c0e7808886b59aa5be73db8dc03a66ff2ed412c28e4b793",
+  "candidate_source_sha256": "6869bc869e4d7a3017908c058817045560497daa6c3cdd429f62362f69cf39c2",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 82, Col 9:\n  if (s.state_reg == 4) or (s.state_reg == 5):  # E or F\n     ^\n- Boolean operations are not translatable due to inconsistent semantics between Python and PyMTL. Please consider using bitwise &, |, and ~ instead!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "6e66a66bbfaac2588f2fca52032b9264d670735809db710fd5e1959c3f154bb4",
+  "candidate_source_sha256": "ab6a0afb99e9f42d7785574f6354eff7576cc0b89df6cfa1b931b56bc72a99ec",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

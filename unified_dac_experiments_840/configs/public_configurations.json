@@ -1,0 +1,4912 @@
+{
+  "Prob01p01_comb_const_zero": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "zero",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob01p02_comb_const_one": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob01p03_comb_const_lohi": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "lo",
+          "OutputPort",
+          1
+        ],
+        [
+          "hi",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob01p04_comb_const_32b_value": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "out",
+          "OutputPort",
+          32
+        ]
+      ]
+    }
+  ],
+  "Prob02p01_comb_wires_8b_passthru": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob02p02_comb_wires_16b_split": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "lo",
+          "OutputPort",
+          4
+        ],
+        [
+          "hi",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob02p03_comb_wires_8b_bit_rev": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob02p04_comb_wires_100b_bit_rev": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          100
+        ],
+        [
+          "out",
+          "OutputPort",
+          100
+        ]
+      ]
+    }
+  ],
+  "Prob02p05_comb_wires_64b_byte_rev": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          64
+        ],
+        [
+          "out",
+          "OutputPort",
+          64
+        ]
+      ]
+    }
+  ],
+  "Prob02p06_comb_wires_4x2b_passthru": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          2
+        ],
+        [
+          "in1",
+          "InputPort",
+          2
+        ],
+        [
+          "in2",
+          "InputPort",
+          2
+        ],
+        [
+          "in3",
+          "InputPort",
+          2
+        ],
+        [
+          "out0",
+          "OutputPort",
+          2
+        ],
+        [
+          "out1",
+          "OutputPort",
+          2
+        ],
+        [
+          "out2",
+          "OutputPort",
+          2
+        ],
+        [
+          "out3",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob02p07_comb_wires_5x3b_to_4x4b": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          3
+        ],
+        [
+          "in1",
+          "InputPort",
+          3
+        ],
+        [
+          "in2",
+          "InputPort",
+          3
+        ],
+        [
+          "in3",
+          "InputPort",
+          3
+        ],
+        [
+          "in4",
+          "InputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          4
+        ],
+        [
+          "out1",
+          "OutputPort",
+          4
+        ],
+        [
+          "out2",
+          "OutputPort",
+          4
+        ],
+        [
+          "out3",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob02p08_comb_wires_sext": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          32
+        ]
+      ]
+    }
+  ],
+  "Prob03p01_comb_gates_and": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p02_comb_gates_nor": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p03_comb_gates_aoi21": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p04_comb_gates_oai22": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "in3",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p05_comb_gates_hadd": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "sum",
+          "OutputPort",
+          1
+        ],
+        [
+          "cout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p06_comb_gates_fadd": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "cin",
+          "InputPort",
+          1
+        ],
+        [
+          "sum",
+          "OutputPort",
+          1
+        ],
+        [
+          "cout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p07_comb_gates_4_input": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "in3",
+          "InputPort",
+          1
+        ],
+        [
+          "out_and",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_nand",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_or",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_nor",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p08_comb_gates_100_input": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          100
+        ],
+        [
+          "out_and",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_nand",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_or",
+          "OutputPort",
+          1
+        ],
+        [
+          "out_nor",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p09_comb_gates_bitwise": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          4
+        ],
+        [
+          "in1",
+          "InputPort",
+          4
+        ],
+        [
+          "out_and",
+          "OutputPort",
+          4
+        ],
+        [
+          "out_nand",
+          "OutputPort",
+          4
+        ],
+        [
+          "out_or",
+          "OutputPort",
+          4
+        ],
+        [
+          "out_nor",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob03p10_comb_gates_4b_pairwise": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out_and",
+          "OutputPort",
+          3
+        ],
+        [
+          "out_or",
+          "OutputPort",
+          3
+        ],
+        [
+          "out_xnor",
+          "OutputPort",
+          3
+        ]
+      ]
+    }
+  ],
+  "Prob03p11_comb_gates_100b_pairwise": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          100
+        ],
+        [
+          "out_and",
+          "OutputPort",
+          99
+        ],
+        [
+          "out_or",
+          "OutputPort",
+          99
+        ],
+        [
+          "out_xnor",
+          "OutputPort",
+          99
+        ]
+      ]
+    }
+  ],
+  "Prob03p12_comb_gates_nl0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob03p13_comb_gates_nl1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "in3",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p01_comb_bool_logic_eq0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p02_comb_bool_logic_eq1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p03_comb_bool_logic_eq2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p04_comb_bool_truth_tbl0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p05_comb_bool_truth_tbl1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p06_comb_bool_truth_tbl2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p07_comb_bool_kmap0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p08_comb_bool_kmap1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p09_comb_bool_kmap2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p10_comb_bool_waveform0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p11_comb_bool_waveform1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p12_comb_bool_waveform2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "c",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p13_comb_bool_nl_lights": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "dark",
+          "InputPort",
+          1
+        ],
+        [
+          "movement",
+          "InputPort",
+          1
+        ],
+        [
+          "force_on",
+          "InputPort",
+          1
+        ],
+        [
+          "turn_on_lights",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p14_comb_bool_nl_ringer": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "vibrate_mode",
+          "InputPort",
+          1
+        ],
+        [
+          "ring",
+          "InputPort",
+          1
+        ],
+        [
+          "turn_on_ringer",
+          "OutputPort",
+          1
+        ],
+        [
+          "turn_on_motor",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob04p15_comb_bool_nl_thermostat": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "mode",
+          "InputPort",
+          1
+        ],
+        [
+          "too_cold",
+          "InputPort",
+          1
+        ],
+        [
+          "too_hot",
+          "InputPort",
+          1
+        ],
+        [
+          "fan_on",
+          "InputPort",
+          1
+        ],
+        [
+          "heater",
+          "OutputPort",
+          1
+        ],
+        [
+          "aircon",
+          "OutputPort",
+          1
+        ],
+        [
+          "fan",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob05p01_comb_mux_1b_2to1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "sel",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob05p02_comb_mux_1b_8to1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "in3",
+          "InputPort",
+          1
+        ],
+        [
+          "in4",
+          "InputPort",
+          1
+        ],
+        [
+          "in5",
+          "InputPort",
+          1
+        ],
+        [
+          "in6",
+          "InputPort",
+          1
+        ],
+        [
+          "in7",
+          "InputPort",
+          1
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob05p03_comb_mux_1b_1to8": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          1
+        ],
+        [
+          "out1",
+          "OutputPort",
+          1
+        ],
+        [
+          "out2",
+          "OutputPort",
+          1
+        ],
+        [
+          "out3",
+          "OutputPort",
+          1
+        ],
+        [
+          "out4",
+          "OutputPort",
+          1
+        ],
+        [
+          "out5",
+          "OutputPort",
+          1
+        ],
+        [
+          "out6",
+          "OutputPort",
+          1
+        ],
+        [
+          "out7",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob05p04_comb_mux_4b_8to1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          4
+        ],
+        [
+          "in1",
+          "InputPort",
+          4
+        ],
+        [
+          "in2",
+          "InputPort",
+          4
+        ],
+        [
+          "in3",
+          "InputPort",
+          4
+        ],
+        [
+          "in4",
+          "InputPort",
+          4
+        ],
+        [
+          "in5",
+          "InputPort",
+          4
+        ],
+        [
+          "in6",
+          "InputPort",
+          4
+        ],
+        [
+          "in7",
+          "InputPort",
+          4
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob05p05_comb_mux_4b_1to8": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          4
+        ],
+        [
+          "out1",
+          "OutputPort",
+          4
+        ],
+        [
+          "out2",
+          "OutputPort",
+          4
+        ],
+        [
+          "out3",
+          "OutputPort",
+          4
+        ],
+        [
+          "out4",
+          "OutputPort",
+          4
+        ],
+        [
+          "out5",
+          "OutputPort",
+          4
+        ],
+        [
+          "out6",
+          "OutputPort",
+          4
+        ],
+        [
+          "out7",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob05p06_comb_mux_4b_5to1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          4
+        ],
+        [
+          "in1",
+          "InputPort",
+          4
+        ],
+        [
+          "in2",
+          "InputPort",
+          4
+        ],
+        [
+          "in3",
+          "InputPort",
+          4
+        ],
+        [
+          "in4",
+          "InputPort",
+          4
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob05p07_comb_mux_4b_1to5": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "sel",
+          "InputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          4
+        ],
+        [
+          "out1",
+          "OutputPort",
+          4
+        ],
+        [
+          "out2",
+          "OutputPort",
+          4
+        ],
+        [
+          "out3",
+          "OutputPort",
+          4
+        ],
+        [
+          "out4",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob05p08_comb_mux_1b_128to1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          128
+        ],
+        [
+          "sel",
+          "InputPort",
+          7
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob05p09_comb_mux_1b_1to128": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "sel",
+          "InputPort",
+          7
+        ],
+        [
+          "out",
+          "OutputPort",
+          128
+        ]
+      ]
+    }
+  ],
+  "Prob06p01_comb_codes_enc_4to2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob06p02_comb_codes_enc_16to4": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          16
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p03_comb_codes_dec_2to4": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p04_comb_codes_dec_4to16": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob06p05_comb_codes_penc_4to2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob06p06_comb_codes_penc_16to4": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          16
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p07_comb_codes_bin2gcode": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p08_comb_codes_gcode2bin": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p09_comb_codes_bin2bcd": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob06p10_comb_codes_bcd2bin": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p11_comb_codes_bin2ascii": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob06p12_comb_codes_ascii2bin": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          16
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob06p13_comb_codes_8b_parity": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob06p14_comb_codes_100b_parity": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          100
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob07p01_comb_arith_8b_add": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p02_comb_arith_8b_add_carry": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "cin",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ],
+        [
+          "cout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob07p03_comb_arith_8b_sub": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p04_comb_arith_8b_popcount": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob07p05_comb_arith_100b_popcount": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          100
+        ],
+        [
+          "out",
+          "OutputPort",
+          7
+        ]
+      ]
+    }
+  ],
+  "Prob07p06_comb_arith_8b_shifter": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "amt",
+          "InputPort",
+          3
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p07_comb_arith_8b_sra": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "amt",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p08_comb_arith_8b_rotator": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "amt",
+          "InputPort",
+          3
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p09_comb_arith_8b_umul": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob07p10_comb_arith_8b_smul": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob07p11_comb_arith_8b_fxp_umul": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ],
+        [
+          "overflow",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob07p12_comb_arith_8b_madd": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "in2",
+          "InputPort",
+          16
+        ],
+        [
+          "out",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob07p13_comb_arith_8b_ucmp": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "lt",
+          "OutputPort",
+          1
+        ],
+        [
+          "eq",
+          "OutputPort",
+          1
+        ],
+        [
+          "gt",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob07p14_comb_arith_8b_scmp": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "lt",
+          "OutputPort",
+          1
+        ],
+        [
+          "eq",
+          "OutputPort",
+          1
+        ],
+        [
+          "gt",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob07p15_comb_arith_8b_alu": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "op",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p16_comb_arith_2x8b_minmax": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "min",
+          "OutputPort",
+          8
+        ],
+        [
+          "max",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob07p17_comb_arith_4x8b_sorter": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "in2",
+          "InputPort",
+          8
+        ],
+        [
+          "in3",
+          "InputPort",
+          8
+        ],
+        [
+          "out0",
+          "OutputPort",
+          8
+        ],
+        [
+          "out1",
+          "OutputPort",
+          8
+        ],
+        [
+          "out2",
+          "OutputPort",
+          8
+        ],
+        [
+          "out3",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob08p01_comb_fsm_4s1i1o_mo_tbl0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          4
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p02_comb_fsm_4s1i1o_mo_tbl1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p03_comb_fsm_4s1i1o_me_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p04_comb_fsm_4s1i2o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out0",
+          "OutputPort",
+          1
+        ],
+        [
+          "out1",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p05_comb_fsm_4s2i1o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p06_comb_fsm_6s2i2o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          3
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          1
+        ],
+        [
+          "out1",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p07_comb_fsm_4s1i1o_mo_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p08_comb_fsm_4s1i1o_me_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          2
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob08p09_comb_fsm_6s2i2o_mo_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "state",
+          "InputPort",
+          3
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state_next",
+          "OutputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob09p01_comb_param_const": [
+    {
+      "parameters": {
+        "nbits": 8,
+        "value": 239
+      },
+      "ports": [
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 32,
+        "value": 3405695742
+      },
+      "ports": [
+        [
+          "out",
+          "OutputPort",
+          32
+        ]
+      ]
+    }
+  ],
+  "Prob09p02_comb_param_bit_rev": [
+    {
+      "parameters": {
+        "nbits": 8
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 13
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          13
+        ],
+        [
+          "out",
+          "OutputPort",
+          13
+        ]
+      ]
+    }
+  ],
+  "Prob09p03_comb_param_nor": [
+    {
+      "parameters": {
+        "nbits": 4
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 13
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          13
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob09p04_comb_param_2to1_mux": [
+    {
+      "parameters": {
+        "nbits": 4
+      },
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          4
+        ],
+        [
+          "in1",
+          "InputPort",
+          4
+        ],
+        [
+          "sel",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 13
+      },
+      "ports": [
+        [
+          "in0",
+          "InputPort",
+          13
+        ],
+        [
+          "in1",
+          "InputPort",
+          13
+        ],
+        [
+          "sel",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          13
+        ]
+      ]
+    }
+  ],
+  "Prob09p05_comb_param_enc": [
+    {
+      "parameters": {
+        "nbits": 8
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 10
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          10
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob09p06_comb_param_dec": [
+    {
+      "parameters": {
+        "nbits": 8
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 10
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          10
+        ]
+      ]
+    }
+  ],
+  "Prob09p07_comb_param_penc": [
+    {
+      "parameters": {
+        "nbits": 8
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 10
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          10
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob09p08_comb_param_rotator": [
+    {
+      "parameters": {
+        "nbits": 4
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          4
+        ],
+        [
+          "amt",
+          "InputPort",
+          2
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    },
+    {
+      "parameters": {
+        "nbits": 8
+      },
+      "ports": [
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "amt",
+          "InputPort",
+          3
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob10p01_seq_gates_1b_dff": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob10p02_seq_gates_1b_dffe": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob10p03_seq_gates_1b_dffr": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob10p04_seq_gates_8b_dff": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          8
+        ],
+        [
+          "q",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob10p05_seq_gates_8b_dffre": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "d",
+          "InputPort",
+          8
+        ],
+        [
+          "q",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob10p06_seq_gates_8b_dff_byte": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          2
+        ],
+        [
+          "d",
+          "InputPort",
+          16
+        ],
+        [
+          "q",
+          "OutputPort",
+          16
+        ]
+      ]
+    }
+  ],
+  "Prob10p07_seq_gates_nl0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob10p08_seq_gates_nl1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob10p09_seq_gates_nl2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "in2",
+          "InputPort",
+          1
+        ],
+        [
+          "in3",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob11p01_seq_bool_truth_dff": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob11p02_seq_bool_truth_tff": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob11p03_seq_bool_truth_jkff": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "b",
+          "InputPort",
+          1
+        ],
+        [
+          "q",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob11p04_seq_bool_waveform0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob11p05_seq_bool_waveform1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "a",
+          "InputPort",
+          1
+        ],
+        [
+          "f",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob12p01_seq_sreg_8b_siso": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "sin",
+          "InputPort",
+          1
+        ],
+        [
+          "sout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob12p02_seq_sreg_8b_piso": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "ld",
+          "InputPort",
+          1
+        ],
+        [
+          "pin",
+          "InputPort",
+          8
+        ],
+        [
+          "sout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob12p03_seq_sreg_8b_sipo": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "sin",
+          "InputPort",
+          1
+        ],
+        [
+          "pout",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob12p04_seq_sreg_8b_universal": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "ld",
+          "InputPort",
+          1
+        ],
+        [
+          "pin",
+          "InputPort",
+          8
+        ],
+        [
+          "sin",
+          "InputPort",
+          1
+        ],
+        [
+          "pout",
+          "OutputPort",
+          8
+        ],
+        [
+          "sout",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob12p05_seq_sreg_8b_bidir": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "ld",
+          "InputPort",
+          1
+        ],
+        [
+          "pin",
+          "InputPort",
+          8
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "pout",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob12p06_seq_sreg_5b_lfsr": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          5
+        ]
+      ]
+    }
+  ],
+  "Prob12p07_seq_sreg_7b_lfsr": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          7
+        ]
+      ]
+    }
+  ],
+  "Prob13p01_seq_count_3b_bin_up": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    }
+  ],
+  "Prob13p02_seq_count_3b_bin_up_en": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    }
+  ],
+  "Prob13p03_seq_count_3b_bin_dn": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    }
+  ],
+  "Prob13p04_seq_count_3b_bin_up_dn": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ]
+      ]
+    }
+  ],
+  "Prob13p05_seq_count_2b_bin_sat": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "en",
+          "InputPort",
+          1
+        ],
+        [
+          "op",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob13p06_seq_count_3b_bin_var_dn": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "ld",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          3
+        ],
+        [
+          "done",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob13p07_seq_count_4b_dec_up": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob13p08_seq_count_timer": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "restart",
+          "InputPort",
+          1
+        ],
+        [
+          "tick",
+          "InputPort",
+          1
+        ],
+        [
+          "run",
+          "InputPort",
+          1
+        ],
+        [
+          "mins",
+          "OutputPort",
+          6
+        ],
+        [
+          "secs",
+          "OutputPort",
+          6
+        ]
+      ]
+    }
+  ],
+  "Prob13p09_seq_count_clock": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "tick",
+          "InputPort",
+          1
+        ],
+        [
+          "set_en",
+          "InputPort",
+          1
+        ],
+        [
+          "set_hours",
+          "InputPort",
+          4
+        ],
+        [
+          "set_mins",
+          "InputPort",
+          6
+        ],
+        [
+          "set_pm",
+          "InputPort",
+          1
+        ],
+        [
+          "hours",
+          "OutputPort",
+          4
+        ],
+        [
+          "mins",
+          "OutputPort",
+          6
+        ],
+        [
+          "pm",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob14p01_seq_edge_8b_any_detect": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob14p02_seq_edge_8b_pos_detect": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob14p03_seq_edge_8b_capture": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "clear",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob14p04_seq_edge_8b_any_count": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "clear",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "count",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob14p05_seq_edge_8b_max_switch": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "max_switching",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob15p01_seq_arb_4in_variable": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "set_priority_en",
+          "InputPort",
+          1
+        ],
+        [
+          "set_priority",
+          "InputPort",
+          4
+        ],
+        [
+          "reqs",
+          "InputPort",
+          4
+        ],
+        [
+          "grants",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob15p02_seq_arb_4in_rotating": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "reqs",
+          "InputPort",
+          4
+        ],
+        [
+          "grants",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob15p03_seq_arb_4in_roundrobin": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "reqs",
+          "InputPort",
+          4
+        ],
+        [
+          "grants",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob15p04_seq_arb_4in_granthold": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "reqs",
+          "InputPort",
+          4
+        ],
+        [
+          "holds",
+          "InputPort",
+          4
+        ],
+        [
+          "grants",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob15p05_seq_arb_4in_weighted": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "preset",
+          "InputPort",
+          1
+        ],
+        [
+          "reqs",
+          "InputPort",
+          4
+        ],
+        [
+          "grants",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob16p01_seq_fsm_4s1i1o_mo_tbl0": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p02_seq_fsm_4s1i1o_mo_tbl1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p03_seq_fsm_4s1i1o_me_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p04_seq_fsm_4s1i2o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out0",
+          "OutputPort",
+          1
+        ],
+        [
+          "out1",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p05_seq_fsm_4s2i1o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p06_seq_fsm_6s2i2o_mo_tbl": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state",
+          "OutputPort",
+          3
+        ],
+        [
+          "out0",
+          "OutputPort",
+          1
+        ],
+        [
+          "out1",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p07_seq_fsm_4s1i1o_mo_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p08_seq_fsm_4s1i1o_me_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "state",
+          "OutputPort",
+          2
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p09_seq_fsm_6s2i2o_mo_dia": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          2
+        ],
+        [
+          "state",
+          "OutputPort",
+          3
+        ],
+        [
+          "out",
+          "OutputPort",
+          2
+        ]
+      ]
+    }
+  ],
+  "Prob16p10_seq_fsm_pattern1": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p11_seq_fsm_pattern2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p12_seq_fsm_stop_light": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "starting_yellow",
+          "InputPort",
+          1
+        ],
+        [
+          "change",
+          "InputPort",
+          1
+        ],
+        [
+          "green_on",
+          "OutputPort",
+          1
+        ],
+        [
+          "yellow_on",
+          "OutputPort",
+          1
+        ],
+        [
+          "red_on",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob16p13_seq_fsm_ps2": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "done",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob17p01_seq_mem_8x8b_1r1w_rf": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "read_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data",
+          "OutputPort",
+          8
+        ],
+        [
+          "write_en",
+          "InputPort",
+          1
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob17p02_seq_mem_8x8b_1r1w_rf_fw": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "read_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data",
+          "OutputPort",
+          8
+        ],
+        [
+          "write_en",
+          "InputPort",
+          1
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob17p03_seq_mem_8x8b_1r1w_rf_z": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "read_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data",
+          "OutputPort",
+          8
+        ],
+        [
+          "write_en",
+          "InputPort",
+          1
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob17p04_seq_mem_8x8b_1r1w_rf_pw": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "read_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data",
+          "OutputPort",
+          8
+        ],
+        [
+          "write_nibble_en",
+          "InputPort",
+          2
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob17p05_seq_mem_8x8b_2r1w_rf_fwz": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "read_addr0",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data0",
+          "OutputPort",
+          8
+        ],
+        [
+          "read_addr1",
+          "InputPort",
+          3
+        ],
+        [
+          "read_data1",
+          "OutputPort",
+          8
+        ],
+        [
+          "write_en",
+          "InputPort",
+          1
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob17p06_seq_mem_8x8b_1s1w_cam": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "write_en",
+          "InputPort",
+          1
+        ],
+        [
+          "write_addr",
+          "InputPort",
+          3
+        ],
+        [
+          "write_data",
+          "InputPort",
+          8
+        ],
+        [
+          "search_en",
+          "InputPort",
+          1
+        ],
+        [
+          "search_data",
+          "InputPort",
+          8
+        ],
+        [
+          "search_match",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob18p01_seq_arith_4x1b_incr": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob18p02_seq_arith_4x1b_add": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          1
+        ],
+        [
+          "in1",
+          "InputPort",
+          1
+        ],
+        [
+          "out",
+          "OutputPort",
+          1
+        ]
+      ]
+    }
+  ],
+  "Prob18p03_seq_arith_2x4b_add": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          4
+        ],
+        [
+          "in1",
+          "InputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          4
+        ]
+      ]
+    }
+  ],
+  "Prob18p04_seq_arith_8b_accum": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "reset",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p01_seq_pipe_delay_1stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p02_seq_pipe_delay_2stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p03_seq_pipe_delay_3stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in_",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p04_seq_pipe_add2_1stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p05_seq_pipe_add2_2stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "out_lsn",
+          "OutputPort",
+          4
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p06_seq_pipe_add3_2stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "in2",
+          "InputPort",
+          8
+        ],
+        [
+          "out01",
+          "OutputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p07_seq_pipe_add4_2stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "in2",
+          "InputPort",
+          8
+        ],
+        [
+          "in3",
+          "InputPort",
+          8
+        ],
+        [
+          "out01",
+          "OutputPort",
+          8
+        ],
+        [
+          "out23",
+          "OutputPort",
+          8
+        ],
+        [
+          "out",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ],
+  "Prob19p08_seq_pipe_minmax4_2stage": [
+    {
+      "parameters": {},
+      "ports": [
+        [
+          "clk",
+          "InputPort",
+          1
+        ],
+        [
+          "in0",
+          "InputPort",
+          8
+        ],
+        [
+          "in1",
+          "InputPort",
+          8
+        ],
+        [
+          "in2",
+          "InputPort",
+          8
+        ],
+        [
+          "in3",
+          "InputPort",
+          8
+        ],
+        [
+          "min",
+          "OutputPort",
+          8
+        ],
+        [
+          "max",
+          "OutputPort",
+          8
+        ]
+      ]
+    }
+  ]
+}

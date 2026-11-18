@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.backends.verilog.errors.VerilogImportError: \nError trying to perform import on s:\n- Fail to verilate model emitted_aca311d8faad_ad78de74721b\n  Verilator command:\n  verilator --cc --top-module emitted_aca311d8faad_ad78de74721b --Mdir obj_dir_emitted_aca311d8faad_ad78de74721b --assert -O3 --unroll-count 1000000 --unroll-stmts 1000000 --threads 1 --Wno-fatal --Wno-UNOPTFLAT --Wno-UNSIGNED --Wno-WIDTH emitted_aca311d8faad_ad78de74721b_translated.v\n\n  Verilator output:\n  %Error: emitted_aca311d8faad_ad78de74721b.v:31:11: syntax error, unexpected reg\n     31 | reg [7:0] reg;\n        |           ^~~\n  %Error: emitted_aca311d8faad_ad78de74721b.v:37:13: syntax error, unexpected <=\n     37 |         reg <= 0;\n        |             ^~\n  %Error: emitted_aca311d8faad_ad78de74721b.v:40:13: syntax error, unexpected <=\n     40 |         reg <= pin;\n        |             ^~\n  %Error: emitted_aca311d8faad_ad78de74721b.v:43:13: syntax error, unexpected <=\n     43 |         reg <= ((reg << 1) | sin);\n        |             ^~\n  %Error: emitted_aca311d8faad_ad78de74721b.v:49:18: syntax error, unexpected ';',\n  expecting \"'{\"\n     49 | assign pout = reg;\n        |                  ^\n  %Error: emitted_aca311d8faad_ad78de74721b.v:50:20: syntax error, unexpected ']',\n  expecting ':'\n     50 | assign sout = reg[7];\n        |                    ^\n  %Error: Exiting due to 6 error(s)"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "ee835520e867d140133efac80d6244fec2fc103c28b1ddd2b949252909301c97",
+  "candidate_source_sha256": "3ab59f7c8305fddd5a4e1be2789e3f3d585f903ab90ea08e87fd0ca35eb864e0",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

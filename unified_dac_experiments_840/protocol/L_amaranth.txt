@@ -1,0 +1,5 @@
+Amaranth paradigm boundary obligations:
+1. TopModule inherits Elaboratable. elaborate(self, platform) creates m=Module() and returns m. Declare exact interface Signal attributes in __init__.
+2. Use m.d.comb += target.eq(expr) for combinational logic and m.d.sync += target.eq(expr) for storage. Never drive one signal from both domains. Follow the official adapter's implicit clock/reset domain convention.
+3. Symbolic hardware conditions require with m.If(...): / m.Elif(...): / m.Else(): or m.Switch(...)/m.Case(...). Never use Python if/else on Signal conditions.
+4. Slices sig[start:stop] are zero-based, high-exclusive with width=stop-start. Use bit_select(offset,width) for dynamic bit selection. Match signedness and widths explicitly.

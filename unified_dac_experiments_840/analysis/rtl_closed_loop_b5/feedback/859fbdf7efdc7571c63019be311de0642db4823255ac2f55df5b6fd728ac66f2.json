@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLTypeError: \nIn file candidate.py, Line 39, Col 16:\n  pidx = i\n  ^\n- conflicting type Const for temporary variable pidx(LHS target#1 of Wire)!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "5cf6053c90cf79146d09a96a55d20310528e5657a0783e540788445c559286e5",
+  "candidate_source_sha256": "d761fbb04356030734a177c0146816ea7b4fa49bbc714a54be1b624e0967e0be",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

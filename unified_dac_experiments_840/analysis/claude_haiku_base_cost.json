@@ -1,0 +1,26 @@
+[
+  {
+    "model": "claude-haiku-5-5",
+    "method": "Direct",
+    "instances": 840,
+    "calls": 840,
+    "input_tokens": 1601513,
+    "output_tokens": 740629,
+    "cached_tokens": 0,
+    "total_tokens": 2342142,
+    "parse_failures": 2,
+    "official_evaluations": 840
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "method": "Gen",
+    "instances": 840,
+    "calls": 840,
+    "input_tokens": 1855865,
+    "output_tokens": 749419,
+    "cached_tokens": 0,
+    "total_tokens": 2605284,
+    "parse_failures": 5,
+    "official_evaluations": 840
+  }
+]

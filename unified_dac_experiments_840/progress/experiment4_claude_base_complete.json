@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "model": "claude-haiku-5-5",
+  "population": 840,
+  "jobs": 1680,
+  "ready": 1673,
+  "parse_failures": 7,
+  "official_evaluations": 1680,
+  "routed_repairs_complete": false,
+  "published_utc": 1794461497.17314
+}

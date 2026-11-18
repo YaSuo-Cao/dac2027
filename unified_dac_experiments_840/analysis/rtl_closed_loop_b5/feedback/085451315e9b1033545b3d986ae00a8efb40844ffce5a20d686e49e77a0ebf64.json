@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 12:\n    Not supported: non-boolean argument in logical operator"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "54296881edb0eef66ad4614436ffe2b55b17c14a37ffba96c5f0deed0223e8f0",
+  "candidate_source_sha256": "d9cc087097f8bd0526e14af876bea285dccc80c53c8eaa23e46d60e74d45055f",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

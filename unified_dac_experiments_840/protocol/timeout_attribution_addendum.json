@@ -1,0 +1,20 @@
+{
+  "scope": "DSL-native nonconvergence diagnostic; no changes to frozen gate/test execution",
+  "required": [
+    "isolated repeated official probe/native timeout",
+    "candidate-only independent proof of a cycle"
+  ],
+  "proof_options": [
+    "Verilator circular combinational logic",
+    "repeated complete native evaluator state with pending delta changes and fixed external input/time"
+  ],
+  "native_observer": "commit/execute values and schedule unchanged; add complete-state comparison only",
+  "reference_access": false,
+  "candidate_changes": false,
+  "unconfirmed_cases": "remain unknown; block publication",
+  "tool_sha256": "67a44d3bce59556c2064ecf5e4c690851383e1fb6435536daa16fce53ee377ae",
+  "amaranth_observer": "Complete signal/waiter/runnable/timeline state; clear history whenever coroutine or clock process executes",
+  "independent_diagnostic_worker_timeout_seconds": 120,
+  "mixed_stimulus_diagnostic": "32 deterministic candidate-only input patterns from public port widths, no reference or tests; complete native state recurrence required",
+  "gate_and_native_scores_unchanged": true
+}

@@ -1,0 +1,432 @@
+[
+  {
+    "key": "contracts/glm-5.3-flash/Prob10p05_seq_gates_8b_dffre",
+    "task": "Prob10p05_seq_gates_8b_dffre",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "89377a57caf44441d228fbe65e37b5c9a58b37cadc89f02d63a9aba041f082be",
+    "prompt_sha256": "415e5206959969e686e1b2ae71ba388ea5802f40370dcd636744fa65e934ca0c"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob11p02_seq_bool_truth_tff",
+    "task": "Prob11p02_seq_bool_truth_tff",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "df0cefabadcca59443983494d1273a0158c37901633bf1f8320e92f7022a27b5",
+    "prompt_sha256": "dbe02f5dbab9780dcbcb158ffa6d5b1fa60e3769ae135c82f56fe71cf0143807"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob11p03_seq_bool_truth_jkff",
+    "task": "Prob11p03_seq_bool_truth_jkff",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "8371ae4def6e48f8f732ea00d0bb666645db2ce3091ddd516b07cab9181e6463",
+    "prompt_sha256": "eb91ccae99425053377beb282e108fcea2cdc6be3ae79b68b5e24c54331b16c2"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob11p04_seq_bool_waveform0",
+    "task": "Prob11p04_seq_bool_waveform0",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "7cdfe0715066ee520fefd11519882ae6944411aad634b9c76ed77ca14af74bd1",
+    "prompt_sha256": "37fa5851826e659ae63b8357655fe39af46f6a7ef5ceab3c40ed039d75e93ae9"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob11p05_seq_bool_waveform1",
+    "task": "Prob11p05_seq_bool_waveform1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "59e9093a7a70d52aaec23d553345fb640a46e0a8bca78fb4d6a2c87d4e31d31f",
+    "prompt_sha256": "1830b151ff0822d1f610bdcc071d198fcac029be20122e49016bae43d241cd04"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p01_seq_sreg_8b_siso",
+    "task": "Prob12p01_seq_sreg_8b_siso",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "d149c8838f9d11995f823cd484258460f10e79b3dee4cec012ec3a2fb2e4076e",
+    "prompt_sha256": "a9c1a4975ea0686b03aa48ab7441b221c19157dfe4c3c5fa810d88ab1ffd3c01"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p02_seq_sreg_8b_piso",
+    "task": "Prob12p02_seq_sreg_8b_piso",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "6801af32191c5625b3278c4100a72f110e259e7e70fcadd6e0e88950eecf8009",
+    "prompt_sha256": "b438ccf95ab72a014b5eccfd2a0a1507430241af495ecd22c9f54c243ed9a29a"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p03_seq_sreg_8b_sipo",
+    "task": "Prob12p03_seq_sreg_8b_sipo",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "cd8efc166e86140bc86907e66148a40facf03f5eae1d908716f37f3c1ab48ce1",
+    "prompt_sha256": "17d7ec352b54e3158c34ba9fbc17a4fce32ca5474c1c90e0df0396271a353c1e"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p04_seq_sreg_8b_universal",
+    "task": "Prob12p04_seq_sreg_8b_universal",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "8f8cb18fb33cbd9630a289c405940b2b10c568f5248325bd772b41c48f455604",
+    "prompt_sha256": "25214d301bb4daece1efb3e3cfb850d860649412b8a0a92ad581a2e81f37cfcb"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p05_seq_sreg_8b_bidir",
+    "task": "Prob12p05_seq_sreg_8b_bidir",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "de2fb86d928f2cfcfed5f1e495c52f3b692189807c2637970c335f49ab68cf30",
+    "prompt_sha256": "f8bc8c2568d067bf67976da31c5daa43e8e1325f04d8bcd734311e110d7d366a"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p06_seq_sreg_5b_lfsr",
+    "task": "Prob12p06_seq_sreg_5b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "19f4348dfeff39ed519628a44e03f7eee21e14971bacd5f5cfc0daf3f8f2542f",
+    "prompt_sha256": "da16e3a51775756bd3f58ff3b9f013acc62edc06f8613aa144445657b5540237"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob12p07_seq_sreg_7b_lfsr",
+    "task": "Prob12p07_seq_sreg_7b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "f9b07e57073fb5a21059445ca8352c32d8f16e8d1135174dccb23cf7549dc11b",
+    "prompt_sha256": "7f75a9a3627393d78bf064ece0c0a269c8e04edc2a2b15582795083dba250990"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob13p09_seq_count_clock",
+    "task": "Prob13p09_seq_count_clock",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "a641ec3ec6539cbb86237ea79ce41a773c4de46525550196dea256af9a645171",
+    "prompt_sha256": "b20f5c824f44a9ea34466d407696a9254a05aafc25453b5f537962a092e487a7"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob14p03_seq_edge_8b_capture",
+    "task": "Prob14p03_seq_edge_8b_capture",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "ee809d4de49917f1c733eb0a6fbc04d2dcca9bd8e7427a34017e0015111592d4",
+    "prompt_sha256": "14f4e4965c2d801507caf7ab3e42b91a36c422700f463b8b7fbe031c28a02e4c"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob14p04_seq_edge_8b_any_count",
+    "task": "Prob14p04_seq_edge_8b_any_count",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "e449eec63e4b827c6bea8f0b1e4755dedcf0221fa8e870cf03dc88722b83c2f9",
+    "prompt_sha256": "ac414fe346715636044e8827f451545de67a6f35952d1121d71b0e5985fb3dd8"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob15p01_seq_arb_4in_variable",
+    "task": "Prob15p01_seq_arb_4in_variable",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "d7055ee3d2316d2ac48e4d27aeab9be8825557e9d745719f82a37398e7220cf7",
+    "prompt_sha256": "5b5b89d580506984fcbaec6bbc18280b798a61005c354b35d1ff70254fd53f74"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob15p02_seq_arb_4in_rotating",
+    "task": "Prob15p02_seq_arb_4in_rotating",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "eb269bf533195a0063d6c16491824b8a7e58cbba49bacc9946e51cc6ef9ce7f8",
+    "prompt_sha256": "8a331dcbe2eb26ac17f15c60208b47e8796dae00217b70fc62abd2dafe995de8"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob15p03_seq_arb_4in_roundrobin",
+    "task": "Prob15p03_seq_arb_4in_roundrobin",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "7319573ddac55c121a4b7485979b830a3f4fb35c99bce2cbbc84ad3e59b9d4de",
+    "prompt_sha256": "89bc2739200e884e1debfb2792c80c492c00c297bd9849c781be8e3dc4a789d9"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob15p04_seq_arb_4in_granthold",
+    "task": "Prob15p04_seq_arb_4in_granthold",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "237c6438e31c39c5e7d7043702ad97e222d40ad38e49c4c9fa3814162d9c6cba",
+    "prompt_sha256": "786c63fc434ea874ff035c05b4c298718534ae0bbe0fb53ed8c190ba451605a2"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob15p05_seq_arb_4in_weighted",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "1b1893b25492e78c43fbeeab0d68edbda9061e651181dfc59c118178771cad8a",
+    "prompt_sha256": "e9ccb3c8204b05ddbc3404879ce52b0c83a90c25a17db1d7532f70be032cf3b7"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p01_seq_fsm_4s1i1o_mo_tbl0",
+    "task": "Prob16p01_seq_fsm_4s1i1o_mo_tbl0",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "9105649d30785a02ac7ca772dbaaf3efb87690b5b93d67955a9445d157d56597",
+    "prompt_sha256": "cc780fe8b3aa8ec8f02379888f551757dc48278f4af7b0143898869faa04d695"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p02_seq_fsm_4s1i1o_mo_tbl1",
+    "task": "Prob16p02_seq_fsm_4s1i1o_mo_tbl1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "ccfdb20cde70cc802af5757153bdfd55d0e2d9c815c91bf2d16d37b673d22d06",
+    "prompt_sha256": "5bbce32d838f98735b00a1143364e2560ff7e3550470af56387beee33125ac4e"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p04_seq_fsm_4s1i2o_mo_tbl",
+    "task": "Prob16p04_seq_fsm_4s1i2o_mo_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "adc62003af7e50d6d6db0355c4577f8e505cd84d6a7e9dd9f137e54a7f85f7de",
+    "prompt_sha256": "dd2006498e7abb00b35c0874c6c8294c2a71150f99efcd27c96efafa8ea1848c"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p05_seq_fsm_4s2i1o_mo_tbl",
+    "task": "Prob16p05_seq_fsm_4s2i1o_mo_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "f871910de40b9db56fcd018c9dcf8e0b3c292d836413d8e87dbe57176301fd55",
+    "prompt_sha256": "881a3a401897d29d5c92a4feda5292d3963d1d66965a359c5389a0a37b105200"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p06_seq_fsm_6s2i2o_mo_tbl",
+    "task": "Prob16p06_seq_fsm_6s2i2o_mo_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "795e814fb0ae0d6f9b8248bcd5613efccb05e5b78f9a9b65d0ed6c2b6139b538",
+    "prompt_sha256": "b672542d6a3ce0b00c19da316d7f3662f8c1d852e2d6ecc744ba447ae7c08814"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "409c2393c011b92652a0bb1fefe2e55c7cbf44a641f9abcef51f9fc363c67119",
+    "prompt_sha256": "b9743fd447d57ff431b83af917eed4bc64a17d41201551c5bbea69a7891efeb0"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p09_seq_fsm_6s2i2o_mo_dia",
+    "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "5769e33ff299ef230c0c82a85c9810a06e1b2df85d1b825bc89729b30305ec43",
+    "prompt_sha256": "6ce16287755b4a8bf49ff460b7a33fdcaba0ecc36adfd046f152715c87e95485"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p10_seq_fsm_pattern1",
+    "task": "Prob16p10_seq_fsm_pattern1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "3c755a9335a4f55ddcf49a6be738cf8be65f2fab9314d41813b40c9b4df46ac9",
+    "prompt_sha256": "17e64cec765142530f3c78ddc5a8ee522828c70c0357c47956e93953cff97984"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p11_seq_fsm_pattern2",
+    "task": "Prob16p11_seq_fsm_pattern2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "1126e044bad36b76f8e7f68734636eedae64a5214a8e3e58a4ed49c537333f5f",
+    "prompt_sha256": "42b6ea643b863d7aa8294a4734551479659f155ad035e4364f467e2cbc800010"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p12_seq_fsm_stop_light",
+    "task": "Prob16p12_seq_fsm_stop_light",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "17c09d5c1311a16a8292c5194db16c7856714ce23caa562f24a2cad9edf8dec8",
+    "prompt_sha256": "6eafe0b7ee238c303e40ad3720628a4815f614c7bd9698c3110068db4b722dd8"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob16p13_seq_fsm_ps2",
+    "task": "Prob16p13_seq_fsm_ps2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "7d8c5b7df94a94074e88b19cf7308ec370763a874823cef26ee099ca9159ba0b",
+    "prompt_sha256": "b47eff7b576123890dd503e917f8c59f3f1a4bfba395bfc803e2c8573c215bad"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob17p03_seq_mem_8x8b_1r1w_rf_z",
+    "task": "Prob17p03_seq_mem_8x8b_1r1w_rf_z",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "39e0c2417f4eb054e910e19e28f7eb5cb547102efde42513e7ce37cbaf16ecb1",
+    "prompt_sha256": "a5850c14595233c0fcefab8cb974f64cef099d284fcfc5bfb48ec6d86fa90aaa"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob18p01_seq_arith_4x1b_incr",
+    "task": "Prob18p01_seq_arith_4x1b_incr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "9a91ad9c170fa30ba164fbf171507036af04c52b13caba84e28d97d2e46173ab",
+    "prompt_sha256": "63c2cb5b72ab92c24dc222e0fe969b34ee687a5a04031ea28055e2cdf1642132"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob18p02_seq_arith_4x1b_add",
+    "task": "Prob18p02_seq_arith_4x1b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "82890cedb6f5032547578096df015da7c4d5603039d9b9cc8b1166b98534893e",
+    "prompt_sha256": "4c7a36b1f55f1c71256d31f5945b9b46fcbaeacfe04962591ec1e7fd002fd5fd"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob18p03_seq_arith_2x4b_add",
+    "task": "Prob18p03_seq_arith_2x4b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "b2395e4f31289261987a83056181a3b8538c888e8900c1a556032495889d9d7e",
+    "prompt_sha256": "9c086fd0c16356396ad8c8246d9d1ef44e69b19a47bef3bcdb4f29008537f46a"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob18p04_seq_arith_8b_accum",
+    "task": "Prob18p04_seq_arith_8b_accum",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "d56e273121086b345ea03f3dc6a5cd7b64b9b86874d153cd262322299e06cab2",
+    "prompt_sha256": "02eb48050d83b21e5358ffd0d22e401fd795ef1c9a1540668ea6a1dfd83cb80a"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob19p05_seq_pipe_add2_2stage",
+    "task": "Prob19p05_seq_pipe_add2_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "f7f8c6751584d46832ebe6f7c3cd81f35446d5b29d368ba383860982174f8772",
+    "prompt_sha256": "6cee37ec9e2d4093107849872fd53e7e19081e4a6dccef99488e02589f98f0f2"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob19p06_seq_pipe_add3_2stage",
+    "task": "Prob19p06_seq_pipe_add3_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "e83a2c78c6c10d7f1c7f3ce11b099ec061fd1b47ebac5980d7f6c0369c89f6a1",
+    "prompt_sha256": "71a007a969b005e3c98b9d5d42a826c3c715ff839865839b42a88fcf0b13be98"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob19p07_seq_pipe_add4_2stage",
+    "task": "Prob19p07_seq_pipe_add4_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "b27803ac5c32392a0ac71dc4ac144e4b2c1fdcdec81349ba86b59f836c7ebeee",
+    "prompt_sha256": "aed1f349c8e4acf50e95948a60e132bb1a42dd9ec94e9534f1454ebfa23ae0b9"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob19p08_seq_pipe_minmax4_2stage",
+    "task": "Prob19p08_seq_pipe_minmax4_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "151f3ee797f29167b37eb20c435dd7ba9aba97765ac669d631a1329d92a087b5",
+    "prompt_sha256": "bb051b384b9018a88cb78f381dcc675ad8f49f7fd071d79d7cdab38f4e343578"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob10p06_seq_gates_8b_dff_byte",
+    "task": "Prob10p06_seq_gates_8b_dff_byte",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "b7c63a35f81ccba0574e9436693627804fdf08973eb386d3dfa858bb23ddf76e",
+    "prompt_sha256": "dbc8c61ff22af2700d479413d516b18f0fa1e4879236790cbf55d590250bfb67"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob13p08_seq_count_timer",
+    "task": "Prob13p08_seq_count_timer",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "6ac4270f5f878a58ce3c2d5e5e2cf354b361fdf22d362fdd25bc882667bdd35e",
+    "prompt_sha256": "55853eaaa09907b99fb7a5218bc9e61f32c508ebb6016610a561a909c26d095d"
+  },
+  {
+    "key": "contracts/glm-5.3-flash/Prob17p04_seq_mem_8x8b_1r1w_rf_pw",
+    "task": "Prob17p04_seq_mem_8x8b_1r1w_rf_pw",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "glm-5.3-flash",
+    "request_sha256": "41403243f22cfec08cde537b3b7755c1b329b76479d85658bdf545f8f97fb57f",
+    "prompt_sha256": "bc207e3760b880fe5f1f39488e7e83160ff5e1c11cd94b03ceee320bd3bfeab1"
+  }
+]

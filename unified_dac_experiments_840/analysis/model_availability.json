@@ -1,0 +1,20 @@
+{
+  "claude-haiku-5-5": {
+    "http_status": 200,
+    "protocol": "anthropic_messages",
+    "probe": "analysis/claude_transport_probe.json",
+    "base_population": 840,
+    "base_jobs": 1680,
+    "base_parse_failures": 7,
+    "base_official_evaluations": 1680,
+    "included_in_full_routed_denominator": true,
+    "full_routed_status": "complete",
+    "included_in_denominator": true,
+    "actual_unsupported_fields_omitted": [
+      "seed",
+      "reasoning_effort",
+      "temperature",
+      "top_p"
+    ]
+  }
+}

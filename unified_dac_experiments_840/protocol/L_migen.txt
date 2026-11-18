@@ -1,0 +1,5 @@
+Migen paradigm boundary obligations:
+1. TopModule inherits Module; construct hardware in __init__(self, declared_parameters). For synchronous reset under the official adapter, use @ResetInserter() so the required reset signal is available; do not invent a second clock.
+2. Use self.comb += target.eq(expr) for combinational logic and self.sync += target.eq(expr) for storage. Do not drive the same signal from both.
+3. Use Migen If(cond,...).Elif(cond,...).Else(...) and Case(sel,{...}) hardware expressions. Never mix in Amaranth m.d.comb, with m.If, or elaborate syntax. Python if is only for construction-time parameter choices.
+4. Slices sig[start:stop] exclude the upper bound; Cat places the first argument in the least-significant bits. Respect explicit widths and reset/enable/hold priority.

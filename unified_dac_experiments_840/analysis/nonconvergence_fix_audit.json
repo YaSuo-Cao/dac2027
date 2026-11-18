@@ -1,0 +1,13 @@
+{
+  "reason": "Three isolated native/probe timeouts coincide with Verilator-reported candidate combinational feedback loops.",
+  "policy": "After parallel timeout, retry serially with longer limit; only timeout plus candidate-only structural loop evidence is a design nonconvergence failure. Unexplained infrastructure remains unknown.",
+  "all_model_responses_retained": 2520,
+  "new_model_calls": 0,
+  "test_vectors_changed": false,
+  "native_case_changed": false,
+  "status": "calibrated_resuming_full_scoring",
+  "archive": "/home/anonymous\\Documents\\ChatGPT\\DAC\\unified_dac_experiments_840\\archives\\nonconvergence_fix_20261111",
+  "calibration_fixtures": 18,
+  "calibration_passed": true,
+  "new_evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67"
+}

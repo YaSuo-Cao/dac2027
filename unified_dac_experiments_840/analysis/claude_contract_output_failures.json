@@ -1,0 +1,15 @@
+{
+  "model": "claude-haiku-5-5",
+  "logical_rows_by_method": {
+    "Fast": 2,
+    "Full": 2
+  },
+  "affected_instances": [
+    "Prob15p05_seq_arb_4in_weighted/amaranth",
+    "Prob15p05_seq_arb_4in_weighted/pymtl3"
+  ],
+  "affected_tasks": [
+    "Prob15p05_seq_arb_4in_weighted"
+  ],
+  "policy": "Fixed 4096 cap; at most two schema-only corrections; retain predecessor and charge all attempts"
+}

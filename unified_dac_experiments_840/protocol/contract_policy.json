@@ -1,0 +1,19 @@
+{
+  "model_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false
+  },
+  "required_keys": [
+    "interface_parameters",
+    "datapath_guard_rules",
+    "state_transition_invariants",
+    "ambiguities"
+  ],
+  "max_format_corrections": 2,
+  "selection": "first schema-valid JSON; no functional oracle",
+  "cost": "all successful and failed contract attempts included, sharing charged once per task"
+}

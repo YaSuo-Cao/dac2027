@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLTypeError: \nIn file candidate.py, Line 19, Col 6:\n  for i in range( nbits - 1, -1, -1 ):\n  ^\n- the end of for-loop must be non-negative!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "d10f9e4895f77cff2749bdcb086d42e98c0c86241d7299ab17f47b820bc48b74",
+  "candidate_source_sha256": "f7f6b08d6db4deb5c3c6c44aaddcc2f3067d4236fe9c50625f3579f3c2c1bec0",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

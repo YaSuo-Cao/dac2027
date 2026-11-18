@@ -1,0 +1,27 @@
+[
+  {
+    "language": "pyrtl",
+    "url": "https://codeload.github.com/UCSBarchlab/PyRTL/tar.gz/59ddf73eb0e4447ab6fb6c5510779c9725294b42",
+    "archive_sha256": "2c7ff39f1ee10e9533e32d42a7c95957ce05e618be50a6643a7434b4da5a6cd4"
+  },
+  {
+    "language": "myhdl",
+    "url": "https://codeload.github.com/myhdl/myhdl/tar.gz/15ff4fd9937bbd1fd97c64585e9b8e5239e6233e",
+    "archive_sha256": "c468cbf02da27905819d04f7a223b92982b6de9b7a20eb6bb474ad44e3734cf9"
+  },
+  {
+    "language": "amaranth",
+    "url": "https://codeload.github.com/amaranth-lang/amaranth/tar.gz/refs/tags/v0.4.5",
+    "archive_sha256": "913c2a13274caed077dcdce61ae375ca0b35ad683dd4e615c59ea5bee69cb6b9"
+  },
+  {
+    "language": "migen",
+    "url": "https://codeload.github.com/m-labs/migen/tar.gz/refs/tags/0.9.2",
+    "archive_sha256": "69d76f8824a1ad1c368dc47b0242f5b55f61cc3a238ff3e75a7829da7487e84a"
+  },
+  {
+    "language": "pymtl3",
+    "url": "https://codeload.github.com/pymtl/pymtl3/tar.gz/2eb57d3c4ca87d7fdc3fda467a9a9dca294c2c75",
+    "archive_sha256": "63274e3ed7b201ebd5a019e3e0430af09efb7e864f5d8f68a9d7e527e8ac4d7a"
+  }
+]

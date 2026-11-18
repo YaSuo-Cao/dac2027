@@ -1,0 +1,45 @@
+{
+  "name": "rtl_closed_loop_b5",
+  "population": 840,
+  "tasks": 168,
+  "languages": [
+    "pyrtl",
+    "myhdl",
+    "amaranth",
+    "migen",
+    "pymtl3"
+  ],
+  "model": "deepseek-v4.1-flash",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false
+  },
+  "initial_arm": "Gen",
+  "initial_generation_calls": 1,
+  "maximum_code_repairs": 4,
+  "maximum_code_calls": 5,
+  "methods": [
+    "NativeOnly-B5",
+    "RTL-Aware-B5"
+  ],
+  "success": "C0 and Q_native and C_RTL on the same selected source",
+  "control_early_stop": "Q_native pass",
+  "rtl_aware_early_stop": "C_RTL pass",
+  "selection": "Latest C0-passing candidate; C0-rejected trial is next feedback target while accepted predecessor is retained",
+  "feedback": "construction/native: existing interface route; RTL: JUnit exception message attributes only plus public prompt and exact candidate",
+  "rtl_branch": "RTL-L: actual lowering or validation diagnostic plus frozen L_l; no reference or test source",
+  "history": "After the first repair, append compact outcomes and source hashes of all prior code attempts",
+  "no_progress": "Repeated exact request stops; repeated source alone does not stop before the four-repair limit",
+  "contracts": "Lazy, reuse once per task, two schema-only correction maximum; bill all attempts separately from code calls",
+  "physical_cache": "Exact request SHA256 and model only; aliases within/across methods are not independent samples",
+  "output_failure": "Consumes a repair slot; network/evaluation failures remain pending and do not consume another repair slot",
+  "evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67",
+  "initial_jobs_sha256": "3daebfad81b0c5c7a71e525f77c7083d1e5d2e53a92a6f8106c31c56596ceeff",
+  "initial_requests_sha256": "9d759b190992dcb881b64a3dd0a15a48e0e1162e9e08f6917df77c6d02973cc5",
+  "router_sha256": "c8af04fe8da56a7b1c21a2f352f1bebfd08c14412cf724b8a331f4009be5a7e6",
+  "implementation_sha256": "8c14f0ec69f708b1fb447e2f25e1fb221815656efda53ef564d8357aab3300ae"
+}

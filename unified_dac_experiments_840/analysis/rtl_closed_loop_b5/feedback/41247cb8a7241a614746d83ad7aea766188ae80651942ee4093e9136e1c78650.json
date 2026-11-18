@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 30, Col 15:\n  a, b = b, a\n         ^\n- invalid type: tuple"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "ee4a07a9d8fc1ba1c1f49086a3391f4fc2e0a6db3e37e0bf6ce83e53e7361f52",
+  "candidate_source_sha256": "db0ec72b7f8d621fe45f8e7b9e2905f64afb8cec3597887e68747add44cfc417",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

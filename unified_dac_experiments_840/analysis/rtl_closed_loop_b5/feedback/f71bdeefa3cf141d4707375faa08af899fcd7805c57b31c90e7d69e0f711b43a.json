@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 16:\n    Not supported: tuple assignment"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "59a0ac65ebf194a08b18341089a123c3613cd5ad5a4e3184189cdd416caf0bf8",
+  "candidate_source_sha256": "3247c6f50cd2bec13b6f6fb28f5a98915d9ee2e387a15d21d1ae19e596c14bb5",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

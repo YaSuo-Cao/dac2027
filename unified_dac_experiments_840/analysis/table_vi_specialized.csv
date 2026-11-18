@@ -1,0 +1,85 @@
+﻿stratum,method,n,native_expected_passed,native_percent,rtl_expected_passed,rtl_percent
+MyHDL constants,Direct GatedBest@1,4,0,0.0,0,0.0
+MyHDL constants,Direct GatedBest@3,4,0,0.0,0,0.0
+MyHDL constants,Direct GatedBest@5,4,0,0.0,0,0.0
+MyHDL constants,Direct Pass@1,4,0.0,0.0,0.0,0.0
+MyHDL constants,Direct Pass@3,4,0.0,0.0,0.0,0.0
+MyHDL constants,Direct Pass@5,4,0.0,0.0,0.0,0.0
+MyHDL constants,Gen GatedBest@1,4,0,0.0,0,0.0
+MyHDL constants,Gen GatedBest@3,4,0,0.0,0,0.0
+MyHDL constants,Gen GatedBest@5,4,0,0.0,0,0.0
+MyHDL constants,Gen Pass@1,4,0.0,0.0,0.0,0.0
+MyHDL constants,Gen Pass@3,4,0.0,0.0,0.0,0.0
+MyHDL constants,Gen Pass@5,4,0.0,0.0,0.0,0.0
+MyHDL constants,ParaRoute-Fast,4,2,50.0,2,50.0
+MyHDL constants,ParaRoute-Full,4,2,50.0,2,50.0
+Prob02p05 width truncation,Direct GatedBest@1,5,3,60.0,3,60.0
+Prob02p05 width truncation,Direct GatedBest@3,5,3,60.0,2,40.0
+Prob02p05 width truncation,Direct GatedBest@5,5,3,60.0,2,40.0
+Prob02p05 width truncation,Direct Pass@1,5,3.2,64.0,3.0,60.0
+Prob02p05 width truncation,Direct Pass@3,5,3.6,72.0,3.6,72.0
+Prob02p05 width truncation,Direct Pass@5,5,4.0,80.0,4.0,80.0
+Prob02p05 width truncation,Gen GatedBest@1,5,5,100.0,5,100.0
+Prob02p05 width truncation,Gen GatedBest@3,5,5,100.0,5,100.0
+Prob02p05 width truncation,Gen GatedBest@5,5,5,100.0,5,100.0
+Prob02p05 width truncation,Gen Pass@1,5,4.6,92.0,4.6,92.0
+Prob02p05 width truncation,Gen Pass@3,5,5.0,100.0,5.0,100.0
+Prob02p05 width truncation,Gen Pass@5,5,5.0,100.0,5.0,100.0
+Prob02p05 width truncation,ParaRoute-Fast,5,5,100.0,5,100.0
+Prob02p05 width truncation,ParaRoute-Full,5,5,100.0,5,100.0
+FSM,Direct GatedBest@1,65,30,46.15384615384615,30,46.15384615384615
+FSM,Direct GatedBest@3,65,35,53.84615384615385,35,53.84615384615385
+FSM,Direct GatedBest@5,65,38,58.46153846153847,38,58.46153846153847
+FSM,Direct Pass@1,65,34.800000000000004,53.53846153846155,33.6,51.69230769230769
+FSM,Direct Pass@3,65,45.7,70.30769230769232,45.6,70.15384615384616
+FSM,Direct Pass@5,65,50.0,76.92307692307693,50.0,76.92307692307693
+FSM,Gen GatedBest@1,65,47,72.3076923076923,45,69.23076923076923
+FSM,Gen GatedBest@3,65,49,75.38461538461539,47,72.3076923076923
+FSM,Gen GatedBest@5,65,50,76.92307692307693,48,73.84615384615385
+FSM,Gen Pass@1,65,43.199999999999996,66.46153846153845,41.599999999999994,64.0
+FSM,Gen Pass@3,65,54.8,84.3076923076923,54.8,84.3076923076923
+FSM,Gen Pass@5,65,58.0,89.23076923076924,58.0,89.23076923076924
+FSM,ParaRoute-Fast,65,49,75.38461538461539,48,73.84615384615385
+FSM,ParaRoute-Full,65,49,75.38461538461539,48,73.84615384615385
+Arbiters,Direct GatedBest@1,25,8,32.0,4,16.0
+Arbiters,Direct GatedBest@3,25,10,40.0,5,20.0
+Arbiters,Direct GatedBest@5,25,10,40.0,5,20.0
+Arbiters,Direct Pass@1,25,8.8,35.2,4.6,18.4
+Arbiters,Direct Pass@3,25,14.600000000000001,58.400000000000006,7.300000000000001,29.2
+Arbiters,Direct Pass@5,25,16.0,64.0,8.0,32.0
+Arbiters,Gen GatedBest@1,25,8,32.0,4,16.0
+Arbiters,Gen GatedBest@3,25,12,48.0,7,28.000000000000004
+Arbiters,Gen GatedBest@5,25,11,44.0,7,28.000000000000004
+Arbiters,Gen Pass@1,25,9.399999999999999,37.599999999999994,5.3999999999999995,21.599999999999998
+Arbiters,Gen Pass@3,25,16.3,65.19999999999999,9.899999999999999,39.6
+Arbiters,Gen Pass@5,25,19.0,76.0,12.0,48.0
+Arbiters,ParaRoute-Fast,25,16,64.0,8,32.0
+Arbiters,ParaRoute-Full,25,18,72.0,9,36.0
+Serial arithmetic,Direct GatedBest@1,20,4,20.0,4,20.0
+Serial arithmetic,Direct GatedBest@3,20,4,20.0,4,20.0
+Serial arithmetic,Direct GatedBest@5,20,4,20.0,4,20.0
+Serial arithmetic,Direct Pass@1,20,4.800000000000001,24.000000000000004,4.800000000000001,24.000000000000004
+Serial arithmetic,Direct Pass@3,20,6.2,31.0,6.2,31.0
+Serial arithmetic,Direct Pass@5,20,7.0,35.0,7.0,35.0
+Serial arithmetic,Gen GatedBest@1,20,5,25.0,5,25.0
+Serial arithmetic,Gen GatedBest@3,20,5,25.0,5,25.0
+Serial arithmetic,Gen GatedBest@5,20,5,25.0,5,25.0
+Serial arithmetic,Gen Pass@1,20,4.8,24.0,4.8,24.0
+Serial arithmetic,Gen Pass@3,20,5.6,27.999999999999996,5.6,27.999999999999996
+Serial arithmetic,Gen Pass@5,20,6.0,30.0,6.0,30.0
+Serial arithmetic,ParaRoute-Fast,20,10,50.0,10,50.0
+Serial arithmetic,ParaRoute-Full,20,10,50.0,10,50.0
+All clocked,Direct GatedBest@1,355,228,64.22535211267606,212,59.71830985915493
+All clocked,Direct GatedBest@3,355,247,69.57746478873239,229,64.50704225352113
+All clocked,Direct GatedBest@5,355,250,70.4225352112676,232,65.35211267605634
+All clocked,Direct Pass@1,355,232.60000000000005,65.52112676056338,216.2,60.90140845070422
+All clocked,Direct Pass@3,355,275.6,77.63380281690141,261.1,73.54929577464789
+All clocked,Direct Pass@5,355,290.0,81.69014084507043,277.0,78.0281690140845
+All clocked,Gen GatedBest@1,355,250,70.4225352112676,238,67.04225352112675
+All clocked,Gen GatedBest@3,355,262,73.80281690140845,249,70.14084507042253
+All clocked,Gen GatedBest@5,355,264,74.36619718309859,252,70.98591549295776
+All clocked,Gen Pass@1,355,246.6000000000001,69.46478873239435,233.4000000000001,65.74647887323944
+All clocked,Gen Pass@3,355,291.20000000000005,82.02816901408451,280.20000000000005,78.92957746478875
+All clocked,Gen Pass@5,355,305.0,85.91549295774648,294.0,82.8169014084507
+All clocked,ParaRoute-Fast,355,287,80.84507042253522,269,75.77464788732394
+All clocked,ParaRoute-Full,355,290,81.69014084507043,271,76.33802816901408

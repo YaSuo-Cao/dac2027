@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 13:\n    Not supported: list"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "a1b4bbd15ddbf778adc9d93b28237ba84a18947a5d64aaed3d9fc0d99aeb7f01",
+  "candidate_source_sha256": "192173ff20f4394372d3ea7564502d350c350c136c3987ce89dae5f3f56eaedb",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

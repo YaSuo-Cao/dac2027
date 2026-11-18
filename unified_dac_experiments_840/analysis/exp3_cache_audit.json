@@ -1,0 +1,17 @@
+{
+  "jobs": 8400,
+  "states": {
+    "new_request": 6888,
+    "exact_payload_reused": 1512
+  },
+  "by_arm": {
+    "Direct": {
+      "new_request": 3192,
+      "exact_payload_reused": 1008
+    },
+    "Gen": {
+      "new_request": 3696,
+      "exact_payload_reused": 504
+    }
+  }
+}

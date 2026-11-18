@@ -1,0 +1,758 @@
+[
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct GatedBest@1",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct GatedBest@3",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct GatedBest@5",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct Pass@1",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct Pass@3",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Direct Pass@5",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen GatedBest@1",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen GatedBest@3",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen GatedBest@5",
+    "n": 4,
+    "native_expected_passed": 0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen Pass@1",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen Pass@3",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "Gen Pass@5",
+    "n": 4,
+    "native_expected_passed": 0.0,
+    "native_percent": 0.0,
+    "rtl_expected_passed": 0.0,
+    "rtl_percent": 0.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "ParaRoute-Fast",
+    "n": 4,
+    "native_expected_passed": 2,
+    "native_percent": 50.0,
+    "rtl_expected_passed": 2,
+    "rtl_percent": 50.0
+  },
+  {
+    "stratum": "MyHDL constants",
+    "method": "ParaRoute-Full",
+    "n": 4,
+    "native_expected_passed": 2,
+    "native_percent": 50.0,
+    "rtl_expected_passed": 2,
+    "rtl_percent": 50.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct GatedBest@1",
+    "n": 5,
+    "native_expected_passed": 3,
+    "native_percent": 60.0,
+    "rtl_expected_passed": 3,
+    "rtl_percent": 60.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct GatedBest@3",
+    "n": 5,
+    "native_expected_passed": 3,
+    "native_percent": 60.0,
+    "rtl_expected_passed": 2,
+    "rtl_percent": 40.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct GatedBest@5",
+    "n": 5,
+    "native_expected_passed": 3,
+    "native_percent": 60.0,
+    "rtl_expected_passed": 2,
+    "rtl_percent": 40.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct Pass@1",
+    "n": 5,
+    "native_expected_passed": 3.2,
+    "native_percent": 64.0,
+    "rtl_expected_passed": 3.0,
+    "rtl_percent": 60.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct Pass@3",
+    "n": 5,
+    "native_expected_passed": 3.6,
+    "native_percent": 72.0,
+    "rtl_expected_passed": 3.6,
+    "rtl_percent": 72.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Direct Pass@5",
+    "n": 5,
+    "native_expected_passed": 4.0,
+    "native_percent": 80.0,
+    "rtl_expected_passed": 4.0,
+    "rtl_percent": 80.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen GatedBest@1",
+    "n": 5,
+    "native_expected_passed": 5,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen GatedBest@3",
+    "n": 5,
+    "native_expected_passed": 5,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen GatedBest@5",
+    "n": 5,
+    "native_expected_passed": 5,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen Pass@1",
+    "n": 5,
+    "native_expected_passed": 4.6,
+    "native_percent": 92.0,
+    "rtl_expected_passed": 4.6,
+    "rtl_percent": 92.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen Pass@3",
+    "n": 5,
+    "native_expected_passed": 5.0,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5.0,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "Gen Pass@5",
+    "n": 5,
+    "native_expected_passed": 5.0,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5.0,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "ParaRoute-Fast",
+    "n": 5,
+    "native_expected_passed": 5,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "Prob02p05 width truncation",
+    "method": "ParaRoute-Full",
+    "n": 5,
+    "native_expected_passed": 5,
+    "native_percent": 100.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 100.0
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct GatedBest@1",
+    "n": 65,
+    "native_expected_passed": 30,
+    "native_percent": 46.15384615384615,
+    "rtl_expected_passed": 30,
+    "rtl_percent": 46.15384615384615
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct GatedBest@3",
+    "n": 65,
+    "native_expected_passed": 35,
+    "native_percent": 53.84615384615385,
+    "rtl_expected_passed": 35,
+    "rtl_percent": 53.84615384615385
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct GatedBest@5",
+    "n": 65,
+    "native_expected_passed": 38,
+    "native_percent": 58.46153846153847,
+    "rtl_expected_passed": 38,
+    "rtl_percent": 58.46153846153847
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct Pass@1",
+    "n": 65,
+    "native_expected_passed": 34.800000000000004,
+    "native_percent": 53.53846153846155,
+    "rtl_expected_passed": 33.6,
+    "rtl_percent": 51.69230769230769
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct Pass@3",
+    "n": 65,
+    "native_expected_passed": 45.7,
+    "native_percent": 70.30769230769232,
+    "rtl_expected_passed": 45.6,
+    "rtl_percent": 70.15384615384616
+  },
+  {
+    "stratum": "FSM",
+    "method": "Direct Pass@5",
+    "n": 65,
+    "native_expected_passed": 50.0,
+    "native_percent": 76.92307692307693,
+    "rtl_expected_passed": 50.0,
+    "rtl_percent": 76.92307692307693
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen GatedBest@1",
+    "n": 65,
+    "native_expected_passed": 47,
+    "native_percent": 72.3076923076923,
+    "rtl_expected_passed": 45,
+    "rtl_percent": 69.23076923076923
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen GatedBest@3",
+    "n": 65,
+    "native_expected_passed": 49,
+    "native_percent": 75.38461538461539,
+    "rtl_expected_passed": 47,
+    "rtl_percent": 72.3076923076923
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen GatedBest@5",
+    "n": 65,
+    "native_expected_passed": 50,
+    "native_percent": 76.92307692307693,
+    "rtl_expected_passed": 48,
+    "rtl_percent": 73.84615384615385
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen Pass@1",
+    "n": 65,
+    "native_expected_passed": 43.199999999999996,
+    "native_percent": 66.46153846153845,
+    "rtl_expected_passed": 41.599999999999994,
+    "rtl_percent": 64.0
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen Pass@3",
+    "n": 65,
+    "native_expected_passed": 54.8,
+    "native_percent": 84.3076923076923,
+    "rtl_expected_passed": 54.8,
+    "rtl_percent": 84.3076923076923
+  },
+  {
+    "stratum": "FSM",
+    "method": "Gen Pass@5",
+    "n": 65,
+    "native_expected_passed": 58.0,
+    "native_percent": 89.23076923076924,
+    "rtl_expected_passed": 58.0,
+    "rtl_percent": 89.23076923076924
+  },
+  {
+    "stratum": "FSM",
+    "method": "ParaRoute-Fast",
+    "n": 65,
+    "native_expected_passed": 49,
+    "native_percent": 75.38461538461539,
+    "rtl_expected_passed": 48,
+    "rtl_percent": 73.84615384615385
+  },
+  {
+    "stratum": "FSM",
+    "method": "ParaRoute-Full",
+    "n": 65,
+    "native_expected_passed": 49,
+    "native_percent": 75.38461538461539,
+    "rtl_expected_passed": 48,
+    "rtl_percent": 73.84615384615385
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct GatedBest@1",
+    "n": 25,
+    "native_expected_passed": 8,
+    "native_percent": 32.0,
+    "rtl_expected_passed": 4,
+    "rtl_percent": 16.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct GatedBest@3",
+    "n": 25,
+    "native_expected_passed": 10,
+    "native_percent": 40.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 20.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct GatedBest@5",
+    "n": 25,
+    "native_expected_passed": 10,
+    "native_percent": 40.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 20.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct Pass@1",
+    "n": 25,
+    "native_expected_passed": 8.8,
+    "native_percent": 35.2,
+    "rtl_expected_passed": 4.6,
+    "rtl_percent": 18.4
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct Pass@3",
+    "n": 25,
+    "native_expected_passed": 14.600000000000001,
+    "native_percent": 58.400000000000006,
+    "rtl_expected_passed": 7.300000000000001,
+    "rtl_percent": 29.2
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Direct Pass@5",
+    "n": 25,
+    "native_expected_passed": 16.0,
+    "native_percent": 64.0,
+    "rtl_expected_passed": 8.0,
+    "rtl_percent": 32.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen GatedBest@1",
+    "n": 25,
+    "native_expected_passed": 8,
+    "native_percent": 32.0,
+    "rtl_expected_passed": 4,
+    "rtl_percent": 16.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen GatedBest@3",
+    "n": 25,
+    "native_expected_passed": 12,
+    "native_percent": 48.0,
+    "rtl_expected_passed": 7,
+    "rtl_percent": 28.000000000000004
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen GatedBest@5",
+    "n": 25,
+    "native_expected_passed": 11,
+    "native_percent": 44.0,
+    "rtl_expected_passed": 7,
+    "rtl_percent": 28.000000000000004
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen Pass@1",
+    "n": 25,
+    "native_expected_passed": 9.399999999999999,
+    "native_percent": 37.599999999999994,
+    "rtl_expected_passed": 5.3999999999999995,
+    "rtl_percent": 21.599999999999998
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen Pass@3",
+    "n": 25,
+    "native_expected_passed": 16.3,
+    "native_percent": 65.19999999999999,
+    "rtl_expected_passed": 9.899999999999999,
+    "rtl_percent": 39.6
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "Gen Pass@5",
+    "n": 25,
+    "native_expected_passed": 19.0,
+    "native_percent": 76.0,
+    "rtl_expected_passed": 12.0,
+    "rtl_percent": 48.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "ParaRoute-Fast",
+    "n": 25,
+    "native_expected_passed": 16,
+    "native_percent": 64.0,
+    "rtl_expected_passed": 8,
+    "rtl_percent": 32.0
+  },
+  {
+    "stratum": "Arbiters",
+    "method": "ParaRoute-Full",
+    "n": 25,
+    "native_expected_passed": 18,
+    "native_percent": 72.0,
+    "rtl_expected_passed": 9,
+    "rtl_percent": 36.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct GatedBest@1",
+    "n": 20,
+    "native_expected_passed": 4,
+    "native_percent": 20.0,
+    "rtl_expected_passed": 4,
+    "rtl_percent": 20.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct GatedBest@3",
+    "n": 20,
+    "native_expected_passed": 4,
+    "native_percent": 20.0,
+    "rtl_expected_passed": 4,
+    "rtl_percent": 20.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct GatedBest@5",
+    "n": 20,
+    "native_expected_passed": 4,
+    "native_percent": 20.0,
+    "rtl_expected_passed": 4,
+    "rtl_percent": 20.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct Pass@1",
+    "n": 20,
+    "native_expected_passed": 4.800000000000001,
+    "native_percent": 24.000000000000004,
+    "rtl_expected_passed": 4.800000000000001,
+    "rtl_percent": 24.000000000000004
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct Pass@3",
+    "n": 20,
+    "native_expected_passed": 6.2,
+    "native_percent": 31.0,
+    "rtl_expected_passed": 6.2,
+    "rtl_percent": 31.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Direct Pass@5",
+    "n": 20,
+    "native_expected_passed": 7.0,
+    "native_percent": 35.0,
+    "rtl_expected_passed": 7.0,
+    "rtl_percent": 35.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen GatedBest@1",
+    "n": 20,
+    "native_expected_passed": 5,
+    "native_percent": 25.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 25.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen GatedBest@3",
+    "n": 20,
+    "native_expected_passed": 5,
+    "native_percent": 25.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 25.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen GatedBest@5",
+    "n": 20,
+    "native_expected_passed": 5,
+    "native_percent": 25.0,
+    "rtl_expected_passed": 5,
+    "rtl_percent": 25.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen Pass@1",
+    "n": 20,
+    "native_expected_passed": 4.8,
+    "native_percent": 24.0,
+    "rtl_expected_passed": 4.8,
+    "rtl_percent": 24.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen Pass@3",
+    "n": 20,
+    "native_expected_passed": 5.6,
+    "native_percent": 27.999999999999996,
+    "rtl_expected_passed": 5.6,
+    "rtl_percent": 27.999999999999996
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "Gen Pass@5",
+    "n": 20,
+    "native_expected_passed": 6.0,
+    "native_percent": 30.0,
+    "rtl_expected_passed": 6.0,
+    "rtl_percent": 30.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "ParaRoute-Fast",
+    "n": 20,
+    "native_expected_passed": 10,
+    "native_percent": 50.0,
+    "rtl_expected_passed": 10,
+    "rtl_percent": 50.0
+  },
+  {
+    "stratum": "Serial arithmetic",
+    "method": "ParaRoute-Full",
+    "n": 20,
+    "native_expected_passed": 10,
+    "native_percent": 50.0,
+    "rtl_expected_passed": 10,
+    "rtl_percent": 50.0
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct GatedBest@1",
+    "n": 355,
+    "native_expected_passed": 228,
+    "native_percent": 64.22535211267606,
+    "rtl_expected_passed": 212,
+    "rtl_percent": 59.71830985915493
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct GatedBest@3",
+    "n": 355,
+    "native_expected_passed": 247,
+    "native_percent": 69.57746478873239,
+    "rtl_expected_passed": 229,
+    "rtl_percent": 64.50704225352113
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct GatedBest@5",
+    "n": 355,
+    "native_expected_passed": 250,
+    "native_percent": 70.4225352112676,
+    "rtl_expected_passed": 232,
+    "rtl_percent": 65.35211267605634
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct Pass@1",
+    "n": 355,
+    "native_expected_passed": 232.60000000000005,
+    "native_percent": 65.52112676056338,
+    "rtl_expected_passed": 216.2,
+    "rtl_percent": 60.90140845070422
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct Pass@3",
+    "n": 355,
+    "native_expected_passed": 275.6,
+    "native_percent": 77.63380281690141,
+    "rtl_expected_passed": 261.1,
+    "rtl_percent": 73.54929577464789
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Direct Pass@5",
+    "n": 355,
+    "native_expected_passed": 290.0,
+    "native_percent": 81.69014084507043,
+    "rtl_expected_passed": 277.0,
+    "rtl_percent": 78.0281690140845
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen GatedBest@1",
+    "n": 355,
+    "native_expected_passed": 250,
+    "native_percent": 70.4225352112676,
+    "rtl_expected_passed": 238,
+    "rtl_percent": 67.04225352112675
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen GatedBest@3",
+    "n": 355,
+    "native_expected_passed": 262,
+    "native_percent": 73.80281690140845,
+    "rtl_expected_passed": 249,
+    "rtl_percent": 70.14084507042253
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen GatedBest@5",
+    "n": 355,
+    "native_expected_passed": 264,
+    "native_percent": 74.36619718309859,
+    "rtl_expected_passed": 252,
+    "rtl_percent": 70.98591549295776
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen Pass@1",
+    "n": 355,
+    "native_expected_passed": 246.6000000000001,
+    "native_percent": 69.46478873239435,
+    "rtl_expected_passed": 233.4000000000001,
+    "rtl_percent": 65.74647887323944
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen Pass@3",
+    "n": 355,
+    "native_expected_passed": 291.20000000000005,
+    "native_percent": 82.02816901408451,
+    "rtl_expected_passed": 280.20000000000005,
+    "rtl_percent": 78.92957746478875
+  },
+  {
+    "stratum": "All clocked",
+    "method": "Gen Pass@5",
+    "n": 355,
+    "native_expected_passed": 305.0,
+    "native_percent": 85.91549295774648,
+    "rtl_expected_passed": 294.0,
+    "rtl_percent": 82.8169014084507
+  },
+  {
+    "stratum": "All clocked",
+    "method": "ParaRoute-Fast",
+    "n": 355,
+    "native_expected_passed": 287,
+    "native_percent": 80.84507042253522,
+    "rtl_expected_passed": 269,
+    "rtl_percent": 75.77464788732394
+  },
+  {
+    "stratum": "All clocked",
+    "method": "ParaRoute-Full",
+    "n": 355,
+    "native_expected_passed": 290,
+    "native_percent": 81.69014084507043,
+    "rtl_expected_passed": 271,
+    "rtl_percent": 76.33802816901408
+  }
+]

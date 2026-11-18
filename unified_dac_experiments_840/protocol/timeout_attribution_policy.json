@@ -1,0 +1,17 @@
+{
+  "applies_to": "all tasks and model families, never benchmark identifiers/categories",
+  "first_attempt": "normal parallel gate/native timeout",
+  "second_attempt": "isolated serial gate 120s / native 300s",
+  "candidate_failure_requires": [
+    "same-stage repeat timeout",
+    "successful candidate-only lowering",
+    "Verilator UNOPTFLAT circular combinational logic diagnostic"
+  ],
+  "not_sufficient": [
+    "timeout alone",
+    "warning alone",
+    "unknown process signal"
+  ],
+  "unsupported_or_unconfirmed": "retain infrastructure error and stop after bounded serial retries",
+  "reference_or_tests_used_by_diagnostic": false
+}

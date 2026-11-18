@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 28, Col 10:\n  pass\n  ^\n- invalid operation: pass"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "d48a4edcd881fee5281d3e3461ec2ed6d0e2a0b1249c566c06d6f51ae2d3e0ad",
+  "candidate_source_sha256": "b131e9e0344e169f6f428c59530e0f31b3ff9ce1f127f6961d26b798a4639e00",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

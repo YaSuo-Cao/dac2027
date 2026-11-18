@@ -1,0 +1,86 @@
+[
+  {
+    "method": "NativeOnly-B5",
+    "language": "pyrtl",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "NativeOnly-B5",
+    "language": "myhdl",
+    "initial_native_pass_rtl_fail_n": 27,
+    "final_native_passed": 27,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "NativeOnly-B5",
+    "language": "amaranth",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "NativeOnly-B5",
+    "language": "migen",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "NativeOnly-B5",
+    "language": "pymtl3",
+    "initial_native_pass_rtl_fail_n": 9,
+    "final_native_passed": 9,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "NativeOnly-B5",
+    "language": "All",
+    "initial_native_pass_rtl_fail_n": 36,
+    "final_native_passed": 36,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "pyrtl",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "myhdl",
+    "initial_native_pass_rtl_fail_n": 27,
+    "final_native_passed": 27,
+    "final_rtl_passed": 21
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "amaranth",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "migen",
+    "initial_native_pass_rtl_fail_n": 0,
+    "final_native_passed": 0,
+    "final_rtl_passed": 0
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "pymtl3",
+    "initial_native_pass_rtl_fail_n": 9,
+    "final_native_passed": 9,
+    "final_rtl_passed": 4
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "language": "All",
+    "initial_native_pass_rtl_fail_n": 36,
+    "final_native_passed": 36,
+    "final_rtl_passed": 25
+  }
+]

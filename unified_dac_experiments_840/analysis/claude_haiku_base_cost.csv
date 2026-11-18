@@ -1,0 +1,3 @@
+﻿model,method,instances,calls,input_tokens,output_tokens,cached_tokens,total_tokens,parse_failures,official_evaluations
+claude-haiku-5-5,Direct,840,840,1601513,740629,0,2342142,2,840
+claude-haiku-5-5,Gen,840,840,1855865,749419,0,2605284,5,840

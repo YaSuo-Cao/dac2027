@@ -1,0 +1,16 @@
+{
+  "records": 231128,
+  "jobs": 19208,
+  "redacted_records": 51675,
+  "source_bytes": 278164143,
+  "chunks": [
+    "evidence_001.jsonl.gz",
+    "evidence_002.jsonl.gz",
+    "evidence_003.jsonl.gz",
+    "evidence_004.jsonl.gz",
+    "evidence_005.jsonl.gz",
+    "evidence_006.jsonl.gz",
+    "evidence_007.jsonl.gz",
+    "evidence_008.jsonl.gz"
+  ]
+}

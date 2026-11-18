@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "population": 840,
+  "models": [
+    "deepseek-v4.1-flash",
+    "qwen3.8-flash",
+    "glm-5.3-flash",
+    "claude-haiku-5-5"
+  ],
+  "infra_unresolved": 0,
+  "claude_available": true
+}

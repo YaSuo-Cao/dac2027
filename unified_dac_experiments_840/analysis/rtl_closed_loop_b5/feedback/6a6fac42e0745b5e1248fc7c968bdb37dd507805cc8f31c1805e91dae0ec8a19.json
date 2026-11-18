@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 67, Col 19:\n  idx = (int(pidx) + k) % 4\n         ^\n- <ast.Name object at 0x7b03c1c59310> function is not found!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "31470752fd1acc8091927fa9733e59d3ab32b6fb1b469a707d845091b1c1303e",
+  "candidate_source_sha256": "22fbe5adecee4142f5242ced8bb21d9810a2d27fdd1b811a48acfb84d56ed2f2",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

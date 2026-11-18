@@ -1,0 +1,242 @@
+[
+  {
+    "method": "F",
+    "group": "All",
+    "n": 840,
+    "native_passed": 690,
+    "rtl_passed": 650,
+    "native_percent": 82.14285714285714,
+    "rtl_percent": 77.38095238095238,
+    "lazy_tokens": 2084653
+  },
+  {
+    "method": "F",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 9,
+    "rtl_passed": 9,
+    "native_percent": 18.367346938775512,
+    "rtl_percent": 18.367346938775512,
+    "lazy_tokens": 197529
+  },
+  {
+    "method": "F",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 9,
+    "rtl_passed": 8,
+    "native_percent": 12.5,
+    "rtl_percent": 11.11111111111111,
+    "lazy_tokens": 485531
+  },
+  {
+    "method": "F",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 18,
+    "rtl_passed": 17,
+    "native_percent": 14.87603305785124,
+    "rtl_percent": 14.049586776859504,
+    "lazy_tokens": 683060
+  },
+  {
+    "method": "FT",
+    "group": "All",
+    "n": 840,
+    "native_passed": 700,
+    "rtl_passed": 659,
+    "native_percent": 83.33333333333333,
+    "rtl_percent": 78.45238095238095,
+    "lazy_tokens": 2165412
+  },
+  {
+    "method": "FT",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 15,
+    "rtl_passed": 14,
+    "native_percent": 30.612244897959183,
+    "rtl_percent": 28.571428571428573,
+    "lazy_tokens": 218646
+  },
+  {
+    "method": "FT",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 13,
+    "rtl_passed": 12,
+    "native_percent": 18.055555555555557,
+    "rtl_percent": 16.666666666666668,
+    "lazy_tokens": 545173
+  },
+  {
+    "method": "FT",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 28,
+    "rtl_passed": 26,
+    "native_percent": 23.140495867768596,
+    "rtl_percent": 21.487603305785125,
+    "lazy_tokens": 763819
+  },
+  {
+    "method": "FC",
+    "group": "All",
+    "n": 840,
+    "native_passed": 709,
+    "rtl_passed": 669,
+    "native_percent": 84.4047619047619,
+    "rtl_percent": 79.64285714285714,
+    "lazy_tokens": 2268061
+  },
+  {
+    "method": "FC",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 12,
+    "rtl_passed": 12,
+    "native_percent": 24.489795918367346,
+    "rtl_percent": 24.489795918367346,
+    "lazy_tokens": 254122
+  },
+  {
+    "method": "FC",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 25,
+    "rtl_passed": 24,
+    "native_percent": 34.72222222222222,
+    "rtl_percent": 33.333333333333336,
+    "lazy_tokens": 612346
+  },
+  {
+    "method": "FC",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 37,
+    "rtl_passed": 36,
+    "native_percent": 30.578512396694215,
+    "rtl_percent": 29.75206611570248,
+    "lazy_tokens": 866468
+  },
+  {
+    "method": "FCT",
+    "group": "All",
+    "n": 840,
+    "native_passed": 714,
+    "rtl_passed": 671,
+    "native_percent": 85.0,
+    "rtl_percent": 79.88095238095238,
+    "lazy_tokens": 2344273
+  },
+  {
+    "method": "FCT",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 15,
+    "rtl_passed": 14,
+    "native_percent": 30.612244897959183,
+    "rtl_percent": 28.571428571428573,
+    "lazy_tokens": 271118
+  },
+  {
+    "method": "FCT",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 27,
+    "rtl_passed": 24,
+    "native_percent": 37.5,
+    "rtl_percent": 33.333333333333336,
+    "lazy_tokens": 671562
+  },
+  {
+    "method": "FCT",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 42,
+    "rtl_passed": 38,
+    "native_percent": 34.710743801652896,
+    "rtl_percent": 31.40495867768595,
+    "lazy_tokens": 942680
+  },
+  {
+    "method": "Inverse-Route",
+    "group": "All",
+    "n": 840,
+    "native_passed": 697,
+    "rtl_passed": 657,
+    "native_percent": 82.97619047619048,
+    "rtl_percent": 78.21428571428571,
+    "lazy_tokens": 2200888
+  },
+  {
+    "method": "Inverse-Route",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 12,
+    "rtl_passed": 12,
+    "native_percent": 24.489795918367346,
+    "rtl_percent": 24.489795918367346,
+    "lazy_tokens": 254122
+  },
+  {
+    "method": "Inverse-Route",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 13,
+    "rtl_passed": 12,
+    "native_percent": 18.055555555555557,
+    "rtl_percent": 16.666666666666668,
+    "lazy_tokens": 545173
+  },
+  {
+    "method": "Inverse-Route",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 25,
+    "rtl_passed": 24,
+    "native_percent": 20.66115702479339,
+    "rtl_percent": 19.834710743801654,
+    "lazy_tokens": 799295
+  },
+  {
+    "method": "ParaRoute",
+    "group": "All",
+    "n": 840,
+    "native_passed": 712,
+    "rtl_passed": 671,
+    "native_percent": 84.76190476190476,
+    "rtl_percent": 79.88095238095238,
+    "lazy_tokens": 2248233
+  },
+  {
+    "method": "ParaRoute",
+    "group": "Stateless Comb",
+    "n": 49,
+    "native_passed": 15,
+    "rtl_passed": 14,
+    "native_percent": 30.612244897959183,
+    "rtl_percent": 28.571428571428573,
+    "lazy_tokens": 218646
+  },
+  {
+    "method": "ParaRoute",
+    "group": "Clocked Seq",
+    "n": 72,
+    "native_passed": 25,
+    "rtl_passed": 24,
+    "native_percent": 34.72222222222222,
+    "rtl_percent": 33.333333333333336,
+    "lazy_tokens": 627994
+  },
+  {
+    "method": "ParaRoute",
+    "group": "F_func",
+    "n": 121,
+    "native_passed": 40,
+    "rtl_passed": 38,
+    "native_percent": 33.05785123966942,
+    "rtl_percent": 31.40495867768595,
+    "lazy_tokens": 846640
+  }
+]

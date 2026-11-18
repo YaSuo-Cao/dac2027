@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 20, Col 20:\n  if s.in_ == mk_bits(nbits)(1 << i):\n              ^\n- <ast.Call object at 0x7c391c0f7110> function is not found!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "4932cdedaf3eb18279fa631f5f31b49b5e6915b602267acecaa5fea713cd6ef7",
+  "candidate_source_sha256": "3e5b3617f762c3b843770f07f267d966fdf055c17848047d4a5a90500e6c1ef6",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

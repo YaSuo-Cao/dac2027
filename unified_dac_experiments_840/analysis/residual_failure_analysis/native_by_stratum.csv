@@ -1,0 +1,12 @@
+﻿model,method,stratum,count
+claude-haiku-5-5,Full,Seq,6
+deepseek-v4.1-flash,Full,Comb,32
+deepseek-v4.1-flash,Full,Seq,46
+deepseek-v4.1-flash,NativeOnly-B5,Comb,32
+deepseek-v4.1-flash,NativeOnly-B5,Seq,42
+deepseek-v4.1-flash,RTL-Aware-B5,Comb,33
+deepseek-v4.1-flash,RTL-Aware-B5,Seq,43
+glm-5.3-flash,Full,Comb,70
+glm-5.3-flash,Full,Seq,88
+qwen3.8-flash,Full,Comb,21
+qwen3.8-flash,Full,Seq,35

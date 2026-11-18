@@ -1,0 +1,11 @@
+{
+  "diagnostic_only": true,
+  "frozen_evaluator_unchanged": true,
+  "migen_acyclic_gold_and_functionally_wrong_both_accepted": true,
+  "cyclic_candidates_periods": [
+    16,
+    128
+  ],
+  "tool_sha256": "88e6cdcd10d5df11ed5a8f4198d734c7a0b29e93792af1049d0205bedf66eaf8",
+  "output": "{\"fixture\": \"gold\", \"construction_accepted\": true, \"false_loop_detected\": false}\n{\"fixture\": \"wrong\", \"construction_accepted\": true, \"false_loop_detected\": false}\n"
+}

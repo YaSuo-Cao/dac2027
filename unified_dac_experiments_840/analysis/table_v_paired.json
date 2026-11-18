@@ -1,0 +1,122 @@
+[
+  {
+    "left": "ParaRoute",
+    "right": "F",
+    "metric": "native_pass",
+    "difference_pp": 2.619047619047619,
+    "ci_low_pp": 0.9523809523809524,
+    "ci_high_pp": 4.642857142857142,
+    "p": 0.0015499225038748063,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "F",
+    "metric": "rtl_pass",
+    "difference_pp": 2.5,
+    "ci_low_pp": 0.8333333333333335,
+    "ci_high_pp": 4.404761904761905,
+    "p": 0.0032998350082495873,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FT",
+    "metric": "native_pass",
+    "difference_pp": 1.4285714285714286,
+    "ci_low_pp": -0.11904761904761901,
+    "ci_high_pp": 3.214285714285715,
+    "p": 0.12669366531673415,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FT",
+    "metric": "rtl_pass",
+    "difference_pp": 1.4285714285714286,
+    "ci_low_pp": -0.11904761904761901,
+    "ci_high_pp": 3.214285714285715,
+    "p": 0.12669366531673415,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FC",
+    "metric": "native_pass",
+    "difference_pp": 0.35714285714285715,
+    "ci_low_pp": -0.4761904761904762,
+    "ci_high_pp": 1.0714285714285716,
+    "p": 0.5607719614019299,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FC",
+    "metric": "rtl_pass",
+    "difference_pp": 0.2380952380952381,
+    "ci_low_pp": -0.4761904761904762,
+    "ci_high_pp": 0.9523809523809524,
+    "p": 0.7697615119244038,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FCT",
+    "metric": "native_pass",
+    "difference_pp": -0.23809523809523817,
+    "ci_low_pp": -1.1904761904761905,
+    "ci_high_pp": 0.5952380952380953,
+    "p": 0.8108594570271487,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "FCT",
+    "metric": "rtl_pass",
+    "difference_pp": -3.3042351923367754e-17,
+    "ci_low_pp": -0.9523809523809524,
+    "ci_high_pp": 0.8333333333333335,
+    "p": 1.0,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "Inverse-Route",
+    "metric": "native_pass",
+    "difference_pp": 1.7857142857142856,
+    "ci_low_pp": 0.11904761904761894,
+    "ci_high_pp": 3.8095238095238093,
+    "p": 0.07079646017699115,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "ParaRoute",
+    "right": "Inverse-Route",
+    "metric": "rtl_pass",
+    "difference_pp": 1.6666666666666667,
+    "ci_low_pp": -3.38684107214512e-17,
+    "ci_high_pp": 3.5744047619045025,
+    "p": 0.09514524273786311,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  }
+]

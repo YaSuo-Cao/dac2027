@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "byte_identical_existing_score_records": 87,
+  "model_calls": 0,
+  "simulations": 0,
+  "archive_members": 994,
+  "collector_sha256": "8fee7d725f3446a48ccc56450de37333628e8fa0ee4ec5be52812e26a29124a5"
+}

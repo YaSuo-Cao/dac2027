@@ -1,0 +1,20 @@
+[
+  {
+    "model": "deepseek-v4.1-flash",
+    "records": 4200,
+    "unchanged": true,
+    "normalized_records_sha256": "98d60bc0b1952ba1abd3ca24dd1479094778a31a24ad270d3e1b0701ec2bbe9c"
+  },
+  {
+    "model": "glm-5.3-flash",
+    "records": 4200,
+    "unchanged": true,
+    "normalized_records_sha256": "1f12fcc2a357ad11eed56bb603f6bdf554a1601eb88c795a59dfd9f27bac74c3"
+  },
+  {
+    "model": "qwen3.8-flash",
+    "records": 4200,
+    "unchanged": true,
+    "normalized_records_sha256": "cd771c506e84dca36b43ab143fcdb6bbf63570b5710390ce52a1fa7b51b062fd"
+  }
+]

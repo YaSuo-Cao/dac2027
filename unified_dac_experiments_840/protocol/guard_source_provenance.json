@@ -1,0 +1,116 @@
+{
+  "pyrtl": {
+    "guard_sha256": "cc20ffafa3375df7c11abd86226309954feed705988368de25034dc80c698c7f",
+    "official_compiler_api_sources": [
+      {
+        "official_source": "pyrtl/core.py",
+        "sha256": "85c3af61b187e928890f85cc620554d87503d4eb254c742494c9e25b6c6712a5"
+      },
+      {
+        "official_source": "pyrtl/wire.py",
+        "sha256": "fa4950b6f225db6beeb7db4cbc6b0e9dd52e22ff9af3d359c299f5b5a893c7f4"
+      },
+      {
+        "official_source": "pyrtl/corecircuits.py",
+        "sha256": "eb1d29b60232c672af19edfacb04430f0e53a614d75d37d55fddd6d7e0fd7086"
+      }
+    ],
+    "public_adapter": {
+      "path": "/home/anonymous\\Desktop\\HCL_DAC\\datasets\\pyhdl-eval\\pyhdl_eval\\pyrtl.py",
+      "sha256": "b24c1ce7890e53b96649a4acdba3e2036b85b2539dad01afe233631071d3cc29"
+    },
+    "scope": "compiler/API obligations plus adapter-owned interface convention; no task-specific rule or reference behavior"
+  },
+  "myhdl": {
+    "guard_sha256": "eaf7c4ac797d16c44070cab39d478b78e4fe2099d182766ce8451cad2b119995",
+    "official_compiler_api_sources": [
+      {
+        "official_source": "myhdl/_always_comb.py",
+        "sha256": "e7448105489d0326e1ddfceedd614fc50f5902f9e9ea46658efd8ec1c8263f7c"
+      },
+      {
+        "official_source": "myhdl/_block.py",
+        "sha256": "819cd0bcfbd25983f1abc8c8c6d24abdc55d50873ae097c179fe57a4e8ffd2bd"
+      },
+      {
+        "official_source": "myhdl/conversion/_analyze.py",
+        "sha256": "e2e84356e1cbe2d7b4ad79595f35d89a2751cabbf487829d26577c7f237abb34"
+      }
+    ],
+    "public_adapter": {
+      "path": "/home/anonymous\\Desktop\\HCL_DAC\\datasets\\pyhdl-eval\\pyhdl_eval\\myhdl.py",
+      "sha256": "129412dd9018bfec2d89b9075e0f71b2c4fee9924442a912d2c428c940e0f416"
+    },
+    "scope": "compiler/API obligations plus adapter-owned interface convention; no task-specific rule or reference behavior"
+  },
+  "amaranth": {
+    "guard_sha256": "6427f2cf31289675b6e6d370dbead79dca1565031e33741e03267f7820094f7c",
+    "official_compiler_api_sources": [
+      {
+        "official_source": "amaranth/hdl/ast.py",
+        "sha256": "2ea5c45a7a809c1c1e7a09a5b73f101be15b7f693e168d1966e1fb4a6ff9a421"
+      },
+      {
+        "official_source": "amaranth/hdl/dsl.py",
+        "sha256": "15ff46eda80fa28bae3daa3770acb5fedd8701d4cfaf94dd45ea192d3c1676af"
+      },
+      {
+        "official_source": "amaranth/hdl/ir.py",
+        "sha256": "9c6748ed5b6b7f033ba5ad930c8fd20f7fa839baa6677e56f001f6870d853e11"
+      }
+    ],
+    "public_adapter": {
+      "path": "/home/anonymous\\Desktop\\HCL_DAC\\datasets\\pyhdl-eval\\pyhdl_eval\\amaranth.py",
+      "sha256": "e9723ebfca0b80a8745a7d169f9bea3cc5392f95035a668f40056a969841473e"
+    },
+    "scope": "compiler/API obligations plus adapter-owned interface convention; no task-specific rule or reference behavior"
+  },
+  "migen": {
+    "guard_sha256": "24a7e214764c4e61a6935aa585332ce627ce1a6514eda0ee47ef6b8bba0822c3",
+    "official_compiler_api_sources": [
+      {
+        "official_source": "doc/fhdl.rst",
+        "sha256": "b9d1ef9678bcfc30f4d00574e8cd82743282ea28690e95ef2d55553765f38246"
+      },
+      {
+        "official_source": "doc/reference.rst",
+        "sha256": "c3916b5d3b39184fd3e099dd6e9da8c8b3b33dcc2af2420b18842757b9334a09"
+      },
+      {
+        "official_source": "migen/fhdl/structure.py",
+        "sha256": "6fd366c9319727c171839272cb9bbab8b1c22760b16c1c2e07d6de14c100c13b"
+      },
+      {
+        "official_source": "migen/fhdl/decorators.py",
+        "sha256": "44c32625dab62ddc2e2a33411c15dd15e277f561e911d200c7df06ce420a87e2"
+      }
+    ],
+    "public_adapter": {
+      "path": "/home/anonymous\\Desktop\\HCL_DAC\\datasets\\pyhdl-eval\\pyhdl_eval\\migen.py",
+      "sha256": "15da1fec0542267246e6cd2298029768f3905e4882962fd8e5f15cad6c8295f5"
+    },
+    "scope": "compiler/API obligations plus adapter-owned interface convention; no task-specific rule or reference behavior"
+  },
+  "pymtl3": {
+    "guard_sha256": "b292d678890ca3f76d19c0f9000155f89b3345b3dbbbe1cbf5bb537bb35540e3",
+    "official_compiler_api_sources": [
+      {
+        "official_source": "pymtl3/dsl/errors.py",
+        "sha256": "f4e027336828ecad46dc64eb06b07be4e89a17c103dc42d9097ed5454ec4c125"
+      },
+      {
+        "official_source": "pymtl3/dsl/Component.py",
+        "sha256": "767f2f4a32c99fede231066e3b402ba0846f39c929552417efdbde341ef0d278"
+      },
+      {
+        "official_source": "pymtl3/datatypes/PythonBits.py",
+        "sha256": "6bea510137e820de8169c02693d8e50d96cefa34e6443ad20bc2ba5f5332783e"
+      }
+    ],
+    "public_adapter": {
+      "path": "/home/anonymous\\Desktop\\HCL_DAC\\datasets\\pyhdl-eval\\pyhdl_eval\\pymtl.py",
+      "sha256": "ed720bf35279cb49d3360344b91c6a5b4c0b935899c6f8a70ed7d2d0dabd50c1"
+    },
+    "scope": "compiler/API obligations plus adapter-owned interface convention; no task-specific rule or reference behavior"
+  }
+}

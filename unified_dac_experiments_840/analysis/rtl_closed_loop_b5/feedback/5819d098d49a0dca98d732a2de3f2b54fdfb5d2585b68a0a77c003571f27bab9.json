@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.backends.verilog.errors.VerilogImportError: \nError trying to perform import on s:\n- Fail to verilate model emitted_ff44adfbdc01_613dd398923e\n  Verilator command:\n  verilator --cc --top-module emitted_ff44adfbdc01_613dd398923e --Mdir obj_dir_emitted_ff44adfbdc01_613dd398923e --assert -O3 --unroll-count 1000000 --unroll-stmts 1000000 --threads 1 --Wno-fatal --Wno-UNOPTFLAT --Wno-UNSIGNED --Wno-WIDTH emitted_ff44adfbdc01_613dd398923e_translated.v\n\n  Verilator output:\n  %Error: emitted_ff44adfbdc01_613dd398923e.v:34:9: syntax error, unexpected bit\n     34 |     reg bit;\n        |         ^~~\n  %Error: emitted_ff44adfbdc01_613dd398923e.v:38:15: syntax error, unexpected\n  IDENTIFIER, expecting new or new-then-paren\n     38 |         bit = in_[i];\n        |               ^~~\n  %Error: emitted_ff44adfbdc01_613dd398923e.v:39:33: syntax error, unexpected ')',\n  expecting \"'{\"\n     39 |         and_val = (and_val & bit);\n        |                                 ^\n  %Error: emitted_ff44adfbdc01_613dd398923e.v:40:31: syntax error, unexpected ')',\n  expecting \"'{\"\n     40 |         or_val = (or_val | bit);\n        |                               ^\n  %Error: Exiting due to 4 error(s)"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "0fa8fd6faa26ee123fc468d68f3ebccd67fd87e8d6eb761855208eccf869606f",
+  "candidate_source_sha256": "5f867cd984be7260a0deb5b0bfcca9f0b5322848b152b6cbe01bbca6606e7023",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

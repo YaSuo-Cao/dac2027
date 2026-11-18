@@ -1,0 +1,146 @@
+[
+  {
+    "method": "NativeOnly-B5",
+    "round": 1,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 67,
+    "newly_failed": 0,
+    "net_gain": 67
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 1,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 62,
+    "newly_failed": 0,
+    "net_gain": 62
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 1,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 67,
+    "newly_failed": 2,
+    "net_gain": 65
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 1,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 83,
+    "newly_failed": 0,
+    "net_gain": 83
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 2,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 14,
+    "newly_failed": 0,
+    "net_gain": 14
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 2,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 13,
+    "newly_failed": 0,
+    "net_gain": 13
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 2,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 16,
+    "newly_failed": 1,
+    "net_gain": 15
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 2,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 15,
+    "newly_failed": 0,
+    "net_gain": 15
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 3,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 10,
+    "newly_failed": 0,
+    "net_gain": 10
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 3,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 8,
+    "newly_failed": 0,
+    "net_gain": 8
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 3,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 10,
+    "newly_failed": 1,
+    "net_gain": 9
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 3,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 11,
+    "newly_failed": 0,
+    "net_gain": 11
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 4,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 5,
+    "newly_failed": 0,
+    "net_gain": 5
+  },
+  {
+    "method": "NativeOnly-B5",
+    "round": 4,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 5,
+    "newly_failed": 0,
+    "net_gain": 5
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 4,
+    "metric": "native_pass",
+    "n": 840,
+    "newly_passed": 6,
+    "newly_failed": 1,
+    "net_gain": 5
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "round": 4,
+    "metric": "rtl_pass",
+    "n": 840,
+    "newly_passed": 6,
+    "newly_failed": 0,
+    "net_gain": 6
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "population": 840,
+  "logical_requests": 2520,
+  "strict_historical_reuse": 504,
+  "new_model_responses": 2016,
+  "new_http_attempts": 2016,
+  "http_status_counts": {
+    "200": 2016
+  },
+  "billing_unknown_attempts": 0
+}

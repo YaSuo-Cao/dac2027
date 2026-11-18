@@ -1,0 +1,20 @@
+[
+  {
+    "start_key": "cross/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted/amaranth/Gen",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "instance": "Prob15p05_seq_arb_4in_weighted/amaranth",
+    "arm": "FC",
+    "logical_stage": "FullRound1",
+    "contract_key": "contracts/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted",
+    "reason": "contract_output_failure_after_frozen_correction_budget"
+  },
+  {
+    "start_key": "cross/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted/pymtl3/Gen",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "instance": "Prob15p05_seq_arb_4in_weighted/pymtl3",
+    "arm": "FC",
+    "logical_stage": "FullRound1",
+    "contract_key": "contracts/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted",
+    "reason": "contract_output_failure_after_frozen_correction_budget"
+  }
+]

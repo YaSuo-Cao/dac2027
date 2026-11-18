@@ -1,0 +1,5 @@
+PyMTL3 paradigm boundary obligations:
+1. TopModule inherits Component and declares InPort, OutPort and Wire in construct(s, declared_parameters). Fixed widths use BitsN and parameter widths use mk_bits(W). Use the official native PyMTL adapter (CLI name pymtl).
+2. Strictly pair closures and assignment operators: @update combinational closures use @= only for signal updates; @update_ff sequential closures use <<= only. Structural //= connections remain outside these closures. Do not use a Python assignment to replace a signal.
+3. PyMTL3 operations require matching bit widths. Explicitly match BitsN constants and use zext/sext/trunc where needed; slices s.sig[start:stop] exclude the upper bound.
+4. Use pre-edge state in next-state expressions and preserve the specified reset, enable, write and hold priority. The Component provides implicit clk/reset ports; do not redeclare conflicting ports.

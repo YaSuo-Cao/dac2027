@@ -1,0 +1,24 @@
+{
+  "jobs": 228,
+  "states": {
+    "new_request": 183,
+    "current_response": 45
+  },
+  "by_arm": {
+    "FC": {
+      "new_request": 52,
+      "current_response": 10
+    },
+    "FCT": {
+      "new_request": 7,
+      "current_response": 12
+    },
+    "FL": {
+      "new_request": 80
+    },
+    "FT": {
+      "current_response": 23,
+      "new_request": 44
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "key": "contracts/qwen3.8-flash/Prob12p06_seq_sreg_5b_lfsr/format_retry_1",
+    "task": "Prob12p06_seq_sreg_5b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "57feb634c3fc64418c8c214e115b957cd74f76fbc3f6fe7e90f8c116447445ce",
+    "prompt_sha256": "3b9af7b54d1a930955f1449c76c1793c503629c5ce070d640b4ec48f33354b6a",
+    "contract_base_key": "contracts/qwen3.8-flash/Prob12p06_seq_sreg_5b_lfsr",
+    "format_retry": 1
+  },
+  {
+    "key": "contracts/qwen3.8-flash/Prob18p01_seq_arith_4x1b_incr/format_retry_1",
+    "task": "Prob18p01_seq_arith_4x1b_incr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "qwen3.8-flash",
+    "request_sha256": "ca29e7c262d5d87adefe01719305985aec6b5bebb6f846458e283497b6701238",
+    "prompt_sha256": "dcabc26f5085245c616b1284872d632013f426929eb67202f8971b6e29cab06d",
+    "contract_base_key": "contracts/qwen3.8-flash/Prob18p01_seq_arith_4x1b_incr",
+    "format_retry": 1
+  }
+]

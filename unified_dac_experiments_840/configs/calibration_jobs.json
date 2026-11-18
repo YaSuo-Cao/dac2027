@@ -1,0 +1,164 @@
+[
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/pyrtl/gold",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "pyrtl",
+    "adapter_language": "pyrtl",
+    "arm": "gold",
+    "instance": "Prob02p01_comb_wires_8b_passthru/pyrtl",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/pyrtl/wrong",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "pyrtl",
+    "adapter_language": "pyrtl",
+    "arm": "wrong",
+    "instance": "Prob02p01_comb_wires_8b_passthru/pyrtl",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/myhdl/gold",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "myhdl",
+    "adapter_language": "myhdl",
+    "arm": "gold",
+    "instance": "Prob02p01_comb_wires_8b_passthru/myhdl",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/myhdl/wrong",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "myhdl",
+    "adapter_language": "myhdl",
+    "arm": "wrong",
+    "instance": "Prob02p01_comb_wires_8b_passthru/myhdl",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/amaranth/gold",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "gold",
+    "instance": "Prob02p01_comb_wires_8b_passthru/amaranth",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/amaranth/wrong",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "wrong",
+    "instance": "Prob02p01_comb_wires_8b_passthru/amaranth",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/migen/gold",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "migen",
+    "adapter_language": "migen",
+    "arm": "gold",
+    "instance": "Prob02p01_comb_wires_8b_passthru/migen",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/migen/wrong",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "migen",
+    "adapter_language": "migen",
+    "arm": "wrong",
+    "instance": "Prob02p01_comb_wires_8b_passthru/migen",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/pymtl3/gold",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "pymtl3",
+    "adapter_language": "pymtl",
+    "arm": "gold",
+    "instance": "Prob02p01_comb_wires_8b_passthru/pymtl3",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob02p01_comb_wires_8b_passthru/pymtl3/wrong",
+    "task": "Prob02p01_comb_wires_8b_passthru",
+    "language": "pymtl3",
+    "adapter_language": "pymtl",
+    "arm": "wrong",
+    "instance": "Prob02p01_comb_wires_8b_passthru/pymtl3",
+    "model": "handwritten_fixture"
+  },
+  {
+    "key": "calibration/Prob05p07_comb_mux_4b_1to5/amaranth/construction_negative_Direct",
+    "task": "Prob05p07_comb_mux_4b_1to5",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "construction_negative",
+    "instance": "Prob05p07_comb_mux_4b_1to5/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob05p08_comb_mux_1b_128to1/amaranth/construction_negative_Direct",
+    "task": "Prob05p08_comb_mux_1b_128to1",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "construction_negative",
+    "instance": "Prob05p08_comb_mux_1b_128to1/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob07p08_comb_arith_8b_rotator/amaranth/construction_negative_Direct",
+    "task": "Prob07p08_comb_arith_8b_rotator",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "construction_negative",
+    "instance": "Prob07p08_comb_arith_8b_rotator/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob07p08_comb_arith_8b_rotator/amaranth/construction_negative_Gen",
+    "task": "Prob07p08_comb_arith_8b_rotator",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "construction_negative",
+    "instance": "Prob07p08_comb_arith_8b_rotator/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob07p11_comb_arith_8b_fxp_umul/amaranth/construction_negative_Direct",
+    "task": "Prob07p11_comb_arith_8b_fxp_umul",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "construction_negative",
+    "instance": "Prob07p11_comb_arith_8b_fxp_umul/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob06p14_comb_codes_100b_parity/amaranth/nonconvergence_negative",
+    "task": "Prob06p14_comb_codes_100b_parity",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "nonconvergence_negative",
+    "instance": "Prob06p14_comb_codes_100b_parity/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob07p05_comb_arith_100b_popcount/amaranth/nonconvergence_negative",
+    "task": "Prob07p05_comb_arith_100b_popcount",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "nonconvergence_negative",
+    "instance": "Prob07p05_comb_arith_100b_popcount/amaranth",
+    "model": "frozen_regression_fixture"
+  },
+  {
+    "key": "calibration/Prob07p17_comb_arith_4x8b_sorter/amaranth/nonconvergence_negative",
+    "task": "Prob07p17_comb_arith_4x8b_sorter",
+    "language": "amaranth",
+    "adapter_language": "amaranth",
+    "arm": "nonconvergence_negative",
+    "instance": "Prob07p17_comb_arith_4x8b_sorter/amaranth",
+    "model": "frozen_regression_fixture"
+  }
+]

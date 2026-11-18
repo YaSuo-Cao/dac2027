@@ -1,0 +1,2274 @@
+[
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob01p03_comb_const_lohi/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/7f43a9d16dbf17129b92c7f9f4ab115f515b0f56bf6adaea0cc7ac0efa219586",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/33a2773b43fb65b55dc4e9f9f26908446fd6c961fada96dc89bf67c8bf674f58"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob01p03_comb_const_lohi/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/7f43a9d16dbf17129b92c7f9f4ab115f515b0f56bf6adaea0cc7ac0efa219586",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/33a2773b43fb65b55dc4e9f9f26908446fd6c961fada96dc89bf67c8bf674f58"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob01p04_comb_const_32b_value/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/18bbb2a494b52cebc6212972aaee05d7a8142dda3dd6cf279720bf211a75d85d",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/fbf24fdc6a7056cbd3465dc93de637e893bf60fe59b7398f14c3517c328a1d7e"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob01p04_comb_const_32b_value/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/18bbb2a494b52cebc6212972aaee05d7a8142dda3dd6cf279720bf211a75d85d",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/fbf24fdc6a7056cbd3465dc93de637e893bf60fe59b7398f14c3517c328a1d7e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob02p03_comb_wires_8b_bit_rev/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a05e5c15deeb7a354d8e93a4603002fc219f6986eea8a24af9690f8087e9d9a7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/0ec18c61735424b59cbdcc61e3d94be881a0251e4442503e7d79c884e778dda0"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob02p03_comb_wires_8b_bit_rev/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a05e5c15deeb7a354d8e93a4603002fc219f6986eea8a24af9690f8087e9d9a7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/0ec18c61735424b59cbdcc61e3d94be881a0251e4442503e7d79c884e778dda0"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob02p04_comb_wires_100b_bit_rev/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/abc7849072494291cea3bd8c4bfd2d4075078c638d71c1a58f297b370ce01c89",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c0c6cebfa18bccae046f85ebfc7b6701d6042ba565e6f9b7cf0413503ee02298"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob02p04_comb_wires_100b_bit_rev/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/abc7849072494291cea3bd8c4bfd2d4075078c638d71c1a58f297b370ce01c89",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c0c6cebfa18bccae046f85ebfc7b6701d6042ba565e6f9b7cf0413503ee02298"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob02p07_comb_wires_5x3b_to_4x4b/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/55f70438e0bde15ed3ec6ae1fb08c09c824f3205fbc4d9aed8ca3acc54e9659e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/36c3dc4f5cdc92a5b74563f24d653cb7f3d5860f6ec8fb7c075b48f34751731d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob02p07_comb_wires_5x3b_to_4x4b/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/55f70438e0bde15ed3ec6ae1fb08c09c824f3205fbc4d9aed8ca3acc54e9659e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/36c3dc4f5cdc92a5b74563f24d653cb7f3d5860f6ec8fb7c075b48f34751731d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob03p08_comb_gates_100_input/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/2d4ce37f4a09ab3a4fe97b615b6402dbf985761a1e7d3005535f394eaebf82e7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/3515308692b744473f0a30cfab06df94fc7ee7831fbb86905a4a884be4ad1c68"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob03p08_comb_gates_100_input/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/2d4ce37f4a09ab3a4fe97b615b6402dbf985761a1e7d3005535f394eaebf82e7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/3515308692b744473f0a30cfab06df94fc7ee7831fbb86905a4a884be4ad1c68"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p05_comb_bool_truth_tbl1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/aed7f803f2b048d07f226ad77c86e8d2e8fc7cdaaa1c8b8342c6b2834cd39815",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/0664f779771a5600b54a04475dced4806276ff1971cbba52c541880a72e05e9d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p05_comb_bool_truth_tbl1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/aed7f803f2b048d07f226ad77c86e8d2e8fc7cdaaa1c8b8342c6b2834cd39815",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/0664f779771a5600b54a04475dced4806276ff1971cbba52c541880a72e05e9d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/90eedbb5e128252de366bd6abaa9a4879f4dfa6cd4d48c65fba1589420d42db0",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/0440cd659ebacf709d0b5adfbff37b548dad6d3fd708747af2e2fdff8c559caf"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/90eedbb5e128252de366bd6abaa9a4879f4dfa6cd4d48c65fba1589420d42db0",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/0440cd659ebacf709d0b5adfbff37b548dad6d3fd708747af2e2fdff8c559caf"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/c988439c46f700fe5e618414b4d80328d5ddaa751fdafd3a4c4376237dd4de42",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/485e83793db773246669b34ab98e0404c62e6adcdc9461d5adf0c58a550cbee3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/c988439c46f700fe5e618414b4d80328d5ddaa751fdafd3a4c4376237dd4de42",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/485e83793db773246669b34ab98e0404c62e6adcdc9461d5adf0c58a550cbee3"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/143dedb55515e5f2692c797dac1eb27233184ff9cf4501e48e762ccfd40af629",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/2b9437013f4000803892d0773ceeaf2bb28430fea5ebf778649b247eaf60060f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/143dedb55515e5f2692c797dac1eb27233184ff9cf4501e48e762ccfd40af629",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/2b9437013f4000803892d0773ceeaf2bb28430fea5ebf778649b247eaf60060f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/525db88fc3f2f8727e849176f2f183ccc068c255060dd099b289002ab2319229",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e7749600ba3d7cae643614eba3f146d1bf421a52358ba3b1448c071f23ebd233"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p06_comb_bool_truth_tbl2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/525db88fc3f2f8727e849176f2f183ccc068c255060dd099b289002ab2319229",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e7749600ba3d7cae643614eba3f146d1bf421a52358ba3b1448c071f23ebd233"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p09_comb_bool_kmap2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/3db8511146b170e9999bb4c74168032d849ce36a4d294e377adfa66ef95a06b8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f7c1aa113813a08559f9e480515cb4cb3eb7bac0e6abbe674bc2c7bdd5379681"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p09_comb_bool_kmap2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/3db8511146b170e9999bb4c74168032d849ce36a4d294e377adfa66ef95a06b8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f7c1aa113813a08559f9e480515cb4cb3eb7bac0e6abbe674bc2c7bdd5379681"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p09_comb_bool_kmap2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/bc221657bbb76e6541708b18678601698ce948eea68d3e3eb025c11391602a86",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/9e983b53d02a0728a765924850625cd55e74522fa1a7dffff50f973694076fe8"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p09_comb_bool_kmap2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/bc221657bbb76e6541708b18678601698ce948eea68d3e3eb025c11391602a86",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/9e983b53d02a0728a765924850625cd55e74522fa1a7dffff50f973694076fe8"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p11_comb_bool_waveform1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/8c215876fe4bc13fd7f94fe4542d036848cbd75d8dbec946749bc393c4baa4cc",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f06ec6557969a66257c0ce6115f6feb7f5582d85d0daefb0a61fe76605e1e5e1"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p11_comb_bool_waveform1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/8c215876fe4bc13fd7f94fe4542d036848cbd75d8dbec946749bc393c4baa4cc",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f06ec6557969a66257c0ce6115f6feb7f5582d85d0daefb0a61fe76605e1e5e1"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/bdabc45bb5e141649f60426d79802304d6380307e5bee81b493fe3fc83e347f7",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/90ce231d55302930d36fb4ef6ea017c8d1ac58fed6c2e205de49df8aec5cc647"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/bdabc45bb5e141649f60426d79802304d6380307e5bee81b493fe3fc83e347f7",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/90ce231d55302930d36fb4ef6ea017c8d1ac58fed6c2e205de49df8aec5cc647"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/afd714a54b41b1cca7d190262e00750850935882d39251c450d3b6cf797c52a0",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/bbccc8c72e18dbb9c92b232cdc7d0171e87f3809c007fb9220543b1e00a2315d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/afd714a54b41b1cca7d190262e00750850935882d39251c450d3b6cf797c52a0",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/bbccc8c72e18dbb9c92b232cdc7d0171e87f3809c007fb9220543b1e00a2315d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/842176ae977aba2c277cd1e72bd9b791091590267cba66261f8700475cd1fe8a",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/458027715ea6f30164911629944472ffc1ec9a6c1aa9ab065c5c1528b206c86c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p12_comb_bool_waveform2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/842176ae977aba2c277cd1e72bd9b791091590267cba66261f8700475cd1fe8a",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/458027715ea6f30164911629944472ffc1ec9a6c1aa9ab065c5c1528b206c86c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob04p13_comb_bool_nl_lights/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/e28b68c807d5ff09e98bd6189cb2419458a8bcb635da837e0f69ea59b5648379",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/a1f10fd73218608f8c51bfe4591232a636209095dae5304987bf8c5995afd026"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob05p05_comb_mux_4b_1to8/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/dd673a305a24c46851cf11be0031d760372400381763a5b7d16b7390595ee675",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/f300719bbb8d8bd08a621c31e09e70de9bf3764739e7a1b7a5fafa6f4a29023e"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob05p05_comb_mux_4b_1to8/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/dd673a305a24c46851cf11be0031d760372400381763a5b7d16b7390595ee675",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/f300719bbb8d8bd08a621c31e09e70de9bf3764739e7a1b7a5fafa6f4a29023e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob05p08_comb_mux_1b_128to1/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/6609b99f6b7de20412178148cfb8c44a1e1d03b422b46de8517a0200f66d9aa1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/989fb6918054c70f89f6a96de6289740f478d0549b399fb69eabc7e4cff6d32f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob05p08_comb_mux_1b_128to1/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/6609b99f6b7de20412178148cfb8c44a1e1d03b422b46de8517a0200f66d9aa1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/989fb6918054c70f89f6a96de6289740f478d0549b399fb69eabc7e4cff6d32f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p01_comb_codes_enc_4to2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/17c65021fd69cbf514f09ec72249df497fbb893ce50b16ae963911ad7407d7b7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/04d9ed81e1b62ede6908f7239f009581a966fc77e6eb6e2020dbff93d246d314"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p01_comb_codes_enc_4to2/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/17c65021fd69cbf514f09ec72249df497fbb893ce50b16ae963911ad7407d7b7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/04d9ed81e1b62ede6908f7239f009581a966fc77e6eb6e2020dbff93d246d314"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p02_comb_codes_enc_16to4/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/6a6f9d74bf69faae7f0308f0d417a8d2e63c083352f2fa99ed1005d99fadae1f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/861e0a1178f53ba1609e5414b3612f83dae2103897443bc7482e408a9f10db65"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p02_comb_codes_enc_16to4/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/6a6f9d74bf69faae7f0308f0d417a8d2e63c083352f2fa99ed1005d99fadae1f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/861e0a1178f53ba1609e5414b3612f83dae2103897443bc7482e408a9f10db65"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p06_comb_codes_penc_16to4/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/fb6be87032a77ff7af9c67fd31a90ed38ddf7156172aacf17822904f19a5d036",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5df2c604ccff481c5aeb7f6fc4d1a0ff5932ae6442634cac8ae4956e237f37d8"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p06_comb_codes_penc_16to4/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/fb6be87032a77ff7af9c67fd31a90ed38ddf7156172aacf17822904f19a5d036",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5df2c604ccff481c5aeb7f6fc4d1a0ff5932ae6442634cac8ae4956e237f37d8"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p07_comb_codes_bin2gcode/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a0642c1a139a785b108e4ec9cf3f0970e05b05803c5dd42b45ef09cd2346d385",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/00e4e47b5d60deef601f6f442b6c4ba09a2e359f2a9c4703fe19f599cd79deb3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p07_comb_codes_bin2gcode/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a0642c1a139a785b108e4ec9cf3f0970e05b05803c5dd42b45ef09cd2346d385",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/00e4e47b5d60deef601f6f442b6c4ba09a2e359f2a9c4703fe19f599cd79deb3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p08_comb_codes_gcode2bin/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/68622f84a17e9edfecb08737764b306feaf4be3a18117f4bd87a619971ec6171",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/ee74d92838f082b8b6741e9debaeaa91efe0770c0d17d969c4dd6374b409c95e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/4d46ef581db0a5e202da84c2ad3c865413b1cb2b634c45761622c73fc78fcc43",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/ce3f5b394acf437e25b8a48973158335ebaf02843476db3398f2b19e26ff2045"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/4d46ef581db0a5e202da84c2ad3c865413b1cb2b634c45761622c73fc78fcc43",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/ce3f5b394acf437e25b8a48973158335ebaf02843476db3398f2b19e26ff2045"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/cedf4a137d0b119ac087ff472b196b0d9e2e4486d877ef84918bcaf963054eae",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/6345387a87390da6ee7aec177febce163015cb6fc63dbde2fb7803e54c050d86"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/cedf4a137d0b119ac087ff472b196b0d9e2e4486d877ef84918bcaf963054eae",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/6345387a87390da6ee7aec177febce163015cb6fc63dbde2fb7803e54c050d86"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/9ee8d1d571bc6f9e3e1cfb2c8ac86e1c242a0287892f535a7b55259a38d6f8a8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/07a18f5eac556d5db912825be526af1908d2fa901de582572ef0bd4a2578fe89"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p09_comb_codes_bin2bcd/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/9ee8d1d571bc6f9e3e1cfb2c8ac86e1c242a0287892f535a7b55259a38d6f8a8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/07a18f5eac556d5db912825be526af1908d2fa901de582572ef0bd4a2578fe89"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/357e2ea9af7814758e2d0443f3200855b3e5e5f879a261b3599bbe8a695d43b1",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/46e9fb7a0cbaf6c31ed616e8e975e3dd3a59e7bc030b97b09cf1d54ec3c3e666"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/357e2ea9af7814758e2d0443f3200855b3e5e5f879a261b3599bbe8a695d43b1",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/46e9fb7a0cbaf6c31ed616e8e975e3dd3a59e7bc030b97b09cf1d54ec3c3e666"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/56326de02c1a7bc2f7acd8dadb0f732a9e85a02190693a4b03d2a14ae1e43d3b",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/9c7391d7ad6d77e060c1a8d421eab559d76e7283e85015b6ca2ad4b526245236"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/56326de02c1a7bc2f7acd8dadb0f732a9e85a02190693a4b03d2a14ae1e43d3b",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/9c7391d7ad6d77e060c1a8d421eab559d76e7283e85015b6ca2ad4b526245236"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/fc87107e22fe35a602a656261cb70d413f50e36bacc775d5c8e7915880524768",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f5be6874765a391f529f892121fc94103ac4be9d384735aba1b9b6b67f3af877"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/fc87107e22fe35a602a656261cb70d413f50e36bacc775d5c8e7915880524768",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f5be6874765a391f529f892121fc94103ac4be9d384735aba1b9b6b67f3af877"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/a8e238f767f7e97a15e911b308d00a4be9934d75cec6a9709dbf0d2c1845d026",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/d2dee06f27ffd62e55e19f2cf6ce2689f539c17b270a002cf8577f329c2ed328"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/a8e238f767f7e97a15e911b308d00a4be9934d75cec6a9709dbf0d2c1845d026",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/d2dee06f27ffd62e55e19f2cf6ce2689f539c17b270a002cf8577f329c2ed328"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0b5b63ff5e485eafd19e51770d2d400ba57b60a6a77639e22efb720d2324d22a",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/552bb6052c732619aed0de7b777bf964ddeef4167dd8042b042c845f8f4b07d9"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p10_comb_codes_bcd2bin/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0b5b63ff5e485eafd19e51770d2d400ba57b60a6a77639e22efb720d2324d22a",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/552bb6052c732619aed0de7b777bf964ddeef4167dd8042b042c845f8f4b07d9"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/745b4656455822e6a4d401622db4aaf30f85ce2622b214290051f2b7e0873426",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/90403aa06fc8ea306ca9ea89fe293e199a33006be340fd8cc3f0351bc7679fff"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/745b4656455822e6a4d401622db4aaf30f85ce2622b214290051f2b7e0873426",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/90403aa06fc8ea306ca9ea89fe293e199a33006be340fd8cc3f0351bc7679fff"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/bbd8dc45cec8da1ec67563e0ba8328d6be1954d13eb1b00137b2b3f8cd9223c9",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e6b2096cdd0d4cb2cd5d863a800427f1d84bf21e5d4c1b4d38a0106c939c4e6e"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/bbd8dc45cec8da1ec67563e0ba8328d6be1954d13eb1b00137b2b3f8cd9223c9",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e6b2096cdd0d4cb2cd5d863a800427f1d84bf21e5d4c1b4d38a0106c939c4e6e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ca7c388bbdaba7607114173bc01bec80419ec0036cb841ef5ee31a200a468750",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/9f93f18539f6c910c4559efc2fb4a72d20b2a405e31c37f4f8040bd29a04a06f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ca7c388bbdaba7607114173bc01bec80419ec0036cb841ef5ee31a200a468750",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/9f93f18539f6c910c4559efc2fb4a72d20b2a405e31c37f4f8040bd29a04a06f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0d6ca4c3978405d1057fbd312d9c915847665791c18f0e3a844ad43b328686ca",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8c42def1c117e6feb1161bc6de7fc08eb22b29a68f034ae3d4be3df3925df238"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p11_comb_codes_bin2ascii/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0d6ca4c3978405d1057fbd312d9c915847665791c18f0e3a844ad43b328686ca",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8c42def1c117e6feb1161bc6de7fc08eb22b29a68f034ae3d4be3df3925df238"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob06p14_comb_codes_100b_parity/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/974af60433e296acea8c88983bc5777a8dc78f2630ce7bf4fb31faa4c2b9338d",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/1d89c7a4e7246069d0601f8aec9a03647079b6b0f80a53f6b2ea6c76fa918854"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob06p14_comb_codes_100b_parity/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/974af60433e296acea8c88983bc5777a8dc78f2630ce7bf4fb31faa4c2b9338d",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/1d89c7a4e7246069d0601f8aec9a03647079b6b0f80a53f6b2ea6c76fa918854"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p05_comb_arith_100b_popcount/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/7c15280d6277bd245d66c2fda9aa08e32c3e380e3e79c148de1c756d00d54bcd",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4f7f477445982f8f0a272acd12435cf749f4e5db44e5f081c2059502790ac5de"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p05_comb_arith_100b_popcount/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/7c15280d6277bd245d66c2fda9aa08e32c3e380e3e79c148de1c756d00d54bcd",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4f7f477445982f8f0a272acd12435cf749f4e5db44e5f081c2059502790ac5de"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p07_comb_arith_8b_sra/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/9e9f41486032e1a74d29d0d16a684988107db2a1e226067ddda1fdaff9fda4bb",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/26135f8b68f1f009216fc814e7dcb6b5afeaa5b3aab5be3909daa359117c0779"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p07_comb_arith_8b_sra/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/9e9f41486032e1a74d29d0d16a684988107db2a1e226067ddda1fdaff9fda4bb",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/26135f8b68f1f009216fc814e7dcb6b5afeaa5b3aab5be3909daa359117c0779"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p07_comb_arith_8b_sra/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/908d65f685a554c4dd6f6b6743f861a226bb766ef06e5b95ebf3af0b2d10f8a3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p07_comb_arith_8b_sra/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/908d65f685a554c4dd6f6b6743f861a226bb766ef06e5b95ebf3af0b2d10f8a3"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/cf238f3cc7c809682f94587adf6aef597030b53c6c7062b01df7fcac4c51dda8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/664c7000d14db3c68de7b1c99389ac7549a366fac5998dd6cd3fb96e2cb6ff78"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/cf238f3cc7c809682f94587adf6aef597030b53c6c7062b01df7fcac4c51dda8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/664c7000d14db3c68de7b1c99389ac7549a366fac5998dd6cd3fb96e2cb6ff78"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/bcc218ec54be3ae70137f200a654944ccceb63644abe01e04dafcf7e2ffd6811",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/28b1954bfe1150721aff99c1bf6d2b64a02969244b86fd81a899a9b4a450612a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/bcc218ec54be3ae70137f200a654944ccceb63644abe01e04dafcf7e2ffd6811",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/28b1954bfe1150721aff99c1bf6d2b64a02969244b86fd81a899a9b4a450612a"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/ef7f66e2b928608d4bb242f4991b26e564603acf57cfa6ec41c1cb307e90bf95",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4ef89a5aa646b6a4d6611bb70dcfced7b0ce0672092bf6e1cccbbf18309be75f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p08_comb_arith_8b_rotator/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/ef7f66e2b928608d4bb242f4991b26e564603acf57cfa6ec41c1cb307e90bf95",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4ef89a5aa646b6a4d6611bb70dcfced7b0ce0672092bf6e1cccbbf18309be75f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p10_comb_arith_8b_smul/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/5789abf6e1b807cb18ea72d834d5321f11b2e3481e9020abc6cacc53826e089d",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f531e2da07df2b989726394ed4ceddd9f6354b33561ab75f46b0c5439033dd20"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p10_comb_arith_8b_smul/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/5789abf6e1b807cb18ea72d834d5321f11b2e3481e9020abc6cacc53826e089d",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/f531e2da07df2b989726394ed4ceddd9f6354b33561ab75f46b0c5439033dd20"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p10_comb_arith_8b_smul/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ded2bb42d0038087557a314f377c6f44ad9bac980e07c6437c023ea02e8314c5",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/3dcff288105a76c5d11fa7c623805531a678a9f25d28c26acd5d15f07a95372a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p10_comb_arith_8b_smul/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ded2bb42d0038087557a314f377c6f44ad9bac980e07c6437c023ea02e8314c5",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/3dcff288105a76c5d11fa7c623805531a678a9f25d28c26acd5d15f07a95372a"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p11_comb_arith_8b_fxp_umul/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/449876b03b89e771424bb818e4b7641cd115b50f8319d8626f454987d49c6ad8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/c3f3fc64435f20dbc2217f8f1086888bda8d0bbdd081cab81826390278417dde"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p11_comb_arith_8b_fxp_umul/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/449876b03b89e771424bb818e4b7641cd115b50f8319d8626f454987d49c6ad8",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/c3f3fc64435f20dbc2217f8f1086888bda8d0bbdd081cab81826390278417dde"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p11_comb_arith_8b_fxp_umul/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/c8c97aeb515bd0425d1d2e9c7b90ac2f94612d30f8de324b66e43bed1fbd0319",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/6e4c5d03b08fc45f36e40b76cf4357f71ff9ed63e67170a4770b10e5839ccb6d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p11_comb_arith_8b_fxp_umul/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/c8c97aeb515bd0425d1d2e9c7b90ac2f94612d30f8de324b66e43bed1fbd0319",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/6e4c5d03b08fc45f36e40b76cf4357f71ff9ed63e67170a4770b10e5839ccb6d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p14_comb_arith_8b_scmp/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/8385459a4a8e5798997fa337d3d9215695f894355c663bab2c32859a6e2a0b86",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5ed0a164c18990c06a0a0739b81805dc4b83db7bd11fe11f7e2e4c1d094ba2ec"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p14_comb_arith_8b_scmp/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/8385459a4a8e5798997fa337d3d9215695f894355c663bab2c32859a6e2a0b86",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5ed0a164c18990c06a0a0739b81805dc4b83db7bd11fe11f7e2e4c1d094ba2ec"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob07p14_comb_arith_8b_scmp/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/b85952cd5d1a2f801205d6943564a12dc52c5b541b774bd71d107d425d6b0227",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/fd7e8f143e357714cf844bb2b7a9b5b50ec56fc349c940893a67238088c86d9b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p14_comb_arith_8b_scmp/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/b85952cd5d1a2f801205d6943564a12dc52c5b541b774bd71d107d425d6b0227",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/fd7e8f143e357714cf844bb2b7a9b5b50ec56fc349c940893a67238088c86d9b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p17_comb_arith_4x8b_sorter/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/362ca0d03fbe7ae63e4c93db73b4d02f157c087eff187842bc9d09e3bd9c2ca6",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/81ef1215912f43b8a08aec88eee228f3d3a6d2347ebac572cf12136bd43d3ca9"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob07p17_comb_arith_4x8b_sorter/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/bbf7e28f179dd8c231536b5204214f5b851d96d5414672c2137e3d824760c2ab",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/76480e76d5e6acec2aecc21fe5e06c33687d8090446fd7551c657c8c16c3824d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p06_comb_fsm_6s2i2o_mo_tbl/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e59b2bc36d46030cacbd9f176f4cbde8ab4fee933ebba1424d5473aa37521faf",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8b168e83d86c4b2f14d40296862a8cb241d8c94091311b4b07d96e7558832d43"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p06_comb_fsm_6s2i2o_mo_tbl/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e59b2bc36d46030cacbd9f176f4cbde8ab4fee933ebba1424d5473aa37521faf",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8b168e83d86c4b2f14d40296862a8cb241d8c94091311b4b07d96e7558832d43"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/6ab4fb841bf954ea4e2562ff64f2fa45a471fbd4808668dc5441537e7e5b77a4"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/6ab4fb841bf954ea4e2562ff64f2fa45a471fbd4808668dc5441537e7e5b77a4"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f48ed5c2a2379dc976a1ba7257381e29e532a3940e5bebce29506c87603d670c",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/d416bd75e334d0abd44157d06062cf386ce2fc2c6d4424098ae3cca9140f7bb0"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f48ed5c2a2379dc976a1ba7257381e29e532a3940e5bebce29506c87603d670c",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/d416bd75e334d0abd44157d06062cf386ce2fc2c6d4424098ae3cca9140f7bb0"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/5be86bf1749b3a1a97ac921477d376540b6c1b44e627b4ceb21d23435fbfa391",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e00e125d06fa873e9166aca51c0491505e39f8c79c7d465dfdbc3b905c44831a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/5be86bf1749b3a1a97ac921477d376540b6c1b44e627b4ceb21d23435fbfa391",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/e00e125d06fa873e9166aca51c0491505e39f8c79c7d465dfdbc3b905c44831a"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/34224ff15ccd976619425fa90bb9826ec6d9f2edb9934376c9a501db29226f85",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/ef205f7209c8a627dd4fed2a542beefc6adc31a144d74643d412fa343e5ffd77"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/34224ff15ccd976619425fa90bb9826ec6d9f2edb9934376c9a501db29226f85",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/ef205f7209c8a627dd4fed2a542beefc6adc31a144d74643d412fa343e5ffd77"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/8098ba4b6d059616caa3559d394a01996e43ff5374ef7e1b8ca2f545872bb241",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/09f6fb1f12cdc8f0dbdfd8ddaa00cc3fdae8d10f0dc918846bfeb2d7d1775998"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/8098ba4b6d059616caa3559d394a01996e43ff5374ef7e1b8ca2f545872bb241",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/09f6fb1f12cdc8f0dbdfd8ddaa00cc3fdae8d10f0dc918846bfeb2d7d1775998"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p01_comb_param_const/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/97da56428e307e6ba4bc19d84a2abc2536001e0aee97253b4058dc9d4a5a3758",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/38a97ffa267be60ecb841981bcedeada915aa0d4d6bca9bb36e5b1564892cb17"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p01_comb_param_const/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/97da56428e307e6ba4bc19d84a2abc2536001e0aee97253b4058dc9d4a5a3758",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/38a97ffa267be60ecb841981bcedeada915aa0d4d6bca9bb36e5b1564892cb17"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p01_comb_param_const/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/a6553538e2ad4646e754dafe04665363a3b5e7f67150f399a84f72cca73b49a7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/836bbfba69aef87576c39b765d0ed561dffebf0cc504f021df54713c872af40f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p03_comb_param_nor/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/24fd0c15675e6767fad7f99da69ce954321416eb91b286ae6f1666354046fed7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/e95d60eb2b47b473163acb496e41b25727bb3b79db810276148a648a266dea56"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p03_comb_param_nor/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/24fd0c15675e6767fad7f99da69ce954321416eb91b286ae6f1666354046fed7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/e95d60eb2b47b473163acb496e41b25727bb3b79db810276148a648a266dea56"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p04_comb_param_2to1_mux/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/eb64368885048391487d73ebef6b657e4f3c020fc4e4d9c76ebb07ab53ddce86",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/ce7287911935c5a66374bd7faa74ab00befd7004c06f2d646962136c9b43bdf8"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p04_comb_param_2to1_mux/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/eb64368885048391487d73ebef6b657e4f3c020fc4e4d9c76ebb07ab53ddce86",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/ce7287911935c5a66374bd7faa74ab00befd7004c06f2d646962136c9b43bdf8"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p05_comb_param_enc/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f59ebfe0e4b377394042e7846a5b7a25fb067ef3210ec8127aea02568bd2b922",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8cd0fb2af91ebcd42523e023c638fae037855c97e4b112513857f400f6f1c9d3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p05_comb_param_enc/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f59ebfe0e4b377394042e7846a5b7a25fb067ef3210ec8127aea02568bd2b922",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8cd0fb2af91ebcd42523e023c638fae037855c97e4b112513857f400f6f1c9d3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p05_comb_param_enc/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/9ce8d0d4bfc2ad8d749cf42a578bd440d1c333542255a7f29d6ab19bcbe2f03e",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/30599e710c5e3d55937a74e1fb511d07111ab610c2a0c773e777e4d2ec121a79"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p06_comb_param_dec/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/7ca4b8ec70927240d20d571e1fd22e9a8e26d0993bdf7ba4c083b727449280f1"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p06_comb_param_dec/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/7ca4b8ec70927240d20d571e1fd22e9a8e26d0993bdf7ba4c083b727449280f1"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p06_comb_param_dec/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0623889cd521e1b36e04cb466f5780b57d9879c400f5de9e9e5b8e006fa0c057",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/bc31d7b81f93a9adbdef608ab43d52cc18e690bbde43e44d93f967ef67de5b33"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p06_comb_param_dec/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/0623889cd521e1b36e04cb466f5780b57d9879c400f5de9e9e5b8e006fa0c057",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/bc31d7b81f93a9adbdef608ab43d52cc18e690bbde43e44d93f967ef67de5b33"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p07_comb_param_penc/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/87018d258b1478bf9a195acf11c9f62302c9d0a87b7c40fde7b983d2175b05d1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/d7fcd3cbc267525d8810cf337c420e99eecbddd78cfd3a264612e2923602ccc3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p07_comb_param_penc/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/87018d258b1478bf9a195acf11c9f62302c9d0a87b7c40fde7b983d2175b05d1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/d7fcd3cbc267525d8810cf337c420e99eecbddd78cfd3a264612e2923602ccc3"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p07_comb_param_penc/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/57cd24e4e2be39ea06d4506d60c2ff24ddbd8864d39daf2eb7cd47d55f27cf2c",
+    "phase": "native",
+    "arm": "FT",
+    "job_key": "repairs/deepseek-v4.1-flash/34ed4efcefa517c257b1b373e1dc5348b0346d5c15005b86c8d3c5544451c55d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p08_comb_param_rotator/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/9a215d54df3fbd27598612c75b9d33735e38a0b1704a536b9f61369908068f15",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/cbfbd8ccf2d101f56cf0dc3d98b82dc9a0a36c50839d047c17321ed0ca84441a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p08_comb_param_rotator/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/9a215d54df3fbd27598612c75b9d33735e38a0b1704a536b9f61369908068f15",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/cbfbd8ccf2d101f56cf0dc3d98b82dc9a0a36c50839d047c17321ed0ca84441a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p08_comb_param_rotator/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/c5da7c04d3829f8ca37282278ef8c0115e57be4b5b302176edf40fc9bf1c3387",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/44be36e8caeee29dda7fb75c0130eb2b336c3339a180db8690d51af1062fbd9e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p08_comb_param_rotator/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/b22251c0d90991ff99449a883df0da85ff7d618a9de046e3f988acef978513b0",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/2ab112b380eed4d9f44ac499dd16188aabbe5e4f1d11dbf91a53bbc0cb6d593b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p08_comb_param_rotator/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/b22251c0d90991ff99449a883df0da85ff7d618a9de046e3f988acef978513b0",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/2ab112b380eed4d9f44ac499dd16188aabbe5e4f1d11dbf91a53bbc0cb6d593b"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob09p08_comb_param_rotator/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/65b74b7329a95710d39b21e74fb6f32c2f762e48416371daf5ae02cdc5e2ec3f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/0a383fa29637e5994ac27224189fefc62f70bca729bf01eec235b0b53695df6f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob09p08_comb_param_rotator/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/65b74b7329a95710d39b21e74fb6f32c2f762e48416371daf5ae02cdc5e2ec3f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/0a383fa29637e5994ac27224189fefc62f70bca729bf01eec235b0b53695df6f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob10p06_seq_gates_8b_dff_byte/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/2bf504d3bdc1c6acfb29609c8507e892f79638663482827f3be50e8055806c23",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5c5a6efda53f4f3b4c68327a5220b45c4f4b070f7ae484721a3aef72df4c90ca"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob10p06_seq_gates_8b_dff_byte/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/2bf504d3bdc1c6acfb29609c8507e892f79638663482827f3be50e8055806c23",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/5c5a6efda53f4f3b4c68327a5220b45c4f4b070f7ae484721a3aef72df4c90ca"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob10p06_seq_gates_8b_dff_byte/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/38f7e18c1fd14c8eee39c34412ba43fcdd668371e4872bdd7ea457d8bdeefd7f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/81a04cf180a68a4eedb6ce49eca8b96c25cd64c7cc0c4159b5c7c562abd31818"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob10p06_seq_gates_8b_dff_byte/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/38f7e18c1fd14c8eee39c34412ba43fcdd668371e4872bdd7ea457d8bdeefd7f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/81a04cf180a68a4eedb6ce49eca8b96c25cd64c7cc0c4159b5c7c562abd31818"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/5946a9200e3d6fd5158582131169e6ab4a4babca6cee2369e31b80b7b9f55cfc",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/d81e77dbf3eaa316f39034e07da88316df4576dd926aa9bcec620242263d1547"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/5946a9200e3d6fd5158582131169e6ab4a4babca6cee2369e31b80b7b9f55cfc",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/d81e77dbf3eaa316f39034e07da88316df4576dd926aa9bcec620242263d1547"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/5b1fb0c693cc0dfce7c64151ccb1698ca89541e7e0effa20de6b71ec7b351aa8",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/1c29048fb66f6855fc7fc9aa69ea8477e01bd46417a78d9f652e7331b8e195df"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/5b1fb0c693cc0dfce7c64151ccb1698ca89541e7e0effa20de6b71ec7b351aa8",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/1c29048fb66f6855fc7fc9aa69ea8477e01bd46417a78d9f652e7331b8e195df"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4fd203c24ecddff8749fe24b512d9739b6530e4f213f0262347590b0c6b29e5d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/0eeacd9446a8ef5a27fe54a62c328fc5b1f95a606f9a8b77ceab90bb47b46426"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p03_seq_bool_truth_jkff/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4fd203c24ecddff8749fe24b512d9739b6530e4f213f0262347590b0c6b29e5d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/0eeacd9446a8ef5a27fe54a62c328fc5b1f95a606f9a8b77ceab90bb47b46426"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/75eed2e17247ed9c96cbba6f2abfd7b22ee2dda341309902d76e7530e59541ce",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/540dee6a553ab16754c6a65c75d58d349b3e7dcf1bbbd91e85da8f6087e0b346"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/75eed2e17247ed9c96cbba6f2abfd7b22ee2dda341309902d76e7530e59541ce",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/540dee6a553ab16754c6a65c75d58d349b3e7dcf1bbbd91e85da8f6087e0b346"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/0dc0bcd29f82639cbf0a9409d96dbc265d046df14e6dddf7957ccd286fcd9233",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/a2901880771e485fa4aec9250064072ccd8bdd22ab264127e9f3c947ada9bbaa"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/0dc0bcd29f82639cbf0a9409d96dbc265d046df14e6dddf7957ccd286fcd9233",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/a2901880771e485fa4aec9250064072ccd8bdd22ab264127e9f3c947ada9bbaa"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/c377581a336a8a220da8b29dbf7cdd6f864c4ff2afcf8a95ba9d9aba33a6368f",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/d2db3b2607c28f6fbae8063b559d59d10ab9d1701a034d7b1ef6c5f9927abbad"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/c377581a336a8a220da8b29dbf7cdd6f864c4ff2afcf8a95ba9d9aba33a6368f",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/d2db3b2607c28f6fbae8063b559d59d10ab9d1701a034d7b1ef6c5f9927abbad"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/9563880f573540cdf5a03fb79d29646bdbbd9c036a4e307c1963858958d546f0",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/15e0cc8b4f7f47fd0b7ae38a4da43552cafaff78e9e1b857a6bb26567737b8d5"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/9563880f573540cdf5a03fb79d29646bdbbd9c036a4e307c1963858958d546f0",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/15e0cc8b4f7f47fd0b7ae38a4da43552cafaff78e9e1b857a6bb26567737b8d5"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4ac2e5bf7dde623bb55e6a1c897f4e796fc20e8d513c7917c167cad078ed4068",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/16cfc6407ac22f7f9fccd5e20e4ad3735732ce3178a2a4a524a13f59f5f5c4df"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob11p05_seq_bool_waveform1/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/4ac2e5bf7dde623bb55e6a1c897f4e796fc20e8d513c7917c167cad078ed4068",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/16cfc6407ac22f7f9fccd5e20e4ad3735732ce3178a2a4a524a13f59f5f5c4df"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob12p03_seq_sreg_8b_sipo/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/4dd6466f915dfd2fd56819c7df98e42a364b0651b32e1ee370e3c978d6ddbe7e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4c6e3dd4e51060f8e8539a7b21b98aae5ce4390166226288f758d756de166c86"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p03_seq_sreg_8b_sipo/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/4dd6466f915dfd2fd56819c7df98e42a364b0651b32e1ee370e3c978d6ddbe7e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/4c6e3dd4e51060f8e8539a7b21b98aae5ce4390166226288f758d756de166c86"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p04_seq_sreg_8b_universal/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/7782de9afa87d57aaeba8f8eab3135bf23eed409c6e72c7a1aae9f191fcb0e42",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/0ed119561abc5e6ee2d05f681801f5562814e3ea5f6cae32827f93a0f567e0f8"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob12p05_seq_sreg_8b_bidir/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a019a6065158e3f066daf138fd2b5f29cac65dae5f3e1d9dde4ac04ee3c8c6b3",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/6db0737640c36566b71d4025549903a153c1934fa0d372230a4f6d7f80d5837e"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p05_seq_sreg_8b_bidir/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/a019a6065158e3f066daf138fd2b5f29cac65dae5f3e1d9dde4ac04ee3c8c6b3",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/6db0737640c36566b71d4025549903a153c1934fa0d372230a4f6d7f80d5837e"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob12p06_seq_sreg_5b_lfsr/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/742cb64585cc223000e81927ad2242e3e9b444a0d92c42ddfa7882c8f10c9465",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/69722896ea112384c2bcdd78e88d4b6fec013eeab3e42a177bbee7aee229966a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p06_seq_sreg_5b_lfsr/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/742cb64585cc223000e81927ad2242e3e9b444a0d92c42ddfa7882c8f10c9465",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/69722896ea112384c2bcdd78e88d4b6fec013eeab3e42a177bbee7aee229966a"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob12p06_seq_sreg_5b_lfsr/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/e021e21e26f652fc68e4a3d76c79e2e397bb0382a71642077a128c1e0ac301ea",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/ddb22234b07325409e832f1f055af1fe0cab86d278d17e8add66c2861de617d7"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p06_seq_sreg_5b_lfsr/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/e021e21e26f652fc68e4a3d76c79e2e397bb0382a71642077a128c1e0ac301ea",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/ddb22234b07325409e832f1f055af1fe0cab86d278d17e8add66c2861de617d7"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob12p07_seq_sreg_7b_lfsr/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/001809a7b9afd3387b49b379f556ec146d89165a4c41cf4b5978a4c14024b3e8",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/a262f67dc1da8bfeb1e5af33c9d463178d5e6f82d4aa5a7bddbc8737626c4e30"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob12p07_seq_sreg_7b_lfsr/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/001809a7b9afd3387b49b379f556ec146d89165a4c41cf4b5978a4c14024b3e8",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/a262f67dc1da8bfeb1e5af33c9d463178d5e6f82d4aa5a7bddbc8737626c4e30"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob13p02_seq_count_3b_bin_up_en/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/ccade99852adbb313aaebe19e086d1bbeee9d32eab484b2979277288ab1b321f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/7a842dd72cded639c3faaf6f7caf9f67673b28c2030371f272c82d0d49954757"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob13p02_seq_count_3b_bin_up_en/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/ccade99852adbb313aaebe19e086d1bbeee9d32eab484b2979277288ab1b321f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/7a842dd72cded639c3faaf6f7caf9f67673b28c2030371f272c82d0d49954757"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob13p08_seq_count_timer/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/9f21eedf5c3019b7780fbc468ad4bbd3aa8e907c5d0a7ad2f3175fc24cfab08d",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/2436c6a0140caf0013e400aca44ee63d0a7c8d29982b969114f0316b27599c75"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob13p09_seq_count_clock/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/bd1c468f15e7f248302897ecf2a45b73443d29e4e99a13e0ab6536a862b3e0c1",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/16e94d9dab7634a0a6e99e62bab84ff7e2b9e0971ada85cb92c581ec846bd375"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob13p09_seq_count_clock/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/bd1c468f15e7f248302897ecf2a45b73443d29e4e99a13e0ab6536a862b3e0c1",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/16e94d9dab7634a0a6e99e62bab84ff7e2b9e0971ada85cb92c581ec846bd375"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob13p09_seq_count_clock/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/487adc258a537b61b1af4fdfef7f5ce09470ff84993296178a7b0171e9064b3a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/a765a77fb421d3122029ad1f5eeb2251cbf5e288c65831c12d0c1fb013405555"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob13p09_seq_count_clock/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/487adc258a537b61b1af4fdfef7f5ce09470ff84993296178a7b0171e9064b3a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/a765a77fb421d3122029ad1f5eeb2251cbf5e288c65831c12d0c1fb013405555"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f3070873472386db0dcd33a866a73004618101f20a27b6e3265e6405b8ef9d3c",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c73cb08a3a64deedaff62eadbfb66d0f794c3e7dcef89a038b6af72d6dd90817"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f3070873472386db0dcd33a866a73004618101f20a27b6e3265e6405b8ef9d3c",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c73cb08a3a64deedaff62eadbfb66d0f794c3e7dcef89a038b6af72d6dd90817"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/343910ccd03a94603d615f88c63df65da6056c288a51a45076a205aa855e004d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/ded55a092ac97b6f19c25433bcd539698689c341e06f756c78726c9fb52954cc"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/343910ccd03a94603d615f88c63df65da6056c288a51a45076a205aa855e004d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/ded55a092ac97b6f19c25433bcd539698689c341e06f756c78726c9fb52954cc"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/9ac2d56d2a9493f3b31268ca373015fa55454019ff9e293833b395ac8290831c",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/bcdfda7930278c1f1e1c5b8053a95e809a18aecffe3510ba199d11955a4c7633"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/9ac2d56d2a9493f3b31268ca373015fa55454019ff9e293833b395ac8290831c",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/bcdfda7930278c1f1e1c5b8053a95e809a18aecffe3510ba199d11955a4c7633"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/becff349ae3ea82cb6460dc344eb8c8e312deed17a79b289d4d5a9103167b0cb",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/10e3ec300eb0097a0d4d497df9ae9194ce0f2234dbdc8b189d6f4bc3b311c95c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/becff349ae3ea82cb6460dc344eb8c8e312deed17a79b289d4d5a9103167b0cb",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/10e3ec300eb0097a0d4d497df9ae9194ce0f2234dbdc8b189d6f4bc3b311c95c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/2082f65068f479aa90a986f6066ec6d8a7af7abb43f4583fa16950f8e73cda9b",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/17f0e3ea312f192a2e9159e6be7830fa0405e684d84bed38a5a72c8ea9d5cc0d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p03_seq_edge_8b_capture/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/2082f65068f479aa90a986f6066ec6d8a7af7abb43f4583fa16950f8e73cda9b",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/17f0e3ea312f192a2e9159e6be7830fa0405e684d84bed38a5a72c8ea9d5cc0d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p04_seq_edge_8b_any_count/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f044240e3c07972e5ddb683ada70c4de607e8d8392865d7a939a1d95cf43fdf7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/9bd2bc3aea96d02962491bed3755c0fd1cee102e962d9e171846123159ca2b3d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p04_seq_edge_8b_any_count/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/f044240e3c07972e5ddb683ada70c4de607e8d8392865d7a939a1d95cf43fdf7",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/9bd2bc3aea96d02962491bed3755c0fd1cee102e962d9e171846123159ca2b3d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p04_seq_edge_8b_any_count/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/8506936d8f56d52c97cebffa014228f756627941ca79716bf6ae0d73e318f31b",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/4ca97ca69d4b26742fa399a82ea483395d6243850fe297d551a5887a49a2aa8c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob14p04_seq_edge_8b_any_count/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/eeb8cba78e939e55b0343d3f7793963dca3536d15c413e96b4b8fe562d730c88"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob14p04_seq_edge_8b_any_count/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/eeb8cba78e939e55b0343d3f7793963dca3536d15c413e96b4b8fe562d730c88"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/551b5cceeaa27a62f3da021cd51ad17604d067d5813b454fbe228e66951bddfb",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/fec96f4c8bb23c64c642a6156d0fd80f3b3b1cc61a68e3318f8da9008f8de1f4"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/dbf311dc344b7c468c9037fff7f4c67fa21a2ea79c31197e0e42465598396b40",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8125f9d935ca3beed6a6a12c03c6dac68985695ff5cff9b365e5b9593ab3c11a"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/dbf311dc344b7c468c9037fff7f4c67fa21a2ea79c31197e0e42465598396b40",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8125f9d935ca3beed6a6a12c03c6dac68985695ff5cff9b365e5b9593ab3c11a"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/4a6017a6a1b8be1a21fed5ced6c9bb405b72eaaa5a74a841accb050233f0a2a6",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/178bae3b331e86eb8de5909dc8d9ecbde08c41f50696fe1dda20824dafeafbc8"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/4a6017a6a1b8be1a21fed5ced6c9bb405b72eaaa5a74a841accb050233f0a2a6",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/178bae3b331e86eb8de5909dc8d9ecbde08c41f50696fe1dda20824dafeafbc8"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p01_seq_arb_4in_variable/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/502433e9479e814d37977ca9aaf327974ecad09eaad19b6ef9a89b4c1996a02b",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/cbe687503e8d01c01c2d54517fa959710d8fb635c3cd963dd17b0027580da736"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/1e87ffb29e2b831de3c170bb56f7d9d0f26b8676c3e038a9c56c378d258b085c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/1e87ffb29e2b831de3c170bb56f7d9d0f26b8676c3e038a9c56c378d258b085c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/deb963f3a7a422a6b6ce7b576225afaf268895ab7a828add12a68913120a2c4b",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/9cfa2ba3424b51f1f866ef4d783388007cfb4f170718c9edf7ed1012e25e471d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/ba1e3fb9580e977378c12a1f378c3b45e5575cc12155c360fd672c8a5412b42a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/b796ca7c4695044452ee2746e1e3bcd5492f235ede25ec89e864bfe241e539c2"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/ba1e3fb9580e977378c12a1f378c3b45e5575cc12155c360fd672c8a5412b42a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/b796ca7c4695044452ee2746e1e3bcd5492f235ede25ec89e864bfe241e539c2"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/ad893640013d299417cf3a9bfa5ad68154a29064713bb28666f082d90459cbf1",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/64c3322acca66972b1b6312b6f6e30d391b761584b84ad48a3feaf99dc8a0cf4"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p02_seq_arb_4in_rotating/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/ad893640013d299417cf3a9bfa5ad68154a29064713bb28666f082d90459cbf1",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/64c3322acca66972b1b6312b6f6e30d391b761584b84ad48a3feaf99dc8a0cf4"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p03_seq_arb_4in_roundrobin/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/1ac7dfee5d2eec28b6592e14f3db2e42dcb1953a0c74ad05cecced41b9ef677e",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/8a6eadb4ea554d8eb3835132becb0793347fb0ab02ee8bbc087f2397bd0bad5b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p03_seq_arb_4in_roundrobin/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/b32223c813997341bb9d54a1f74e9211ccea82c3d649e22fc70006f3601f08b9",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c6b201d190f8303989c594518b77d0754a01460ba7a62adbc60ea4729545c559"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p04_seq_arb_4in_granthold/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/838448bce86a83bf568a5ed0b21d4643bb6d1c308903ec79b8a2d35cb2d029a6",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/6d3f3fa965e2ba1e1cee4616212569637940e599a2580a1198cd6331042fe84b"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p04_seq_arb_4in_granthold/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/f3b6cb91d56177910aac96a5cb780a42539f70a24566ebebbed95aff817f5d37"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p04_seq_arb_4in_granthold/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/f3b6cb91d56177910aac96a5cb780a42539f70a24566ebebbed95aff817f5d37"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p04_seq_arb_4in_granthold/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/b4fca15064dd38684ebc9964c1ba7cdf3169d7b93c748926836508ae0c57bb3a",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/ee33f0d3a1c6b5ba9b8dbbd1b285923f3a8e863652e4f71ba4ac1f226827677b"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e53479caa48254c56a4e894927760d2b2ee67ed08f6f304bcc4c4bcb265432e1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/57b604b2be5db356c0f4413705db7a512988e7c9db63cb5e166ca59df68e07df"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/e53479caa48254c56a4e894927760d2b2ee67ed08f6f304bcc4c4bcb265432e1",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/57b604b2be5db356c0f4413705db7a512988e7c9db63cb5e166ca59df68e07df"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/3c6c3726165ec0ff777e148e696cdc6e198bca10e5284a5c4df17c76356c8c55",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/3805f188f124f9f98b5eb419612e696ce0ba01bd425db27f012fb7fdfd9021a9"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/3c6c3726165ec0ff777e148e696cdc6e198bca10e5284a5c4df17c76356c8c55",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/3805f188f124f9f98b5eb419612e696ce0ba01bd425db27f012fb7fdfd9021a9"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/9b96c04c0a1321501c02ebe34ccd8aab2ba960f9768d7ef431bb1395cedff028"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/9b96c04c0a1321501c02ebe34ccd8aab2ba960f9768d7ef431bb1395cedff028"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob15p05_seq_arb_4in_weighted/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/09934b74e862e1ead2fe5691c30d9b34f96112c7f23567210ded46701eb8bebe",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/5c1f21b42baaca9d8ebf2d980ec1ffd69059a31ef66bf5120224e3c0784b3cac"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p03_seq_fsm_4s1i1o_me_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/92e3c06013677ade3e82a15389828a71513106e35367c0401f1b8b4a43d95bea",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/771fedec8d515596beb703e2f49f229691231cba8844f6a4d8bd736b02c7d09c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p03_seq_fsm_4s1i1o_me_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/92e3c06013677ade3e82a15389828a71513106e35367c0401f1b8b4a43d95bea",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/771fedec8d515596beb703e2f49f229691231cba8844f6a4d8bd736b02c7d09c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p04_seq_fsm_4s1i2o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/482a7c4793e71c7b392d9bbfdd865b3af4fe0741f6abdbc98c2bac708c5f6ab4",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/e13948d576f1ceff321f82f9facb2c766c19d9a8e07102c1436e767ce609f0ea"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p04_seq_fsm_4s1i2o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/482a7c4793e71c7b392d9bbfdd865b3af4fe0741f6abdbc98c2bac708c5f6ab4",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/e13948d576f1ceff321f82f9facb2c766c19d9a8e07102c1436e767ce609f0ea"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p05_seq_fsm_4s2i1o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/1f601886c711566f0a0525df250f6db85d5ec6f69ae532ce8a7be591c469f588",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/1c2e5643db0c310370f343247b8452d80285ce77ff7c74b534d38a1e761be7d4"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p05_seq_fsm_4s2i1o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/1f601886c711566f0a0525df250f6db85d5ec6f69ae532ce8a7be591c469f588",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/1c2e5643db0c310370f343247b8452d80285ce77ff7c74b534d38a1e761be7d4"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p06_seq_fsm_6s2i2o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/cba91f2c12ff1b55e2a10589a51d9354f72224a8c9fc75a6a520ef73e471c08e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/7f31f33b53701f0e8e8277fa9f04db3388e12a5adeeb76d238fcb71a3ecf6575"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p06_seq_fsm_6s2i2o_mo_tbl/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/cba91f2c12ff1b55e2a10589a51d9354f72224a8c9fc75a6a520ef73e471c08e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/7f31f33b53701f0e8e8277fa9f04db3388e12a5adeeb76d238fcb71a3ecf6575"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/52bbff8b029b8667f9efec9c27629dda6797745bc3c3624a213591347d4fa1b5",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/20119bd070f5135e8b41858011dc22c1c3b00c98021317d1e72e6b6a3172ed61"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/52bbff8b029b8667f9efec9c27629dda6797745bc3c3624a213591347d4fa1b5",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/20119bd070f5135e8b41858011dc22c1c3b00c98021317d1e72e6b6a3172ed61"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/9be88c87e71f7dc4cb8f7d76c0aa7605a0a39a52365a8b0b2312310b77869c93",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/75f89f52d85bc82e7a78e0cee27d660b97d9b71a194ac66d363bf8e1594e349c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/9be88c87e71f7dc4cb8f7d76c0aa7605a0a39a52365a8b0b2312310b77869c93",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/75f89f52d85bc82e7a78e0cee27d660b97d9b71a194ac66d363bf8e1594e349c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/a2bb3147558934edd3776663a8de68c7c41ed13f229adc82c590164afe50c5f5",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/6cc07916b437e2fc7781ddec43a67860d8efefd644ec45d28bb0a20c2f827d7c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/a2bb3147558934edd3776663a8de68c7c41ed13f229adc82c590164afe50c5f5",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/6cc07916b437e2fc7781ddec43a67860d8efefd644ec45d28bb0a20c2f827d7c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/b8855f158434b01691d15fa271b0a05c41852a6c71cfb575f1ff36421510d26b",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/d921a7ed34430f086de16801aac04c33278461ca58447256da0473d3303d9bf6"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/b8855f158434b01691d15fa271b0a05c41852a6c71cfb575f1ff36421510d26b",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/d921a7ed34430f086de16801aac04c33278461ca58447256da0473d3303d9bf6"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/afca26d87c173a5a94905118364d90bee26d227c7083dfbb92324ded1584e9d9",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/9799850e5a9986310dedbfd73eca85f5e8de9d8cf551802adbe6e3153e176f78"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/afca26d87c173a5a94905118364d90bee26d227c7083dfbb92324ded1584e9d9",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/9799850e5a9986310dedbfd73eca85f5e8de9d8cf551802adbe6e3153e176f78"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/352bede9831555d93a88a1b88f46e2be9ef8186f6271a5dbb1b64b1fc6cff0fc",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/37ace2c35e5186ee8b078d9736944d555545085dfc7943112af23d698198adcf"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/352bede9831555d93a88a1b88f46e2be9ef8186f6271a5dbb1b64b1fc6cff0fc",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/37ace2c35e5186ee8b078d9736944d555545085dfc7943112af23d698198adcf"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p10_seq_fsm_pattern1/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/e08f12ebd91158db792367c3827659e3e31cf8ddea7fd935e6c992a34129300d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/4c525d5d75f0102435e88eec61626b01eb4a3fb56a909ab33eced26376cb4619"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p10_seq_fsm_pattern1/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/e08f12ebd91158db792367c3827659e3e31cf8ddea7fd935e6c992a34129300d",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/4c525d5d75f0102435e88eec61626b01eb4a3fb56a909ab33eced26376cb4619"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/0c4574868c7917a47c59d0136a89dfa0bb787a8772766161a7595f194e95a76b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/0c4574868c7917a47c59d0136a89dfa0bb787a8772766161a7595f194e95a76b"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/c6dc8dfa7bd5ca4b46618d9f343f170219035b157fdd21ded9c4690f9f42ec9a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/caa5cf67c8ff2071c985412994f0e84abeb6ccab9fd02eab3278232ace95391d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/c6dc8dfa7bd5ca4b46618d9f343f170219035b157fdd21ded9c4690f9f42ec9a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/caa5cf67c8ff2071c985412994f0e84abeb6ccab9fd02eab3278232ace95391d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/8d52c432072a99e3d6ac1e840db7ff157aa4495bea1823510f724ede57db790a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/7ccc53fbfecbb94ba2cf09a4f4ccb0b27a7e83f8542db927cfb4302ec0a05541"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/8d52c432072a99e3d6ac1e840db7ff157aa4495bea1823510f724ede57db790a",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/7ccc53fbfecbb94ba2cf09a4f4ccb0b27a7e83f8542db927cfb4302ec0a05541"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/61692cc86fe9431c5f90c46fa363ae74ff7e4072401454048ca36a544a7d07aa",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/fbfba4b3ab13ef280a60400e98aa0b6217e1c2fcd461627603abea546223adbb"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p12_seq_fsm_stop_light/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/61692cc86fe9431c5f90c46fa363ae74ff7e4072401454048ca36a544a7d07aa",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/fbfba4b3ab13ef280a60400e98aa0b6217e1c2fcd461627603abea546223adbb"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob16p13_seq_fsm_ps2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/c65aaef41313c54a348dd12f4b7433dc85d94cf4becaa4fd1fe97b487a74708c",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/36e7a0b10ae35edecfb6d1924c27a18d806d3d457bce501321f9270867a57f8d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob16p13_seq_fsm_ps2/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/c65aaef41313c54a348dd12f4b7433dc85d94cf4becaa4fd1fe97b487a74708c",
+    "phase": "native",
+    "arm": "FC",
+    "job_key": "repairs/deepseek-v4.1-flash/36e7a0b10ae35edecfb6d1924c27a18d806d3d457bce501321f9270867a57f8d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob17p03_seq_mem_8x8b_1r1w_rf_z/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/328ba58e3a284b2b91d4ee5798c02b5a2da1ca53532d5965fcdd7b27e5523dcc",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/805a3986513f77af42173dacc83bc86bb3c0aa0236f3b12c64c39844b69cf9d1"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob17p03_seq_mem_8x8b_1r1w_rf_z/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/328ba58e3a284b2b91d4ee5798c02b5a2da1ca53532d5965fcdd7b27e5523dcc",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/805a3986513f77af42173dacc83bc86bb3c0aa0236f3b12c64c39844b69cf9d1"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob17p05_seq_mem_8x8b_2r1w_rf_fwz/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/ed2d163a3e4e2cd2d361bea56e79f1b99aa67ceb328d766608f9cea463eb846f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/14c026a4ee8df508241e6b2c3c3e5454ef9a3a977fd601aedf157fcf0dee5d46"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob17p05_seq_mem_8x8b_2r1w_rf_fwz/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/ed2d163a3e4e2cd2d361bea56e79f1b99aa67ceb328d766608f9cea463eb846f",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/14c026a4ee8df508241e6b2c3c3e5454ef9a3a977fd601aedf157fcf0dee5d46"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/b35a834e4604e453acf136611b4b599aff210175486e6b56a2414eb52c934b93",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/82d13c88ae37527423448376ccd5b09e9eaac5723001b2a028fe567980528fd4"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/b35a834e4604e453acf136611b4b599aff210175486e6b56a2414eb52c934b93",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/82d13c88ae37527423448376ccd5b09e9eaac5723001b2a028fe567980528fd4"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f46754404062c46f9677f60760f7e302954b9330cc17f7a530ef0543494aa6fa",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/5aeea217418723ebc2665dd12cf59d4c0901b8120b67a55505f5d7e6f8e5f553"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f46754404062c46f9677f60760f7e302954b9330cc17f7a530ef0543494aa6fa",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/5aeea217418723ebc2665dd12cf59d4c0901b8120b67a55505f5d7e6f8e5f553"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/03afc094017f1a691ecd372ce85bf45379d6f2f3349029b61ebd76e3c02654d2",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/3c5b7e4b33c49abe254665794d28ae515e4b8ca8368295927cc70820612c9fbe"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/03afc094017f1a691ecd372ce85bf45379d6f2f3349029b61ebd76e3c02654d2",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/3c5b7e4b33c49abe254665794d28ae515e4b8ca8368295927cc70820612c9fbe"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/bb05bb41928ab43a84f5a41024c8ac45b5680b3eca66a38a0a311e142971b8fa",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/6074116387b3fd2d413c3413f5bce8e88f9640fe534d302ac0094ab729ae280f"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/bb05bb41928ab43a84f5a41024c8ac45b5680b3eca66a38a0a311e142971b8fa",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/6074116387b3fd2d413c3413f5bce8e88f9640fe534d302ac0094ab729ae280f"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/03b97e9d117d771c3158682c27058e3507c9cabb5ce093deef7d51fc222ac681",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/f589e0305d6e381c78eebc67c7df0866c183b982f294d4135ed5cdcbfc502b2c"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p02_seq_arith_4x1b_add/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/03b97e9d117d771c3158682c27058e3507c9cabb5ce093deef7d51fc222ac681",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/f589e0305d6e381c78eebc67c7df0866c183b982f294d4135ed5cdcbfc502b2c"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/d80109e860c322d8411d69d630217a74ae55f7ea4f68d112a97149dad15d035e",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/42b17938e58a72a5f0d8e16d5b477f01ad5652727b7f49092f05a7dc64bf6c82"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/d80109e860c322d8411d69d630217a74ae55f7ea4f68d112a97149dad15d035e",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/42b17938e58a72a5f0d8e16d5b477f01ad5652727b7f49092f05a7dc64bf6c82"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/7d9b5800fc04980e711448a16b397e70e6480a03f5dc982ba2d0667d0aa3f9ed"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/7d9b5800fc04980e711448a16b397e70e6480a03f5dc982ba2d0667d0aa3f9ed"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/51c669f51d0902ab5f9ae77d8fcfadba3273425bce72cf600c67917a1c6abce7",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/3fa25c0f1a910a4d36f0e2a170b021efc9fb3b998b51e88eb76f00fadf5c5b7d"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/51c669f51d0902ab5f9ae77d8fcfadba3273425bce72cf600c67917a1c6abce7",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/3fa25c0f1a910a4d36f0e2a170b021efc9fb3b998b51e88eb76f00fadf5c5b7d"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/5a7e1518d99d5bdb709762b6cc0576ae30c7ca535fea0bc4db139499dcaa180f",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/ad3cec1746a1356852098ec88091c2511234bef4a7f21ed8b89aa4bac6e89103"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/5a7e1518d99d5bdb709762b6cc0576ae30c7ca535fea0bc4db139499dcaa180f",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/ad3cec1746a1356852098ec88091c2511234bef4a7f21ed8b89aa4bac6e89103"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/37c28bde13f4c58b97239311c3cf5742a70c0f1d544dfdf55952daba48c54b3e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8db20d74d9d004ca3e6aed00186598d19b1d4d80c0a18056668c6fd2a347fb36"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob18p03_seq_arith_2x4b_add/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/37c28bde13f4c58b97239311c3cf5742a70c0f1d544dfdf55952daba48c54b3e",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/8db20d74d9d004ca3e6aed00186598d19b1d4d80c0a18056668c6fd2a347fb36"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p05_seq_pipe_add2_2stage/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/554e48028ed4b5bd008dfa7f6685b76f23eedb8cae05684396c26b2c566148d0",
+    "phase": "rtl",
+    "arm": "RTL-L",
+    "job_key": "repairs/deepseek-v4.1-flash/16eff6efcabdaae190faede2a5521e5e7017538ab4b63f15c6c0c0b804b88ab3"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p05_seq_pipe_add2_2stage/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/36f30b3045d6ad86f26bb7cbc39996fd9cebeca2766f3625780675f7052161bb",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/13082d68981bae1ba8412959d77b2fb2b05ccc7b9bd3b65974bd2acfb77f3ea0"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p05_seq_pipe_add2_2stage/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/36f30b3045d6ad86f26bb7cbc39996fd9cebeca2766f3625780675f7052161bb",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/13082d68981bae1ba8412959d77b2fb2b05ccc7b9bd3b65974bd2acfb77f3ea0"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/968a55c6c4f210847894147039587a12717a66c296553c1fd1956a41d0b3e27e",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/d8b10e125e7b4c770b432cd80bd4ff6130db91da07315f9cea43b97a3fcb3960"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/pyrtl",
+    "start_key": "repairs/deepseek-v4.1-flash/968a55c6c4f210847894147039587a12717a66c296553c1fd1956a41d0b3e27e",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/d8b10e125e7b4c770b432cd80bd4ff6130db91da07315f9cea43b97a3fcb3960"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/2b57ba358ea4c51d3eb967115cea1eb48aa5ad1cc31376fb93f3addb61f2afdf",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c67235ba41e3de04a41153785a510aea32b6e7356edc95b36662e09bc1d3e161"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/myhdl",
+    "start_key": "repairs/deepseek-v4.1-flash/2b57ba358ea4c51d3eb967115cea1eb48aa5ad1cc31376fb93f3addb61f2afdf",
+    "phase": "construction",
+    "arm": "FL",
+    "job_key": "repairs/deepseek-v4.1-flash/c67235ba41e3de04a41153785a510aea32b6e7356edc95b36662e09bc1d3e161"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/07149a0a88e30529481418077a073947650e28747224bded3dec3875ea481e31",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/2bceeac5abbaed244d7bc8f84634ed9f1b485f97dcfe9a74fb8aad5ce37f594b"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/amaranth",
+    "start_key": "repairs/deepseek-v4.1-flash/07149a0a88e30529481418077a073947650e28747224bded3dec3875ea481e31",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/2bceeac5abbaed244d7bc8f84634ed9f1b485f97dcfe9a74fb8aad5ce37f594b"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/f9527b2a718ae80fb92e059f94d38dbb03b91065b95cd1e140942b201819186f",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/01fddb595b0742fda74a8c23181a6546b5ecfe3fa52ced855af6a157eb9e16ce"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/migen",
+    "start_key": "repairs/deepseek-v4.1-flash/f9527b2a718ae80fb92e059f94d38dbb03b91065b95cd1e140942b201819186f",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/01fddb595b0742fda74a8c23181a6546b5ecfe3fa52ced855af6a157eb9e16ce"
+  },
+  {
+    "method": "NativeOnly-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/1dafc1cc186d9cb56d51500164b2843146d419485d3ce1ce1f49e5cf015b5db9",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/e047b89b17b4e95202bbc0ab5cf5731abb98c6bca845107145ba4a93455d2edf"
+  },
+  {
+    "method": "RTL-Aware-B5",
+    "instance": "Prob19p06_seq_pipe_add3_2stage/pymtl3",
+    "start_key": "repairs/deepseek-v4.1-flash/1dafc1cc186d9cb56d51500164b2843146d419485d3ce1ce1f49e5cf015b5db9",
+    "phase": "native",
+    "arm": "FCT",
+    "job_key": "repairs/deepseek-v4.1-flash/e047b89b17b4e95202bbc0ab5cf5731abb98c6bca845107145ba4a93455d2edf"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 73, Col 14:\n  break\n  ^\n- invalid operation: break"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "6e347c0a5351e1d6864e5f1258e7a235701c44e820fc027b5ad136445e51fd1f",
+  "candidate_source_sha256": "2da7dcfa2750990144331379a6a6aeeb75d77d311bb939b98d41667ed807f2fc",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

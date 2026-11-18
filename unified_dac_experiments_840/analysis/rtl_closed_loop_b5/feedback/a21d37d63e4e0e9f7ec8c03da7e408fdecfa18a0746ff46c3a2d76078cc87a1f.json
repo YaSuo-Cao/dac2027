@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 17, Col 13:\n  tens = zext(s.in_, 8) // 10\n         ^\n- Operator <ast.FloorDiv object at 0x70c12b6c8f50> is not supported!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "425fa1223001d4d464d1154cd19be9a2e3e9980745627b8144e0b92feb8ae3fe",
+  "candidate_source_sha256": "396e116256c63a85e2d1583afb1fa7152e0b9f6029bbbad8c0e0d504bb65ad84",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

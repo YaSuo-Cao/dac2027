@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "minimum_ready_batch": 16,
+  "maximum_batch": 256,
+  "max_parallel_evaluation_containers": 1,
+  "evaluation_workers": 2,
+  "candidate_readiness": "submitted only after complete generation receipt and source saved",
+  "score_runtime_changed": false,
+  "validation_sha256": "f9515aaa0f4f98cdbcbfb57c753994bf3457393de28e105d9655f6c23d53d14a",
+  "collection_validation_sha256": "75162b297655c03d04d38cbbd97cd8548e0ac17624b3a02e3e57b8f4c0041fa6"
+}

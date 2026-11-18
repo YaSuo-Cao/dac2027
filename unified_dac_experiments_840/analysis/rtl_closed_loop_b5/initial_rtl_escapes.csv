@@ -1,0 +1,13 @@
+﻿method,language,initial_native_pass_rtl_fail_n,final_native_passed,final_rtl_passed
+NativeOnly-B5,pyrtl,0,0,0
+NativeOnly-B5,myhdl,27,27,0
+NativeOnly-B5,amaranth,0,0,0
+NativeOnly-B5,migen,0,0,0
+NativeOnly-B5,pymtl3,9,9,0
+NativeOnly-B5,All,36,36,0
+RTL-Aware-B5,pyrtl,0,0,0
+RTL-Aware-B5,myhdl,27,27,21
+RTL-Aware-B5,amaranth,0,0,0
+RTL-Aware-B5,migen,0,0,0
+RTL-Aware-B5,pymtl3,9,9,4
+RTL-Aware-B5,All,36,36,25

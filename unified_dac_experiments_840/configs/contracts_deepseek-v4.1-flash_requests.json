@@ -1,0 +1,1009 @@
+{
+  "contracts/deepseek-v4.1-flash/Prob04p05_comb_bool_truth_tbl1": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"c\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  a\n - input  b\n - input  c\n - output f\n\nThe module should implement a combinational circuit described by the\nfollowing truth table:\n\n   a b c | f\n  -------+---\n   0 0 0 | 1\n   0 0 1 | 1\n   0 1 0 | 1\n   0 1 1 | 0\n   1 0 0 | 1\n   1 0 1 | 0\n   1 1 0 | 0\n   1 1 1 | 1\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob04p06_comb_bool_truth_tbl2": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"c\", \"InputPort\", 1], [\"d\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  a\n - input  b\n - input  c\n - input  d\n - output f\n\nThe module should implement a combinational circuit described by the\nfollowing truth table:\n\n   a b c d | f\n  ---------+---\n   0 0 0 0 | 1\n   0 0 0 1 | 1\n   0 0 1 0 | 0\n   0 0 1 1 | 0\n   0 1 0 0 | 1\n   0 1 0 1 | 1\n   0 1 1 0 | 0\n   0 1 1 1 | 0\n   1 0 0 0 | 1\n   1 0 0 1 | 0\n   1 0 1 0 | 1\n   1 0 1 1 | 0\n   1 1 0 0 | 0\n   1 1 0 1 | 1\n   1 1 1 0 | 0\n   1 1 1 1 | 1\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob04p09_comb_bool_kmap2": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"c\", \"InputPort\", 1], [\"d\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  a\n - input  b\n - input  c\n - input  d\n - output f\n\nThe module should implement a combinational circuit described by the\nfollowing Karnaugh map. Note that a and b are column variables, and c and\nd are row variables.\n\n   cd\\ab | 00 01 11 10\n  -------+-------------\n    00   | 1  1  0  1\n    01   | 1  1  1  0\n    10   | 0  0  0  1\n    11   | 0  0  1  0\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob04p11_comb_bool_waveform1": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"c\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  a\n - input  b\n - input  c\n - output f\n\nThe module should implement a combinational circuit described by the\nfollowing simulation waveform. The waveform shows the input values and\nthe desired output values on every cycle of the simulation.\n\n   cycle | a b c f\n  -------+---------\n     0   | 1 0 0 1\n     1   | 0 0 1 1\n     2   | 1 0 1 0\n     3   | 1 1 1 1\n     4   | 0 1 1 0\n     5   | 0 0 0 1\n     6   | 0 1 1 0\n     7   | 0 0 1 1\n     8   | 0 0 1 1\n     9   | 0 1 0 1\n     10  | 1 1 0 0\n     11  | 0 0 1 1\n     12  | 0 1 0 1\n     13  | 1 1 0 0\n     14  | 0 1 1 0\n     15  | 1 0 1 0\n     16  | 1 1 0 0\n     17  | 0 0 0 1\n     18  | 0 1 0 1\n     19  | 1 1 1 1\n     20  | 0 1 1 0\n     21  | 1 1 1 1\n     22  | 1 0 1 0\n     23  | 1 1 0 0\n     24  | 0 0 1 1\n     25  | 0 1 1 0\n     26  | 0 1 0 1\n     27  | 1 0 0 1\n     28  | 1 0 0 1\n     29  | 1 0 0 1\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob04p12_comb_bool_waveform2": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"c\", \"InputPort\", 1], [\"d\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  a\n - input  b\n - input  c\n - input  d\n - output f\n\nThe module should implement a combinational circuit described by the\nfollowing simulation waveform. The waveform shows the input values and\nthe desired output values on every cycle of the simulation.\n\n   cycle | a b c d f\n  -------+-----------\n     0   | 0 1 1 1 0\n     1   | 0 0 0 0 1\n     2   | 0 0 0 0 1\n     3   | 1 1 0 1 1\n     4   | 1 0 0 1 0\n     5   | 1 1 1 1 1\n     6   | 0 0 1 1 0\n     7   | 1 1 1 0 0\n     8   | 0 0 0 1 1\n     9   | 0 0 0 1 1\n     10  | 0 0 0 0 1\n     11  | 0 0 1 1 0\n     12  | 0 0 1 1 0\n     13  | 0 0 1 0 0\n     14  | 1 1 0 0 0\n     15  | 0 1 0 0 1\n     16  | 1 0 1 1 0\n     17  | 1 1 0 0 0\n     18  | 0 1 1 0 0\n     19  | 1 1 0 1 1\n     20  | 1 1 1 0 0\n     21  | 1 0 1 1 0\n     22  | 1 0 0 0 1\n     23  | 0 1 0 1 1\n     24  | 1 0 0 1 0\n     25  | 0 0 1 0 0\n     26  | 1 0 1 0 1\n     27  | 0 0 1 1 0\n     28  | 0 1 1 1 0\n     29  | 0 1 0 0 1\n     30  | 0 1 1 0 0\n     31  | 0 0 0 0 1\n     32  | 0 0 1 0 0\n     33  | 0 1 0 1 1\n     34  | 1 1 1 0 0\n     35  | 1 0 0 0 1\n     36  | 1 0 0 1 0\n     37  | 1 0 1 0 1\n     38  | 1 0 0 0 1\n     39  | 1 1 1 1 1\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob05p05_comb_mux_4b_1to8": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 4], [\"sel\", \"InputPort\", 3], [\"out0\", \"OutputPort\", 4], [\"out1\", \"OutputPort\", 4], [\"out2\", \"OutputPort\", 4], [\"out3\", \"OutputPort\", 4], [\"out4\", \"OutputPort\", 4], [\"out5\", \"OutputPort\", 4], [\"out6\", \"OutputPort\", 4], [\"out7\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_  (4 bits)\n - input  sel  (3 bits)\n - output out0 (4 bits)\n - output out1 (4 bits)\n - output out2 (4 bits)\n - output out3 (4 bits)\n - output out4 (4 bits)\n - output out5 (4 bits)\n - output out6 (4 bits)\n - output out7 (4 bits)\n\nThe module should implement a 4-bit 1-to-8 demultiplexer. The input sel\nshould select which of the outputs is written with the value of the input\nport in_. Unselected output ports should be set to all zeros. If sel\nequals 0 then out0 should be selected, if sel equals 1 then then out1\nshould be selected, and so on.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p02_comb_codes_enc_16to4": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 16], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (16 bits)\n - output out (4  bits)\n\nThe module should implement a 16-to-4 encoder. The input is a one-hot\nsignal (i.e., exactly one bit is one) and the output is a binary encoded\nvalue indicating the index of the input bit which is set to one. If the\ninput is an invalid one-hot encoding then the output should be zero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p06_comb_codes_penc_16to4": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 16], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (16 bits)\n - output out ( 4 bits)\n\nThe module should implement a 16-to-4 priority encoder. The output is a\nbinary encoded value indicating the index of the input bit which is set\nto one. If more than one bit of the input is set to one, then the module\nshould choose the \"highest priority\" bit (i.e., the bit with the lowest\nindex). If no bits are set in the input, then the output should be zero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p08_comb_codes_gcode2bin": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 4], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (4 bits)\n - output out (4 bits)\n\nThe module should convert a 4-bit gray code encoded value into a 4-bit\nbinary encoded value.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p09_comb_codes_bin2bcd": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 4], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (4 bits)\n - output out (8 bits)\n\nThe module should convert a 4-bit binary encoded value into a 2-digit\nnatural binary coded decimal (BCD) value. In an natural BCD encoding\n(also called an 8421 encoding), each decimal digital is represented by it\ncorresponding 4-bit binary value.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p10_comb_codes_bcd2bin": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (8 bits)\n - output out (4 bits)\n\nThe module should convert a 2-digit natural binary coded decimal (BCD)\nvalue to a 4-bit binary encoded value. In an natural BCD encoding (also\ncalled an 8421 encoding), each decimal digital is represented by it\ncorresponding 4-bit binary value. If the input is an invalid BCD encoding\nthen the output should be zero. If the BCD encoded value cannot be\nrepresented using a 4-bit binary encoded value then the output should be\nzero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p11_comb_codes_bin2ascii": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 4], [\"out\", \"OutputPort\", 16]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ ( 4 bits)\n - output out (16 bits)\n\nThe module should convert a 4-bit binary encoded value to a 2-digit ASCII\nencoded value (using a decimal representation). For example, if the input\nis 0b0010, then the output should be the ASCII encoding for \"02\" and if\nthe input is 0b1000, then the output should be the ASCII encoding for\n\"10\".\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p13_comb_codes_8b_parity": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (8 bits)\n - output out\n\nThe module should set the output to the even parity of the given 8-bit\ninput value.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob06p14_comb_codes_100b_parity": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 100], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (100 bits)\n - output out\n\nThe module should set the output to the even parity of the given 100-bit\ninput value.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p07_comb_arith_8b_sra": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 8], [\"amt\", \"InputPort\", 3], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (8 bits)\n - input  amt (3 bits)\n - output out (8 bits)\n\nThe module should implement a variable right arithmetic shifter which\ntakes as input a value to shift (in_) and the shift amount (amt) and\nwrites the shifted result to the output (out).\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p08_comb_arith_8b_rotator": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 8], [\"amt\", \"InputPort\", 3], [\"op\", \"InputPort\", 1], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in_ (8 bits)\n - input  amt (3 bits)\n - input  op\n - output out (8 bits)\n\nThe module should implement a variable rotator which takes as input a\nvalue to rotate (in_) and the rotation amount (amt) and writes the\nrotated result to the output (out). The input op specifies what kind of\nrotate to perform using the following encoding:\n\n - 0 : rotate left\n - 1 : rotate right\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p10_comb_arith_8b_smul": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"out\", \"OutputPort\", 16]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in0 ( 8 bits)\n - input  in1 ( 8 bits)\n - output out (16 bits)\n\nThe module should implement a signed multiplier which multiplies the two\ngiven inputs and writes the result to the output. Assume all values are\nencoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p11_comb_arith_8b_fxp_umul": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"out\", \"OutputPort\", 8], [\"overflow\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in0 (8 bits)\n - input  in1 (8 bits)\n - output out (8 bits)\n - output overflow\n\nThe module should implement an unsigned fixed-point multiplier which\nmultiplies the two given inputs and writes the result to the output.\nAssume all values are encoded as UQ4.4 fixed point (i.e., the most\nsignificant four bits represent the integer part and the least\nsignificant four bits represent the fraction part). Because the output is\nonly 8 bits there is a chance of overflow (the full-precision output is\ntoo large to represent using UQ4.4). In the case of overflow, set the\noverflow signal high and the output to zero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p12_comb_arith_8b_madd": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 16], [\"out\", \"OutputPort\", 16]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in0 ( 8 bits)\n - input  in1 ( 8 bits)\n - input  in2 (16 bits)\n - output out (16 bits)\n\nThe module should implement an unsigned multiply-add unit which\nmultiplies the the inputs in0 and in1, adds the corresponding product to\nthe input in2, and writes the result to the output. Assume all values are\nencoded as unsigned binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p14_comb_arith_8b_scmp": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"lt\", \"OutputPort\", 1], [\"eq\", \"OutputPort\", 1], [\"gt\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in0 ( 8 bits)\n - input  in1 ( 8 bits)\n - output lt\n - output eq\n - output gt\n\nThe module should implement a signed comparator which compares the two\ngiven inputs and updates all three outputs as follows:\n\n - lt should be one if in0 is less than in1\n - eq should be one if in0 is equal to in1\n - gt should be one if in0 is greater than in1\n\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob07p17_comb_arith_4x8b_sorter": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 8], [\"in3\", \"InputPort\", 8], [\"out0\", \"OutputPort\", 8], [\"out1\", \"OutputPort\", 8], [\"out2\", \"OutputPort\", 8], [\"out3\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  in0  (8 bits)\n - input  in1  (8 bits)\n - input  in2  (8 bits)\n - input  in3  (8 bits)\n - output out0 (8 bits)\n - output out1 (8 bits)\n - output out2 (8 bits)\n - output out3 (8 bits)\n\nThe module should implement a sorter unit which writes the smallest input\nvalue to out0, the second smallest input value to out1, and so on. Assume\nall values are encoded as unsigned binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob08p05_comb_fsm_4s2i1o_mo_tbl": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"state\", \"InputPort\", 2], [\"in_\", \"InputPort\", 2], [\"state_next\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  state      (2 bits)\n - input  in_        (2 bits)\n - output state_next (2 bits)\n - output out\n\nThe module should implement the state transition and output logic for the\nMoore finite-state machine (FSM) described by the following table.\n\n   Current | Next State  Next State  Next State  Next State | Output\n   State   | if in_=00   if in_=01   if in_=10   if in_=11  |   0\n  ---------+------------------------------------------------+--------\n      A    |     A           B           A           D      |   0\n      B    |     C           B           A           D      |   0\n      C    |     A           D           A           D      |   0\n      D    |     C           B           A           D      |   1\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe module should only implement the combinational state transition logic\nand output logic and should not include any sequential state.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob08p08_comb_fsm_4s1i1o_me_dia": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"state\", \"InputPort\", 2], [\"in_\", \"InputPort\", 1], [\"state_next\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  state      (2 bits)\n - input  in_\n - output state_next (2 bits)\n - output out\n\nThe module should implement the state transition and output logic for the\nMealy finite-state machine (FSM) with four states. The FSM will be\ndescribed as a set of FSM transitions with each transition specified\nusing the following format.\n\n  X (0) --1--> Y\n\nIn this example, the FSM transitions from state X to state Y when the\ninput is 1 and the output of the FSM should be 0 during this transition.\nImplement the FSM with the following transitions.\n\n  A (0) --0--> A\n  A (1) --1--> B\n  B (1) --0--> C\n  B (0) --1--> B\n  C (0) --0--> A\n  C (1) --1--> D\n  D (0) --0--> C\n  D (0) --1--> B\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe module should only implement the combinational state transition logic\nand output logic and should not include any sequential state.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob09p05_comb_param_enc": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 3]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - parameter nbits\n - input  in_ (nbits)\n - output out (log2(nbits))\n\nThe module should implement an N-to-M encoder. The input is a one-hot\nsignal (i.e., exactly one bit is one) and the output is a binary encoded\nvalue indicating the index of the input bit which is set to one. The\ninput is nbits wide and the output is log2(nbits) wide. If the input is\nan invalid one-hot encoding then the output should be zero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob09p06_comb_param_dec": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"in_\", \"InputPort\", 3], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - parameter nbits\n - input  in_ (log2(bits))\n - output out (nbits)\n\nThe module should implement an M-to-N decoder. The output is a one-hot\nsignal (i.e., exactly one bit is one) and the input is a binary encoded\nvalue indicating which bit of the output should be set to one. The output\nis nbits wide and the input is log2(nbits) wide. If nbits is not a power\nof two, then it might be possible for the input to be too large for the\ngiven number of bits in the output; in this situation set the output to\nbe zero.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob10p05_seq_gates_8b_dffre": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"d\", \"InputPort\", 8], [\"q\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  d (8 bits)\n - output q (8 bits)\n\nThe module should implement eight D flip-flops with an active-high\nsynchronous reset and an enable. The internal state should be reset to\nthe value 0xff when the reset input is one. The input should only be\nsampled when the enable (en) input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob11p03_seq_bool_truth_jkff": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"b\", \"InputPort\", 1], [\"q\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - input  b\n - output q\n\nThe module should implement a sequential circuit triggered by the\npositive edge of the clock. The module is described by the following\ntruth table where q indicates the previous value of the state holding\nelement before the rising edge of the clock and q_next indicates the next\nvalue of the state holding element after the rising edge of the clock.\n\n   a b q_prev | q_next\n  ------------+--------\n   0 0 0      | 0\n   0 0 1      | 1\n   0 1 0      | 0\n   0 1 1      | 0\n   1 0 0      | 1\n   1 0 1      | 1\n   1 1 0      | 1\n   1 1 1      | 0\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob11p04_seq_bool_waveform0": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - output f\n\nThe module should implement a sequential circuit with a single bit of\nstate described by the following simulation waveform. The waveform shows\nthe input values and the desired output values on every cycle of the\nsimulation. An X indicates that the output is undefined because there is\nno reset signal for this sequential circuit.\n\n   cycle | a f\n  -------+-----\n     0   | 1 X\n     1   | 0 1\n     2   | 0 0\n     3   | 0 0\n     4   | 0 0\n     5   | 1 0\n     6   | 1 1\n     7   | 0 1\n     8   | 1 0\n     9   | 0 1\n     10  | 0 0\n     11  | 1 0\n     12  | 1 1\n     13  | 0 1\n     14  | 1 0\n     15  | 0 1\n     16  | 1 0\n     17  | 1 1\n     18  | 0 1\n     19  | 1 0\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob11p05_seq_bool_waveform1": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"a\", \"InputPort\", 1], [\"f\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  a\n - output f\n\nThe module should implement a sequential circuit with a single bit of\nstate described by the following simulation waveform. The waveform shows\nthe input values and the desired output values on every cycle of the\nsimulation. An X indicates that the output is undefined because there is\nno reset signal for this sequential circuit.\n\n   cycle | a f\n  -------+-----\n     0   | 1 X\n     1   | 0 0\n     2   | 0 1\n     3   | 0 1\n     4   | 0 1\n     5   | 1 1\n     6   | 1 0\n     7   | 0 0\n     8   | 1 1\n     9   | 0 0\n     10  | 0 1\n     11  | 1 1\n     12  | 1 0\n     13  | 0 0\n     14  | 1 1\n     15  | 0 0\n     16  | 1 1\n     17  | 1 0\n     18  | 0 0\n     19  | 1 1\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob12p04_seq_sreg_8b_universal": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"ld\", \"InputPort\", 1], [\"pin\", \"InputPort\", 8], [\"sin\", \"InputPort\", 1], [\"pout\", \"OutputPort\", 8], [\"sout\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  ld\n - input  pin  (8 bits)\n - input  sin\n - output pout (8bits)\n - output sout\n\nThe module should implement an 8-bit universal shift register that\nsupports parallel-input, serial-input, parallel-output, and\nserial-output. The shift register should also include an active-high\nsynchronous reset and an enable. When the input ld is high (regardless of\nthe value of the input en and sin), then the parallel input (pin) should\nbe loaded into the shift register. When the input en is high, then the\nshift register should shift all of its values by one bit to the left and\nuse the input sin as the new least-significant bit of the shift register.\nAll eight bits of the shift register should be connected to the output\npout. The most-significant bit of the shift register should be connected\nto the output sout. The shift register should be reset to zero when the\nreset input is one. Assume all sequential logic is triggered on the\npositive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob12p05_seq_sreg_8b_bidir": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"en\", \"InputPort\", 1], [\"ld\", \"InputPort\", 1], [\"pin\", \"InputPort\", 8], [\"op\", \"InputPort\", 1], [\"pout\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  en\n - input  ld\n - input  pin  (8 bits)\n - input  op\n - output pout (8 bits)\n\nThe module should implement an 8-bit bi-directional shift register\nactive-high synchronous reset and an enable. When the input ld is high\n(regardless of the value of the input en), then the parallel input (pin)\nshould be loaded into the shift register. When the input en is high, then\nthe shift register should shift all of its values by one bit either left\nor right always shifting in a zero. The input op specifies what kind of\nshift to perform using the following encoding:\n\n - 0 : shift left  logical (shift in zeros)\n - 1 : shift right logical (shift in zeros)\n\nAll eight bits of the shift register should be connected to the output\npout. The shift register should be reset to zero when the reset input is\none. Assume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob12p06_seq_sreg_5b_lfsr": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"out\", \"OutputPort\", 5]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - output out (5 bits)\n\nThe module should implement a 5-bit maximum-length Galios linear feedback\nshift register (LFSR) with an active-high synchronous reset.\n\nWe can represent a 5-bit standard shift register which shifts bits to the\nright as follows:\n\n  in --> S[4] --> S[3] --> S[2] --> S[1] --> S[0] --> out\n\nS[i] refers to the ith flip-flop in the shift register, where i ranges\nfrom 0 to 4 inclusive. A Galois LFSR is a shift register with two-input\nXOR gates inserted between specific bits of the shift register; the\noutput of the shift register is connected to the free input of each XOR\ngate. If the XOR gates are inserted carefully, the LFSR can be made to be\n\"maximum-length\". A maximum-length LFSR of n bits cycles through 2**n-1\nstates before repeating (the all-zero state is never reached).\n\nThe module should implement the following 5-bit maximal-length Galois\nLFSR where a single XOR gate is inserted between S[2] and S[3].\n\n  .--> S[4] --> S[3] --> XOR --> S[2] --> S[1] --> S[0] --.\n  |                       ^                               |\n  '-----------------------'-------------------------------'\n\nAll five bits of the shift register should be connected to the output.\nThe module's internal shift register should be reset to binary one (i.e.,\nS[0] should be reset to one while the remaining bits should be reset to\nzero) one when the reset input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob12p07_seq_sreg_7b_lfsr": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"out\", \"OutputPort\", 7]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - output out (5 bits)\n\nThe module should implement a 7-bit maximum-length Galios linear feedback\nshift register (LFSR) with an active-high synchronous reset.\n\nWe can represent an 7-bit standard shift register which shifts bits to\nthe right as follows:\n\n  in -> S[6] -> S[5] -> S[4] -> S[3] -> S[2] -> S[1] -> S[0] -> out\n\nS[i] refers to the ith flip-flop in the shift register, where i ranges\nfrom 0 to 7 inclusive. A Galois LFSR is a shift register with two-input\nXOR gates inserted between specific bits of the shift register; the\noutput of the shift register is connected to the free input of each XOR\ngate. If the XOR gates are inserted carefully, the LFSR can be made to be\n\"maximum-length\". A maximum-length LFSR of n bits cycles through 2**n-1\nstates before repeating (the all-zero state is never reached).\n\nThe module should implement the following 7-bit maximal-length Galois\nLFSR where three XOR gates are inserted between S[3] and S[4], between\nS[4] and S[5], and between S[5] and S[6].\n\n  .-> S[6] -> XOR -> S[5] -> XOR -> S[4] -> XOR -> S[3] -> S[2] -> S[1] -> S[0] --.\n  |            ^              ^              ^                                    |\n  '------------'--------------'--------------'------------------------------------'\n\nAll seven bits of the shift register should be connected to the output.\nThe module's internal shift register should be reset to binary one (i.e.,\nS[0] should be reset to one while the remaining bits should be reset to\nzero) one when the reset input is one. Assume all sequential logic is\ntriggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob13p08_seq_count_timer": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"restart\", \"InputPort\", 1], [\"tick\", \"InputPort\", 1], [\"run\", \"InputPort\", 1], [\"mins\", \"OutputPort\", 6], [\"secs\", \"OutputPort\", 6]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  restart\n - input  tick\n - input  run\n - output mins (6 bits)\n - output secs (6 bits)\n\nThe module should implement a timer with an active-high synchronous\nreset. The timer's input clk runs much faster than one Hertz, so the\ninput tick is used to indicate when the timer should increment. The\nmodule can assume the input tick is asserted for one cycle once a second.\n\nWhen the input restart is high, the timer should be cleared to zero. When\nboth the run and tick signals are high the timer should be incremented.\nWhen the run signal is low, the timer should hold its current value. The\noutputs mins and secs should be binary encoded values indicating the\namount of time the timer has been running. If the timer reaches 59\nxminutes and 59 seconds it should stop with an output of 59:59.\n\nThe outputs should be reset to zero when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob13p09_seq_count_clock": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"tick\", \"InputPort\", 1], [\"set_en\", \"InputPort\", 1], [\"set_hours\", \"InputPort\", 4], [\"set_mins\", \"InputPort\", 6], [\"set_pm\", \"InputPort\", 1], [\"hours\", \"OutputPort\", 4], [\"mins\", \"OutputPort\", 6], [\"pm\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  tick\n - input  set_en\n - input  set_hours (4 bits)\n - input  set_mins  (6 bits)\n - input  set_pm\n - output hours (4 bits)\n - output mins  (6 bits)\n - output pm\n\nThe module should implement a 12-hour clock with an active-high\nsynchronous reset. The 12-hour clock's input clk runs much faster than\none Hertz, so the input tick is used to indicate when the 12-hour clock\nshould increment. The 12-hour clock can assume the input tick is asserted\nfor one cycle once a minute.\n\nThe outputs hours and mins should be binary encoded values indicating the\ncurrent time. The output pm should be zero if the current time is in the\nmorning, and the output pm should be one if the current time is in the\nafternoon. The input set_en can be used to set the current time of the\n12-hour clock. When the input set_en is high, the 12-hour clock should\nset its internal hours state based on the set_hours, set_mins, and set_pm\ninputs.\n\nThe 12-hour clock should be reset to 12:00am, when the reset input is one\nwhen the reset input is one. Assume all sequential logic is triggered on\nthe positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob14p03_seq_edge_8b_capture": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"clear\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  clear\n - input  in_ (8 bits)\n - output out (8 bits)\n\nThe module should implement an 8-bit edge capture that will capture\npositive edges (0 to 1 transitions). Output out[i] should then be\n(combinationally) set to one if in_[i] was zero on the previous cycle and\nis now one on the current cycle; output out[i] should then remain one\nuntil cleared using the input clear. Here is an example execution trace.\nAn x indicates that the output bit is undefined because it is the first\ncycle and thus there is no previous cycle.\n\n   cycle | in_       out\n  -------+---------------------\n     0   | 0000_0000 xxxx_xxxx\n     1   | 0000_0000 0000_0000\n     2   | 0001_0001 0001_0001\n     3   | 0101_0101 0101_0101\n     4   | 0001_0001 0101_0101\n     5   | 0100_0100 0101_0101\n     6   | 0000_0000 0101_0101\n     7   | 0000_0000 0101_0101\n\nAll internal state should be set to zero when the clear input is one.\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob14p04_seq_edge_8b_any_count": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"clear\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"count\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  clear\n - input  in_   (8 bits)\n - output count (8 bits)\n\nThe module should implement an edge counter that counts the total number\nof times any input bit changes from one clock cycle to the next. The\nmodule should count both positive edges (0 to 1 transitions) and negative\nedges (1 to 0 transitions). When the count reaches the maximum value it\nshould wrap-around. The internal counter register should be directly\nconnected to the output port. Here is an example execution trace. An X\nindicates that the output bit is undefined because it is the first cycle\nand thus there is no previous cycle.\n\n   cycle | in_       out\n  -------+---------------------\n     0   | 0000_0000  X\n     1   | 0000_0000  0\n     2   | 0001_0001  0\n     3   | 0101_0101  2\n     4   | 0001_0001  4\n     5   | 0100_0100  6\n     6   | 0000_0000 10\n     7   | 0000_0000 12\n     8   | 0000_0000 12\n\nAll internal state should be set to zero when either the reset input or\nthe clear input are one. Assume all sequential logic is triggered on the\npositive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob15p02_seq_arb_4in_rotating": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"reqs\", \"InputPort\", 4], [\"grants\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  reqs   (4 bits)\n - output grants (4 bits)\n\nThe module should implement a 4-input oblivious rotating priority\narbiter with an active-high synchronous reset. Each bit of the input reqs\ncorresponds to one of the four requesters; if reqs[i] is high then this\nmeans requester i has a valid request. The output grants is either all\nzeros (meaning no requesters had a valid request on this cycle) or is a\none-hot bit vector indicating which requester won the arbitration.\n\nThe internal priority register should be reset to 0001 (i.e., requester 0\nhas the highest priority) when the reset input is one. Every cycle the\nhighest priority requester to should rotate to the left. So the cycle\nafter the arbiter is reset, the priority is 0001, two cycles after the\narbiter is reset the priority is 0010, and so on. Since this is an\noblivious arbiter, the priority rotates regardless of which requester\nwins arbitration or indeed if there are any valid requests at all. Here\nis an example execution trace.\n\n   cycle | reqs grants\n  -------+---------------------\n     0   | 1111 0001\n     1   | 1111 0010\n     2   | 1111 0100\n     3   | 1111 1000\n     4   | 1111 0001\n     5   | 0000 0000\n     6   | 1111 0100\n     7   | 0000 0000\n     8   | 0000 0000\n     9   | 1111 0010\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob15p04_seq_arb_4in_granthold": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"reqs\", \"InputPort\", 4], [\"holds\", \"InputPort\", 4], [\"grants\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  reqs   (4 bits)\n - input  holds  (4 bits)\n - output grants (4 bits)\n\nThe module should implement a 4-input grant-hold round-robin priority\narbiter with an active-high synchronous reset. Each bit of the input reqs\ncorresponds to one of the four requesters; if reqs[i] is high then this\nmeans requester i has a valid request. The output grants is either all\nzeros (meaning no requesters had a valid request on this cycle) or is a\none-hot bit vector indicating which requester won the arbitration.\n\nThe internal priority register should be reset to 0001 (i.e., requester 0\nhas the highest priority) when the reset input is one. When a request\nwins arbitration it should have the lowest priority in the next cycle of\narbitration. For example, if requester 2 wins arbitration, then on the\nnext cycle the priority register should be 1000 (i.e., requester 3 has\nthe highest priority and requester 2 has the lowest priority). If there\nare no valid requests then the priority should not change.\n\nThe input hold enables a requester to extend the duration of its grant.\nOnce a requester has won arbitration, it can continue to automatically\nwin arbitration as long as it keeps its corresponding hold signal high.\nWhen the requester sets its hold signal low, the arbiter should resume\nstandard round-robin arbitration. Any internal state tracking the\nprevious grant signals should be reset to zero when the reset input is\none.\n\nHere is an example execution trace.\n\n   cycle | reqs holds grants\n  -------+---------------------\n     0   | 1111 0001  0001\n     1   | 1111 0001  0001\n     2   | 1111 0001  0001\n     3   | 1111 0000  0010\n     4   | 1111 0000  0100\n     5   | 1111 0000  1000\n     6   | 1111 1000  1000\n     7   | 1111 1000  1000\n     8   | 1111 0000  0001\n     9   | 0000 0000  0000\n    10   | 1111 0000  0010\n    11   | 0000 0000  0000\n    12   | 0000 0000  0000\n    13   | 1111 0000  0100\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob15p05_seq_arb_4in_weighted": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"preset\", \"InputPort\", 1], [\"reqs\", \"InputPort\", 4], [\"grants\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  preset\n - input  reqs   (4 bits)\n - output grants (4 bits)\n\nThe module should implement a 4-input weighted round-robin priority\narbiter with an active-high synchronous reset. Each bit of the input reqs\ncorresponds to one of the four requesters; if reqs[i] is high then this\nmeans requester i has a valid request. The output grants is either all\nzeros (meaning no requesters had a valid request on this cycle) or is a\none-hot bit vector indicating which requester won the arbitration.\n\nThe internal priority register should be reset to 0001 (i.e., requester 0\nhas the highest priority) when the reset input is one. When a request\nwins arbitration it should have the lowest priority in the next cycle of\narbitration. For example, if requester 2 wins arbitration, then on the\nnext cycle the priority register should be 1000 (i.e., requester 3 has\nthe highest priority and requester 2 has the lowest priority). If there\nare no valid requests then the priority should not change. The internal\npriority register should be reset to 0001 (i.e., requester 0 has the\nhighest priority) when the reset input is one.\n\nStandard round-robin arbiters exhibit strong fairness, meaning all\nrequesters will be served equally often when averaged over a sufficient\nnumber of arbitrations. A weighted round-robin arbiter is specifically\ndesigned to serve some requesters more than others. This module should\nuse the following weights:\n\n - requester 0 : 0.375\n - requester 1 : 0.375\n - requester 2 : 0.125\n - requester 3 : 0.125\n\nEach requester should include a two-bit counter which is reset to either\n3 (for requesters 0 and 1) or 1 (for requesters 2 and 3). The counter\nshould be decremented every time the corresponding requester wins\narbitration. When the counter reaches zero, the requester can no longer\nwin arbitration until the counters are preset back to their original\nvalues by setting the input preset high. If all four counters are zero,\nthen no requesters will win arbitration until the counters are preset\nback to their original values. Here is an example execution trace.\n\n   cycle | preset reqs grants\n  -------+----------------------------\n     0   | 0      1111 0001\n     1   | 0      1111 0010\n     2   | 0      1111 0100\n     3   | 0      1111 1000\n     4   | 0      1111 0001\n     5   | 0      1111 0010\n     6   | 0      1111 0001\n     7   | 0      1111 0010\n     8   | 0      1111 0000\n     9   | 0      1111 0000\n    10   | 1      1111 0000\n    11   | 0      1111 0001\n    12   | 0      1111 0010\n    13   | 0      1111 0100\n    14   | 0      1111 1000\n    15   | 0      1111 0001\n    16   | 0      1111 0010\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p03_seq_fsm_4s1i1o_me_tbl": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"state\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output state (2 bits)\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) described\nby the following table. Each next state entry in the table is of the\nformat X/Y where X is the next state and Y is the output.\n\n   Current |  Next State/Output\n   State   | if in_=0    if in_=1\n  ---------+----------------------\n      A    |   A/0         B/1\n      B    |   C/1         B/0\n      C    |   A/0         D/1\n      D    |   C/0         B/0\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe FSM should reset to state A when the reset input is one. The internal\nstate register should be directly connected to the output port state so\nthat this output always reflects the current state of the FSM. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p08_seq_fsm_4s1i1o_me_dia": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"state\", \"OutputPort\", 2], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output state (2 bits)\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) with four\nstates. The FSM will be described as a set of FSM transitions with each\ntransition specified using the following format.\n\n  X (0) --1--> Y\n\nIn this example, the FSM transitions from state X to state Y when the\ninput is 1 and the output of the FSM should be 0 during this transition.\nImplement the FSM with the following transitions.\n\n  A (0) --0--> A\n  A (1) --1--> B\n  B (1) --0--> C\n  B (0) --1--> B\n  C (0) --0--> A\n  C (1) --1--> D\n  D (0) --0--> C\n  D (0) --1--> B\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n\nThe FSM should reset to state A when the reset input is one. The internal\nstate register should be directly connected to the output port state so\nthat this output always reflects the current state of the FSM. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p09_seq_fsm_6s2i2o_mo_dia": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 2], [\"state\", \"OutputPort\", 3], [\"out\", \"OutputPort\", 2]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_   (2 bits)\n - output state (3 bits)\n - output out   (2 bits)\n\nThe module should Moore finite-state machine (FSM) with six states. The\nFSM will be described as a set of FSM transitions with each transition\nspecified using the following format.\n\n  X (11) --01--> Y\n\nIn this example, the FSM transitions from state X to state Y when the\ninput is 01 and output out of the FSM should be 11 during this\ntransition. Implement the FSM with the following transitions.\n\n  A (00) --00--> A\n  A (00) --01--> B\n  A (00) --10--> A\n  A (00) --11--> E\n\n  B (00) --00--> C\n  B (00) --01--> B\n  B (00) --10--> A\n  B (00) --11--> E\n\n  C (00) --00--> A\n  C (00) --01--> D\n  C (00) --10--> A\n  C (00) --11--> E\n\n  D (01) --00--> C\n  D (01) --01--> B\n  D (01) --10--> A\n  D (01) --11--> E\n\n  E (10) --00--> F\n  E (10) --01--> F\n  E (10) --10--> A\n  E (10) --11--> E\n\n  F (10) --00--> A\n  F (10) --01--> A\n  F (10) --10--> A\n  F (10) --11--> A\n\nThe state machine should use the following state encoding.\n\n - A : 0\n - B : 1\n - C : 2\n - D : 3\n - E : 4\n - F : 5\n\nThe FSM should reset to state A when the reset input is one. The internal\nstate register should be directly connected to the output port state so\nthat this output always reflects the current state of the FSM. Assume all\nsequential logic is triggered on the positive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p10_seq_fsm_pattern1": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output out\n\nThe module should implement a Mealy finite-state machine (FSM) with an\nactive-high synchronous reset. The FSM should recognize the target\npattern 101 in the binary sequence sampled at the input one bit per\ncycle. When the FSM detects the target pattern 101, it should\n(combinationally) set the output to one on the same cycle it sees the\nfinal bit of the target pattern. The FSM should detect overlapping target\npatterns. Here is an example execution trace.\n\n   cycle | in_ out\n  -------+-------------\n     0   | 0   0\n     1   | 0   0\n     2   | 1   0\n     3   | 0   0\n     4   | 1   1\n     5   | 0   0\n     6   | 1   1\n     7   | 0   0\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p12_seq_fsm_stop_light": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"starting_yellow\", \"InputPort\", 1], [\"change\", \"InputPort\", 1], [\"green_on\", \"OutputPort\", 1], [\"yellow_on\", \"OutputPort\", 1], [\"red_on\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  starting_yellow\n - input  change\n - output green_on\n - output yellow_on\n - output red_on\n\nThe module should implement a Moore finite-state machine (FSM) for a\ntraffic light controller with an active-high synchronous reset. The three\noutputs are used to turn on one of the three traffic lights. Only one\nlight should be on at a time. The FSM should reset to the state which\nturns on the green light. The input change is used to move between the\nstates of the FSM in one of two orders depending on whether the input\nstarting_yellow is high or low. If starting_yellow is high, then the FSM\nshould change from green, to yellow, to red, to yellow, and back to\ngreen. If starting_yellow is low, then the FSM should change from green,\nto yellow, to red, and back to green. Assume that the starting_yellow\nsignal will only switch when the traffic light is in the state which\nturns on the green light. Assume all sequential logic is triggered on the\npositive edge of the clock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob16p13_seq_fsm_ps2": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 8], [\"done\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_ (8 bits)\n - output done\n\nThe module should implement an FSM to detect message boundries for the\nPS/2 mouse protocol with an active-high synchronous reset. The PS/2 mouse\nprotocol sends messages that are three bytes long. However, within a\ncontinuous byte stream, it's not obvious where messages start and end.\nThe only indication is that the first byte of each three byte message\nalways has in_[3]=1 (but in_[3] of the other two bytes may be 1 or 0\ndepending on data). The module should discard bytes until it sees one\nwith in[3]=1. The module should assume that this is byte 1 of a message,\nand should (combinationally) set the output done once all 3 bytes have\nbeen received. Here is an example execution trace.\n\n   cycle | in_       done\n  -------+----------------\n     0   | 0010_0101 0\n     1   | 0101_0010 0\n     2   | 0011_1000 0\n     3   | 1100_1000 0\n     4   | 0011_0010 1\n     5   | 1010_0011 0\n     6   | 0000_1000 0\n     7   | 0101_0100 0\n     7   | 0000_0010 1\n     7   | 0000_0000 0\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob18p01_seq_arith_4x1b_incr": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in_\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in_\n - output out\n\nThe module should implement an 4-bit bit-serial incrementer which adds\none to an 4-bit value which is sampled at the input one bit per cycle.\nThe least-significant bit should be the first bit input into the\nbit-serial incrementer and the first bit output from the bit-serial\nincrementer. There should be no latency through the incrementer (i.e.,\nthe output should be a combinational function of the input). The\nincrementer should be able to achieve full throughput, i.e., it should be\nable to accept a new input bit every cycle and produce a valid output bit\nevery cycle. Here is an example execution trace which increments three\nvalues: 0001, 0010, and 0011.\n\n   cycle | in_ out\n  -------+-------------\n     0   | 1   0\n     1   | 0   1\n     2   | 0   0\n     3   | 0   0\n     4   | 0   1\n     5   | 1   1\n     6   | 0   0\n     7   | 0   0\n     8   | 1   0\n     9   | 1   0\n    10   | 0   1\n    11   | 0   0\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob18p02_seq_arith_4x1b_add": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in0\", \"InputPort\", 1], [\"in1\", \"InputPort\", 1], [\"out\", \"OutputPort\", 1]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in0\n - input  in0\n - output out\n\nThe module should implement an 4-bit two-input bit-serial adder which\nadds two 4-bit values sampled at the inputs one bit per cycle. The\nleast-significant bits should be the first bits input into the bit-serial\nadder and the first bit output from the bit-serial adder. There should be\nno latency through the adder (i.e., the output should be a combinational\nfunction of the inputs). The adder should be able to achieve full\nthroughput, i.e., it should be able to accept a new input bit every cycle\nand produce a valid output bit every cycle. Here is an example execution\ntrace which adds 0010 and 0011.\n\n   cycle | in0 in1 out\n  -------+-------------\n     0   | 0   1   1\n     1   | 1   1   0\n     2   | 0   0   1\n     3   | 0   0   0\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob18p03_seq_arith_2x4b_add": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"reset\", \"InputPort\", 1], [\"in0\", \"InputPort\", 4], [\"in1\", \"InputPort\", 4], [\"out\", \"OutputPort\", 4]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  reset\n - input  in0 (4 bits)\n - input  in1 (4 bits)\n - output out (4 bits)\n\nThe module should implement a two-input serial adder which performs an\n8-bit addition over two cycles four bits at a time. The least-significant\nfour bits should be the first bits input into the serial adder and the\nfirst bits output from the serial adder. There should be no latency\nthrough the adder (i.e., the output should be a combinational function of\nthe inputs). The adder should be able to achieve full throughput, i.e.,\nit should be able to accept four new input bits every cycle and produce\nfour valid output bits every cycle. Here is an example execution trace\nwhich adds 0011_1010 and 0000_1011.\n\n   cycle | in0  in1  out\n  -------+----------------\n     0   | 1010 1011 0101\n     1   | 0011 0000 0100\n\nThe module should include an active-high synchronous reset; all internal\nstate should be reset appropriately when the reset input is one. Assume\nall sequential logic is triggered on the positive edge of the clock.\nAssume all values are encoded as two's complement binary numbers.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob19p05_seq_pipe_add2_2stage": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"out_lsn\", \"OutputPort\", 4], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0     (8 bits)\n - input  in1     (8 bits)\n - output out_lsn (4 bits)\n - output out     (8 bits)\n\nThe module should implement a two-stage pipelined two-input adder. Just\nthe addition of the least-significant four bits should occur during the\nfirst stage, and then the addition of the most-significant four bits\nshould occur during the second stage. The final 8-bit output (out) should\nbe written at the end of the second stage. The module will need to\npipeline the carry out from the addition of the least significant four\nbits to serve as the carry input to the addition of the most significant\nfour bits. The module should write output out_lsn with the result of\nadding the least-significant four bits at the end of the first stage.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 out_lsn out\n  -------+------------------------\n     0   | 00  00  X       XX\n     1   | 01  01  0       XX\n     2   | 02  03  2       00\n     3   | 03  04  5       02\n     4   | 11  11  7       05\n     5   | 12  13  2       07\n     6   | 13  14  5       22\n     7   | 09  09  7       25\n     8   | 19  19  2       27\n     9   | 00  00  2       12\n     10  | 00  00  0       32\n     11  | 00  00  0       00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob19p06_seq_pipe_add3_2stage": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 8], [\"out01\", \"OutputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0   (8 bits)\n - input  in1   (8 bits)\n - input  in2   (8 bits)\n - output out01 (8 bits)\n - output out   (8 bits)\n\nThe module should implement a two-stage pipelined three-input adder. Just\nthe first addition of in0 and in1 should occur during the first stage,\nand then the second addition of this first sum and input in2 should occur\nduring the second stage. The final result should be written to the output\nout at the end of the second stage. The module should write output out01\nwith the result of the first addition at the end of the first stage.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 in2 out01 out\n  -------+-----------------------\n     0   | 00  00  00  XX    XX\n     1   | 01  02  04  00    XX\n     2   | 02  03  04  03    00\n     3   | 03  04  05  05    07\n     4   | 00  00  00  07    09\n     5   | 00  00  00  00    0c\n     6   | 00  00  00  00    00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob19p07_seq_pipe_add4_2stage": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 8], [\"in3\", \"InputPort\", 8], [\"out01\", \"OutputPort\", 8], [\"out23\", \"OutputPort\", 8], [\"out\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0   (8 bits)\n - input  in1   (8 bits)\n - input  in2   (8 bits)\n - input  in3   (8 bits)\n - output out01 (8 bits)\n - output out23 (8 bits)\n - output out   (8 bits)\n\nThe module should implement a two-stage pipelined four-input adder. The\nfirst addition of in0 and in1 and the second addition of in2 and in3\nshould occur during the first stage, and then the final addition should\noccur during the second stage. The final result should be written to the\noutput out at the end of the second stage. The module should write output\nout01 with the sum of in0 and in1 and the output out23 with the sum of\nin2 and in3 at the end of the first stage.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 in2 in3 out01 out23 out\n  -------+---------------------------------\n     0   | 00  00  00  00  XX    XX    XX\n     1   | 01  02  03  04  00    00    XX\n     2   | 02  03  04  05  03    07    00\n     3   | 03  04  05  06  05    09    0a\n     4   | 00  00  00  00  07    0b    0e\n     5   | 00  00  00  00  00    00    12\n     6   | 00  00  00  00  00    00    00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  },
+  "contracts/deepseek-v4.1-flash/Prob19p08_seq_pipe_minmax4_2stage": {
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 4096,
+    "reasoning_effort": "none",
+    "seed": 20261022,
+    "stream": false,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extract a precise hardware behavior contract. No implementation, tests, benchmark identifiers or reference access."
+      },
+      {
+        "role": "user",
+        "content": "Extract a language-independent behavioral intermediate representation from only the public specification and interface below. Use exact port names and parameter expressions. Represent transforms, guards, priorities, state hold/reset behavior and per-output latency. Do not invent unstated behavior. For combinational interfaces keep state/transition lists empty. Return only JSON with these required keys:\n{\"interface_parameters\": {\"ports\": [], \"parameters\": []}, \"state_storage_roles\": [], \"datapath_guard_rules\": [], \"state_transition_invariants\": [], \"ambiguities\": []}\nPublic interface:\n[[\"clk\", \"InputPort\", 1], [\"in0\", \"InputPort\", 8], [\"in1\", \"InputPort\", 8], [\"in2\", \"InputPort\", 8], [\"in3\", \"InputPort\", 8], [\"min\", \"OutputPort\", 8], [\"max\", \"OutputPort\", 8]]\nSpecification:\n\nImplement a hardware module named TopModule with the following interface.\nAll input and output ports are one bit unless otherwise specified.\n\n - input  clk\n - input  in0   (8 bits)\n - input  in1   (8 bits)\n - input  in2   (8 bits)\n - input  in3   (8 bits)\n - output min   (8 bits)\n - output max   (8 bits)\n\nThe module should implement a two-stage pipelined unit which finds both\nthe minimum and maximum values across the four given input values. In the\nfirst stage, the module should compare in0 to in1 and determine the\nminimum and maximum of these two values; lets call the minimum min01 and\nthe maximum max01. Also in the first stage, the module should compare in2\nand in3 and determine the the minimum and maximum of these two values;\nlets call the minimum min23 and the maximum max23. In the second stage,\nthe module should compare the min12 and min23 to find the minimum of all\nfour values and write this minimum value to the output min. Also in the\nsecond stage, the module should compare the max12 and max23 to find the\nmaximum of all four values and write this maximum value to the output\nmax.\n\nAll transactions should have a two cycle latency (i.e., inputs on cycle i\nwill produce the corresponding sum on cycle i+2). The module should be\nable to achieve full throughput, i.e., it should be able to accept new\ninputs every cycle and produce a valid output every cycle. Here is an\nexample execution trace. An X indicates that the output is undefined\nbecause there is no reset signal for the pipeline registers.\n\n   cycle | in0 in1 in2 in3 min max\n  -------+-------------------------\n     0   | 00  00  00  00  XX  XX\n     1   | 01  02  03  04  XX  XX\n     2   | 04  05  03  02  00  00\n     3   | 06  03  04  05  01  04\n     4   | 00  00  00  00  02  05\n     5   | 00  00  00  00  03  06\n     6   | 00  00  00  00  00  00\n\nAssume all sequential logic is triggered on the positive edge of the\nclock.\n\n"
+      }
+    ]
+  }
+}

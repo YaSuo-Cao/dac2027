@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "mock_transport_only": true,
+  "network_calls": 0,
+  "validated": [
+    "deferred 429 fairness",
+    "500 billing unknown retained",
+    "each request keeps canonical hash",
+    "format failure remains a scored output failure",
+    "cached responses never resent",
+    "401 stops pending requests without fabricating scores",
+    "malformed 200 receipt retained with unknown billing"
+  ],
+  "request_start_spacing_seconds": 1,
+  "production_workers": 2,
+  "tool_sha256": "9f9fa4399250e3f6e3e62c2c1e003ebe3aa5d29b01ca5012b9ef7dd8e75ab771"
+}

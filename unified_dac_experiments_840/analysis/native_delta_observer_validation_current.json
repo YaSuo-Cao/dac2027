@@ -1,0 +1,117 @@
+{
+  "diagnostic_only": true,
+  "frozen_evaluator_unchanged": true,
+  "all_passed": true,
+  "rows": [
+    {
+      "language": "migen",
+      "fixture": "gold",
+      "passed": true
+    },
+    {
+      "language": "migen",
+      "fixture": "gold",
+      "mixed_candidate_only_inputs": true,
+      "passed": true
+    },
+    {
+      "language": "migen",
+      "fixture": "wrong",
+      "passed": true
+    },
+    {
+      "language": "migen",
+      "fixture": "wrong",
+      "mixed_candidate_only_inputs": true,
+      "passed": true
+    },
+    {
+      "language": "amaranth",
+      "fixture": "gold",
+      "passed": true
+    },
+    {
+      "language": "amaranth",
+      "fixture": "gold",
+      "mixed_candidate_only_inputs": true,
+      "passed": true
+    },
+    {
+      "language": "amaranth",
+      "fixture": "wrong",
+      "passed": true
+    },
+    {
+      "language": "amaranth",
+      "fixture": "wrong",
+      "mixed_candidate_only_inputs": true,
+      "passed": true
+    },
+    {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/amaranth/FullDocRAG",
+      "cyclic_negative": true,
+      "diagnostic": {
+        "uses_functional_oracle": false,
+        "native_probe": {
+          "constructible": false,
+          "traceback": "Traceback (most recent call last):\n  File \"/work/runtime/construction_probe.py\", line 17, in probe\n    dut.tick_phase0()\n  File \"/dataset/pyhdl_eval/amaranth.py\", line 134, in tick_phase0\n    s.step_greenlet.switch()\n  File \"/dataset/pyhdl_eval/amaranth.py\", line 107, in step_inner\n    sim.run()\n  File \"/home/anonymous/venv/lib/python3.12/site-packages/amaranth/sim/core.py\", line 172, in run\n    while self.advance():\n          ^^^^^^^^^^^^^^\n  File \"/home/anonymous/venv/lib/python3.12/site-packages/amaranth/sim/core.py\", line 163, in advance\n    return self._engine.advance()\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/anonymous/venv/lib/python3.12/site-packages/amaranth/sim/pysim.py\", line 328, in advance\n    self._step()\n  File \"/work/adjudicate_in_container.py\", line 102, in observed\n    raise PeriodicDeltaCycle('Periodic native hardware delta propagation with unchanged external processes and time')\nadjudicate_in_container.amaranth_delta_cycle.<locals>.PeriodicDeltaCycle: Periodic native hardware delta propagation with unchanged external processes and time\n",
+          "uses_functional_oracle": false
+        },
+        "native_simulator_source_sha256": "0ce888c60ba8083e136336f3469c9c794f5420080a00e59eef6205b752aa19a1",
+        "observer": "native hardware eval/commit plus complete-state recurrence; discard history whenever any nonhardware process runs; values and scheduling unchanged",
+        "confirmed_native_delta_cycle": true,
+        "period": 2,
+        "first_seen_delta": 4,
+        "repeated_at_delta": 6,
+        "complete_state_sha256": "e22aa989ba777d3b0d0cccbd8fb383e4b8b8b007e447c259d2505bd41f0f59c0",
+        "signal_count": 8,
+        "simulation_time": 4500000000000,
+        "runnable_hardware_processes": 1,
+        "nonhardware_processes_executed_between_matches": false
+      },
+      "passed": true
+    },
+    {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/amaranth/FullDocRAG",
+      "isolated_diagnostic_worker": true,
+      "passed": true
+    },
+    {
+      "key": "repairs/deepseek-v4.1-flash/623f5e02ea52304ba50ba7d46367be2782f9a18739b96c93a546435cd1fc78b0",
+      "uniform_smoke_passes": true,
+      "independent_mixed_input_cycle_proof": {
+        "uses_functional_oracle": false,
+        "native_probe": {
+          "constructible": false,
+          "uses_functional_oracle": false,
+          "diagnostic_stimuli": [
+            {
+              "in0": 1,
+              "in1": 2,
+              "in2": 3,
+              "in3": 4
+            },
+            {
+              "in0": 32,
+              "in1": 31,
+              "in2": 30,
+              "in3": 29
+            }
+          ],
+          "traceback": "Traceback (most recent call last):\n  File \"/work/adjudicate_in_container.py\", line 34, in mixed_candidate_exercise\n    stimuli.append(values);dut.tick_phase0()\n                           ^^^^^^^^^^^^^^^^^\n  File \"/dataset/pyhdl_eval/migen.py\", line 107, in tick_phase0\n    s.step_greenlet.switch()\n  File \"/dataset/pyhdl_eval/migen.py\", line 80, in step_inner\n    migen.run_simulation( s.top, step_testbench() )\n  File \"/home/anonymous/venv/lib/python3.12/site-packages/migen/sim/core.py\", line 414, in run_simulation\n    s.run()\n  File \"/home/anonymous/venv/lib/python3.12/site-packages/migen/sim/core.py\", line 406, in run\n    self._commit_and_comb_propagate()\n  File \"/work/adjudicate_in_container.py\", line 60, in observed\n    raise PeriodicDeltaCycle('Periodic native combinational propagation; complete evaluator state repeats with pending changes')\nadjudicate_in_container.native_delta_cycle.<locals>.PeriodicDeltaCycle: Periodic native combinational propagation; complete evaluator state repeats with pending changes\n"
+        },
+        "native_simulator_source_sha256": "a23025f4ab21243e03ac9f741372fe84a5b4891abff01c32ebd0e6fa7613cf02",
+        "observer": "exact native commit/execute plus complete-state repetition detection; signal values and scheduling unchanged",
+        "confirmed_native_delta_cycle": true,
+        "period": 4,
+        "first_seen_delta": 4,
+        "repeated_at_delta": 8,
+        "complete_state_sha256": "31f7cacd61fb349ba6cfe3d4243f9c143ade5bdcdf2e529136f263ac224dedb8",
+        "signal_count": 21,
+        "pending_signal_count": 14
+      },
+      "passed": true
+    }
+  ],
+  "tool_sha256": "67a44d3bce59556c2064ecf5e4c690851383e1fb6435536daa16fce53ee377ae"
+}

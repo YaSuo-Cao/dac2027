@@ -1,0 +1,5 @@
+MyHDL paradigm boundary obligations:
+1. Decorate TopModule with @block. Declare internal multi-bit signals as Signal(intbv(init)[W:]) or Signal(modbv(init)[W:]); use explicitly sized intermediate values where hardware widths matter.
+2. Use @always_comb for combinational logic and @always(clk.posedge) for positive-edge sequential logic. Update signals through .next = expression; never overwrite a Signal variable name. Respect reset polarity and priority from the specification.
+3. MyHDL slices [high:low] exclude the upper bound; width=high-low. The lowest eight bits are [8:0], not [7:0].
+4. @always_comb requires reading at least one Signal to form a non-empty sensitivity list. Return every generator instance.

@@ -1,0 +1,19 @@
+{
+  "reason": "Valid probe JSON preceded trailing shutdown warnings; last-line-only parser misclassified five actual construction errors.",
+  "old_fingerprint": "f0d0c33c3a5767adb24f1bf732aae609005efd3257301239c07a73100af0cb4b",
+  "old_attempted_results_archived": 888,
+  "model_requests_changed": false,
+  "candidate_sources_changed": false,
+  "official_native_case_changed": false,
+  "full_unified_reevaluation_required": true,
+  "archive": "/home/anonymous\\Documents\\ChatGPT\\DAC\\unified_dac_experiments_840\\archives\\probe_parser_fix_20261111",
+  "status": "calibrated_resuming_full_scoring",
+  "new_fingerprint": "d324342d15b0244d943967829f7f5f43e112076cb00d3503f17bce1cfb6e0eb4",
+  "changed_frozen_inputs": [
+    "runtime/evaluate.py"
+  ],
+  "calibration_fixtures": 15,
+  "calibration_passed": true,
+  "old_freeze_sha256": "d34e63495655338e299d191e117fdec428291d342cdd697e98b3c0c48de1cc8b",
+  "new_freeze_sha256": "b03ce4186b8e8fefa6050b54f4e2c25570e6fb9bb5d6ccdd62fbb1d1d44c6560"
+}

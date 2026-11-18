@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLTypeError: \nIn file candidate.py, Line 30, Col 12:\n  prio_idx = 2\n  ^\n- conflicting type Const for temporary variable prio_idx(LHS target#1 of Wire)!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "f4a27128a3c60507fc2c293b8f81651fd926a94c287cb1e2414a6eb01be91bcc",
+  "candidate_source_sha256": "1f000671a83f056a2052fbea4a4a96f1febdc2f546bc600266c77fabca00e961",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

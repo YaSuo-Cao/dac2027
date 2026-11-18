@@ -1,0 +1,12 @@
+{
+  "population": 840,
+  "jobs_registered": 19190,
+  "generation_status": {
+    "contract_ready": 135,
+    "output_failure": 237,
+    "ready": 18818
+  },
+  "official_evaluations": 19049,
+  "infra_unresolved": 0,
+  "no_partial_percentages_reported": true
+}

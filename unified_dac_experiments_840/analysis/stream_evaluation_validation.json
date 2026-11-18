@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "network_calls": 0,
+  "official_evaluations": 0,
+  "checks": [
+    "only generation-complete jobs handed off",
+    "no duplicate evaluation jobs",
+    "bounded batch sizes",
+    "evaluation error stops new cloud requests",
+    "archive retains selected score, native and infrastructure retry evidence",
+    "unrelated scores and build folders excluded"
+  ],
+  "tool_sha256": {
+    "evaluation_stream.py": "bbbb406674de6712e5b1dfd7f7d4f49905b9812f8aa69834c0370c483b98f7e3",
+    "collect_results.py": "8fee7d725f3446a48ccc56450de37333628e8fa0ee4ec5be52812e26a29124a5",
+    "remote.py": "f1135f2b247a41bfffa906ba10819c7166ac5e46fb20d3663eb2c53501c7b9ec",
+    "generate.py": "9f9fa4399250e3f6e3e62c2c1e003ebe3aa5d29b01ca5012b9ef7dd8e75ab771"
+  }
+}

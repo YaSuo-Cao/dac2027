@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLSyntaxError: \nIn file candidate.py, Line 80, Col 21:\n  idx = (j + int(prio_idx)) % 4\n             ^\n- <ast.Name object at 0x75a535c66d90> function is not found!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "24c9469855bda728a7e4db8d28838d6dd97ea022d675fd58705379daaf10d8ac",
+  "candidate_source_sha256": "124d2db95d7f4ee8a1b35afea70de6af98cdc077d29b27e749ee61ed724ccb1b",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

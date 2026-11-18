@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.backends.verilog.errors.VerilogImportError: \nError trying to perform import on s:\n- Fail to verilate model emitted_7dfd38be7774_da3dde2eacfc\n  Verilator command:\n  verilator --cc --top-module emitted_7dfd38be7774_da3dde2eacfc --Mdir obj_dir_emitted_7dfd38be7774_da3dde2eacfc --assert -O3 --unroll-count 1000000 --unroll-stmts 1000000 --threads 1 --Wno-fatal --Wno-UNOPTFLAT --Wno-UNSIGNED --Wno-WIDTH emitted_7dfd38be7774_da3dde2eacfc_translated.v\n\n  Verilator output:\n  %Error: emitted_7dfd38be7774_da3dde2eacfc.v:33:46: syntax error, unexpected '['\n     33 |         shift_reg <= ((shift_reg << 1) | sin)[8-1:0];\n        |                                              ^\n  %Error: Exiting due to 1 error(s)"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "37839a8ff1401e537f155e82e81e227a67176b0b3d730c9ac0fbe7f1e2284a3b",
+  "candidate_source_sha256": "ceda5e4b63cda2c13c9f1a7b5f319accd4801bae6df82454c125215f617a2e7a",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

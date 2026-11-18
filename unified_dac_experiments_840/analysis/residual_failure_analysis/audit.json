@@ -1,0 +1,18 @@
+{
+  "all_checks_passed": true,
+  "input_sha256": {
+    "analysis\\exp4_instance_scores.csv": "8e9df80d066390358d14ccd521fb017a099395d4e03635978a306c93bf1ba157",
+    "analysis\\rtl_closed_loop_b5\\round_4_instance_scores.csv": "9f884f8b3fc8e06a933a197d34c0a841631f5806d7f105fb2c924cfa3dd6ff56",
+    "analysis\\table_vii_viii.csv": "896cfeb1449c9ffabdf5ff6ca44d6cafcbfb701e555c486c7f1dab500e8d3f23",
+    "configs\\population.json": "5892ef68112bda7bfbea312dab835eb0cabfcf792b4e48ba715a6cae675d0ddb",
+    "configs\\evaluation_fingerprint.json": "f5823a7092f56210bda9e446b4a6418723c3dc2920d14a18c228971aca4a4929"
+  },
+  "groups": 6,
+  "scored_rows": 5040,
+  "residual_rows": 974,
+  "unresolved_infrastructure_in_residuals": 0,
+  "evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67",
+  "new_model_calls": 0,
+  "new_simulations": 0,
+  "attribution": "First failed gate on the final selected candidate, not all attempted candidates or a causal root-cause census"
+}

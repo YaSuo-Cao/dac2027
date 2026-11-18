@@ -1,0 +1,18 @@
+{
+  "status": "withdrawn_before_valid_HTTP_response",
+  "reason": "Selective 8192-token support retry violates the frozen 4096-token protocol. Diagnostic only; eight original TLS logs preserved; no valid response or scored candidate existed.",
+  "files": [
+    {
+      "source": "configs\\claude_contract_output_recovery_jobs.json",
+      "archive": "archives\\withdrawn_output_cap_recovery\\claude_contract_output_recovery_jobs.json",
+      "sha256": "95b031a51e0c86aceb017f8918c98eec8f15abb6545e94d67279fd920d585396"
+    },
+    {
+      "source": "configs\\claude_contract_output_recovery_requests.json",
+      "archive": "archives\\withdrawn_output_cap_recovery\\claude_contract_output_recovery_requests.json",
+      "sha256": "0c2eb32257ee88f76ea13ce2210dd5755f8bc43345eb3609d17c948e10d1f47d"
+    }
+  ],
+  "job_key": "contracts/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted/output_cap_recovery",
+  "withdrawn_utc": 1794466447.9640222
+}

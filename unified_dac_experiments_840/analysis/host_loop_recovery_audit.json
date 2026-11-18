@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "restored_batch_jobs": 128,
+  "infra_unresolved": 0,
+  "frozen_evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67",
+  "adapter_sha256": "d5c3a92ed809e89bd9110a95897121c4f00e589581ed106d946dcdb751006829",
+  "validation_sha256": "6930b14e811c9a7c60d0b389e431938ebb721d2b99738ba09f86c031edabc82e",
+  "reason": "Reference-blind AST invariant plus 32 actual official constructor loop iterations after isolated repeated timeouts",
+  "time_utc": 1794424696.9620383
+}

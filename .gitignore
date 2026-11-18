@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+**/.secrets/
+**/__pycache__/
+**/*.pyc
+unified_dac_experiments_840/local_evaluation_work/
+unified_dac_experiments_840/runs/
+unified_dac_experiments_840/evaluation/

@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 10:\n    Unsupported attribute: count"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "34ee4066bc897d2a605ed5733bf6f54a978a226844a5f4eaf73f28fd1a7159cd",
+  "candidate_source_sha256": "2539079a4db6c7d3dec33d9f1b306ab6a4d9123934d00b398495d7b47bfb2d1b",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

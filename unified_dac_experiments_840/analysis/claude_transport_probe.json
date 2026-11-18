@@ -1,0 +1,32 @@
+{
+  "model_requested": "claude-haiku-5-5",
+  "endpoint": "https://opencode.ai/zen/go/v1/messages",
+  "protocol": "anthropic_messages",
+  "http_status": 200,
+  "response": {
+    "id": "anon_receipt_8e2c53e2d7e85b38118bf320",
+    "model": "claude-haiku-5-5",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "OK"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 17,
+      "completion_tokens": 4,
+      "total_tokens": 21,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "provider_protocol": "anthropic_messages",
+    "anthropic_stop_reason": "end_turn"
+  },
+  "tested_utc": 1794442586.900712,
+  "sampling_controls_omitted_by_transport": true
+}

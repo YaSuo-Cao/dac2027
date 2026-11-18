@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLTypeError: \nIn file candidate.py, Line 16, Col 6:\n  b3 = s.in_[3]\n  ^\n- b3 cannot be converted into a valid RTLIR object!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "d563c7cb63563f96e624315c02025a2da08ff70dab295dc14879b62b12eb3d7f",
+  "candidate_source_sha256": "907fb54843d1928371e4e1095ba82116945258aa1f253e124541a4b6da0f15e4",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

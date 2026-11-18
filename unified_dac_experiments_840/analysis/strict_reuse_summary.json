@@ -1,0 +1,11 @@
+{
+  "full_request_returned_model_and_source_sha256_verified": true,
+  "reused": 504,
+  "by_arm": {
+    "Direct": 336,
+    "Gen": 168
+  },
+  "unique_request_queue": 2520,
+  "expected_new_physical_calls": 2016,
+  "historical_evaluations_reused": 0
+}

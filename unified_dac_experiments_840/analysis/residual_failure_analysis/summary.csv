@@ -1,0 +1,7 @@
+﻿model,method,language,n,front_end_failures,native_failures_after_c0,rtl_failures_after_native,total_residual,rtl_passed,rtl_percent
+claude-haiku-5-5,Full,All,840,0,6,60,66,774,92.14285714285714
+deepseek-v4.1-flash,Full,All,840,40,78,42,160,680,80.95238095238095
+deepseek-v4.1-flash,NativeOnly-B5,All,840,29,74,44,147,693,82.5
+deepseek-v4.1-flash,RTL-Aware-B5,All,840,29,76,15,120,720,85.71428571428571
+glm-5.3-flash,Full,All,840,38,158,55,251,589,70.11904761904762
+qwen3.8-flash,Full,All,840,111,56,63,230,610,72.61904761904762

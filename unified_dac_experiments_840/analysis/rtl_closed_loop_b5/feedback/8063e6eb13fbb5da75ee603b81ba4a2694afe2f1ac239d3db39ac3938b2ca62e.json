@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 20:\n    Local variable may be referenced before assignment: res"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "dc58b938d18014634434f82133d882cc9804620e800a60f4ce90f15f03d5a2d6",
+  "candidate_source_sha256": "714d08c257ef598d1727e94307aef7f7571f655e67e582b60d23a3ed8931e164",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

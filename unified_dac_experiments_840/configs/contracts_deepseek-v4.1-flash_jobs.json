@@ -1,0 +1,532 @@
+[
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob04p05_comb_bool_truth_tbl1",
+    "task": "Prob04p05_comb_bool_truth_tbl1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "9d39113aff2da4123d0cfb86aa6417573fd9c4f21fa599a13934703faadf6530",
+    "prompt_sha256": "235245ebb79a445a2337bb0c19f74167fe5be1403ffbd58bab739ea0f9b32f59"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob04p06_comb_bool_truth_tbl2",
+    "task": "Prob04p06_comb_bool_truth_tbl2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "d0da13b3938bb37cec1fd640015fae9abcb6848b5a93fbd3f71587468f337303",
+    "prompt_sha256": "b62b787daeee4413353f37c9a511b8278b8494e8999401c7eecece28240b529e"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob04p09_comb_bool_kmap2",
+    "task": "Prob04p09_comb_bool_kmap2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "b8a3d9849f49d8e8b4853412016aa7ef5390d8465ee3795993ccae1fe00776f1",
+    "prompt_sha256": "e284c14f3429b88fc437fdd06948b4e82c102a2a02730c84eec96b89f779c230"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob04p11_comb_bool_waveform1",
+    "task": "Prob04p11_comb_bool_waveform1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "e9a4e6359876f221db9bcb48b3ad408467d132def8aa0078a4e1cf23df61fabc",
+    "prompt_sha256": "df748bbf04e69db84eec3a3a2a159b2ef47d40b219dd56b04edff0cb70f754f7"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob04p12_comb_bool_waveform2",
+    "task": "Prob04p12_comb_bool_waveform2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "268886561ac6d2bd9b453df9fed27a6b5a4dd6d69e13ff01e2ba939cd1db4508",
+    "prompt_sha256": "bf49b9cd495e2be9b76c539d7cb73e4da1a19171c60ee5ecb4a0625fe7e311d6"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob05p05_comb_mux_4b_1to8",
+    "task": "Prob05p05_comb_mux_4b_1to8",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "9afc5d7fb7e9120e119eb45f766113a99b8a02b3f157f5a9f98a91bf4b18df1c",
+    "prompt_sha256": "4ea0fec17787e6f90224226fe01f159529cb25d7a63e514e5d74e23be6dd5fc1"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p02_comb_codes_enc_16to4",
+    "task": "Prob06p02_comb_codes_enc_16to4",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "a577a0a1270baee3743fc47c6948f3eb460c056a407c6d6dc1074348bf11bf42",
+    "prompt_sha256": "a5c0cf5ca39c629531ecae968d30d1a0bdc663363a347f131d7c218b007403ff"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p06_comb_codes_penc_16to4",
+    "task": "Prob06p06_comb_codes_penc_16to4",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "9085e4eb78f405e0644c284509d363cbd8d6316d44718433521b21376b21edb3",
+    "prompt_sha256": "226e71a54d7e15b5f61fad43c51c66e8c30158ccd41bd12f88018ac0f0283c54"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p08_comb_codes_gcode2bin",
+    "task": "Prob06p08_comb_codes_gcode2bin",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "a95f622afc775318104e7e7aadab33b75435eab04a4405c62ea6c08baaa8efb9",
+    "prompt_sha256": "c276bad4ea61638202626606847166c6bb926ef4fad93869e1a3835f8e5d9efc"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p09_comb_codes_bin2bcd",
+    "task": "Prob06p09_comb_codes_bin2bcd",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "314a8009cddfc7674ffb9d2fd8a9949dd227ac8bb596034178d0c0b47674ae9a",
+    "prompt_sha256": "986670416ff60ea76bcaed13c2bc75b988b4107fe7eeda46ee1f23368e5f589e"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p10_comb_codes_bcd2bin",
+    "task": "Prob06p10_comb_codes_bcd2bin",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "bccde749fe690781bfd5589a09007ad73f9e06027a275af647200abd18a2d456",
+    "prompt_sha256": "a443d169c0f1dedc9db50cb7b6555e695ebd5c28596e69ad63dc84b67f43a09e"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p11_comb_codes_bin2ascii",
+    "task": "Prob06p11_comb_codes_bin2ascii",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "12c371a41a76ec82cad4759a2ee0b44b3102cad03affd7778b78250ffdc477ce",
+    "prompt_sha256": "468b04e19f5f6eb58c9d60cb435a49f79500ffebaf504b2942311504e3a678cc"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p13_comb_codes_8b_parity",
+    "task": "Prob06p13_comb_codes_8b_parity",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "7b3b9e30c12f88b58fb2f698587c6be84b0ab56a33add6d0ced1a17f77f33251",
+    "prompt_sha256": "cb64c0ee65e3c56fc95d3f4f3432e6e66ff6b482438d072ae4d4e8b82b663b0f"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob06p14_comb_codes_100b_parity",
+    "task": "Prob06p14_comb_codes_100b_parity",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "e40a9f1a6ccaf0fac3714402a22b89f8c1033773871853214469385d725c51cc",
+    "prompt_sha256": "aab9de52dc4daec89ba60e420117e5302448c0e4bedbdc3b31ad3912de299b43"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p07_comb_arith_8b_sra",
+    "task": "Prob07p07_comb_arith_8b_sra",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "683954957ca8910c7150d54abe94fc5bb0e6367a20d3fd876bf8ef05d6355802",
+    "prompt_sha256": "fd32e27c20dfb4b6ea68c481141f401f3156a4c6e7c0192f111378083cc496bd"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p08_comb_arith_8b_rotator",
+    "task": "Prob07p08_comb_arith_8b_rotator",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "5c4e5561b579c9c05a599c5c4d8c04d5f08186e4280dffaf905042ec6c33b5eb",
+    "prompt_sha256": "c9310300d3d43375cc91090f2d1dde90a7cb642da75539dcf9588eb7f1a98e1e"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p10_comb_arith_8b_smul",
+    "task": "Prob07p10_comb_arith_8b_smul",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "63d00f462b04f3e50df349dd4865b408ce6447529ffb3d591d108e9fa693d5ad",
+    "prompt_sha256": "1e045802efac4eec61c924dfa2c13a036fbbe8c0f1b418a60113501ddd130071"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p11_comb_arith_8b_fxp_umul",
+    "task": "Prob07p11_comb_arith_8b_fxp_umul",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "b416428e72100b81d0389f6fc3b15e728ef955f7becb9512f804087a3bffcf44",
+    "prompt_sha256": "0b0ad029a0d09d959de9f177028dbe6d5df197864b76d2a179e85da11f8e8e4f"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p12_comb_arith_8b_madd",
+    "task": "Prob07p12_comb_arith_8b_madd",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "1aa2db02609b6fddd806509589d7a1920f3e3cde6b2674917431668654c92f3a",
+    "prompt_sha256": "0c7622c3a4ccf82ba76a3dac17f5e51f297b309291cad4757a8208fd60d1f55a"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p14_comb_arith_8b_scmp",
+    "task": "Prob07p14_comb_arith_8b_scmp",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "fa68a4a53da86715409a1b6ff6ef8aa0a3ce1108f20b776b120c6ae2f780af4a",
+    "prompt_sha256": "074346d80ba23aae943b2589600fc5a551bf511adbed6d337275d6e878397821"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob07p17_comb_arith_4x8b_sorter",
+    "task": "Prob07p17_comb_arith_4x8b_sorter",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "f3e66603f222c1d6de75e23c6a955763c61884e83799db4cccad71c6870dccf6",
+    "prompt_sha256": "6f9f6436bbec4372213c9f10f3445851b6f7491acd4d788b96606121a53b32a3"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob08p05_comb_fsm_4s2i1o_mo_tbl",
+    "task": "Prob08p05_comb_fsm_4s2i1o_mo_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "1fbd2bdf00cdf0a57936d6043c5665b470f4bd88fea002ff8e42617577f606bd",
+    "prompt_sha256": "e09160b09c528755affd28869f37bd01c4dabf232bafb97b24d7a3110b800c1c"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob08p08_comb_fsm_4s1i1o_me_dia",
+    "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "c312169419b0b0628b419b17af742999ab47fbaf750b61b360e054e0c4c8be92",
+    "prompt_sha256": "7062178892437876c8d007b6a8b35d74ca4b30a02df63cba5761e5555de83616"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob09p05_comb_param_enc",
+    "task": "Prob09p05_comb_param_enc",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "b62799cf29b2a4c0f74df67f64df714e30d12b1a5d20cb8c24136a40da8e2273",
+    "prompt_sha256": "52ec219fecc394f21c47386cfc04bbca97fb38abc7ac7004a5b90d3fa2442e62"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob09p06_comb_param_dec",
+    "task": "Prob09p06_comb_param_dec",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "0d12b206686278af48fe5d7fc61513d2fe8704943d5b718e251a3529284b0171",
+    "prompt_sha256": "94fb0f8e15d1e04258b947c89329f8d3191b6de18fbe132cc60b6a347d3cd1db"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob10p05_seq_gates_8b_dffre",
+    "task": "Prob10p05_seq_gates_8b_dffre",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "92dc13392b5cac87360eb0df007299f1338653123b41ea9e1fb05e99d14e5dbb",
+    "prompt_sha256": "415e5206959969e686e1b2ae71ba388ea5802f40370dcd636744fa65e934ca0c"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob11p03_seq_bool_truth_jkff",
+    "task": "Prob11p03_seq_bool_truth_jkff",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "156b6ec86ae2bf8f9685aea4ca6ad06c4e3663be3b44f715b7445fee3a0fc01d",
+    "prompt_sha256": "eb91ccae99425053377beb282e108fcea2cdc6be3ae79b68b5e24c54331b16c2"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob11p04_seq_bool_waveform0",
+    "task": "Prob11p04_seq_bool_waveform0",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "2ce3f2df09b275dfded011f23302490765eb46da966c25ad5954b9fe72ab05a1",
+    "prompt_sha256": "37fa5851826e659ae63b8357655fe39af46f6a7ef5ceab3c40ed039d75e93ae9"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob11p05_seq_bool_waveform1",
+    "task": "Prob11p05_seq_bool_waveform1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "0506422c3afe0d3461bf2e812167b47909a7165d4a4aef6bc03d0afc99ecc51f",
+    "prompt_sha256": "1830b151ff0822d1f610bdcc071d198fcac029be20122e49016bae43d241cd04"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob12p04_seq_sreg_8b_universal",
+    "task": "Prob12p04_seq_sreg_8b_universal",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "5e8ec74c3f6f465cc3fd1dec9c0169d0c7669cc25b99b3de0e35e5a870d5d7f4",
+    "prompt_sha256": "25214d301bb4daece1efb3e3cfb850d860649412b8a0a92ad581a2e81f37cfcb"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob12p05_seq_sreg_8b_bidir",
+    "task": "Prob12p05_seq_sreg_8b_bidir",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "1827e8391f2007fa172ae7be584e06563b36fbfd178e27f074fd6e686a5a87ec",
+    "prompt_sha256": "f8bc8c2568d067bf67976da31c5daa43e8e1325f04d8bcd734311e110d7d366a"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob12p06_seq_sreg_5b_lfsr",
+    "task": "Prob12p06_seq_sreg_5b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "dbb291e064ebdafe00bb5c30b6e80cb7e69c75dd550f191517fbf7e5d4484b1b",
+    "prompt_sha256": "da16e3a51775756bd3f58ff3b9f013acc62edc06f8613aa144445657b5540237"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob12p07_seq_sreg_7b_lfsr",
+    "task": "Prob12p07_seq_sreg_7b_lfsr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "b3107845fa9fdedd10ca13d82a3539abebcf9b1612d6836a01906c1a930786a3",
+    "prompt_sha256": "7f75a9a3627393d78bf064ece0c0a269c8e04edc2a2b15582795083dba250990"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob13p08_seq_count_timer",
+    "task": "Prob13p08_seq_count_timer",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "c6710b702406147f64a290235069b9ad8f1a7d2a531bc9cb57e89ffe93a941ed",
+    "prompt_sha256": "55853eaaa09907b99fb7a5218bc9e61f32c508ebb6016610a561a909c26d095d"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob13p09_seq_count_clock",
+    "task": "Prob13p09_seq_count_clock",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "5cfc2abf31e729dc58fc56b8a7414575ecb3639f478b91543ab2c087d4803063",
+    "prompt_sha256": "b20f5c824f44a9ea34466d407696a9254a05aafc25453b5f537962a092e487a7"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob14p03_seq_edge_8b_capture",
+    "task": "Prob14p03_seq_edge_8b_capture",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "3cc7ac11c688d8d4e65a11a77ec59ca1752d029f7bc0551fc3628679486a645f",
+    "prompt_sha256": "14f4e4965c2d801507caf7ab3e42b91a36c422700f463b8b7fbe031c28a02e4c"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob14p04_seq_edge_8b_any_count",
+    "task": "Prob14p04_seq_edge_8b_any_count",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "61dc23804c438ff933a1aeafde28e92091c72be50c8e15748069e3e35798a455",
+    "prompt_sha256": "ac414fe346715636044e8827f451545de67a6f35952d1121d71b0e5985fb3dd8"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob15p02_seq_arb_4in_rotating",
+    "task": "Prob15p02_seq_arb_4in_rotating",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "8244ef8abe2f072e012e5d567e2cd87ef0b74a6b401933a9ed4558015a9d3dec",
+    "prompt_sha256": "8a331dcbe2eb26ac17f15c60208b47e8796dae00217b70fc62abd2dafe995de8"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob15p04_seq_arb_4in_granthold",
+    "task": "Prob15p04_seq_arb_4in_granthold",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "307bded2d5701a33c2a1720c5a5b9b5424f77ae769d3f6c10edc2cc2ccc0d018",
+    "prompt_sha256": "786c63fc434ea874ff035c05b4c298718534ae0bbe0fb53ed8c190ba451605a2"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob15p05_seq_arb_4in_weighted",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "692928590e694882c4c3dd751238138c4e6d3ab1a9f38aaff2d4004644193925",
+    "prompt_sha256": "e9ccb3c8204b05ddbc3404879ce52b0c83a90c25a17db1d7532f70be032cf3b7"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p03_seq_fsm_4s1i1o_me_tbl",
+    "task": "Prob16p03_seq_fsm_4s1i1o_me_tbl",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "36a47ac18d3a2cc902351de6f51d0a5d029f09fecb45f3d828e2273e377c2358",
+    "prompt_sha256": "80ca0fac58ec491a1b55202d6ef9142c70ce84b03b7d639093778de1db0591ef"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "8a89ab2058d2d3d2f734ca0bedcec9c80fc71a97fb64908bd7777b638ddb58aa",
+    "prompt_sha256": "b9743fd447d57ff431b83af917eed4bc64a17d41201551c5bbea69a7891efeb0"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p09_seq_fsm_6s2i2o_mo_dia",
+    "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "451f0fe1e28613f43eeae68703a78a13db9d2d57bf44b8e9f40e6cae095f7b53",
+    "prompt_sha256": "6ce16287755b4a8bf49ff460b7a33fdcaba0ecc36adfd046f152715c87e95485"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p10_seq_fsm_pattern1",
+    "task": "Prob16p10_seq_fsm_pattern1",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "9a2398e164a95f0fd263b3f8f6c152935c81ebcc96924e90ff3dd0b0e58dbdf4",
+    "prompt_sha256": "17e64cec765142530f3c78ddc5a8ee522828c70c0357c47956e93953cff97984"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p12_seq_fsm_stop_light",
+    "task": "Prob16p12_seq_fsm_stop_light",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "a52cc18b6c676a7178e6d0be57f1e9d568b3f10d519c67c59396397447dceeb0",
+    "prompt_sha256": "6eafe0b7ee238c303e40ad3720628a4815f614c7bd9698c3110068db4b722dd8"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob16p13_seq_fsm_ps2",
+    "task": "Prob16p13_seq_fsm_ps2",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "541dfcc2ab69ff2bea8bd52fda616dc972d222568080c685af74e69f17873759",
+    "prompt_sha256": "b47eff7b576123890dd503e917f8c59f3f1a4bfba395bfc803e2c8573c215bad"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob18p01_seq_arith_4x1b_incr",
+    "task": "Prob18p01_seq_arith_4x1b_incr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "254e1460326dba3007b76b5e22caa99a76b61436977898e7f9e7e1a813cdce1e",
+    "prompt_sha256": "63c2cb5b72ab92c24dc222e0fe969b34ee687a5a04031ea28055e2cdf1642132"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob18p02_seq_arith_4x1b_add",
+    "task": "Prob18p02_seq_arith_4x1b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "7c3a84fe40d5701f674ba03f06b1ee58a4a541d44c43dff21b3c78256a1e80d6",
+    "prompt_sha256": "4c7a36b1f55f1c71256d31f5945b9b46fcbaeacfe04962591ec1e7fd002fd5fd"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob18p03_seq_arith_2x4b_add",
+    "task": "Prob18p03_seq_arith_2x4b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "76c3f1270a3cec4ce3a69067e756cadb0e9f441a9fe4626a69d5b10d6c2f9c4b",
+    "prompt_sha256": "9c086fd0c16356396ad8c8246d9d1ef44e69b19a47bef3bcdb4f29008537f46a"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob19p05_seq_pipe_add2_2stage",
+    "task": "Prob19p05_seq_pipe_add2_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "8205fba7d081b77d874dc31fcdd5206caadc9edebbcb8c39a5624736715470e9",
+    "prompt_sha256": "6cee37ec9e2d4093107849872fd53e7e19081e4a6dccef99488e02589f98f0f2"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob19p06_seq_pipe_add3_2stage",
+    "task": "Prob19p06_seq_pipe_add3_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "58624e647e4586c4abe842acfe9b710ee9cc75f8d5b15b0ccbcdd1b75c110238",
+    "prompt_sha256": "71a007a969b005e3c98b9d5d42a826c3c715ff839865839b42a88fcf0b13be98"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob19p07_seq_pipe_add4_2stage",
+    "task": "Prob19p07_seq_pipe_add4_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "25b1bd86b960346f5f94d17e797328fb02808665a3037e370b61083486350d37",
+    "prompt_sha256": "aed1f349c8e4acf50e95948a60e132bb1a42dd9ec94e9534f1454ebfa23ae0b9"
+  },
+  {
+    "key": "contracts/deepseek-v4.1-flash/Prob19p08_seq_pipe_minmax4_2stage",
+    "task": "Prob19p08_seq_pipe_minmax4_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "deepseek-v4.1-flash",
+    "request_sha256": "26fccbcd8e5e1efd23bc780869f6648993303c878f76a02bb74cd78ed8e06fe1",
+    "prompt_sha256": "bb051b384b9018a88cb78f381dcc675ad8f49f7fd071d79d7cdab38f4e343578"
+  }
+]

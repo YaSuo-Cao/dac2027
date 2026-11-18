@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "population_per_method": 840,
+  "methods": [
+    "NativeOnly-B5",
+    "RTL-Aware-B5"
+  ],
+  "model": "deepseek-v4.1-flash",
+  "maximum_code_calls": 5,
+  "maximum_repairs": 4,
+  "physical_repair_jobs": 650,
+  "physical_transport_status_counts": {
+    "429": 133,
+    "200": 650,
+    "0": 6
+  },
+  "billing_unknown_transport_attempts": 6,
+  "infra_unresolved": 0,
+  "evaluation_fingerprint": "cd0af3c11438689aa52ab5dcac05a2f422244221e8eac3172b182c53cd560d67",
+  "original_main_tables_unchanged": [
+    "exp1_instance_scores.json",
+    "exp2_instance_scores.json",
+    "exp3_instance_scores.json",
+    "exp4_instance_scores.json",
+    "table_iv.json",
+    "table_v.json",
+    "table_vi.json",
+    "table_vii_viii.json"
+  ],
+  "protocol_sha256": "9f3f2b30deb00a9d13308f20d20f15ee5a12dcc37595f7c518921176255c1ca5",
+  "implementation_sha256": "8c14f0ec69f708b1fb447e2f25e1fb221815656efda53ef564d8357aab3300ae",
+  "audited_utc": 1794474042.8138487
+}

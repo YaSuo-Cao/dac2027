@@ -1,0 +1,5 @@
+PyRTL paradigm boundary obligations:
+1. Declare persistent state explicitly as pyrtl.Register(bitwidth=W, reset_value=specified_value). Do not substitute a combinational WireVector for storage.
+2. Never read an Output port as an internal RHS operand. Compute an internal WireVector first and drive the output from it. The official adapter owns external Input/Output creation; return internal output expressions in interface order.
+3. Use <<= for unconditional connections, |= only under with pyrtl.conditional_assignment:, and write register next state through .next. Never read .next as an RHS value. Preserve reset/enable/hold semantics under the adapter's reset convention.
+4. Slices sig[start:stop] are low-inclusive/high-exclusive; pyrtl.concat takes the MSB argument first. Return all required outputs from TopModule in specification order.

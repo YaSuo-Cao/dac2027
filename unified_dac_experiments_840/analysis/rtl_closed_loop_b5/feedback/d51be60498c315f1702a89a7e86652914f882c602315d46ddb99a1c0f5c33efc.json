@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 27:\n    Type mismatch with earlier assignment: w"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "305cc4a2f2a66fa0f12471f36661c7fa5e4fd32f77f98278de0119d7dd9706cc",
+  "candidate_source_sha256": "396064e7eec88b357d71e774e8401ecf62dcf297a8dcd5234ac242247825d5e1",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

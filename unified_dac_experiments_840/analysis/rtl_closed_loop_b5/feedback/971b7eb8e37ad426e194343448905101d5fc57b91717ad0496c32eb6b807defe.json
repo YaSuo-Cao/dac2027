@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "myhdl.ConversionError: in file candidate.py, line 28:\n    Local variable may be referenced before assignment: idx"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "46583be363d3d5851d1d3c010306b89c76d6626511cef47dc95193fb00233311",
+  "candidate_source_sha256": "31d3170ad19d2f9545dbc7b10b200f28e449a5fcf9de0c21ef0148928def15d6",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

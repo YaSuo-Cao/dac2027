@@ -1,0 +1,3404 @@
+[
+  {
+    "initial": {
+      "key": "exp1/Prob04p05_comb_bool_truth_tbl1/amaranth/Gen",
+      "task": "Prob04p05_comb_bool_truth_tbl1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p05_comb_bool_truth_tbl1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8568a0a71dc7c6a6090a120bfc4d2028d8ad8634dd3ad5ed1c2b67d726b36562",
+      "prompt_sha256": "6f8f5e75c1b98a9a08c1953fe2e4bc78f17b837325a9fd6e227285a0b3bc6b42",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p05_comb_bool_truth_tbl1/amaranth/Gen",
+      "task": "Prob04p05_comb_bool_truth_tbl1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p05_comb_bool_truth_tbl1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8568a0a71dc7c6a6090a120bfc4d2028d8ad8634dd3ad5ed1c2b67d726b36562",
+      "prompt_sha256": "6f8f5e75c1b98a9a08c1953fe2e4bc78f17b837325a9fd6e227285a0b3bc6b42",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/pyrtl/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cee7c204401764818df0722af9f9e84dc9301a55778cf853aa4e70855fa4588a",
+      "prompt_sha256": "5c30c6f3a9df15a47afb4b3cb512a9097549a1fa8066043670be411b20986525",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/pyrtl/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cee7c204401764818df0722af9f9e84dc9301a55778cf853aa4e70855fa4588a",
+      "prompt_sha256": "5c30c6f3a9df15a47afb4b3cb512a9097549a1fa8066043670be411b20986525",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/myhdl/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7b4f25aee7207a018a29a80466757358c061ac7ec2fe437d1f33681d6785dd6f",
+      "prompt_sha256": "070d15ce3469720e00ac49016a012d57d4249165ca60b0c8f5a279c684b417cb",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/myhdl/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7b4f25aee7207a018a29a80466757358c061ac7ec2fe437d1f33681d6785dd6f",
+      "prompt_sha256": "070d15ce3469720e00ac49016a012d57d4249165ca60b0c8f5a279c684b417cb",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/amaranth/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f3e9c348c04cfec3e7a7dd91938c95fc3719d3e2105b8d1aedef17504226c9b5",
+      "prompt_sha256": "5094b3e585dcde93a1ad3f416b071c97a60157948181600e4d3608df0630772b",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/amaranth/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f3e9c348c04cfec3e7a7dd91938c95fc3719d3e2105b8d1aedef17504226c9b5",
+      "prompt_sha256": "5094b3e585dcde93a1ad3f416b071c97a60157948181600e4d3608df0630772b",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/migen/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "fb1072aaf18b8c3608752df03cfa9111e0ec829663e291287cd7419dff7953a3",
+      "prompt_sha256": "bc8afe2cb06ffd42e431fd951b6625ca4a339e5f8829acfefd14f81008f71e76",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/migen/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "fb1072aaf18b8c3608752df03cfa9111e0ec829663e291287cd7419dff7953a3",
+      "prompt_sha256": "bc8afe2cb06ffd42e431fd951b6625ca4a339e5f8829acfefd14f81008f71e76",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/pymtl3/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "89e0f3746312c153b5fec0894756de7fbc9bdcca8f141927dbbb4a2d5affd33c",
+      "prompt_sha256": "751c7fb74d921973a202f01524c2243a9860f256e110bb6f13e70c7ae56ce58c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p06_comb_bool_truth_tbl2/pymtl3/Gen",
+      "task": "Prob04p06_comb_bool_truth_tbl2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p06_comb_bool_truth_tbl2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "89e0f3746312c153b5fec0894756de7fbc9bdcca8f141927dbbb4a2d5affd33c",
+      "prompt_sha256": "751c7fb74d921973a202f01524c2243a9860f256e110bb6f13e70c7ae56ce58c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p09_comb_bool_kmap2/myhdl/Gen",
+      "task": "Prob04p09_comb_bool_kmap2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p09_comb_bool_kmap2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "07168f7752c95c7e640158dde96e2bcbc064486030dd8c0d483a4647cd9a195a",
+      "prompt_sha256": "9c7024ea96c75f591c8289b63c16e51073ca4fb89d981025c1766dd024a49cb9",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p09_comb_bool_kmap2/myhdl/Gen",
+      "task": "Prob04p09_comb_bool_kmap2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p09_comb_bool_kmap2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "07168f7752c95c7e640158dde96e2bcbc064486030dd8c0d483a4647cd9a195a",
+      "prompt_sha256": "9c7024ea96c75f591c8289b63c16e51073ca4fb89d981025c1766dd024a49cb9",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p09_comb_bool_kmap2/pymtl3/Gen",
+      "task": "Prob04p09_comb_bool_kmap2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p09_comb_bool_kmap2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d287e6aedd1722067636991238de83cf287a357338e35289d4585c8d952804d1",
+      "prompt_sha256": "41063b4e1c8fd881c3eb975cc2e9e41f7dc2f71e5849095f4115c0be2da8dbd0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p09_comb_bool_kmap2/pymtl3/Gen",
+      "task": "Prob04p09_comb_bool_kmap2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p09_comb_bool_kmap2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d287e6aedd1722067636991238de83cf287a357338e35289d4585c8d952804d1",
+      "prompt_sha256": "41063b4e1c8fd881c3eb975cc2e9e41f7dc2f71e5849095f4115c0be2da8dbd0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/myhdl/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p11_comb_bool_waveform1/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "11ef22977380a62c840176ae0139c1abf5defbec2d35c44c64c0d823adaa9320",
+      "prompt_sha256": "241e27f1e10430d7deaa00102b310cc7a84bd4e4a948e954059a4de08b3c684e",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/myhdl/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p11_comb_bool_waveform1/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "11ef22977380a62c840176ae0139c1abf5defbec2d35c44c64c0d823adaa9320",
+      "prompt_sha256": "241e27f1e10430d7deaa00102b310cc7a84bd4e4a948e954059a4de08b3c684e",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/amaranth/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p11_comb_bool_waveform1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "9cb2845993dfa82d762aab5bb7d4fff9cecdc7fd9335f80963547c2447dfca32",
+      "prompt_sha256": "69517ba34f000d1145e4bf2ffdafb21a3a427c8a6eb1def5bb5b0629430a3893",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/amaranth/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob04p11_comb_bool_waveform1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "9cb2845993dfa82d762aab5bb7d4fff9cecdc7fd9335f80963547c2447dfca32",
+      "prompt_sha256": "69517ba34f000d1145e4bf2ffdafb21a3a427c8a6eb1def5bb5b0629430a3893",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/migen/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p11_comb_bool_waveform1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f9b58437906d818862ef5a6d93766bc5000554172fd6241ace9f78487ae52999",
+      "prompt_sha256": "6388a4695feab0f6fc09f018aba1630f87921d1ee95fed0a16d7a395040c72f6",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p11_comb_bool_waveform1/migen/Gen",
+      "task": "Prob04p11_comb_bool_waveform1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p11_comb_bool_waveform1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f9b58437906d818862ef5a6d93766bc5000554172fd6241ace9f78487ae52999",
+      "prompt_sha256": "6388a4695feab0f6fc09f018aba1630f87921d1ee95fed0a16d7a395040c72f6",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/pyrtl/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob04p12_comb_bool_waveform2/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e02a5a63d7405e152651efc6c1023b27dc06811882de7e79d8114b091435c531",
+      "prompt_sha256": "f3b3242604e349197f5a0b07676d8da51b7218c2b299787fe0c0fe02deadc8d0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/pyrtl/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob04p12_comb_bool_waveform2/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e02a5a63d7405e152651efc6c1023b27dc06811882de7e79d8114b091435c531",
+      "prompt_sha256": "f3b3242604e349197f5a0b07676d8da51b7218c2b299787fe0c0fe02deadc8d0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/myhdl/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p12_comb_bool_waveform2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b406f2b153b47888cf2aef992e865300565c1ffad7b082738a3982d79ef0cd09",
+      "prompt_sha256": "5e6ddec2b77806e99a37c2905b93278a9648a95f77af5cf43217b4906541ff67",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/myhdl/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob04p12_comb_bool_waveform2/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b406f2b153b47888cf2aef992e865300565c1ffad7b082738a3982d79ef0cd09",
+      "prompt_sha256": "5e6ddec2b77806e99a37c2905b93278a9648a95f77af5cf43217b4906541ff67",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/migen/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p12_comb_bool_waveform2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "94984607f03563c9846d0a8070530cbb48185d99b440fd044ea547201a49b69c",
+      "prompt_sha256": "dfc5aa3a6d2fc8430021fc7b44988960530fbc96fbe5ea00817e99373760a7f6",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/migen/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob04p12_comb_bool_waveform2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "94984607f03563c9846d0a8070530cbb48185d99b440fd044ea547201a49b69c",
+      "prompt_sha256": "dfc5aa3a6d2fc8430021fc7b44988960530fbc96fbe5ea00817e99373760a7f6",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/pymtl3/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p12_comb_bool_waveform2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8538536d58d69797653a0cde42313fc1d727c3a8e080af8eb2269a1a9d3826d6",
+      "prompt_sha256": "a9e9dc2769858c5799dd0326c56e278e5493d248a1b5c21d703fd3aa88ce7851",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob04p12_comb_bool_waveform2/pymtl3/Gen",
+      "task": "Prob04p12_comb_bool_waveform2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob04p12_comb_bool_waveform2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8538536d58d69797653a0cde42313fc1d727c3a8e080af8eb2269a1a9d3826d6",
+      "prompt_sha256": "a9e9dc2769858c5799dd0326c56e278e5493d248a1b5c21d703fd3aa88ce7851",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob05p05_comb_mux_4b_1to8/migen/Gen",
+      "task": "Prob05p05_comb_mux_4b_1to8",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob05p05_comb_mux_4b_1to8/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3cea1a54004a85af7f1756892dca80d902d24e804631b4835510a4e8e57ca64e",
+      "prompt_sha256": "caabb75bb4be1a10ba0d9d681370b5230a1352105643029967889a05dd482a9c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob05p05_comb_mux_4b_1to8/migen/Gen",
+      "task": "Prob05p05_comb_mux_4b_1to8",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob05p05_comb_mux_4b_1to8/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3cea1a54004a85af7f1756892dca80d902d24e804631b4835510a4e8e57ca64e",
+      "prompt_sha256": "caabb75bb4be1a10ba0d9d681370b5230a1352105643029967889a05dd482a9c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p02_comb_codes_enc_16to4/myhdl/Gen",
+      "task": "Prob06p02_comb_codes_enc_16to4",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p02_comb_codes_enc_16to4/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a854b951123b08b9d25de4ff927b854b762ff43afa6076ffabeba207288db4f0",
+      "prompt_sha256": "3a6c1a4c885fd1cd04c1d7771f643182919c0f5d618d307721babd40fc5e4c3d",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p02_comb_codes_enc_16to4/myhdl/Gen",
+      "task": "Prob06p02_comb_codes_enc_16to4",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p02_comb_codes_enc_16to4/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a854b951123b08b9d25de4ff927b854b762ff43afa6076ffabeba207288db4f0",
+      "prompt_sha256": "3a6c1a4c885fd1cd04c1d7771f643182919c0f5d618d307721babd40fc5e4c3d",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p06_comb_codes_penc_16to4/migen/Gen",
+      "task": "Prob06p06_comb_codes_penc_16to4",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob06p06_comb_codes_penc_16to4/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "bcf38e48c1e6bc141a13fb692257e25ab427e364ed6dd148bdd4dc9fc9d3dc04",
+      "prompt_sha256": "10ded47d1c704e79eac92714b1ded651f23e638bcddf0732602fa95b4fd6a6c6",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p06_comb_codes_penc_16to4/migen/Gen",
+      "task": "Prob06p06_comb_codes_penc_16to4",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob06p06_comb_codes_penc_16to4/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "bcf38e48c1e6bc141a13fb692257e25ab427e364ed6dd148bdd4dc9fc9d3dc04",
+      "prompt_sha256": "10ded47d1c704e79eac92714b1ded651f23e638bcddf0732602fa95b4fd6a6c6",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p08_comb_codes_gcode2bin/myhdl/Gen",
+      "task": "Prob06p08_comb_codes_gcode2bin",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p08_comb_codes_gcode2bin/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8b99857d093e92509187874c0ca0a92399981bf7d1f741a3aefafd988c1287d1",
+      "prompt_sha256": "1aa13dbeef5760508fdac36ea0a11055de390f5ae0b19405b73fa63c9148214c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p08_comb_codes_gcode2bin/myhdl/Gen",
+      "task": "Prob06p08_comb_codes_gcode2bin",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p08_comb_codes_gcode2bin/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8b99857d093e92509187874c0ca0a92399981bf7d1f741a3aefafd988c1287d1",
+      "prompt_sha256": "1aa13dbeef5760508fdac36ea0a11055de390f5ae0b19405b73fa63c9148214c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p09_comb_codes_bin2bcd/amaranth/Gen",
+      "task": "Prob06p09_comb_codes_bin2bcd",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p09_comb_codes_bin2bcd/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "aaa2da9509602410149f68ef4aeed66ca23f3d07294e2cfeaa162e168b139619",
+      "prompt_sha256": "097e4ac0bbee1236a2962b5eb6830c279ea147863b4337e9aeb92da70b158d4c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p09_comb_codes_bin2bcd/amaranth/Gen",
+      "task": "Prob06p09_comb_codes_bin2bcd",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p09_comb_codes_bin2bcd/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "aaa2da9509602410149f68ef4aeed66ca23f3d07294e2cfeaa162e168b139619",
+      "prompt_sha256": "097e4ac0bbee1236a2962b5eb6830c279ea147863b4337e9aeb92da70b158d4c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p09_comb_codes_bin2bcd/pymtl3/Gen",
+      "task": "Prob06p09_comb_codes_bin2bcd",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob06p09_comb_codes_bin2bcd/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0731a3c467957515df16f68737f471955bfb1ae7f66b423498b50ee7562cc7a8",
+      "prompt_sha256": "49cdebdfd216c959461a6460da5d47cbe81130130de79c873f05add779d132c1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p09_comb_codes_bin2bcd/pymtl3/Gen",
+      "task": "Prob06p09_comb_codes_bin2bcd",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob06p09_comb_codes_bin2bcd/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0731a3c467957515df16f68737f471955bfb1ae7f66b423498b50ee7562cc7a8",
+      "prompt_sha256": "49cdebdfd216c959461a6460da5d47cbe81130130de79c873f05add779d132c1",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/pyrtl/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0f2dc5b4190ed4eb44884c96d26b19fa04e627a470baf8835a46649b44f9c1c2",
+      "prompt_sha256": "46b34b3d53c19b9526a1862d83c0c72cd0c60a7776faf4d75217562476ce05a0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/pyrtl/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0f2dc5b4190ed4eb44884c96d26b19fa04e627a470baf8835a46649b44f9c1c2",
+      "prompt_sha256": "46b34b3d53c19b9526a1862d83c0c72cd0c60a7776faf4d75217562476ce05a0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/myhdl/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "22c7d70e061a1254cc5c49eb7d929fbbe47f57976132bf3ac5e9aba9a3d5ff09",
+      "prompt_sha256": "a3ed469c5df4196822a3905906c42d7ab9abb64d07f4313594f18d315995f1e6",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/myhdl/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "22c7d70e061a1254cc5c49eb7d929fbbe47f57976132bf3ac5e9aba9a3d5ff09",
+      "prompt_sha256": "a3ed469c5df4196822a3905906c42d7ab9abb64d07f4313594f18d315995f1e6",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/amaranth/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p10_comb_codes_bcd2bin/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5967dc3c9522700948b26a50294c049229b0517f2e16fde3d97c9facda0d4409",
+      "prompt_sha256": "c20590efa039df044616a69b61c42ceddcfc7b781a969a0cc4594ef47ad74a63",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/amaranth/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p10_comb_codes_bcd2bin/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5967dc3c9522700948b26a50294c049229b0517f2e16fde3d97c9facda0d4409",
+      "prompt_sha256": "c20590efa039df044616a69b61c42ceddcfc7b781a969a0cc4594ef47ad74a63",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/migen/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob06p10_comb_codes_bcd2bin/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e64f8a5f8ba24d5c6c9e7774916f0eca126640daa88b845b9f26cf2b827ff962",
+      "prompt_sha256": "734b9cbecefc02a078bbbb90df1ab36ca215d4e31e5bad7609b105237e6d318e",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/migen/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob06p10_comb_codes_bcd2bin/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e64f8a5f8ba24d5c6c9e7774916f0eca126640daa88b845b9f26cf2b827ff962",
+      "prompt_sha256": "734b9cbecefc02a078bbbb90df1ab36ca215d4e31e5bad7609b105237e6d318e",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/pymtl3/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f5ff52cc884d8b9d2130cc4ab1602e9058b85e1ef39eb96afd7f7c9b51235e98",
+      "prompt_sha256": "87e44d6317d22580eec18b7756e29684527d7ff2e6a0352d64bd86f847299ce1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p10_comb_codes_bcd2bin/pymtl3/Gen",
+      "task": "Prob06p10_comb_codes_bcd2bin",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob06p10_comb_codes_bcd2bin/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f5ff52cc884d8b9d2130cc4ab1602e9058b85e1ef39eb96afd7f7c9b51235e98",
+      "prompt_sha256": "87e44d6317d22580eec18b7756e29684527d7ff2e6a0352d64bd86f847299ce1",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p11_comb_codes_bin2ascii/amaranth/Gen",
+      "task": "Prob06p11_comb_codes_bin2ascii",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p11_comb_codes_bin2ascii/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "59bcb48c72754d06f196eed6210f94844cd854bc598e8268b2759d3dd832f442",
+      "prompt_sha256": "3ae407b00072c6da84b48d2895934091f6dad5c19702cb390f7f0fcaf9ead811",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p11_comb_codes_bin2ascii/amaranth/Gen",
+      "task": "Prob06p11_comb_codes_bin2ascii",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p11_comb_codes_bin2ascii/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "59bcb48c72754d06f196eed6210f94844cd854bc598e8268b2759d3dd832f442",
+      "prompt_sha256": "3ae407b00072c6da84b48d2895934091f6dad5c19702cb390f7f0fcaf9ead811",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p13_comb_codes_8b_parity/amaranth/Gen",
+      "task": "Prob06p13_comb_codes_8b_parity",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p13_comb_codes_8b_parity/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2bb0864283270a1c5338be1ee7e46d51a58238ca33dbd6aece90d5b033a1cc51",
+      "prompt_sha256": "fa2fdd0f048334982196b892a5cea446e5de0d06ad4d644205fca1ebeef423b8",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p13_comb_codes_8b_parity/amaranth/Gen",
+      "task": "Prob06p13_comb_codes_8b_parity",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob06p13_comb_codes_8b_parity/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2bb0864283270a1c5338be1ee7e46d51a58238ca33dbd6aece90d5b033a1cc51",
+      "prompt_sha256": "fa2fdd0f048334982196b892a5cea446e5de0d06ad4d644205fca1ebeef423b8",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob06p14_comb_codes_100b_parity/pyrtl/Gen",
+      "task": "Prob06p14_comb_codes_100b_parity",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob06p14_comb_codes_100b_parity/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "25c494550e39bf87da4f937d8d2d653eefc5d6a29ab154e20796f294d5af2c42",
+      "prompt_sha256": "a5acbad6d0353e49c12400d41e9aab2d273942126d364030f92ee87e8aaf8ecc",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob06p14_comb_codes_100b_parity/pyrtl/Gen",
+      "task": "Prob06p14_comb_codes_100b_parity",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob06p14_comb_codes_100b_parity/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "25c494550e39bf87da4f937d8d2d653eefc5d6a29ab154e20796f294d5af2c42",
+      "prompt_sha256": "a5acbad6d0353e49c12400d41e9aab2d273942126d364030f92ee87e8aaf8ecc",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p07_comb_arith_8b_sra/myhdl/Gen",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob07p07_comb_arith_8b_sra/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "dbfa2f61605e903f1ccf373e67ff195f8455fb34cde0ecd13c23e9e7e0469c42",
+      "prompt_sha256": "a56a648961642546be6ddef447fca06394efcda4719f113d2271402b7ffcfc03",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p07_comb_arith_8b_sra/myhdl/Gen",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob07p07_comb_arith_8b_sra/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "dbfa2f61605e903f1ccf373e67ff195f8455fb34cde0ecd13c23e9e7e0469c42",
+      "prompt_sha256": "a56a648961642546be6ddef447fca06394efcda4719f113d2271402b7ffcfc03",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p07_comb_arith_8b_sra/migen/Gen",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p07_comb_arith_8b_sra/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b088ae378a0970ddabe9c2ec8526277ee3196eea542f427f582f0313a3f83374",
+      "prompt_sha256": "3c41a5d045f1487e2fe37acfc563db64dc526d2f4627ec9b963b9730116a2779",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p07_comb_arith_8b_sra/migen/Gen",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p07_comb_arith_8b_sra/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b088ae378a0970ddabe9c2ec8526277ee3196eea542f427f582f0313a3f83374",
+      "prompt_sha256": "3c41a5d045f1487e2fe37acfc563db64dc526d2f4627ec9b963b9730116a2779",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p07_comb_arith_8b_sra/pymtl3/Gen",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p07_comb_arith_8b_sra/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b9e5ff2d955f917dc73629501d06666e18e78a26c1daa3f2681f639cd1dea940",
+      "prompt_sha256": "e6526cd8960be909115ab72496b32bbe92f76ab2cbb5375e7332d4a4c4dbb249",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p07_comb_arith_8b_sra/pymtl3",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+      "prompt_sha256": "8d3ecb98acc936a09353d22016de83fbadef6cdd2962464fba97b22c45370815",
+      "start_key": "exp1/Prob07p07_comb_arith_8b_sra/pymtl3/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+      "task": "Prob07p07_comb_arith_8b_sra",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p07_comb_arith_8b_sra/pymtl3",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4dc63e7ca61ef7f24280d7511bc4fa2c100ab620d232494f4716b04bbd8bb0a5",
+      "prompt_sha256": "8d3ecb98acc936a09353d22016de83fbadef6cdd2962464fba97b22c45370815",
+      "start_key": "exp1/Prob07p07_comb_arith_8b_sra/pymtl3/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p08_comb_arith_8b_rotator/pyrtl/Gen",
+      "task": "Prob07p08_comb_arith_8b_rotator",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob07p08_comb_arith_8b_rotator/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "74d14a05ce3973bf319de3723e44d62a36f75afcc6934afb72f68c39d5827d4d",
+      "prompt_sha256": "b049abedf6ca09d96e2240d7eaea504fc749f21f61a910e410f40b6468a88d71",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p08_comb_arith_8b_rotator/pyrtl/Gen",
+      "task": "Prob07p08_comb_arith_8b_rotator",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob07p08_comb_arith_8b_rotator/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "74d14a05ce3973bf319de3723e44d62a36f75afcc6934afb72f68c39d5827d4d",
+      "prompt_sha256": "b049abedf6ca09d96e2240d7eaea504fc749f21f61a910e410f40b6468a88d71",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p10_comb_arith_8b_smul/pyrtl/Gen",
+      "task": "Prob07p10_comb_arith_8b_smul",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob07p10_comb_arith_8b_smul/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e47cbcf23cfbc62a2326a7fa8ce1682ccc9699b7baa951696937bc3f47be672f",
+      "prompt_sha256": "ef8377e2500a3201a877fdc99e6d1ba540db258493b6ce34e2d6b36bb7980cce",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p10_comb_arith_8b_smul/pyrtl/Gen",
+      "task": "Prob07p10_comb_arith_8b_smul",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob07p10_comb_arith_8b_smul/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e47cbcf23cfbc62a2326a7fa8ce1682ccc9699b7baa951696937bc3f47be672f",
+      "prompt_sha256": "ef8377e2500a3201a877fdc99e6d1ba540db258493b6ce34e2d6b36bb7980cce",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p10_comb_arith_8b_smul/migen/Gen",
+      "task": "Prob07p10_comb_arith_8b_smul",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p10_comb_arith_8b_smul/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ddeae8c392ea44fe4b4abc8383ac3003d26b4ea310708c17c049d0131c87d987",
+      "prompt_sha256": "bafcd9c20711c4cbf6332dced623f7035b8032dcab9898b9f6e91cb6d25567fa",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p10_comb_arith_8b_smul/migen/Gen",
+      "task": "Prob07p10_comb_arith_8b_smul",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p10_comb_arith_8b_smul/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ddeae8c392ea44fe4b4abc8383ac3003d26b4ea310708c17c049d0131c87d987",
+      "prompt_sha256": "bafcd9c20711c4cbf6332dced623f7035b8032dcab9898b9f6e91cb6d25567fa",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p11_comb_arith_8b_fxp_umul/amaranth/Gen",
+      "task": "Prob07p11_comb_arith_8b_fxp_umul",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob07p11_comb_arith_8b_fxp_umul/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "620cae9d18c0b55e08b96154b8b06c2ac5206b2f58fd31a7051aca684e7cb541",
+      "prompt_sha256": "0c95c6689f2a0bbff7354375bf6ba8ce899792ece93b5a4a1161ab558899cc73",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p11_comb_arith_8b_fxp_umul/amaranth/Gen",
+      "task": "Prob07p11_comb_arith_8b_fxp_umul",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob07p11_comb_arith_8b_fxp_umul/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "620cae9d18c0b55e08b96154b8b06c2ac5206b2f58fd31a7051aca684e7cb541",
+      "prompt_sha256": "0c95c6689f2a0bbff7354375bf6ba8ce899792ece93b5a4a1161ab558899cc73",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p11_comb_arith_8b_fxp_umul/migen/Gen",
+      "task": "Prob07p11_comb_arith_8b_fxp_umul",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p11_comb_arith_8b_fxp_umul/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "1c175fc9b5706b02889c563e29d85c4fcd0d56dd9e7b5999d5b409bfa7056319",
+      "prompt_sha256": "5317355c4d17d86731a48baafe5ea5f005244c4348e79e17d83c15cfaeb6d8db",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p11_comb_arith_8b_fxp_umul/migen/Gen",
+      "task": "Prob07p11_comb_arith_8b_fxp_umul",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p11_comb_arith_8b_fxp_umul/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "1c175fc9b5706b02889c563e29d85c4fcd0d56dd9e7b5999d5b409bfa7056319",
+      "prompt_sha256": "5317355c4d17d86731a48baafe5ea5f005244c4348e79e17d83c15cfaeb6d8db",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p12_comb_arith_8b_madd/pymtl3/Gen",
+      "task": "Prob07p12_comb_arith_8b_madd",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p12_comb_arith_8b_madd/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "459898bd9f200f04b9b526c46914dd3db5534584dc1ec32c45eb016fb41c3d57",
+      "prompt_sha256": "4472894442e1e82fd758162c3b4e6091b20c7dcf4753c0c4953545fc979384e0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p12_comb_arith_8b_madd/pymtl3/Gen",
+      "task": "Prob07p12_comb_arith_8b_madd",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p12_comb_arith_8b_madd/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "459898bd9f200f04b9b526c46914dd3db5534584dc1ec32c45eb016fb41c3d57",
+      "prompt_sha256": "4472894442e1e82fd758162c3b4e6091b20c7dcf4753c0c4953545fc979384e0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p14_comb_arith_8b_scmp/migen/Gen",
+      "task": "Prob07p14_comb_arith_8b_scmp",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p14_comb_arith_8b_scmp/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e616994ae258757dd6230bbee94d9de8bf070b62fc9f49b1fb40e9bc5d0ad2fb",
+      "prompt_sha256": "74a7221e6447af29b696a2daca991aac9b55268259c208559068d18e4d888bb1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p14_comb_arith_8b_scmp/migen/Gen",
+      "task": "Prob07p14_comb_arith_8b_scmp",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob07p14_comb_arith_8b_scmp/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e616994ae258757dd6230bbee94d9de8bf070b62fc9f49b1fb40e9bc5d0ad2fb",
+      "prompt_sha256": "74a7221e6447af29b696a2daca991aac9b55268259c208559068d18e4d888bb1",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p14_comb_arith_8b_scmp/pymtl3/Gen",
+      "task": "Prob07p14_comb_arith_8b_scmp",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p14_comb_arith_8b_scmp/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cba1e39381810318c33383498ae6aea39bb36ae380153b40a52be81f22f2f0d5",
+      "prompt_sha256": "f43374f0331a608508bf2ab273edf196bc8b48d226e240145dec65d3405d157e",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p14_comb_arith_8b_scmp/pymtl3/Gen",
+      "task": "Prob07p14_comb_arith_8b_scmp",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob07p14_comb_arith_8b_scmp/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cba1e39381810318c33383498ae6aea39bb36ae380153b40a52be81f22f2f0d5",
+      "prompt_sha256": "f43374f0331a608508bf2ab273edf196bc8b48d226e240145dec65d3405d157e",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob07p17_comb_arith_4x8b_sorter/amaranth/Gen",
+      "task": "Prob07p17_comb_arith_4x8b_sorter",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob07p17_comb_arith_4x8b_sorter/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "9334ae3a067f49baef97184e0e42e937a408c742a37db3ee4b3c5859878e954c",
+      "prompt_sha256": "9da08d2effa263d8c635e0a6d0fdeb22ab16bf6d712f32c88ed44923998001bf",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob07p17_comb_arith_4x8b_sorter/amaranth/Gen",
+      "task": "Prob07p17_comb_arith_4x8b_sorter",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob07p17_comb_arith_4x8b_sorter/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "9334ae3a067f49baef97184e0e42e937a408c742a37db3ee4b3c5859878e954c",
+      "prompt_sha256": "9da08d2effa263d8c635e0a6d0fdeb22ab16bf6d712f32c88ed44923998001bf",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p05_comb_fsm_4s2i1o_mo_tbl/migen/Gen",
+      "task": "Prob08p05_comb_fsm_4s2i1o_mo_tbl",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob08p05_comb_fsm_4s2i1o_mo_tbl/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "35a5e30b4206b96c97d7aef9a79abb3423d50994a4f59448a98f0064ae564de7",
+      "prompt_sha256": "d643a2ca11c6c1dd11ffb01b938a6f790bd2877bd9aec326463f139889ee753e",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob08p05_comb_fsm_4s2i1o_mo_tbl/migen/Gen",
+      "task": "Prob08p05_comb_fsm_4s2i1o_mo_tbl",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob08p05_comb_fsm_4s2i1o_mo_tbl/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "35a5e30b4206b96c97d7aef9a79abb3423d50994a4f59448a98f0064ae564de7",
+      "prompt_sha256": "d643a2ca11c6c1dd11ffb01b938a6f790bd2877bd9aec326463f139889ee753e",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7b2c4edadb79572011a1c38bdc6fc424e65a7d80a54566fcdef9362d89cbbee1",
+      "prompt_sha256": "68abfea0d636338aab52447cdfe4008c558bb51a499085062fd883dfb5852921",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+      "prompt_sha256": "7863a3276111f7794639a7b6e04fa932439970c51413da27fb348c14d21e7cbd",
+      "start_key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "535ee7ea3d80929ad310a5c68f68155e70e31356a363c32a79dd89c26975df0e",
+      "prompt_sha256": "7863a3276111f7794639a7b6e04fa932439970c51413da27fb348c14d21e7cbd",
+      "start_key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4317417b523ebdd384c850fd047aa0fd364eb7d279c15a2bdc11a9a45fb352fe",
+      "prompt_sha256": "55a67fcc88ee510af359fc38cdcf5544cab322944fa78577ca259f0f2d2fb08c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4317417b523ebdd384c850fd047aa0fd364eb7d279c15a2bdc11a9a45fb352fe",
+      "prompt_sha256": "55a67fcc88ee510af359fc38cdcf5544cab322944fa78577ca259f0f2d2fb08c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "76ae4823cde14b54fbad53ef3fa3e717357df744b390a83e66275c8e96e10204",
+      "prompt_sha256": "335995348fdb356ee9437cd8a173bd73f3cd947b8033d1496ec43f2f695c771d",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "76ae4823cde14b54fbad53ef3fa3e717357df744b390a83e66275c8e96e10204",
+      "prompt_sha256": "335995348fdb356ee9437cd8a173bd73f3cd947b8033d1496ec43f2f695c771d",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/migen/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "12772752c292fc7b2b6f6f5399c1e3a08a96b3fcbcf1328770b612e112ba6a3b",
+      "prompt_sha256": "03d401c1711c4079cf53dcd58ebc136738cee2e1f569f867efe88ac9e398b174",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/migen/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "12772752c292fc7b2b6f6f5399c1e3a08a96b3fcbcf1328770b612e112ba6a3b",
+      "prompt_sha256": "03d401c1711c4079cf53dcd58ebc136738cee2e1f569f867efe88ac9e398b174",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2940b0c916608a4fe522437aebadf1ba33313aff42a1d9fdeb4878a18ba75dda",
+      "prompt_sha256": "f721406cbdcf30f35c20cad3fa0542a1e56c1eae87cd5ed54f1ea6b4af121a3b",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3/Gen",
+      "task": "Prob08p08_comb_fsm_4s1i1o_me_dia",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob08p08_comb_fsm_4s1i1o_me_dia/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2940b0c916608a4fe522437aebadf1ba33313aff42a1d9fdeb4878a18ba75dda",
+      "prompt_sha256": "f721406cbdcf30f35c20cad3fa0542a1e56c1eae87cd5ed54f1ea6b4af121a3b",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob09p05_comb_param_enc/pymtl3/Gen",
+      "task": "Prob09p05_comb_param_enc",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob09p05_comb_param_enc/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c41dac001faa443231e69b488705c49e87bddeeab8addfd5a685e4815334e597",
+      "prompt_sha256": "14d19d7d75818668d411171ec8abe8de3272d66dc8d5412670c8f6e1b9e1fdc7",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob09p05_comb_param_enc/pymtl3/Gen",
+      "task": "Prob09p05_comb_param_enc",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob09p05_comb_param_enc/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c41dac001faa443231e69b488705c49e87bddeeab8addfd5a685e4815334e597",
+      "prompt_sha256": "14d19d7d75818668d411171ec8abe8de3272d66dc8d5412670c8f6e1b9e1fdc7",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob09p06_comb_param_dec/pyrtl/Gen",
+      "task": "Prob09p06_comb_param_dec",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob09p06_comb_param_dec/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5c0300da9b7ce8e5400772972720c5c26f201e75e6fe10f42ab79d9ad96fd554",
+      "prompt_sha256": "0f0edc51be7f25fb66a3ad234570d390dea6c77f4f03a8d36cd7eedcc8cf9d47",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+      "task": "Prob09p06_comb_param_dec",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob09p06_comb_param_dec/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+      "prompt_sha256": "c69dd623d676d49cf02500514ac478ada13609879eb135d4a14f3e078b9fb9b1",
+      "start_key": "exp1/Prob09p06_comb_param_dec/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+      "task": "Prob09p06_comb_param_dec",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob09p06_comb_param_dec/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e0dda16afaf602cd911e5d86e467236562fbd26de1e1e7e91118554f7174e620",
+      "prompt_sha256": "c69dd623d676d49cf02500514ac478ada13609879eb135d4a14f3e078b9fb9b1",
+      "start_key": "exp1/Prob09p06_comb_param_dec/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob10p05_seq_gates_8b_dffre/amaranth/Gen",
+      "task": "Prob10p05_seq_gates_8b_dffre",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob10p05_seq_gates_8b_dffre/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8f0e7c56cedfc23d692af4521115ed645842afcbd2c4582324d9d0f3b7c20a02",
+      "prompt_sha256": "759df38c22f907f1c91dbf1dc691cb8bff9088b60cc59e5b7b8de4ffcd349881",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob10p05_seq_gates_8b_dffre/amaranth/Gen",
+      "task": "Prob10p05_seq_gates_8b_dffre",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob10p05_seq_gates_8b_dffre/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8f0e7c56cedfc23d692af4521115ed645842afcbd2c4582324d9d0f3b7c20a02",
+      "prompt_sha256": "759df38c22f907f1c91dbf1dc691cb8bff9088b60cc59e5b7b8de4ffcd349881",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/pyrtl/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p03_seq_bool_truth_jkff/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ccccc2112e35805e67cc56f0ba1342a0287275de4c9cdc7f39c88a362bb59b89",
+      "prompt_sha256": "76bbb39d5b1c4e8743974697a25d2ea45e913d20fbd55914c09f21031d687db9",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/pyrtl/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p03_seq_bool_truth_jkff/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ccccc2112e35805e67cc56f0ba1342a0287275de4c9cdc7f39c88a362bb59b89",
+      "prompt_sha256": "76bbb39d5b1c4e8743974697a25d2ea45e913d20fbd55914c09f21031d687db9",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/amaranth/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob11p03_seq_bool_truth_jkff/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2f4e08bb9b8838def08bbc71a4eec9a9384212d30e058799b21553911d346723",
+      "prompt_sha256": "19dd839f7f36935185cdee3edee8a017b427cf7ae282fd70e3261ac64ecbb425",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/amaranth/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob11p03_seq_bool_truth_jkff/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2f4e08bb9b8838def08bbc71a4eec9a9384212d30e058799b21553911d346723",
+      "prompt_sha256": "19dd839f7f36935185cdee3edee8a017b427cf7ae282fd70e3261ac64ecbb425",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/migen/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob11p03_seq_bool_truth_jkff/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c00738d401eec299fe49f26b8ea20303c68bc7af2c0a27309234b2ca08ac994c",
+      "prompt_sha256": "62f24b13b1f17107a47f7751380d02fe8c2756538b2efadaefc967f4fbade2de",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/migen/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob11p03_seq_bool_truth_jkff/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c00738d401eec299fe49f26b8ea20303c68bc7af2c0a27309234b2ca08ac994c",
+      "prompt_sha256": "62f24b13b1f17107a47f7751380d02fe8c2756538b2efadaefc967f4fbade2de",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/pymtl3/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob11p03_seq_bool_truth_jkff/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d267501768e3589601bcf3e0cc2e2090c025469128de72e877844b1c11bc5176",
+      "prompt_sha256": "6cd9a8843830fe3d76b7af0f66b5ac6209e81d9ca0c9c72abbb05b1c1af1418a",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p03_seq_bool_truth_jkff/pymtl3/Gen",
+      "task": "Prob11p03_seq_bool_truth_jkff",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob11p03_seq_bool_truth_jkff/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d267501768e3589601bcf3e0cc2e2090c025469128de72e877844b1c11bc5176",
+      "prompt_sha256": "6cd9a8843830fe3d76b7af0f66b5ac6209e81d9ca0c9c72abbb05b1c1af1418a",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p04_seq_bool_waveform0/pyrtl/Gen",
+      "task": "Prob11p04_seq_bool_waveform0",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p04_seq_bool_waveform0/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d0c33d8b66bc6489d661a8dae7d131f87f5e059e96d7036162d7fbb6f6ba95fd",
+      "prompt_sha256": "151936aa94b19ba7debd10fb99dd223c2e097dc20fe464de332f4d8e12b3ca79",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p04_seq_bool_waveform0/pyrtl/Gen",
+      "task": "Prob11p04_seq_bool_waveform0",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p04_seq_bool_waveform0/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d0c33d8b66bc6489d661a8dae7d131f87f5e059e96d7036162d7fbb6f6ba95fd",
+      "prompt_sha256": "151936aa94b19ba7debd10fb99dd223c2e097dc20fe464de332f4d8e12b3ca79",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/pyrtl/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p05_seq_bool_waveform1/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "781751bcf66e215c16304b5073ffab5390e7090e5e9534010fbedec427a14d52",
+      "prompt_sha256": "95c28b8edeb786a1edfe71bbe1ad235d7c4c9c26161737697dfcdf386042014d",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/pyrtl/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob11p05_seq_bool_waveform1/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "781751bcf66e215c16304b5073ffab5390e7090e5e9534010fbedec427a14d52",
+      "prompt_sha256": "95c28b8edeb786a1edfe71bbe1ad235d7c4c9c26161737697dfcdf386042014d",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/myhdl/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob11p05_seq_bool_waveform1/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5fab912898556a40c9819921f1239ce4e80b89abe6c8506c2abc64859ae11924",
+      "prompt_sha256": "141f900ada0483849d7c0b5fa7b129b8d5ad88ad2eb8163e011a16110ab9c4c1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/myhdl/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob11p05_seq_bool_waveform1/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5fab912898556a40c9819921f1239ce4e80b89abe6c8506c2abc64859ae11924",
+      "prompt_sha256": "141f900ada0483849d7c0b5fa7b129b8d5ad88ad2eb8163e011a16110ab9c4c1",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/amaranth/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob11p05_seq_bool_waveform1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "db573cbdee024a8dbd542fb5d223ecead1dc4e0a9dbe8d1a2d099aba4839b83c",
+      "prompt_sha256": "9da69cd9cfee69799eb94bb7b6451a75d71531b5a2bad81f78f9e10d60f854f9",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/amaranth/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob11p05_seq_bool_waveform1/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "db573cbdee024a8dbd542fb5d223ecead1dc4e0a9dbe8d1a2d099aba4839b83c",
+      "prompt_sha256": "9da69cd9cfee69799eb94bb7b6451a75d71531b5a2bad81f78f9e10d60f854f9",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/migen/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob11p05_seq_bool_waveform1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7fc93f4eb5a1ae1f9740339f0aeeb32c008dda7ad0152a4bd60ba2e8d46f09ff",
+      "prompt_sha256": "9fb4e560287a2e6b086f9b5285dea76dd6d522ac90a9cb22eaf9cd789d43a06f",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/migen/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob11p05_seq_bool_waveform1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7fc93f4eb5a1ae1f9740339f0aeeb32c008dda7ad0152a4bd60ba2e8d46f09ff",
+      "prompt_sha256": "9fb4e560287a2e6b086f9b5285dea76dd6d522ac90a9cb22eaf9cd789d43a06f",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/pymtl3/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob11p05_seq_bool_waveform1/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e5824d402b54bdd67d5a02da4e4c20f4fa929128ef9ed9061497b76e56f5b5a1",
+      "prompt_sha256": "6159882309beab6d475e2457de6b874f8ab5476b906d03cda9edee95b1aa965d",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob11p05_seq_bool_waveform1/pymtl3/Gen",
+      "task": "Prob11p05_seq_bool_waveform1",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob11p05_seq_bool_waveform1/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e5824d402b54bdd67d5a02da4e4c20f4fa929128ef9ed9061497b76e56f5b5a1",
+      "prompt_sha256": "6159882309beab6d475e2457de6b874f8ab5476b906d03cda9edee95b1aa965d",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p04_seq_sreg_8b_universal/migen/Gen",
+      "task": "Prob12p04_seq_sreg_8b_universal",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob12p04_seq_sreg_8b_universal/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "373a14f16f3cb134ff127ddb197e7779d970a5ac51a24c02370c019e693bd828",
+      "prompt_sha256": "b2278480d4f99121494a4d66428c5da9b19e88da6c61bdacb567b142a2919a83",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p04_seq_sreg_8b_universal/migen/Gen",
+      "task": "Prob12p04_seq_sreg_8b_universal",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob12p04_seq_sreg_8b_universal/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "373a14f16f3cb134ff127ddb197e7779d970a5ac51a24c02370c019e693bd828",
+      "prompt_sha256": "b2278480d4f99121494a4d66428c5da9b19e88da6c61bdacb567b142a2919a83",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p05_seq_sreg_8b_bidir/pyrtl/Gen",
+      "task": "Prob12p05_seq_sreg_8b_bidir",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob12p05_seq_sreg_8b_bidir/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "389f03821cabbd8ae1cfba157bfc1e67b46519be16273373e38e1197b6999ca6",
+      "prompt_sha256": "c1266f7633b11412d2c64053ef9a954ab2ab5b70f6dae08d46127d2ad1b85f37",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p05_seq_sreg_8b_bidir/pyrtl/Gen",
+      "task": "Prob12p05_seq_sreg_8b_bidir",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob12p05_seq_sreg_8b_bidir/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "389f03821cabbd8ae1cfba157bfc1e67b46519be16273373e38e1197b6999ca6",
+      "prompt_sha256": "c1266f7633b11412d2c64053ef9a954ab2ab5b70f6dae08d46127d2ad1b85f37",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/pyrtl/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "56543f0b69773f5bc9d224e8663b616bfa52cf754d1221946051304580905c0f",
+      "prompt_sha256": "506f8a60c9b2e309d7684ef9d77069d70086e3cf0fe9553b2bd0565b40cb7cef",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/pyrtl/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "56543f0b69773f5bc9d224e8663b616bfa52cf754d1221946051304580905c0f",
+      "prompt_sha256": "506f8a60c9b2e309d7684ef9d77069d70086e3cf0fe9553b2bd0565b40cb7cef",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/myhdl/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "705843a8dfc67043d8391f20c4c883ab904e087cb3e9658837194277e3c49190",
+      "prompt_sha256": "5eee9fdadea1f625b7a3c9f47f6fdc8a71c44f04c03efb6891c64f6adf0e0913",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/myhdl/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "705843a8dfc67043d8391f20c4c883ab904e087cb3e9658837194277e3c49190",
+      "prompt_sha256": "5eee9fdadea1f625b7a3c9f47f6fdc8a71c44f04c03efb6891c64f6adf0e0913",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/migen/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0805e4ae1586a4d061a5d5c58479d895c010ac8607d4faca397304138aa1b720",
+      "prompt_sha256": "50a7b25843abe80113b3e869c8307f497c89497c07178851ceec11da28f647e0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p06_seq_sreg_5b_lfsr/migen/Gen",
+      "task": "Prob12p06_seq_sreg_5b_lfsr",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob12p06_seq_sreg_5b_lfsr/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "0805e4ae1586a4d061a5d5c58479d895c010ac8607d4faca397304138aa1b720",
+      "prompt_sha256": "50a7b25843abe80113b3e869c8307f497c89497c07178851ceec11da28f647e0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p07_seq_sreg_7b_lfsr/myhdl/Gen",
+      "task": "Prob12p07_seq_sreg_7b_lfsr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob12p07_seq_sreg_7b_lfsr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c65b45b1ffbce0ffd6e6ebe2d65bffa8860b2710f7f7342bbef456238cb48bd1",
+      "prompt_sha256": "47a5d7cb057a8f083a82e9aa9f1b2ea54611d74b582aa877f35369e04628f413",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p07_seq_sreg_7b_lfsr/myhdl/Gen",
+      "task": "Prob12p07_seq_sreg_7b_lfsr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob12p07_seq_sreg_7b_lfsr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c65b45b1ffbce0ffd6e6ebe2d65bffa8860b2710f7f7342bbef456238cb48bd1",
+      "prompt_sha256": "47a5d7cb057a8f083a82e9aa9f1b2ea54611d74b582aa877f35369e04628f413",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob12p07_seq_sreg_7b_lfsr/amaranth/Gen",
+      "task": "Prob12p07_seq_sreg_7b_lfsr",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob12p07_seq_sreg_7b_lfsr/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4e719b85db47dc9249481901bb68559b0bd4c4c731ba3c4fbc22b2835ca71428",
+      "prompt_sha256": "3f523a518289b98cace75652046ce515925ec9c9d4d0f8c599eeef2f1085a794",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob12p07_seq_sreg_7b_lfsr/amaranth/Gen",
+      "task": "Prob12p07_seq_sreg_7b_lfsr",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob12p07_seq_sreg_7b_lfsr/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4e719b85db47dc9249481901bb68559b0bd4c4c731ba3c4fbc22b2835ca71428",
+      "prompt_sha256": "3f523a518289b98cace75652046ce515925ec9c9d4d0f8c599eeef2f1085a794",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob13p08_seq_count_timer/myhdl/Gen",
+      "task": "Prob13p08_seq_count_timer",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob13p08_seq_count_timer/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cd9e4df0de564942844ae5ce5863f10fc41fcceb798f995ddb9b5ebdc87d5ba7",
+      "prompt_sha256": "7976a8c5dcc211f2ff0e095ce1e796f70342f454e97763d0d4962ad02d3bbfdc",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob13p08_seq_count_timer/myhdl/Gen",
+      "task": "Prob13p08_seq_count_timer",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob13p08_seq_count_timer/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cd9e4df0de564942844ae5ce5863f10fc41fcceb798f995ddb9b5ebdc87d5ba7",
+      "prompt_sha256": "7976a8c5dcc211f2ff0e095ce1e796f70342f454e97763d0d4962ad02d3bbfdc",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob13p09_seq_count_clock/pyrtl/Gen",
+      "task": "Prob13p09_seq_count_clock",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob13p09_seq_count_clock/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2708098007836b7f4da019dc7f3378ab2d65ac6b904a306261bf81c5643b86af",
+      "prompt_sha256": "da902043055679ace21250e0f7b42899f4bac6193a6467f81eb73e81cfad4dc3",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob13p09_seq_count_clock/pyrtl/Gen",
+      "task": "Prob13p09_seq_count_clock",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob13p09_seq_count_clock/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2708098007836b7f4da019dc7f3378ab2d65ac6b904a306261bf81c5643b86af",
+      "prompt_sha256": "da902043055679ace21250e0f7b42899f4bac6193a6467f81eb73e81cfad4dc3",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob13p09_seq_count_clock/pymtl3/Gen",
+      "task": "Prob13p09_seq_count_clock",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob13p09_seq_count_clock/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2ebbac2be3022021595f346d8aefd5ec74ab2de89169517f931981b025a3d580",
+      "prompt_sha256": "e612a903897eb7d2a51d4fc78dc49bfce58605189844db7739f2436a509ec984",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob13p09_seq_count_clock/pymtl3/Gen",
+      "task": "Prob13p09_seq_count_clock",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob13p09_seq_count_clock/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2ebbac2be3022021595f346d8aefd5ec74ab2de89169517f931981b025a3d580",
+      "prompt_sha256": "e612a903897eb7d2a51d4fc78dc49bfce58605189844db7739f2436a509ec984",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/myhdl/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob14p03_seq_edge_8b_capture/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f8a92f90f0af8d3794cac14b4b64235d86646ee8c82cffd61bc87e91176b9a78",
+      "prompt_sha256": "7dbfd5599ce587d4b879181a3c5bbeaaf63a42484710a3e3cbbe02438d01a2af",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/myhdl/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob14p03_seq_edge_8b_capture/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f8a92f90f0af8d3794cac14b4b64235d86646ee8c82cffd61bc87e91176b9a78",
+      "prompt_sha256": "7dbfd5599ce587d4b879181a3c5bbeaaf63a42484710a3e3cbbe02438d01a2af",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/amaranth/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob14p03_seq_edge_8b_capture/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "10f513bd756701cd83db946c85eedc831a131d4ce8fbb807ffc3e3f6b9d91908",
+      "prompt_sha256": "d93ee644293d03e48b80fc73d0e7467562d69a80ac35239168b0f195126bd695",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/amaranth/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob14p03_seq_edge_8b_capture/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "10f513bd756701cd83db946c85eedc831a131d4ce8fbb807ffc3e3f6b9d91908",
+      "prompt_sha256": "d93ee644293d03e48b80fc73d0e7467562d69a80ac35239168b0f195126bd695",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/migen/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob14p03_seq_edge_8b_capture/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "1ae5edf5ce512295ef4cd2f379fe74516c6f38c4dfede7e8c7df85693de0ac2f",
+      "prompt_sha256": "2189c07bc266f84faa10f4b4983e8a9ad636aebe19b5c80415073182ca1f18b4",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/migen/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob14p03_seq_edge_8b_capture/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "1ae5edf5ce512295ef4cd2f379fe74516c6f38c4dfede7e8c7df85693de0ac2f",
+      "prompt_sha256": "2189c07bc266f84faa10f4b4983e8a9ad636aebe19b5c80415073182ca1f18b4",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/pymtl3/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob14p03_seq_edge_8b_capture/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b4d54ade5e5ec0f00cd4e697c783741d7d1650fec92f6f961b3fcc8815a1e635",
+      "prompt_sha256": "51fb2bbc435da2ddf26d1c19ee58665892ae4e4330e485cdb58f696c54165aa0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob14p03_seq_edge_8b_capture/pymtl3/Gen",
+      "task": "Prob14p03_seq_edge_8b_capture",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob14p03_seq_edge_8b_capture/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b4d54ade5e5ec0f00cd4e697c783741d7d1650fec92f6f961b3fcc8815a1e635",
+      "prompt_sha256": "51fb2bbc435da2ddf26d1c19ee58665892ae4e4330e485cdb58f696c54165aa0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob14p04_seq_edge_8b_any_count/migen/Gen",
+      "task": "Prob14p04_seq_edge_8b_any_count",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob14p04_seq_edge_8b_any_count/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "5f92e3865ba8252c5e184089740d6a3bb59c5b8cbe9b87e43750b4a1b7126247",
+      "prompt_sha256": "fc5b4c30011798585b1d86a4d2ad681cf812b80e9513aaab1fbda6ec15d5db78",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+      "task": "Prob14p04_seq_edge_8b_any_count",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob14p04_seq_edge_8b_any_count/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+      "prompt_sha256": "ad11a40c9f4e03992b71450c921e61a887c88146dd86f037b2ced52068183927",
+      "start_key": "exp1/Prob14p04_seq_edge_8b_any_count/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+      "task": "Prob14p04_seq_edge_8b_any_count",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob14p04_seq_edge_8b_any_count/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "72170663237d3300eab75ff8f93fb3528cc6f554039d01e30236585dff38a309",
+      "prompt_sha256": "ad11a40c9f4e03992b71450c921e61a887c88146dd86f037b2ced52068183927",
+      "start_key": "exp1/Prob14p04_seq_edge_8b_any_count/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/pyrtl/Gen",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob15p02_seq_arb_4in_rotating/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8f853b01deff3522a2a21562470d3e4afbe9b219da98c894b9b46ec54eaab8bf",
+      "prompt_sha256": "70f158591db9a0916a582291fc1c4318f87d732dc8d66d4dbe54936858c2a439",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob15p02_seq_arb_4in_rotating/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+      "prompt_sha256": "9bab2df76fc44a9ee11b43df8f76c8d26c4c16d85593806f85468092ee426fd0",
+      "start_key": "exp1/Prob15p02_seq_arb_4in_rotating/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob15p02_seq_arb_4in_rotating/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e0a18dd90aea08f62d090a16a4390d91d3e50a6e1046703c59f661bac07f46fd",
+      "prompt_sha256": "9bab2df76fc44a9ee11b43df8f76c8d26c4c16d85593806f85468092ee426fd0",
+      "start_key": "exp1/Prob15p02_seq_arb_4in_rotating/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/amaranth/Gen",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob15p02_seq_arb_4in_rotating/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d77bf805428c4d7cb933b2eb49d073441fff58395bbc066f6a0a1facff2d91d8",
+      "prompt_sha256": "27a4f6cf40d2ab0b34247e57408d2d7cdfd18eb1309fbb01b67a08b529a9b3e8",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/amaranth/Gen",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob15p02_seq_arb_4in_rotating/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "d77bf805428c4d7cb933b2eb49d073441fff58395bbc066f6a0a1facff2d91d8",
+      "prompt_sha256": "27a4f6cf40d2ab0b34247e57408d2d7cdfd18eb1309fbb01b67a08b529a9b3e8",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/pymtl3/Gen",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob15p02_seq_arb_4in_rotating/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a22d3eec2cff226841b0d763141c5e15d4dada86173d4575a938f7b2102ec800",
+      "prompt_sha256": "3ae46728a3f17a5b9dbd71e2866888bcc8d52ff1a89af618f7a3a8e305190fa2",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob15p02_seq_arb_4in_rotating/pymtl3/Gen",
+      "task": "Prob15p02_seq_arb_4in_rotating",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob15p02_seq_arb_4in_rotating/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a22d3eec2cff226841b0d763141c5e15d4dada86173d4575a938f7b2102ec800",
+      "prompt_sha256": "3ae46728a3f17a5b9dbd71e2866888bcc8d52ff1a89af618f7a3a8e305190fa2",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p04_seq_arb_4in_granthold/migen/Gen",
+      "task": "Prob15p04_seq_arb_4in_granthold",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p04_seq_arb_4in_granthold/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c6e31d5fcabe8816cc35751b2f28c81b4615ebfce0ea482bc66b0aa48509ffb2",
+      "prompt_sha256": "16cc27331bc3a7a1b5b56322526879ca1fb7548da647111168af91b16df87426",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+      "task": "Prob15p04_seq_arb_4in_granthold",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p04_seq_arb_4in_granthold/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+      "prompt_sha256": "7de344efa492de56c9fab951bfae4e76e23bba62d0960d6850c9a64b7deffece",
+      "start_key": "exp1/Prob15p04_seq_arb_4in_granthold/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+      "task": "Prob15p04_seq_arb_4in_granthold",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p04_seq_arb_4in_granthold/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4c3ed497042f0765202bd3a46a83bb29a33869bbfe11849a4240fa93479d5f2d",
+      "prompt_sha256": "7de344efa492de56c9fab951bfae4e76e23bba62d0960d6850c9a64b7deffece",
+      "start_key": "exp1/Prob15p04_seq_arb_4in_granthold/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p05_seq_arb_4in_weighted/myhdl/Gen",
+      "task": "Prob15p05_seq_arb_4in_weighted",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob15p05_seq_arb_4in_weighted/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3749af8da278fc5f948977d34d8b700432619dccef9d70fddd0f5d12a2943063",
+      "prompt_sha256": "6eaeca7c0549de678d39611f10017b795987ce376dd8f3ac992000b7ab0234c5",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob15p05_seq_arb_4in_weighted/myhdl/Gen",
+      "task": "Prob15p05_seq_arb_4in_weighted",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob15p05_seq_arb_4in_weighted/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3749af8da278fc5f948977d34d8b700432619dccef9d70fddd0f5d12a2943063",
+      "prompt_sha256": "6eaeca7c0549de678d39611f10017b795987ce376dd8f3ac992000b7ab0234c5",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob15p05_seq_arb_4in_weighted/migen/Gen",
+      "task": "Prob15p05_seq_arb_4in_weighted",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p05_seq_arb_4in_weighted/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "36135e7e0562a856e4ee1049a65231d5690ddb860a37b4b7d4b2bb06e827aff2",
+      "prompt_sha256": "c559550dbd25a81d9ace3f91c16112f4fe582d08030722a305b917b6b79e4d39",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+      "task": "Prob15p05_seq_arb_4in_weighted",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p05_seq_arb_4in_weighted/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+      "prompt_sha256": "3610102ce773afa900d7bb8d0c1601ac27fc562905c07ed9d375a304bb830d05",
+      "start_key": "exp1/Prob15p05_seq_arb_4in_weighted/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+      "task": "Prob15p05_seq_arb_4in_weighted",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob15p05_seq_arb_4in_weighted/migen",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "ad02da43d73c3942da8c1c8c949bd8de9db66fed34f7a4e3921450fd41f76755",
+      "prompt_sha256": "3610102ce773afa900d7bb8d0c1601ac27fc562905c07ed9d375a304bb830d05",
+      "start_key": "exp1/Prob15p05_seq_arb_4in_weighted/migen/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p03_seq_fsm_4s1i1o_me_tbl/pymtl3/Gen",
+      "task": "Prob16p03_seq_fsm_4s1i1o_me_tbl",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p03_seq_fsm_4s1i1o_me_tbl/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "822d8d34f0ff6488548ee77991dc98d66455bf9c6d4f54bf4f5a09464a997587",
+      "prompt_sha256": "1442b672a0164811a8fc864b5d4bb0c859c353ed8eb96f4db0018808550445ce",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p03_seq_fsm_4s1i1o_me_tbl/pymtl3/Gen",
+      "task": "Prob16p03_seq_fsm_4s1i1o_me_tbl",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p03_seq_fsm_4s1i1o_me_tbl/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "822d8d34f0ff6488548ee77991dc98d66455bf9c6d4f54bf4f5a09464a997587",
+      "prompt_sha256": "1442b672a0164811a8fc864b5d4bb0c859c353ed8eb96f4db0018808550445ce",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "749de4e93b14a16e43d0efdd2e16996c1e70230206114e3d042fb1d1af3ac810",
+      "prompt_sha256": "d0c6e52f6be1de8a547d9f50145c29bdb1f3f5b90f8e75599c19465e25626d09",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "749de4e93b14a16e43d0efdd2e16996c1e70230206114e3d042fb1d1af3ac810",
+      "prompt_sha256": "d0c6e52f6be1de8a547d9f50145c29bdb1f3f5b90f8e75599c19465e25626d09",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a81bc4aacb4637722986e482d593a33fb60dcc6ab8d55198f8ae708cf6683af1",
+      "prompt_sha256": "55abe6b6a0fde3b7bc50a42278ba850c7a83cc812021492fc3e5ac9895d1c0b8",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a81bc4aacb4637722986e482d593a33fb60dcc6ab8d55198f8ae708cf6683af1",
+      "prompt_sha256": "55abe6b6a0fde3b7bc50a42278ba850c7a83cc812021492fc3e5ac9895d1c0b8",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "66076b33ab9023aa4a0d1c90aaf07d98080166d0f559393eb66aff48ab37c7aa",
+      "prompt_sha256": "8b9a17b80ed36af4a2793f2dc525dda2d992fc8fbe75b0f538f5a2869566b325",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "66076b33ab9023aa4a0d1c90aaf07d98080166d0f559393eb66aff48ab37c7aa",
+      "prompt_sha256": "8b9a17b80ed36af4a2793f2dc525dda2d992fc8fbe75b0f538f5a2869566b325",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "677dda348fca5b8cf52303b41c929c050b2392bed4eb9918231ce2cd324eddab",
+      "prompt_sha256": "fb5cfc1340f399013afe4bc9ee7759c31fca610a52c8d9f75972550b1263f3ce",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3/Gen",
+      "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p08_seq_fsm_4s1i1o_me_dia/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "677dda348fca5b8cf52303b41c929c050b2392bed4eb9918231ce2cd324eddab",
+      "prompt_sha256": "fb5cfc1340f399013afe4bc9ee7759c31fca610a52c8d9f75972550b1263f3ce",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p09_seq_fsm_6s2i2o_mo_dia/amaranth/Gen",
+      "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "25873e35a7f7069562d812c2097645fe62a61e2d57899b9a658050b8a55df8ed",
+      "prompt_sha256": "accbf2f11f6a0b11e0102bca3290e95d2d653f06cdbfa5c8737637ed2e739666",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p09_seq_fsm_6s2i2o_mo_dia/amaranth/Gen",
+      "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "25873e35a7f7069562d812c2097645fe62a61e2d57899b9a658050b8a55df8ed",
+      "prompt_sha256": "accbf2f11f6a0b11e0102bca3290e95d2d653f06cdbfa5c8737637ed2e739666",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p09_seq_fsm_6s2i2o_mo_dia/migen/Gen",
+      "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "bc4786a5f00f455ad98d43e7d2345c0507d3706ebe3c698929e002ced4a2732c",
+      "prompt_sha256": "acfc6be84800b6c00dc786c97034ca494d1a85112743ecf8955933f24e0b660f",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p09_seq_fsm_6s2i2o_mo_dia/migen/Gen",
+      "task": "Prob16p09_seq_fsm_6s2i2o_mo_dia",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p09_seq_fsm_6s2i2o_mo_dia/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "bc4786a5f00f455ad98d43e7d2345c0507d3706ebe3c698929e002ced4a2732c",
+      "prompt_sha256": "acfc6be84800b6c00dc786c97034ca494d1a85112743ecf8955933f24e0b660f",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p10_seq_fsm_pattern1/migen/Gen",
+      "task": "Prob16p10_seq_fsm_pattern1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p10_seq_fsm_pattern1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b30949f1feafae585b39868a947753b15d2c662fd89ac244127c6867b04c449b",
+      "prompt_sha256": "86238781518194f8e337fef0b3f1f35f86e390dd1c9f3f161141ca2db8b35690",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p10_seq_fsm_pattern1/migen/Gen",
+      "task": "Prob16p10_seq_fsm_pattern1",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p10_seq_fsm_pattern1/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "b30949f1feafae585b39868a947753b15d2c662fd89ac244127c6867b04c449b",
+      "prompt_sha256": "86238781518194f8e337fef0b3f1f35f86e390dd1c9f3f161141ca2db8b35690",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/pyrtl/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob16p12_seq_fsm_stop_light/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8d2595e6061782c36b0d9363b53a7e15542f88f09a2c17d9a5eacbd65aad43ad",
+      "prompt_sha256": "7296f391f2a12ec1644d906c15ff8b66ebde867003bb24f84a4d73001d55c2b2",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob16p12_seq_fsm_stop_light/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+      "prompt_sha256": "03db312ce7a367dd3afe2e7c8a8284e913c7aea375402c484403aeadd7111c5e",
+      "start_key": "exp1/Prob16p12_seq_fsm_stop_light/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob16p12_seq_fsm_stop_light/pyrtl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "994939a35a9d8bd603dbe585af797fc3cfe49d288f60ee8b40756279ee03320b",
+      "prompt_sha256": "03db312ce7a367dd3afe2e7c8a8284e913c7aea375402c484403aeadd7111c5e",
+      "start_key": "exp1/Prob16p12_seq_fsm_stop_light/pyrtl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/myhdl/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob16p12_seq_fsm_stop_light/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8c5fb9e5a6cf301b426d6156921a8b533fe5344c0f02b001b4e93b060e6d05b0",
+      "prompt_sha256": "5ac6c9f899ea7809505ed5702fdcc7aabf7aaaa1fcbf589f347033375b5616d1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/myhdl/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob16p12_seq_fsm_stop_light/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8c5fb9e5a6cf301b426d6156921a8b533fe5344c0f02b001b4e93b060e6d05b0",
+      "prompt_sha256": "5ac6c9f899ea7809505ed5702fdcc7aabf7aaaa1fcbf589f347033375b5616d1",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/migen/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p12_seq_fsm_stop_light/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "aeba196f6ce77d693dab612472859d87ab5d67dcb69583c91f13fc03ff59f972",
+      "prompt_sha256": "fc9eabcbe771c601fafc5dae234c1e8e27cef92600a6bcc1e8c59355cec47f6c",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/migen/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p12_seq_fsm_stop_light/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "aeba196f6ce77d693dab612472859d87ab5d67dcb69583c91f13fc03ff59f972",
+      "prompt_sha256": "fc9eabcbe771c601fafc5dae234c1e8e27cef92600a6bcc1e8c59355cec47f6c",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/pymtl3/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p12_seq_fsm_stop_light/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3725b1ed64039541b174f4888e43efb6069e10278b001cba5be82f8f49ea7495",
+      "prompt_sha256": "cb8b4ee516004329d4cb198a60d8d3785a74493870a212dda4ccb26f317cba14",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p12_seq_fsm_stop_light/pymtl3/Gen",
+      "task": "Prob16p12_seq_fsm_stop_light",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p12_seq_fsm_stop_light/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "3725b1ed64039541b174f4888e43efb6069e10278b001cba5be82f8f49ea7495",
+      "prompt_sha256": "cb8b4ee516004329d4cb198a60d8d3785a74493870a212dda4ccb26f317cba14",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p13_seq_fsm_ps2/migen/Gen",
+      "task": "Prob16p13_seq_fsm_ps2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p13_seq_fsm_ps2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2eeb02ceda561f141bbe91a01ebd663ecdb96e94dbdecea76a763968a3681eb7",
+      "prompt_sha256": "e4678c930aa44e9a41c63a14c9226df5a770ed9e09458288a72aca35d9530fba",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p13_seq_fsm_ps2/migen/Gen",
+      "task": "Prob16p13_seq_fsm_ps2",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob16p13_seq_fsm_ps2/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2eeb02ceda561f141bbe91a01ebd663ecdb96e94dbdecea76a763968a3681eb7",
+      "prompt_sha256": "e4678c930aa44e9a41c63a14c9226df5a770ed9e09458288a72aca35d9530fba",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob16p13_seq_fsm_ps2/pymtl3/Gen",
+      "task": "Prob16p13_seq_fsm_ps2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p13_seq_fsm_ps2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "865935efe74af97e9c8939e1ffa30b0dea40ee35f02df586f4bde38e611be936",
+      "prompt_sha256": "5b1b13319e27f57aa1c891443afb8fe73634c4df9bd9f07c5494d2d987c15f4b",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob16p13_seq_fsm_ps2/pymtl3/Gen",
+      "task": "Prob16p13_seq_fsm_ps2",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob16p13_seq_fsm_ps2/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "865935efe74af97e9c8939e1ffa30b0dea40ee35f02df586f4bde38e611be936",
+      "prompt_sha256": "5b1b13319e27f57aa1c891443afb8fe73634c4df9bd9f07c5494d2d987c15f4b",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/pyrtl/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4d4fcdc9f0a4f92e12c9c6f256a072c8fe82ba0e2b6e4495d80ee954faa955b9",
+      "prompt_sha256": "e9555d1dea9756b6b663e349073edc145a9c70588c3583111df50743dac3409a",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/pyrtl/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "4d4fcdc9f0a4f92e12c9c6f256a072c8fe82ba0e2b6e4495d80ee954faa955b9",
+      "prompt_sha256": "e9555d1dea9756b6b663e349073edc145a9c70588c3583111df50743dac3409a",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/myhdl/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c76afd540a54f369aca99f2cf635dcff182a0ecc2909ed92049c1dd66c00f139",
+      "prompt_sha256": "5c42c645cd9f33cf4808e5e68df897fd68fa6bcade3ef042903438548c631032",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/myhdl/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c76afd540a54f369aca99f2cf635dcff182a0ecc2909ed92049c1dd66c00f139",
+      "prompt_sha256": "5c42c645cd9f33cf4808e5e68df897fd68fa6bcade3ef042903438548c631032",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/amaranth/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7835c8aecbb6b0f8cacf66e3fcd4fc4421da07e6ce75cba19afb44a98da31f33",
+      "prompt_sha256": "0c65742e0ebd4298ca62b5463fce2b2721b086462375d1ce28797790213619c4",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/amaranth/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "7835c8aecbb6b0f8cacf66e3fcd4fc4421da07e6ce75cba19afb44a98da31f33",
+      "prompt_sha256": "0c65742e0ebd4298ca62b5463fce2b2721b086462375d1ce28797790213619c4",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/migen/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2e7d37cd144a20f8e1e6d1bf6b5a5badbffd21daa66324fb271d9531dca97c3b",
+      "prompt_sha256": "eaaa8a695f1c8818dc61ab45365600aa0de871308bfff69809f5c93d2453dc99",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/migen/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2e7d37cd144a20f8e1e6d1bf6b5a5badbffd21daa66324fb271d9531dca97c3b",
+      "prompt_sha256": "eaaa8a695f1c8818dc61ab45365600aa0de871308bfff69809f5c93d2453dc99",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/pymtl3/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "432c8447a01ab7b1b4f1380a0a7df36ee77dc1c71b0e4edf6bdc4bc0ee8a9f49",
+      "prompt_sha256": "813c8b3f69bb87c22a8ca96abc4569fde1ff5f41e0f0aff351318aa2ebf68834",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p01_seq_arith_4x1b_incr/pymtl3/Gen",
+      "task": "Prob18p01_seq_arith_4x1b_incr",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob18p01_seq_arith_4x1b_incr/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "432c8447a01ab7b1b4f1380a0a7df36ee77dc1c71b0e4edf6bdc4bc0ee8a9f49",
+      "prompt_sha256": "813c8b3f69bb87c22a8ca96abc4569fde1ff5f41e0f0aff351318aa2ebf68834",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/pyrtl/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f46a4fabf1975257a7c9d6b6937b4218533dad5948dec406a5152d4a82ac7e8e",
+      "prompt_sha256": "cd37de5cc240eae42112a09ab253a204eb8735fde42b00331e3826a63988578e",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/pyrtl/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f46a4fabf1975257a7c9d6b6937b4218533dad5948dec406a5152d4a82ac7e8e",
+      "prompt_sha256": "cd37de5cc240eae42112a09ab253a204eb8735fde42b00331e3826a63988578e",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/myhdl/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "661b966b8b796f75dfb5b71a906938394fd244edd11046be07ffa0cd1c93f607",
+      "prompt_sha256": "2309cb82dd4ab6228ca264c6531c0ca08a4eda5639bcdc660aae89b6337f576f",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/myhdl/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "661b966b8b796f75dfb5b71a906938394fd244edd11046be07ffa0cd1c93f607",
+      "prompt_sha256": "2309cb82dd4ab6228ca264c6531c0ca08a4eda5639bcdc660aae89b6337f576f",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/amaranth/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p02_seq_arith_4x1b_add/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "463e0a6f841a4dbdc945b83a37307501b448e7fb5b5eb33db89f3f06822d467c",
+      "prompt_sha256": "19120d8ca31bf6910a34228249d71fcbc9854bd54fcdf17021e1df78b5ab18f0",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/amaranth/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p02_seq_arith_4x1b_add/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "463e0a6f841a4dbdc945b83a37307501b448e7fb5b5eb33db89f3f06822d467c",
+      "prompt_sha256": "19120d8ca31bf6910a34228249d71fcbc9854bd54fcdf17021e1df78b5ab18f0",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/migen/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p02_seq_arith_4x1b_add/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "16dfe2cbd32a7f858611174573fc1194f616a8f443e97ca5b84a9b86cacfd516",
+      "prompt_sha256": "a11d165044c4091c00e5617364ec639c32fb080b796e150da18e8bde4959a257",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/migen/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p02_seq_arith_4x1b_add/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "16dfe2cbd32a7f858611174573fc1194f616a8f443e97ca5b84a9b86cacfd516",
+      "prompt_sha256": "a11d165044c4091c00e5617364ec639c32fb080b796e150da18e8bde4959a257",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/pymtl3/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a4ef9c9f6962e713fe3dcbcfbbdee954e901ab35574439b5377eaebe778d025b",
+      "prompt_sha256": "b77963110e6d262f3fd65b717bde4cf5c4e4cea3d827448f1e62432b322580bc",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p02_seq_arith_4x1b_add/pymtl3/Gen",
+      "task": "Prob18p02_seq_arith_4x1b_add",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob18p02_seq_arith_4x1b_add/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "a4ef9c9f6962e713fe3dcbcfbbdee954e901ab35574439b5377eaebe778d025b",
+      "prompt_sha256": "b77963110e6d262f3fd65b717bde4cf5c4e4cea3d827448f1e62432b322580bc",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/pyrtl/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p03_seq_arith_2x4b_add/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8f0c765f3a9b02e147d282572a30ea1b3d9210d086c59748d558d24ebc4d5595",
+      "prompt_sha256": "b32701b3e46d929951e97fa093136e89fe87d0de78a08f08223d5e4bfd893f48",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/pyrtl/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob18p03_seq_arith_2x4b_add/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "8f0c765f3a9b02e147d282572a30ea1b3d9210d086c59748d558d24ebc4d5595",
+      "prompt_sha256": "b32701b3e46d929951e97fa093136e89fe87d0de78a08f08223d5e4bfd893f48",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/myhdl/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p03_seq_arith_2x4b_add/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "9d5826d33651c8dbbc932b689af28a1355b437613c4841f29f02888824b4872c",
+      "prompt_sha256": "9c9b0be8ff9a4e3780684cb3802bc4b68ae129553066cc23c03daa98aab2b4e1",
+      "experiment": 1
+    },
+    "start": {
+      "key": "repairs/deepseek-v4.1-flash/f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p03_seq_arith_2x4b_add/myhdl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+      "prompt_sha256": "14c17d808f645f37dbb0d7a0595b5aaeeae12ecedd5554b2db5a2c4cbf4f0bc0",
+      "start_key": "exp1/Prob18p03_seq_arith_2x4b_add/myhdl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    },
+    "shared_fl": {
+      "key": "repairs/deepseek-v4.1-flash/f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob18p03_seq_arith_2x4b_add/myhdl",
+      "arm": "FL",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f4f117524b9c6adef58425011da45f455454e8f7e729039a41b1a15487b720d9",
+      "prompt_sha256": "14c17d808f645f37dbb0d7a0595b5aaeeae12ecedd5554b2db5a2c4cbf4f0bc0",
+      "start_key": "exp1/Prob18p03_seq_arith_2x4b_add/myhdl/Gen",
+      "logical_stage": "shared_FL",
+      "generation_arm": "Gen"
+    }
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/amaranth/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p03_seq_arith_2x4b_add/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "773941098274db080cfc0db54a62f5d293fa48be711df1a2b3b49074f01cdf0e",
+      "prompt_sha256": "6e9b5a0d184aae8ed07238856449def155656731c0084a575f80989537d1bd1b",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/amaranth/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob18p03_seq_arith_2x4b_add/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "773941098274db080cfc0db54a62f5d293fa48be711df1a2b3b49074f01cdf0e",
+      "prompt_sha256": "6e9b5a0d184aae8ed07238856449def155656731c0084a575f80989537d1bd1b",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/migen/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p03_seq_arith_2x4b_add/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c0590f6442e5dc584167142c4310982c2bf11ed3d7dce38f4549c28393ef8159",
+      "prompt_sha256": "7eaed51e803980f8b366a18ca490f317695187a65a24cab3ad99de8c996ff277",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob18p03_seq_arith_2x4b_add/migen/Gen",
+      "task": "Prob18p03_seq_arith_2x4b_add",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob18p03_seq_arith_2x4b_add/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "c0590f6442e5dc584167142c4310982c2bf11ed3d7dce38f4549c28393ef8159",
+      "prompt_sha256": "7eaed51e803980f8b366a18ca490f317695187a65a24cab3ad99de8c996ff277",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/pyrtl/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f6d837606ad560397ff79940ec0fee45651e19498f09b85eef199432537b1eb0",
+      "prompt_sha256": "3d67f70a55097ed3b3afa1c6ccd26a46f8b16d46222544d185983c2a155c7caa",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/pyrtl/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "f6d837606ad560397ff79940ec0fee45651e19498f09b85eef199432537b1eb0",
+      "prompt_sha256": "3d67f70a55097ed3b3afa1c6ccd26a46f8b16d46222544d185983c2a155c7caa",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/amaranth/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "53037a78f2fcae1c989b1772b1d8457ac562e04b2707f6f4d7647ca4374f2be1",
+      "prompt_sha256": "69b2abe7c0a624f6dd8855306577ab6caf4311fe1286c33e29290a5af5e4882a",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/amaranth/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "53037a78f2fcae1c989b1772b1d8457ac562e04b2707f6f4d7647ca4374f2be1",
+      "prompt_sha256": "69b2abe7c0a624f6dd8855306577ab6caf4311fe1286c33e29290a5af5e4882a",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/migen/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "eef2e261f546da0b1333ad0f204f2be304036aa798465849e1d1e203b4517ee3",
+      "prompt_sha256": "080c601567301540ce6e340a028058cb6810822b233050612f019bda3468e652",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p05_seq_pipe_add2_2stage/migen/Gen",
+      "task": "Prob19p05_seq_pipe_add2_2stage",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob19p05_seq_pipe_add2_2stage/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "eef2e261f546da0b1333ad0f204f2be304036aa798465849e1d1e203b4517ee3",
+      "prompt_sha256": "080c601567301540ce6e340a028058cb6810822b233050612f019bda3468e652",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/pyrtl/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "718b84e2c263578af07d8200e466f7088057ae2dbfe3057cd6890963e004e62b",
+      "prompt_sha256": "d40da5e0cee1f80849efcf788b807298f541d4fe480c011e79f6dff23e189a81",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/pyrtl/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "718b84e2c263578af07d8200e466f7088057ae2dbfe3057cd6890963e004e62b",
+      "prompt_sha256": "d40da5e0cee1f80849efcf788b807298f541d4fe480c011e79f6dff23e189a81",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/myhdl/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "6d7e2149d04707d0f5bda37b6e5cf2ccb8d7ec88018caf8c7bde780de285b4af",
+      "prompt_sha256": "a1fec2f7957028c8b2ac95bcd83779f6349583fccf00375dcf34a61c7cf6eb3a",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/myhdl/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "6d7e2149d04707d0f5bda37b6e5cf2ccb8d7ec88018caf8c7bde780de285b4af",
+      "prompt_sha256": "a1fec2f7957028c8b2ac95bcd83779f6349583fccf00375dcf34a61c7cf6eb3a",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/amaranth/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "89f2d2c17a7e7b9fb1dfd2073b637508582c6e8bee29df46d2cb30da47daec20",
+      "prompt_sha256": "984e4733fac70b78a0ab4565dbe1591a7b975fd6d895d77c36d97b4e8e94901b",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/amaranth/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "amaranth",
+      "adapter_language": "amaranth",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/amaranth",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "89f2d2c17a7e7b9fb1dfd2073b637508582c6e8bee29df46d2cb30da47daec20",
+      "prompt_sha256": "984e4733fac70b78a0ab4565dbe1591a7b975fd6d895d77c36d97b4e8e94901b",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/migen/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e06f7774f4c3ee9ce526edec0a5f52ee4adc286347d3475231334c7e05ca7c88",
+      "prompt_sha256": "aaf30b42b6bf703ba77fdf330082325cadf58d369e202e27a534137735154208",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/migen/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "migen",
+      "adapter_language": "migen",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/migen",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "e06f7774f4c3ee9ce526edec0a5f52ee4adc286347d3475231334c7e05ca7c88",
+      "prompt_sha256": "aaf30b42b6bf703ba77fdf330082325cadf58d369e202e27a534137735154208",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/pymtl3/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2787f249a92a4ffb960edbcfd38fd77663b00be6c56cc053e21089cf4208363c",
+      "prompt_sha256": "05ebd6227ec4d57520765bec7e9b75b2aa32090f01b109632135919eb74d958a",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p06_seq_pipe_add3_2stage/pymtl3/Gen",
+      "task": "Prob19p06_seq_pipe_add3_2stage",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob19p06_seq_pipe_add3_2stage/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "2787f249a92a4ffb960edbcfd38fd77663b00be6c56cc053e21089cf4208363c",
+      "prompt_sha256": "05ebd6227ec4d57520765bec7e9b75b2aa32090f01b109632135919eb74d958a",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p07_seq_pipe_add4_2stage/pyrtl/Gen",
+      "task": "Prob19p07_seq_pipe_add4_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p07_seq_pipe_add4_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cb000b1333562e5f2f5f795891735316e2957418f38946ae60743a0becce40c6",
+      "prompt_sha256": "a2b0fbc92c0e1733646fc226292f683a9a71d5c5ab869274d096473e5a4fe898",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p07_seq_pipe_add4_2stage/pyrtl/Gen",
+      "task": "Prob19p07_seq_pipe_add4_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p07_seq_pipe_add4_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "cb000b1333562e5f2f5f795891735316e2957418f38946ae60743a0becce40c6",
+      "prompt_sha256": "a2b0fbc92c0e1733646fc226292f683a9a71d5c5ab869274d096473e5a4fe898",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/pyrtl/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "6101d8d9f1e69c220bbca8030ef98bcdd3e3f7525f703ffff013fcf5db2a7c89",
+      "prompt_sha256": "0134c5059f0e035e46b7f32df78d62f0cf78b22ebcf3d8965eda7308ad7c73b6",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/pyrtl/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "pyrtl",
+      "adapter_language": "pyrtl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/pyrtl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "6101d8d9f1e69c220bbca8030ef98bcdd3e3f7525f703ffff013fcf5db2a7c89",
+      "prompt_sha256": "0134c5059f0e035e46b7f32df78d62f0cf78b22ebcf3d8965eda7308ad7c73b6",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/myhdl/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "78f4f2a396aa2e762c1b6d97a26125c048179f4f7afaed4ef3090cf6e215fad0",
+      "prompt_sha256": "bc2a7a460b94d191987cf1599745dc7d2e1152c708b570c5c5776bfe331c36e8",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/myhdl/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "myhdl",
+      "adapter_language": "myhdl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/myhdl",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "78f4f2a396aa2e762c1b6d97a26125c048179f4f7afaed4ef3090cf6e215fad0",
+      "prompt_sha256": "bc2a7a460b94d191987cf1599745dc7d2e1152c708b570c5c5776bfe331c36e8",
+      "experiment": 1
+    },
+    "shared_fl": null
+  },
+  {
+    "initial": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/pymtl3/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "90ef9782336fcc86c537a092b67fe11885b682e2f2277f007511f7e9758ea3a3",
+      "prompt_sha256": "5759d107d89642c8d7b228a5895dc25f3b7ca7516ee823c3a78e12570f135fee",
+      "experiment": 1
+    },
+    "start": {
+      "key": "exp1/Prob19p08_seq_pipe_minmax4_2stage/pymtl3/Gen",
+      "task": "Prob19p08_seq_pipe_minmax4_2stage",
+      "language": "pymtl3",
+      "adapter_language": "pymtl",
+      "instance": "Prob19p08_seq_pipe_minmax4_2stage/pymtl3",
+      "arm": "Gen",
+      "model": "deepseek-v4.1-flash",
+      "request_sha256": "90ef9782336fcc86c537a092b67fe11885b682e2f2277f007511f7e9758ea3a3",
+      "prompt_sha256": "5759d107d89642c8d7b228a5895dc25f3b7ca7516ee823c3a78e12570f135fee",
+      "experiment": 1
+    },
+    "shared_fl": null
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "metric": "c0_pass",
+    "difference_pp": 5.714285714285714,
+    "ci_low_pp": 3.0952380952380962,
+    "ci_high_pp": 8.333333333333332,
+    "p": 9.99950002499875e-05,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "metric": "native_pass",
+    "difference_pp": 6.7857142857142865,
+    "ci_low_pp": 4.0476190476190474,
+    "ci_high_pp": 9.642857142857142,
+    "p": 9.99950002499875e-05,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "metric": "rtl_pass",
+    "difference_pp": 7.142857142857144,
+    "ci_low_pp": 4.285714285714286,
+    "ci_high_pp": 10.0,
+    "p": 4.999750012499375e-05,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "metric": "c0_pass",
+    "difference_pp": 3.3333333333333335,
+    "ci_low_pp": 1.3095238095238095,
+    "ci_high_pp": 5.476190476190475,
+    "p": 0.002599870006499675,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "metric": "native_pass",
+    "difference_pp": 3.69047619047619,
+    "ci_low_pp": 1.1904761904761905,
+    "ci_high_pp": 6.071428571428572,
+    "p": 0.004699765011749413,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "metric": "rtl_pass",
+    "difference_pp": 2.976190476190476,
+    "ci_low_pp": 0.47619047619047633,
+    "ci_high_pp": 5.476190476190475,
+    "p": 0.023998800059997,
+    "tasks": 168,
+    "instances": 840,
+    "test": "paired task-cluster sign flip; 20000 draws"
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pyrtl",
+    "metric": "c0_pass",
+    "wins": 37,
+    "losses": 10,
+    "p": 9.848878492846323e-05,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pyrtl",
+    "metric": "native_pass",
+    "wins": 32,
+    "losses": 11,
+    "p": 0.001913961001264397,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pyrtl",
+    "metric": "rtl_pass",
+    "wins": 32,
+    "losses": 11,
+    "p": 0.001913961001264397,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pyrtl",
+    "metric": "c0_pass",
+    "wins": 26,
+    "losses": 11,
+    "p": 0.020073851919732988,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pyrtl",
+    "metric": "native_pass",
+    "wins": 26,
+    "losses": 9,
+    "p": 0.005988120567053557,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pyrtl",
+    "metric": "rtl_pass",
+    "wins": 26,
+    "losses": 9,
+    "p": 0.005988120567053557,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "myhdl",
+    "metric": "c0_pass",
+    "wins": 3,
+    "losses": 3,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "myhdl",
+    "metric": "native_pass",
+    "wins": 12,
+    "losses": 6,
+    "p": 0.237884521484375,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "myhdl",
+    "metric": "rtl_pass",
+    "wins": 16,
+    "losses": 6,
+    "p": 0.052478790283203125,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "myhdl",
+    "metric": "c0_pass",
+    "wins": 3,
+    "losses": 2,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "myhdl",
+    "metric": "native_pass",
+    "wins": 12,
+    "losses": 9,
+    "p": 0.6636238098144531,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "myhdl",
+    "metric": "rtl_pass",
+    "wins": 15,
+    "losses": 13,
+    "p": 0.8505540192127228,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "amaranth",
+    "metric": "c0_pass",
+    "wins": 6,
+    "losses": 3,
+    "p": 0.5078125,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "amaranth",
+    "metric": "native_pass",
+    "wins": 11,
+    "losses": 8,
+    "p": 0.6476058959960938,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "amaranth",
+    "metric": "rtl_pass",
+    "wins": 11,
+    "losses": 8,
+    "p": 0.6476058959960938,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "amaranth",
+    "metric": "c0_pass",
+    "wins": 4,
+    "losses": 4,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "amaranth",
+    "metric": "native_pass",
+    "wins": 8,
+    "losses": 9,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "amaranth",
+    "metric": "rtl_pass",
+    "wins": 8,
+    "losses": 9,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "migen",
+    "metric": "c0_pass",
+    "wins": 18,
+    "losses": 8,
+    "p": 0.07551869750022888,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "migen",
+    "metric": "native_pass",
+    "wins": 24,
+    "losses": 9,
+    "p": 0.013530986849218607,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "migen",
+    "metric": "rtl_pass",
+    "wins": 24,
+    "losses": 9,
+    "p": 0.013530986849218607,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "migen",
+    "metric": "c0_pass",
+    "wins": 8,
+    "losses": 8,
+    "p": 1.0,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "migen",
+    "metric": "native_pass",
+    "wins": 17,
+    "losses": 13,
+    "p": 0.5846647117286922,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "migen",
+    "metric": "rtl_pass",
+    "wins": 17,
+    "losses": 13,
+    "p": 0.5846647117286922,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pymtl3",
+    "metric": "c0_pass",
+    "wins": 13,
+    "losses": 5,
+    "p": 0.09625244140625,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pymtl3",
+    "metric": "native_pass",
+    "wins": 19,
+    "losses": 7,
+    "p": 0.028959274291992188,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "Direct",
+    "language": "pymtl3",
+    "metric": "rtl_pass",
+    "wins": 18,
+    "losses": 7,
+    "p": 0.043285250663757324,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pymtl3",
+    "metric": "c0_pass",
+    "wins": 16,
+    "losses": 4,
+    "p": 0.01181793212890625,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pymtl3",
+    "metric": "native_pass",
+    "wins": 16,
+    "losses": 8,
+    "p": 0.15158963203430176,
+    "instances": 168
+  },
+  {
+    "left": "Gen",
+    "right": "FullDocRAG",
+    "language": "pymtl3",
+    "metric": "rtl_pass",
+    "wins": 16,
+    "losses": 13,
+    "p": 0.711071103811264,
+    "instances": 168
+  }
+]

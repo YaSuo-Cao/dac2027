@@ -1,0 +1,23 @@
+{
+  "jobs": 654,
+  "states": {
+    "new_request": 654
+  },
+  "by_arm": {
+    "F": {
+      "new_request": 330
+    },
+    "FC": {
+      "new_request": 70
+    },
+    "FCT": {
+      "new_request": 27
+    },
+    "FL": {
+      "new_request": 140
+    },
+    "FT": {
+      "new_request": 87
+    }
+  }
+}

@@ -1,0 +1,3350 @@
+[
+  {
+    "language": "pyrtl",
+    "path": "docs/analysis.rst",
+    "sha256": "86923b11b69f1bcbda2c093633129fddb2cb9ec953639774c21022fe2c77a830",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/basic.rst",
+    "sha256": "9aba5d3cf261c5444f382cc7f31c3ae17ac11875ec29fe89b6b241765d9ad8ba",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/blocks.rst",
+    "sha256": "8ec471dea3be790c0d661e497897d5482e36af1b2e633bb2eecbefcd4f676b2f",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/conf.py",
+    "sha256": "1b1f11b4303e0529d50bdbb37f52f4eb2847a4b18e0cf0c63a01515bcbb66a68",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/export.rst",
+    "sha256": "104dfc34d7d76b867a302f025936ac08392392ce2a3b4ae19120a4c36fa4e2e4",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/helpers.rst",
+    "sha256": "19352ab11278a7c59e8363dbf20c04ceb48f6972308198a3d793aa8bbe71caac",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/index.rst",
+    "sha256": "feead143c49b19c6c216928f4d2407cb61d0c202dcc3e079db579b278b5c0dc9",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/README.md",
+    "sha256": "8cdca11b744efa6266df9a7aa20c4c1eac362ee1655611e8dd29729a6b7b7152",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/regmem.rst",
+    "sha256": "b2641d25eded98e971ad92662d499073fe9a3382e8d1e9953cb567470c712c6f",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/rtllib.rst",
+    "sha256": "b6c70876089931d85dc3563d335b4a5a679a3048b56e2146f31737f48a61aacb",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "docs/simtest.rst",
+    "sha256": "272a6fd633ba2398d0f27b21abc4b1efb14736d5cff85ca9a5db74bc59a4d03a",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/__init__.py",
+    "sha256": "50406f21b54c068d35af84f5043058e485e1211552ac010dcdabb42fef432c59",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/analysis.py",
+    "sha256": "71492da14405a8466ee932b24fd6fc4295fdef8ed29cfbc3e18e887a41e822b0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/compilesim.py",
+    "sha256": "4857925f5e33d012948ba5cba2af1d599a616dfd10e29c11b9cce5c663fef2d6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/conditional.py",
+    "sha256": "5e372c52b1d1d644c5d6ed0679deba25574e3fd8eebb05894752536b39ef487e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/core.py",
+    "sha256": "85c3af61b187e928890f85cc620554d87503d4eb254c742494c9e25b6c6712a5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/corecircuits.py",
+    "sha256": "eb1d29b60232c672af19edfacb04430f0e53a614d75d37d55fddd6d7e0fd7086",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/helperfuncs.py",
+    "sha256": "488af55579d2311bcb3a7e0a8cdbc10250532c55bc3a989d25bfcb91b6a6b656",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/importexport.py",
+    "sha256": "7d199e38b525d86bf9084dccd80fb35437d8cbef9b49cec6a34d33bfc62d9c60",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/memory.py",
+    "sha256": "4a65443dc7d3f54589ad387c460d8043eae653dac43594f7ec3b10308ec33a6f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/passes.py",
+    "sha256": "8cb8e619d070ef29a805f4b946e3670d8219cec0d5a48fbbfcd60a19055e7a58",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/pyrtlexceptions.py",
+    "sha256": "b404bb52e4d15fc8865368eeae1097cbfaf5180f769ff7f10070df2fc7c4da1b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/adders.py",
+    "sha256": "2230db5d09d73d6ee03fbbc0dca7b3b0c200638f67107f4e7f8748ea48ed4326",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/aes.py",
+    "sha256": "2a36f978e7a2cfccd282a501af8a2b57712802b17f91a0837efe9ed75fe868dc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/barrel.py",
+    "sha256": "1c625c152bc9f020a8a39861a200d300b6f8ed787d191a49ae3db05c0c028b6d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/libutils.py",
+    "sha256": "091bea0265850965f7ebbe321c8d84c0c7cb90c7553389cded0e992cb630c89d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/matrix.py",
+    "sha256": "ee8dfc8bfd00b4e95ebfd4ab86809608614c117f19bd66e9f4ba43b1a4a03bff",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/multipliers.py",
+    "sha256": "09eb19e7054a95909f2856f09732411a7a31192245736e7ea9e8f8eed4f8570b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/muxes.py",
+    "sha256": "4a83503c3e8999c0060c989329bc8e90c6e3358a17aaf812ed68f1995701be7e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/prngs.py",
+    "sha256": "331c556707393dbcbeb9b5af4f3be52919f988f24cd9d2cbe3410222403822b6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/rtllib/testingutils.py",
+    "sha256": "630ae29201b92af50e84365aed742c67664b1d3e148af0f472303a65da6514c6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/simulation.py",
+    "sha256": "df0a0506e20a626d7e806239191de7bf4c6e2c22e45c3dac25cf8ca7205d465e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/transform.py",
+    "sha256": "7168dcbc78b9702ea6b8bdc71ab6822867fd7856dfbef43854388704631cc74f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/visualization.py",
+    "sha256": "2f61aaf5998107bfaa150908a8538bea2a196d4c9bfed41c7dbaa40aba9878b3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "pyrtl/wire.py",
+    "sha256": "fa4950b6f225db6beeb7db4cbc6b0e9dd52e22ff9af3d359c299f5b5a893c7f4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pyrtl",
+    "path": "README.md",
+    "sha256": "d9d31698203670c6f528889abca725144324198cad591ed3e77e9fbe3fc5fdeb",
+    "kind": "documentation"
+  },
+  {
+    "language": "pyrtl",
+    "path": "release/README.md",
+    "sha256": "b25f5ed5a1dacaa88420a5f17d8a4d0b042dc392e339bbb521dead7824aa77b8",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/conf.py",
+    "sha256": "0b662e3b2aac279be7c2829dbb4e803f2dc160c34fc406e014bc8a10535cf288",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/index.rst",
+    "sha256": "d23a9c49396a204a4983435f61f0b1ce6258bd99293f9f23126291094578213b",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/background.rst",
+    "sha256": "c0a78644b950b8dc3847a0db5973ddf6c40e9c562d3ac1e2ca36c4738eb78d29",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/conversion.rst",
+    "sha256": "c186eb28c52998d23c7ee45e20d574da1cd667ad103e53e906d7d8bffbb86421",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/conversion_examples.rst",
+    "sha256": "a72e1559386c2e5dcb32c77041f0203bfe86a45b0606aebf248ae12228159c4b",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/cosimulation.rst",
+    "sha256": "7e6194a3cc3c293c21187d116f4d69a8787b928b728a8621207b6fd8fce2c433",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/highlevel.rst",
+    "sha256": "102a354a668b00b9efe8bbae4cb5dfd248a626681689af3baab20d126135eff5",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/hwtypes.rst",
+    "sha256": "e862bfbc18a3a28099fc01446ea86fa5c829ad3886a5051b7090f3d140d89215",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/index.rst",
+    "sha256": "2ac7a6cae0393580fe9073092ad8eb18901378e80ed33de9430dd7381e79ddba",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/intro.rst",
+    "sha256": "3e14fd603fb786c0cb7212ec3c4cb829e5399a09e1e7bd980b4be348d63c76cb",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/preface.rst",
+    "sha256": "c35642cb1ecf9d9ff3b1af1ca23a119536412795d68a1720470826535e6f0dc9",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/reference.rst",
+    "sha256": "56cb8f960e1919cc7d4f64bdf6aa41f9734762b4f05a4af9bbb32297ea5c8295",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/rtl.rst",
+    "sha256": "3a664392b418b2f81d155f461c2a3f4b86a2d75f01154bb647152226df850d5f",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/structure.rst",
+    "sha256": "56f79f9fd540ee557569c9263aef211a7d6e2c1ed30b5e9d1fe4399123b6b37d",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/manual/unittest.rst",
+    "sha256": "c4f6de2ecf609d2e9a6808c752aeb88cec5d0a0f2f2ff578cf406a97b9d63981",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/myhdldoctools.py",
+    "sha256": "eb839c5217ff60aa23a99c109323d79ff1c30493a1ff69f1a2a91f8191fa98b2",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/python3.rst",
+    "sha256": "51b498cb691faa2f50689e76667bfec890dd016a48bd000d8e6ff86e2537f1b4",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.10.rst",
+    "sha256": "6cd3a2e9f76b1af38c070e3c3b0343445ec09d2597d1be238e88f0488b122c0f",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.11.rst",
+    "sha256": "2d44181ef95582f16b42f4c06d3bf4d7f8d85921848e771c696b8e4a5b11b599",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.3.rst",
+    "sha256": "eb800b159944b8aa56fd5fa94fae13837c6ef8e7b26b315634f94b1f3389bbc2",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.4.rst",
+    "sha256": "94257b7569d4c161c86846c7dd638c47a0cbd0ee5662ea163495630b1fa5bf24",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.5.rst",
+    "sha256": "f575a033ddbd52dbdb552531c0f32ef1457ec75856e0df1a27890d9a174573cf",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.6.rst",
+    "sha256": "01e6a460edb5a87fc24f3d48b0ad0e686c85b8c8014815150fa0386a5040e628",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.7.rst",
+    "sha256": "bb1671fcd817bb9d2c27c7a86f1e9a1df5530ed92f9e5e693662b8bd080c3b9b",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.8.rst",
+    "sha256": "f365f14e30c053cf506b665eaaf0efa496b7a750c38c97d5d7aeb5c81c6f0641",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "doc/source/whatsnew/0.9.rst",
+    "sha256": "085653413831bc56a02faa3b6384c4f01a640650c5b50f7a3d4d258867d32fb1",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/__init__.py",
+    "sha256": "3cbfcd09afe0d1512f991770d3f94d8bd94afa709cad2bb16b6b70f3f6162868",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_always.py",
+    "sha256": "06815a8f57dc4f8a698e518eaa14cee17716715e0391376f91d3b72381a40205",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_always_comb.py",
+    "sha256": "e7448105489d0326e1ddfceedd614fc50f5902f9e9ea46658efd8ec1c8263f7c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_always_seq.py",
+    "sha256": "9985b0e52d24ba7d69519ca41a7b8bc22bce58543059dcf8ec36ee01954314d2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_bin.py",
+    "sha256": "89be863fb36a56a4d2c26f9958df720d1b570d725e618e5e9f65a8a54a7e4f20",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_block.py",
+    "sha256": "819cd0bcfbd25983f1abc8c8c6d24abdc55d50873ae097c179fe57a4e8ffd2bd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_concat.py",
+    "sha256": "b85c99bc90853943abdf37707823fe7ccd313a9c4b3ad0477c33087faf213535",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_Cosimulation.py",
+    "sha256": "a08f8919731d78a785da21c630d463646846bc1bc03a32063155bedaaeebc79e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_delay.py",
+    "sha256": "39322f7185ee9529a3960e499fbba1e5f1b356babe164302ee6c81a59643fd13",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_enum.py",
+    "sha256": "75b3afc786c7ca63fd1ed21921c54fd57b02c7a55fca9224980067eb65d4b338",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_extractHierarchy.py",
+    "sha256": "2a984f69c3067d274ef2f7ce935a005792367a594bc2a9a2fa9ea7bd0d99c2b1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_getcellvars.py",
+    "sha256": "cc359d682f4e78b853b076fe73ce59a5c5f5391f513fbb7f218460e72c66c273",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_getHierarchy.py",
+    "sha256": "0b6c476d26892917a0a0b6e649f7ef9d1020cc6604f00f34777bc69839398ea0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_hdlclass.py",
+    "sha256": "44ea5f4cd02f6bf0b0b62e3561d22ac9e2a0ca2053572c062ab5a4e70e279cea",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_instance.py",
+    "sha256": "49b9543f421f1a5f067b3731c1f06955a927abefccafe385d23b24211adf90fc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_intbv.py",
+    "sha256": "a560dc9a21244e56c52c09395a56001f4719b93493646dfdaeb8bbb5b80acb99",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_join.py",
+    "sha256": "c09c2485fa6f1f94dea9eeee7c00ac5df7e8cf72b05026e9519bd8b1e9ed8d23",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_misc.py",
+    "sha256": "a75ff5094af3a093ec3498ae7fb6489c69c437a7d2817afad68a30b0e8297e2c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_modbv.py",
+    "sha256": "68e0ad364711a04674f050775116cc3e22f678e06435a6c000567964ea53fa62",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_openport.py",
+    "sha256": "b4b6d5464d0b95e04be557bd6f645c7bc9f9d8a0482ad210b37500c804407841",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_resolverefs.py",
+    "sha256": "5f618448e418c859e2d83eb49085d475f3891c1121d0cd98d485bbfde12654ca",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_ShadowSignal.py",
+    "sha256": "5ad7f046a4755d42c9635f0419b594ed43d51e255057b98da7119d0cec65db69",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_Signal.py",
+    "sha256": "e1d57cd646b1c1d35cf39e36acd2b135bd8a76d9f31f4a89df0520ce954b9610",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_Simulation.py",
+    "sha256": "7c966ea0694aee40ca8e20f6a8f86eff638f17b5243a764f8909c47484b00294",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_simulator.py",
+    "sha256": "12c38e9592a5294a1c1659d438c87b580dce4e5e12ffae05ac23a67cda8d28c5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_traceSignals.py",
+    "sha256": "ab6d6d2c29572c7a05492254ec41680a25551f7ff0501c9feae6ce2684ef3071",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_tristate.py",
+    "sha256": "a0237f9c07fce79d9506f4194d1a01e46d23ac6d033f996679ba3d8e4857d642",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_util.py",
+    "sha256": "666f015fbf8ba4d575cc66c10988dd20899f8f61f42296bd2574ad7ea1913ccc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_visitors.py",
+    "sha256": "b9fabe9f9bb944ca46eb8744f62fe9e7beb353c629d1a631cbb5591f089bd41c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/_Waiter.py",
+    "sha256": "42a50ded83f0c9dfbfbd866ba35542ab6c5ad23b87190ce791a4ad5e2062f200",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/__init__.py",
+    "sha256": "6193050739f7cdbdbe250173d23253d6ffd378c36ccf1058f852c59ef132288c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_analyze.py",
+    "sha256": "e2e84356e1cbe2d7b4ad79595f35d89a2751cabbf487829d26577c7f237abb34",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_misc.py",
+    "sha256": "4a1ef68e32a398892cdf3a9782d23a52633b5cd4bfa6fd199cceec09931abfec",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_toVerilog.py",
+    "sha256": "86866ce1f9fd0e74a285be3a23946287b586c431c20e01d19175d099da9aa13a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_toVHDL.py",
+    "sha256": "67c7f83ca47a2763e73bca68b0cf788b0a516b0788fbb3c61e3e11dff4e7d3f0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_toVHDLPackage.py",
+    "sha256": "9eb2a31b58e40d0e9fe637806314eb6280b1734bbc4b8f34ad38ef4b07502f4f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_verify.py",
+    "sha256": "05d3e3e63df8f353689b9b4afa4d048d8b33ed151933a0800a1a14684e49aee7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/conversion/_VHDLNameValidation.py",
+    "sha256": "86af13fec0b48b9a892827d90cc89164df39dc8a8143f863871ce365636b6d97",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "myhdl/debug.py",
+    "sha256": "8208001429f237e7cf2d699a5fec592d8465c7d54a36d965b3e4837d5737c19f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "myhdl",
+    "path": "README.md",
+    "sha256": "af60d60717af9be2038edc193e9903f9059ff7f067c9a8637968a54d9e2e5ba1",
+    "kind": "documentation"
+  },
+  {
+    "language": "myhdl",
+    "path": "setup.py",
+    "sha256": "dd47c4e2ad17223739537629961bbc1ea890880ade614d3eb015ba3f541db8c1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/__init__.py",
+    "sha256": "d6f0a3d5532b0b2f66de63af73c7111f0246861fa03e15b28a04f1e31a046d53",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/_toolchain/__init__.py",
+    "sha256": "82061ec3262a62d7ff4868d609d9cd2694d994209c6b111d15fad4af4c66d3e5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/_toolchain/yosys.py",
+    "sha256": "e45ae187369a593c8f213ece5bd238f1a03d53746d323c6735f8a97443867cd8",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/_unused.py",
+    "sha256": "6c36eaa7e33c7303d5d981e7524b3867253cb0e03065483785a553d714a5dd6c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/_utils.py",
+    "sha256": "a75dad8c0658b02f076d317468025573a65a0a63a71331e5bd6a67956b0d478a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/asserts.py",
+    "sha256": "1dfcd8acaf70fd66ab26ff8a088fe54281e8f645067e7d28dbd7ac083c07dc4e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/back/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/back/cxxrtl.py",
+    "sha256": "04295a6aa27093ba706b6c118f4ab72aaba552103fff097ce4aa950c7c4943f0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/back/rtlil.py",
+    "sha256": "eb5be8e3a392d50b44041be25aa70e98be28d07b57ad87d7be3d3f686adb5d8a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/back/verilog.py",
+    "sha256": "fa2e182ae9fcb3ff1fb419a597d064988bc977cd7055950b879b4a09eb1c8b81",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/build/__init__.py",
+    "sha256": "d5c0f46284dae32678c317a97cff4b0576a729f9dec101dfdbe715b52f279ddf",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/build/dsl.py",
+    "sha256": "9d3e8b5ef58a1ff5161ce5e10de6207c655f56d4de95692a2af419d4242e339c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/build/plat.py",
+    "sha256": "edc082d93c1225999a9f884229df1dd567eb19a9d27b25854fdac3a266dfe6f8",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/build/res.py",
+    "sha256": "1ba51e1a3efb14a7150224d008206a1ae86cd23de372c1ed6adbb39db77d5113",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/build/run.py",
+    "sha256": "282bb3b98eac5bdeb8f430f1080a2300e53acaec789ec26f973c58f94a079d8a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/cli.py",
+    "sha256": "938a6b803aef932c74b216de703070c29ed5cec41d1a11cde4538efdd962a359",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/__init__.py",
+    "sha256": "ade50f627f19e77d233ef933a480eb863a1fe42392c10b5ca1d18cb8ad464ee3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/bitcontainer.py",
+    "sha256": "2bae71dccf305cf2bd2769428df26c79c9dbcca7518c8d12f64f822ac8f6660f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/conv_output.py",
+    "sha256": "4921d3451f08cb16a119afd497dbdb3aaebc05e65aed567309f9981afbe1e52a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/decorators.py",
+    "sha256": "e4e081c4c64af1accfda149243011b3ae2b66fa147f804507941d4718d5834dd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/module.py",
+    "sha256": "f81eb5deb9a980d9be4b3a4ef0d32277be4dbb8fecd1bbba4bd22373db1a666e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/specials.py",
+    "sha256": "6e2c3cd7d96fae6dbae80f4259993be57b90c61c3d6c80d981f29e3a260d4dbb",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/structure.py",
+    "sha256": "edc664e9e70ce90551abf47a6ca0ad4609fb740af0e207ccb7e6e183c2749149",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/fhdl/verilog.py",
+    "sha256": "bc5d9b4e103cc01c2cd797c7c11d51644fe32aff501729877698642f9278f1da",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/cdc.py",
+    "sha256": "2ced0f201dcb129aac962dddf5d5e846322de3c7a94e10d157d369442a67faea",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/coding.py",
+    "sha256": "bff3843f18269faadf870fa00984d24552afb98d88bfb3761c21b1fa063cd5fb",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/fifo.py",
+    "sha256": "ef03502f0821cc3d3af8c65bd02e35c31cce9376e68c1c3618b09c534bc15b38",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/fsm.py",
+    "sha256": "802ae7afae7ba0707ea02883b6e4e8c917adf9244161672f06f8ea1329a1b76f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/record.py",
+    "sha256": "109b2f2602e0502c9b01d66fe8df6c213873c1718c7854f7a40b91d39f176173",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/resetsync.py",
+    "sha256": "0f89c6cf41790ecfa7eadeab99cc9bab1b480792ee9a1847630df2366d4d3a17",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/genlib/roundrobin.py",
+    "sha256": "7143deaee90b4b8a24eb885b4e0f2692155d35685eecc9a16fb35d911d4c9518",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/compat/sim/__init__.py",
+    "sha256": "59fac0a18c00bdb03f66a748b9b51179b85b64c24f3bcd156df0d4e0c8ab392f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/__init__.py",
+    "sha256": "7bfa43e2acb4dc797414a71ab64ae6587735e95dce809234d4f7472a0d3394ab",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/_rec.py",
+    "sha256": "b1a22e98636c6976858e2cca54a41e1621831a127d91ed82dc8887c4c8ba2b86",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/_repr.py",
+    "sha256": "5c983cd734107f30ce7bdcc2812360c7c670ae890de9fbb0d2cee9b1d7e41803",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/ast.py",
+    "sha256": "2ea5c45a7a809c1c1e7a09a5b73f101be15b7f693e168d1966e1fb4a6ff9a421",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/cd.py",
+    "sha256": "9657f0d06d0822381f685d61a7c01191bdf879bb375a6e36cd5dd2c1f9c12a42",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/dsl.py",
+    "sha256": "15ff46eda80fa28bae3daa3770acb5fedd8701d4cfaf94dd45ea192d3c1676af",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/ir.py",
+    "sha256": "9c6748ed5b6b7f033ba5ad930c8fd20f7fa839baa6677e56f001f6870d853e11",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/mem.py",
+    "sha256": "aef5e32d906510f9ba4de9d4704da54d407791865b5fcb8e90e0e9be6fa083bd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/rec.py",
+    "sha256": "34cbd39f45470b35ca4afc7849601704e5c89832135cbf965a634b0f43fd6dbe",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/hdl/xfrm.py",
+    "sha256": "b223ca9e245d24a0c5622d3ae67971e39b7f999409a2d87f6232e57c3273449a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/cdc.py",
+    "sha256": "e8ae0c444b2033b69f438a07f13492757420819944031f7a70c41f2de603dd9d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/coding.py",
+    "sha256": "068b96bb61dfa4559ad9a4b7569b52181d2f448cebaed52c8d550dd098b3631c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/crc/__init__.py",
+    "sha256": "283d00df42ed846f15c244a32a59c6bc3824c11847ae77bce9809b00b71943f6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/crc/catalog.py",
+    "sha256": "3cdcf8d14570a944b6777daee515dbcab140c8858d98287ae08df679110b0483",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/data.py",
+    "sha256": "80462ab446973a1c1ffc823d0a67867ff9f8087b8f0bc4f4dcb24c32776b413a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/enum.py",
+    "sha256": "a172101f36041f8d79d5bc83fa902b64576f250cde8177b79a43133cd6c78376",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/fifo.py",
+    "sha256": "e049bec7284cda4f3caf2d95ea9e12c895a69c0946945ac6df63084f73ac7334",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/io.py",
+    "sha256": "d84d28bbccc4006e08428916addd9b1fa5e307837acce7290622fa554bb65970",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/scheduler.py",
+    "sha256": "ba1f92a9b170791d518dfb40f6f90a6b5eb8b51c77c64c82172f8b6855fea503",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/lib/wiring.py",
+    "sha256": "14416b00003d38db713ada6a49fa234f4c08e5b41ad8cbef883d479c04dcbe61",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/rpc.py",
+    "sha256": "3941d47df035e2050a551b01eb8a571c2851a2b8bcdc00896a8b6d8dae048dce",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/__init__.py",
+    "sha256": "3adcf8b20baa86e50e458d58e778617a8b666bea921f0b954ef6589c99576e1d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/_base.py",
+    "sha256": "effa14bbb2cfd40876bc6ee72134b1d58017fb0431d08a8da299460c88b2d901",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/_pyclock.py",
+    "sha256": "3d544cd0485c16981a5720b8d5a377954b83f449672ba8a1fef668608f20b5f1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/_pycoro.py",
+    "sha256": "8e254f5af59fd5d17e97438b1badf7e90e4ab1c9a3e7e98873ac2cfd7c684d8b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/_pyrtl.py",
+    "sha256": "8ef71e286db269d8d1410b251a5d884e4473eaeec9d833157351195e8c1cae77",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/core.py",
+    "sha256": "c73447c65493d431d44584989385f267ebff20674fda0588c92f14e40986c684",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/sim/pysim.py",
+    "sha256": "1937b3165e24a6f6b00ec9202b533c8894bcc31e1a8854d5bb81a747d8ff9711",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/tracer.py",
+    "sha256": "8887700213013887cae306d6aa0c11c8a5f787fa57aec68950bd71c8eaa4372e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/utils.py",
+    "sha256": "5f946366c459ff8aec236445a689e22aae3ad4533bee48bcf55917b3c5a0550d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/__init__.py",
+    "sha256": "20642d4e063f4120ac53f4d45c9b0353ba3b21405ade167afd5f1efa752d5dd7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_gowin.py",
+    "sha256": "1c22ba1feaf5d519e0a73654ec8b906bfe0ec7a860a0cfd78a3a19a60b04e245",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_intel.py",
+    "sha256": "0520dd39b1851802e79d691e6e9d983913576bf4e24ea9df1236ca4c709b739c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_lattice_ecp5.py",
+    "sha256": "858489d67ebae1f02d84633a98e40a834cf55bc37ae514f8347ee4eb76a32cff",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_lattice_ice40.py",
+    "sha256": "8d94eb95d5f255e5c0f84fa1c43fb53dc52597e5908c2072b069f62113f9985e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_lattice_machxo_2_3l.py",
+    "sha256": "50ba54a2a5c7212b15cf81bf9a419518627af0621cf6d503bb4faf26d525aaba",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_quicklogic.py",
+    "sha256": "0d911d11bfcbb29e578bf68f073f631bfafbfcc62eac2b3370acbeeab0c36fa4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/_xilinx.py",
+    "sha256": "c9579ef46920b8c9981a877a0149977fa93dcf236403df7800fcd0ca57d522b6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/gowin.py",
+    "sha256": "ef0d297f27f30ac83aef760507ebaa5faf22bbabc5148f25a54f0726fa8b2c7a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/intel.py",
+    "sha256": "3a6fe938ad81959f0a5af046e149341438da502fd4075e6c7e5716b832342ee4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/lattice_ecp5.py",
+    "sha256": "e58eb41b85d59ae68516f4c20941beb857b189b31750d0f03a4ab814ef4ddef3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/lattice_ice40.py",
+    "sha256": "677263fdd6c48c1080f3bfc444acdce18000372cb4e7ede52ae666614e3303e6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/lattice_machxo_2_3l.py",
+    "sha256": "470e9f54cb0bcf76b8c54441586a899f9567c686ad6dc827daa50309f2c727ad",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/quicklogic.py",
+    "sha256": "a51e60520e2a4cc75f72e77d79176040e5041e0fdfd31ffd5dca10ba6a08dde6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "amaranth/vendor/xilinx.py",
+    "sha256": "24db305b76646918ca7d463012ec83388f289930a9ef4db23831a5668c5acea6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/_code/led_blinker.py",
+    "sha256": "7cfb96304f2a1b47d51c4548c2c4bb1b6127e594d45ea6e55f4a6822b2333d67",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/_code/up_counter.py",
+    "sha256": "4116a3f2662fc33348c0d110443b9aa91cbeab922c3b27f636999e5d13d1e4c9",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/changes.rst",
+    "sha256": "ecd3a25ae8c0184ac4695f4ff621d0ab26de4fc1c34a239a413c326bbcced75d",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/conf.py",
+    "sha256": "7d1bcfa135b4d5ea2d56b15f684039a5b95d8cae12fa4f6e49d9eb8ecd5044af",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/contrib.rst",
+    "sha256": "7a52d2dea40d86b1a39d416c26a347ef91a40862462356e057660b070b811ccd",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/cover.rst",
+    "sha256": "21bbc15e8a1ce46face119bfa3742727f7599cb65e7b5323e71f7ddad24d2849",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/index.rst",
+    "sha256": "62138729bbf6917aaa699c2f01b5b30d676536fb3a6a0a04650865fc5d0b3ff4",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/install.rst",
+    "sha256": "b6301dfc455533ab335e7fabf43c24e22fad85ea6e3f5a236f29f27831a95ab1",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/intro.rst",
+    "sha256": "2c676e8ad0c749ccb95ec85012857c5690dc6c8843d4b27b46db96776d8e6814",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/lang.rst",
+    "sha256": "f6f60a3d63aa7d62866b59d514dc6b27b7d2438d4f8a8bde964db826794a6e20",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/gowin.rst",
+    "sha256": "ad5d994eaad943e4e8dd3883bbf31933d53078436e5d55ea0474228e47b6f4ab",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/intel.rst",
+    "sha256": "09e55afd86118ba7f4f5f1a2505e3289beaa56f0255af72052287ecea1828908",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/lattice-ecp5.rst",
+    "sha256": "ab4e81a6be91ce16fc6fa994c7aa121df55b7c98ae76f14acb3a6a421c295c77",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/lattice-ice40.rst",
+    "sha256": "2c8b48a81c022b8a789b36cfa839bfefc6098ddd66044c5db02ea037408032f4",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/lattice-machxo-2-3l.rst",
+    "sha256": "b6f1fb1ff1ccbcf29b09b5a1a74de449a949b361116b0f66c9f4399c6d643c4d",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/quicklogic.rst",
+    "sha256": "4e1e6d5f31a4d367bdaffec9b637558a8ff3e61137b7e512d85bec36abd8eebd",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform/xilinx.rst",
+    "sha256": "6b7b7b75f69d9463fd8ff7c655157e51690d89dfcd4967f0279a62cbb192b8b8",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/platform.rst",
+    "sha256": "94bcefb47a3f56b5c32b8bf8f62164a29a756461c2a836cdedbd83687456cc45",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/start.rst",
+    "sha256": "701648241f638a3b42038fc874497d7f453e1a0d28880f471a5a586adcdadd08",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/cdc.rst",
+    "sha256": "0d7938521b4a6a4eb05966c11abd1cf3349d535229ca90a1f5e5de1cb247402f",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/coding.rst",
+    "sha256": "7dd60796bcabccf101faf65b39c19ebbbb508c32720486b910b90c353932780f",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/crc/catalog.rst",
+    "sha256": "765ca11739cf2feb56d7fc6b4c7b15d3c5af1e4a3759ca42dba87dc4e4a12880",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/crc.rst",
+    "sha256": "97f3d685c8a6b59f19f637f003da9acb0f82f7af29868ef8eec37209b6a85316",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/data.rst",
+    "sha256": "7299203b6d47d87597af3960a8a2285237a2f4105733e45b8fa976b27cd103b2",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/enum.rst",
+    "sha256": "d4a772cea0b5c7cbc1f573d4d1e79897afe92b7a8c932a76e2f1902614021cdd",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/fifo.rst",
+    "sha256": "98ea90bbbf0583a1e3c6781e03659a975f73404cdd7837546e1e1548ff6ec7fe",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib/wiring.rst",
+    "sha256": "045c387759a347d06e465dbec30ae2db2d313fce778e0dd1a5c2697df27f831b",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/stdlib.rst",
+    "sha256": "f266f5655a5117dad2fedf1ddb2431a833542227054186ad3ce9ebd62ddd2735",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "docs/tutorial.rst",
+    "sha256": "17ae4440082132c0d821a5c46e50a5ba571e1cc21099702b97babd080997505b",
+    "kind": "documentation"
+  },
+  {
+    "language": "amaranth",
+    "path": "pdm_build.py",
+    "sha256": "5aca7d6dbbdbb3b2b875dbc6386646b4ace1273ea4debaa72d7d7d220ac7e7fd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "amaranth",
+    "path": "README.md",
+    "sha256": "3ab7a99d183894f271fb9f865b7c71cba2847f9f577a54a21cd9a73d70fc71db",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/conf.py",
+    "sha256": "b84342cf489c51c0ae59759bd383af8f69469a31d2297c6864f4c5fb64b17945",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/fhdl.rst",
+    "sha256": "b9d1ef9678bcfc30f4d00574e8cd82743282ea28690e95ef2d55553765f38246",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/index.rst",
+    "sha256": "603057f77873a32fc367287e49fecc85de46788c95445671fd1f0b0a32d5cd6a",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/introduction.rst",
+    "sha256": "269c2155309be0e6a0b4f3ea0e5ae6309419a11987594155582710a0cb50ed18",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/reference.rst",
+    "sha256": "c3916b5d3b39184fd3e099dd6e9da8c8b3b33dcc2af2420b18842757b9334a09",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/simulation.rst",
+    "sha256": "bf41400a8230dea7344bf2aaf23df4478c8bd113ff44f56117db05b500300911",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "doc/synthesis.rst",
+    "sha256": "b95f9a265ab90b8baa21808cc3bda025a50edb42fff657ce24cfecf90a50eb5a",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "migen/__init__.py",
+    "sha256": "1ba80fc447159b81c6ca772a5407b740bbab196fb9f136b5d87e5ebfdb6c13d0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/altera/__init__.py",
+    "sha256": "9a7c07cd3127e00ac5e05784ac5c8e31ecbbd138fba2f0faaf9b8ef96fd5b155",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/altera/common.py",
+    "sha256": "94554d8466202bf45d9560dd076ab02d03cee8f7164159d62f5cb4f71888e5b1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/altera/platform.py",
+    "sha256": "abd3eeedd5c213fccc65d4d74980bca840517aed06e9e166bac1fe0d65f3625c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/altera/programmer.py",
+    "sha256": "9067a3afd3010d357ec48427ff22e3604e3c518189b5b774fef2c57bc86e8d52",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/altera/quartus.py",
+    "sha256": "6e09a72d4b775163537ef535cadfd30599b6ddcdd07bf32df0a9bdc6db12778b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/fpgalink_programmer.py",
+    "sha256": "499cd68b8697d479fdb4f3e861ad3cf5b9a53dd2ba03d8033aa82bf6eb9107b7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/generic_platform.py",
+    "sha256": "08d0d10cab564a9169d315a7b75d88bd5b4c9fcf80178a419d6a98d8614a0f50",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/generic_programmer.py",
+    "sha256": "aba811f976780feb6a8989b5e9579cf0d101e07396e48636d00624998b66e205",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/__init__.py",
+    "sha256": "e9e67fb560078d8089fab69dfaa9fc3d13d691ca7d4277bcb99cfc9e34e2dcfb",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/common.py",
+    "sha256": "3816af0cf3faa5f8e557c21a0e0ba9569850b04cb4ddb5179364fd93b9df2cb6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/diamond.py",
+    "sha256": "faddea5ee96120d3be75e7db32ce441e627045f035e0345243a81b5a952ec73f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/icestorm.py",
+    "sha256": "1299f824e22195d3cea84a676f8e20c739a30a334ce66d2a128795b8858f9269",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/platform.py",
+    "sha256": "0633d2fa5c39b5e5449bf0589dc07a2f8c758f0f70611a6f210c6e7b5ba7489b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/programmer.py",
+    "sha256": "c86b6c9005b9dde483668a037b7fc6f85c33ee959e43ae49bd5da2ae401ebb1c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/lattice/trellis.py",
+    "sha256": "549b9ceb1af2293832f1648152a5af024590ca33b4169a51c7b9920feefe0779",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/openocd.py",
+    "sha256": "82054d79707eb1df10dbbec9b3345a5749a859c1e0d0f5b88d1dcb4838548fb4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ac701.py",
+    "sha256": "1bd9063cf325e08b2c00d31bd1540d9b3bbfbb818f7e0c32a15cc194eddc1928",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/afc3v1.py",
+    "sha256": "793cfc69de00a6524618e460d67d2524f4a56c5f60faded0f61234a25aebfccf",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/apf27.py",
+    "sha256": "6968bb408d89ee5dbd505a021a9622f8693d0e2c26595a40936aaff2a53e0e58",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/apf51.py",
+    "sha256": "0f3c4b9e3f5d186bf7b4de5a9453c901d6b2004a7ca7be0c3c7f8f66b5db77fe",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/apf6sp.py",
+    "sha256": "4ef913e2d774039702f65f73cf591409bd37ca758b0b69a0998038ae0e909609",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/arty_a7.py",
+    "sha256": "acf258d3d8b97a204f9f917b95202d60461a1d052a3bf626ab7915af6aad9a6f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/arty_s7.py",
+    "sha256": "039209bdbda1c331d471b520e45efc8792b9cbddb632b9da8fcf1bc802bfc7df",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/de0cv.py",
+    "sha256": "0fd12557d0b6704c8a64b36ca821aa999db2d658475d9308ebcc8d27f7b4dfe6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/de0nano.py",
+    "sha256": "80c3398c34786dea7e775b7a3b554b8a22980547bb75d6471c813ce0d60a4d86",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/de0nanosoc.py",
+    "sha256": "edd940c675159eeaa44ee159634867369317c391ec3a111c1318639a2928a0c2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/de10lite.py",
+    "sha256": "bcd28c65781f3bfaeaf1f230628ece6694b87cc3d912eb8aa3fed941379a750e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ice40_hx1k_blink_evn.py",
+    "sha256": "7836fc054f9fb4972360c6fab65cb995fef598ad99983b6c9d67f0d387c88273",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ice40_hx8k_b_evn.py",
+    "sha256": "7a0ac3a7be9380cc16f3d30145cbe32a462ccfa3c7a89bd7807278bb3e4e12e3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ice40_up5k_b_evn.py",
+    "sha256": "2ebd69484e404d263c75c3332a2417ffb2d6d58e9db21c0793b4ba9bd19f5b3b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/icebreaker.py",
+    "sha256": "eea6e9b9940e07953da35ba6e6f86eae53c1ccb5091050a51a8ce48bdf3d98ba",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/icestick.py",
+    "sha256": "ceeb6ae401c0e8a7f99f11d41cd38604daf830f8889e3e383b57a919ba1f9700",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/kc705.py",
+    "sha256": "5e589e03e561fe9111fc39b480fd9b6900118b70ad843665a3b94f54b1f5609b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/kcu105.py",
+    "sha256": "cc8a4b7c95ff97267f561be624ab09227926a6ab53470fffd47fc8c8a3600049",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/lx9_microboard.py",
+    "sha256": "edde7f70bef0f325d660304c210d2bde691ea149ca99a7508cb89bc2aabea9d4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/m1.py",
+    "sha256": "07970cccc8e8760087915a7022ddc8878bf7a26c79a704d9277b20ee137b4bf5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/max1000.py",
+    "sha256": "fef97acb38a49d1d78624585a8f53709e1611065f75b70eafb747a2805da4850",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/mercury.py",
+    "sha256": "2c8293d3c9da9b157091f43afbf5f3de1f818ca990161ea2be85e804ef3bc53b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/mimasv2.py",
+    "sha256": "4120fc3fcddb1edbffca0335f7c58993fe6d08ffa7104e38a006f92754c4b6e7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/minispartan6.py",
+    "sha256": "bfb503a143ee4ee8e0ad5b1d80350a604030f49d0184cdfe3ca797556a1b243d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/mixxeo.py",
+    "sha256": "1ff82108013ddbe72d9017040b607460a8996edf665cf041c105be738b89eeb8",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ml605.py",
+    "sha256": "c1736e4cef0b6bae2b8360d95c9432ae0e2a04631341178943c7b828a379980a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/mystorm_blackice.py",
+    "sha256": "347ea215eda2f1d2daee9f3ae78aeb514ff17f0e52d4ff5d4ed0f65320ec3146",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/mystorm_blackice_ii.py",
+    "sha256": "9ec922e1d19ff696ab7f04421474b654d56d859612984265e718098d305ce386",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/papilio_pro.py",
+    "sha256": "675599b28d5ca9de9962d8afca6eefb5dbad5aff55471956f4c7b5a41797f687",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/pipistrello.py",
+    "sha256": "fe20ad368b31028d8db0f6c640aa968bbb5d59a733814d607e26be369e85c2de",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/qm_xc6slx16_sdram.py",
+    "sha256": "da053a850baca0c996d9d21bd6a38e204db0de797edcfe27db01c2f527df3935",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/rhino.py",
+    "sha256": "f9aa215481090add01dabec212f97bc9e037ad0fdb3cf4f41bd97cdc53410f92",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/humpback.py",
+    "sha256": "31782fc5dfe2b9cfbbb3211b90237aee976cf4d90bdd7a46dd6c8f1a42ce7585",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/kasli.py",
+    "sha256": "51cfe8dcbe09f42b7d61f2255d4e7144e792b9d89d7b53734015541ed7f4bcda",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/metlino.py",
+    "sha256": "a85e4b6d22d9caf7df1f54044a7ac9fe221acf3a2fa06cb8da0f550a75a5971e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/sayma_amc.py",
+    "sha256": "f4b680c6bc736d5540f828a3b0cc96e610eff51fcf7abc5cdbd33a171fdab2f7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/sayma_amc2.py",
+    "sha256": "ef45a7cc9b3907e46272560ac28cd568a4b02305b12229b4815ee43ff16b2eab",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/sayma_rtm.py",
+    "sha256": "dad7b48a37c44cf98214aecd01d1860ebcfb048a7686554da68415738f2dae00",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/sinara/sayma_rtm2.py",
+    "sha256": "59bb474be51334eef4813e8737cb9f2f36046aaa2dc82327ced69e9a6124cd4f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/tinyfpga_a.py",
+    "sha256": "a770572adf6993869d3d70d1a73c11ffa11479247f9b4b2406959299c99d5599",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/tinyfpga_b.py",
+    "sha256": "05de2e8184ddff5ea1e5efdcf11c6d75cd1ff50e25f584de1fb246a68c86b94e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/tinyfpga_bx.py",
+    "sha256": "536300184df7f8d892dd462f54a348c3b485d6747917f0cdb2049e6d15de4f77",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/upduino_v1.py",
+    "sha256": "09a9aa643f644bfd137e8da23cd0c7c7895af581b0a9538a65f765aa7ea8146e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/usrp_b100.py",
+    "sha256": "a21f4197b3201834b22788905fd806e8cab9a5db796f3b9a8b5ef2afa842a600",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/versa.py",
+    "sha256": "b8cb281202ff1e295cc5a5850cbc4ab15d5c6cb888e21c72ea86c463d115e5bc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/versaecp55g.py",
+    "sha256": "6d316d8cab770dcbfc9da86c83802890b13f10505eee049ba2f55147d6a2d7a7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/zedboard.py",
+    "sha256": "878e08e6ffbe572e33e2079090a831cd9cfa4c5231de59f50841bab3c2a94392",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/platforms/ztex_115d.py",
+    "sha256": "40f6c926a8aed0de104f7f74c67f2a77be9ea13301e4db4fdeb8464377432bf3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/tools.py",
+    "sha256": "1d7770bf759eb1276795ebf7d3e37fbbbe26573b955ae3984302d9cde5198d4f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/__init__.py",
+    "sha256": "a4f7d02b3ed7b423bd4f2b27a96309d85166686ba7868ad44460134dd36b21af",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/common.py",
+    "sha256": "f65b64d9d4960b4d43b82ed543965f679629543640a47bef25a23d0a96a0d02b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/ise.py",
+    "sha256": "a2c9234d5b81947a563e46d61cf542ec306865a73a0d36a31b594f6b72128209",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/platform.py",
+    "sha256": "0699d10ae9748f53961fe8b9d1317154d648d968fc931a404f838e66a8433736",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/programmer.py",
+    "sha256": "823a877aad36230919422092a150691e19a3231276e2e3f8a3c417cf1ca8d82a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/build/xilinx/vivado.py",
+    "sha256": "b08c25937c500a57912ae3d26f856813e92bb6a321c0f395cda31750c87529f8",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/bitcontainer.py",
+    "sha256": "3cbd8e6fd34db28022a2b7f856a03edab162dd3c308a2f005af034ab71c082a7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/conv_output.py",
+    "sha256": "4921d3451f08cb16a119afd497dbdb3aaebc05e65aed567309f9981afbe1e52a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/decorators.py",
+    "sha256": "44c32625dab62ddc2e2a33411c15dd15e277f561e911d200c7df06ce420a87e2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/edif.py",
+    "sha256": "086ea692803e66e35705232c68b9c663a04c167d0ecd0b154de2f8b5b4491bd6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/module.py",
+    "sha256": "cf4298c1911d80e49ab411fd03feabe4d5c2c9ef22877ac0d08a8496db41df17",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/namer.py",
+    "sha256": "7a825cecaff75e00f9794dc9ebb33510a1829ec376716224a949840dfb67600d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/simplify.py",
+    "sha256": "a0d0859c27a1cd880ee28d53e237f3ceaa9ededb4aa3b45356c2257e3f495385",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/specials.py",
+    "sha256": "e0cb5586db589463e121f86faa0c0add06d5088c693485ac6b4fe6d9f6a89f8a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/structure.py",
+    "sha256": "6fd366c9319727c171839272cb9bbab8b1c22760b16c1c2e07d6de14c100c13b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/tools.py",
+    "sha256": "da024af1462ec05e84ffe34e1624e1f9af5d9fa26c8de646a7d12adeaee1c2e3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/tracer.py",
+    "sha256": "15960bfb9f3dd4bd58478bd7b4f8941dc2e6042b4d0acc805334e7a49a23237d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/verilog.py",
+    "sha256": "543ce11b4768c7865f2612e2407092885bdd23117de75df7fda163117fd48f00",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/fhdl/visit.py",
+    "sha256": "64f89b537ae662f30331a37ce592b122ebf73da8dd4b1e27f512a642acdb88f9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/cdc.py",
+    "sha256": "9525c1c66c37c742ba06bb1c111c4387451e3cf21bd6df0afe376b7ad875d6d3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/coding.py",
+    "sha256": "2257865a9dade7e09ed22cdf757f07e0ee5fd2edb2e05ba76c72d77f3cccf87c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/divider.py",
+    "sha256": "153a1867edf6448f5c0050f6d56d7eb529db518a732cfb0bd44ab250ac8b05a9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/fifo.py",
+    "sha256": "8744367f3cdcfbf99d9be36c569598944e85085031d4795de49d2867bc550345",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/fsm.py",
+    "sha256": "1630bb2d81e6f0bd277598a31c070b4fc2cc66a67db711d32984d7bdc82b4395",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/io.py",
+    "sha256": "2877c88ca133e4f0cca40870b6f6dd03b42240eef1c711839aa4dbd951c54648",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/misc.py",
+    "sha256": "241e30bf5d4ac1e83cbdd5fa16fc81d442ca74a8c4c6e82b5bb5c32354c93e50",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/record.py",
+    "sha256": "e72bbc1eae30f7d83388ef7a21c9fb65ccfe5ff46670ebaf8a0554968db6ae89",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/resetsync.py",
+    "sha256": "43b4cfdbb6593232d98b30c9c01ea7f5759593c2d31a86c515f5ce6e35b52d7d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/roundrobin.py",
+    "sha256": "b386f24288ce476a211f50abd38ec29d594b72c89b0acbcc0a76c6c45e6ffe8d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/genlib/sort.py",
+    "sha256": "953034a2390568424cb69a61ef27714d44ac1b812f299e56a9a632faac4434bd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/sim/__init__.py",
+    "sha256": "55183d1170702062df41ce15e13283abec26e841387a59dba5562725d21c8b69",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/sim/core.py",
+    "sha256": "5c929cec4d23ed5cdade3786bb4aad3b4bb214eecaa74133d40d44af052e2f31",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/sim/vcd.py",
+    "sha256": "5b2fe1cf6294d68227ed96bcc641e0cd7bd977b0012f75d7d78536cbc13ec7fc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/util/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/util/misc.py",
+    "sha256": "78a9116f436d6f975d0707cb5b2bf06137334e9f9c5cd9c8052e9e336e948b82",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "migen/util/treeviz.py",
+    "sha256": "0b2089700dd9144c458dba5eb3beca7be06265c4ec366a444d622d11ea3f3c0a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "migen",
+    "path": "README.md",
+    "sha256": "707bbb038c9a8cba63e3da0a280d12b6a92634b79ca5b804314a8493109d70a7",
+    "kind": "documentation"
+  },
+  {
+    "language": "migen",
+    "path": "setup.py",
+    "sha256": "70c8cd4621865b73c3e6f067bec867a80d2b19cbb1dd4f1411a549bbad44c12e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/conf.py",
+    "sha256": "afca5eb0418aa8071773ff9869ec853276d6a837894e6a5e7a66518a84c95717",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/index.rst",
+    "sha256": "a2e37b2b84ff78080e84f64fcc3b5507561746aca01b1f0ab7f40c956c764a6b",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/intro/installation.rst",
+    "sha256": "c4e14ab88479d7001c96f24395e8fc9cb0effb2ff584f5d3636a563c4c842e3c",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/intro/quickstart.rst",
+    "sha256": "13fbd5abae5f76dc3556a82a98c6877416c7626cd84523cf2b2c700c7f5be381",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/datatypes.rst",
+    "sha256": "7874fc199e7337d5e5938b032bb0c48976719fe7dc80fc12aab352573ac390ab",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/dsl.rst",
+    "sha256": "370859fe704ebe2a7dc002ec6a40b617953d0c1dfde72c2a4b9808244e3b5ec2",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-import-intro.rst",
+    "sha256": "8d686bbe651c585f3a84787c6d10156a2af6eb5f980c482e4577f1d93f05d1fa",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-import-meta.rst",
+    "sha256": "ba6546796ccc2fcc5181baf61edf2f4ac0ec8ba8cb75454e6947b93a4ffa32c0",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-placeholder-meta.rst",
+    "sha256": "f8a2ddcb565a4935b098dc1464066471859370db9d6bdc0cea0b53a4c70a1c7f",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-sim-api.rst",
+    "sha256": "317faca0ee6f97f1e1c0ad82c61d1e9206da969c936ee951b2a7b3b26d4d3630",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-trans-import-meta.rst",
+    "sha256": "665afa2a9a0668cd91d75ca0fcdc32685fbf67d56daadf24294c70ee6260bb51",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-translation-intro.rst",
+    "sha256": "15207e7f1c6ad6d3cebaf033190a964ca75546fe241729d2cb0594f97419f4cf",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes-translation-meta.rst",
+    "sha256": "f9456e387f1ec501913febbf24200933e19e1e22e3bb4f069ec3e4d474e27800",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/passes.rst",
+    "sha256": "5e298bb2df7ccfe8a27aba71083e382cc42f121c6eacb34478e2527ef30264df",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/primitives.rst",
+    "sha256": "0ab6c3ca47e159400949b59f3108cdb4566349af16895792574292bf040115e2",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/ref/stdlib.rst",
+    "sha256": "32b76c7e542471f296a3ac7872b7ce689da251fe9664632c0ee1a02e662c6947",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/tut/tut1-gl.rst",
+    "sha256": "eb24bed26ddfe1cc707f1afc7aa52d4eab445f55520c8a769ae7e5503d6502f8",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "docs/tut/tut2-rtl.rst",
+    "sha256": "05954e20bd3c0aefd99e26199c6f43cff451dafda833a95f2f9be86870e467a0",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/__init__.py",
+    "sha256": "7c5e763a9a1c3be4e2400e1e8ddeb221500aed307019af80190a724a30582b8b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/__init__.py",
+    "sha256": "f83096af4270d493bd6626f16982b6e213ed91ae299ea758df662d3b9fee2aa3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/bits_import.py",
+    "sha256": "a9920d0cbe15443d555cb297e0bb50fbeaf711f051a98b0d896f6093f65842de",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/bitstructs.py",
+    "sha256": "5514840aea0c7cfed1fe7d109aed733c6d38aac1b1e17ac434f15d677240b978",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/helpers.py",
+    "sha256": "d7166edb147dcd9c7db65a1665b82e79adc45ac29326d49e4144f5991643a46a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/PythonBits.py",
+    "sha256": "6bea510137e820de8169c02693d8e50d96cefa34e6443ad20bc2ba5f5332783e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/datatypes/strategies.py",
+    "sha256": "aa4f8e498024632fe41dfccb36d8c5902697953dda4785ced71cb5fcb768d5e2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/__init__.py",
+    "sha256": "f58e7ab28bb132cd52b0eb21d5831d79702efdb6d94df3f33284b5b9fc9c920d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/AstHelper.py",
+    "sha256": "92ba673d77bdb5795e04381571cac6879321d72f4b7d4b908a9b050e7e74a429",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/Component.py",
+    "sha256": "767f2f4a32c99fede231066e3b402ba0846f39c929552417efdbde341ef0d278",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel1.py",
+    "sha256": "365343be15b475243a12f0ba44db538746c294ffaa3f49cd1ccd0858cbb87401",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel2.py",
+    "sha256": "f9e40a1c7bfb944cca9062b11e889feb82a7465813e5580f4df65331b0a48567",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel3.py",
+    "sha256": "47bc42074179023ad14f6888fe5b40b5cd39fd6641b18fa68d5d67d305a18a41",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel4.py",
+    "sha256": "230feaa619aa8ee1c4ad975691df6c9eb6541d0d51ec27aa371c265475a8228e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel5.py",
+    "sha256": "81e6e9a005dc1ea13faa2c3357dfb2b597ce35dcbb0be8c27a0e33cb3e3aa9c0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel6.py",
+    "sha256": "1a45e1e6e9cda070b9ebc97dc933a7fe4aff8fc57c3ea77d61801b7f5eba1ba7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ComponentLevel7.py",
+    "sha256": "eaf76dabf95e91ecbd73da13db39e2defe5145ff9b62142973b0799c4b59fba5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/Connectable.py",
+    "sha256": "3baac8d077e5cb2bfaf969c921f2f777c83c065b5c35ce6c3115034550f2b0cf",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/ConstraintTypes.py",
+    "sha256": "8b6a4b410b28318c2f4949ff4399ca23bae560b2877c2c6cafb13b446b0f3313",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/errors.py",
+    "sha256": "f4e027336828ecad46dc64eb06b07be4e89a17c103dc42d9097ed5454ec4c125",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/MetadataKey.py",
+    "sha256": "7a2108d0d21558cc18dd422921022dc5d12ef85e47f0191e1a3bf452991160ed",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/NamedObject.py",
+    "sha256": "28ee396f797362414b7d163e0ad071e990b0e2cff63182c7b028b2f4473f7d65",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/dsl/Placeholder.py",
+    "sha256": "1fe30a17aa3a50f43856149d595d09f374c454b941400d184043c097b87c517f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/extra/__init__.py",
+    "sha256": "983e87e700d02cb6eb33f485ea70b9a3daedd79169c910ce0be76b2ebdad9d12",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/extra/clone_deepcopy.py",
+    "sha256": "8e651821c4ade6be4b8ba5cbe17495a15e11d643ed2924414bd9192328a6a6ec",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/extra/pypy/__init__.py",
+    "sha256": "56ef27ec7ab2ba824259f16af45683c2c6a28ed788fc115891684d835b51d692",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/extra/pypy/custom_exec.py",
+    "sha256": "70434054f263ec68123374a0b7d4d3e537db950d957157829abb0676533be5b1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/extra/pypy/fast_bytearray_funcs.py",
+    "sha256": "dbe4878ba3d994435080f7b40b876cba236dc5a991303bd402fce0ab9818fa70",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/__init__.py",
+    "sha256": "6e0c407222243e58757d31885cfaf6886ab14d6c7d40ca31657208a6ee853748",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/adhoc_transform/__init__.py",
+    "sha256": "76052df1e3d1a01da75b58c6360a1c099706e6c73fc4e8ffd2091c71ba202e34",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/adhoc_transform/AddDebugSignalPass.py",
+    "sha256": "2847c9c41c1d391a588d8e8b4b23c8f432944fd4d9a9f782593405de6d52410d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/autotick/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/autotick/OpenLoopCLPass.py",
+    "sha256": "da852c431aef7be9d99b317f49d9a88363649760a9373a7fc6e569929b3bd3da",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/__init__.py",
+    "sha256": "d553b26f4b7ad64b90d70b135aa0589cc60239d14357ab57e47ec1ba1320ce46",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/BaseRTLIRTranslator.py",
+    "sha256": "86f07fd553fa760a8e24bc220e1326c4b252a7b8ac04694f59fb2e0baa98b5e4",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/__init__.py",
+    "sha256": "3adf1435e5fff016468d8f01171f2b919844cbdcdf7cb74ab70050f876437b3e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL0.py",
+    "sha256": "b54fe4e02a0c24c3b19f6ff2809600c2211c17175bb7e1a9172e12757ddca083",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL1.py",
+    "sha256": "32933031e384d8fc9f33c1b716ec29991f5ae22e87da34860449274983dae488",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL2.py",
+    "sha256": "a1706464b6e5bc5711f0ca941813d1e9a78434bda20fd798bb0609372626ace2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL3.py",
+    "sha256": "5c870efd407955a6a5195a5e774bba489f0b3f2a26aac9028a5131ae4d88ff11",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL4.py",
+    "sha256": "71e27256ce39fca18c7c32ebb361602b11bb08ea10d052a8688541064d7830c3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/behavioral/BehavioralTranslatorL5.py",
+    "sha256": "ab785e03aaa93a919202553721e4e8b5b7b9a8ec75dededa648376a54d576c65",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/errors.py",
+    "sha256": "45c898bd6ff6433de00f5c875d6a60699c172b7a131562ba30073f6cb7053a9c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/README.md",
+    "sha256": "e8031dd156790af5990954bc427ea4b88e1f7c54f1f44f74d79c203f2437387f",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/RTLIRTranslator.py",
+    "sha256": "79dd0ca7a4fc9c7e3979d73242ba9dd44fb08b67bcf81fda4f4d8bb78ac1cd81",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/structural/__init__.py",
+    "sha256": "79881e5028deb21f5d5fe6a60050b3f374187d41ef01069e176165ce81c8f79d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/structural/StructuralTranslatorL1.py",
+    "sha256": "ce456197c5683019d0e9a114b46b20ae2e2b6412df6982dd23233e6643aff1fc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/structural/StructuralTranslatorL2.py",
+    "sha256": "8f5384826e37d93295174b2c1d3d716814813905f8810e617b4ad16b88fc1d29",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/structural/StructuralTranslatorL3.py",
+    "sha256": "fe49f34276f919bf84705c746d7643518668b6a7f9334c183fc3bb94b5015622",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/generic/structural/StructuralTranslatorL4.py",
+    "sha256": "13bc23fc99780816c4ec35f762586c326ed9d5762a779a6e43657d926af8e438",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/__init__.py",
+    "sha256": "3c4dba1c52a92d338adb6379f97990bc5239abc4718eaed3a52bb0b90cf41902",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/errors.py",
+    "sha256": "7b7b3552908d72a1a117e351f151f73b92d93bb07ecd4b85ca74ade2bac9a0b2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/import_/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/import_/verilator_wrapper_c_template.py",
+    "sha256": "a3310feb6675a0508ef9f81f5ce9e73db2a664ffdf82d21307fd70da9d0ff271",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/import_/verilator_wrapper_py_template.py",
+    "sha256": "26734296813d792fc85643a9613c942d6d8288534ee870a3cc23a5de274162c7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/import_/VerilogVerilatorImportConfigs.py",
+    "sha256": "478a0bc80d6ac1fdfbf4b2f4b8baa6dd0255ae479b18e1b926d39a12fc860553",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/import_/VerilogVerilatorImportPass.py",
+    "sha256": "3285c578931f051904f76698d2f6c81a2c445fc84d7eb26ab7fffc020baa3c4c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/tbgen/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/tbgen/verilog_tbgen_v_template.py",
+    "sha256": "d5668330e042b134407def4b02151d76fef86992b587272dbddb45b61ed67281",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/tbgen/VerilogTBGenPass.py",
+    "sha256": "405ba27de4c3ba435d2df92a2fed72d6f000a6e9ab90fb80bd5bbe5b147d7b62",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/__init__.py",
+    "sha256": "97adfd3de7c0ab48130af58d5d8c9e2cc0f1ac9efc09472f72d94660b73c456f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL0.py",
+    "sha256": "3f47ecda51f72ec891b52da96dc0511bd1f7a88ccd6e806d4f5aa3f180cc38e3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL1.py",
+    "sha256": "4edd29044007bf153df6573da0798fcad99a14e272d8f8b992386f75e5f7a33b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL2.py",
+    "sha256": "a1e4ee4ebdc094ffb4e1fab42ad9fe7c7777c2bbcded642e6fc06dfa6bbb69e8",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL3.py",
+    "sha256": "381e8508cea49674686c0c1a8369915b38f6de6de26011726920503cc7d62ffa",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL4.py",
+    "sha256": "5b7653b55f5e5e684d597a60b6ac3f278b126ec6461a5c0e068a0966b07ace69",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/behavioral/VBehavioralTranslatorL5.py",
+    "sha256": "851258f3980329a1a6abfa15e58d8330f653574275f5a98ae2463252fa919f82",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/structural/__init__.py",
+    "sha256": "3fd90a043191fe2ca0bf0035f61975899ccc6e0edbca7a0a1ae8e1ee7c51abba",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/structural/VStructuralTranslatorL1.py",
+    "sha256": "7e33f506845541f536406ded2c84166b3bcb30e71a0fc59438a59a5ed28884d3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/structural/VStructuralTranslatorL2.py",
+    "sha256": "c109044cebeccac4e4c1a395071cd3a491d9f9a983c8b2bb087ee1b6c685bfb9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/structural/VStructuralTranslatorL3.py",
+    "sha256": "6cfc923e57b6a5143508299f2df7fc822f18437601e8cb63d03b18272f03e146",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/structural/VStructuralTranslatorL4.py",
+    "sha256": "20703980407036a9c1cfe504e6f1c5c520beeafb4962d51190f700538581c39c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/VerilogTranslationConfigs.py",
+    "sha256": "9721f68ea2bd6f2f73267d9bcabd679b7a4bdbee51857f8e694715b12e3df390",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/VerilogTranslationPass.py",
+    "sha256": "4f761c87d018e08699d32c5d7317fe7b92d9680d1a85b736d4b732116298df49",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/translation/VTranslator.py",
+    "sha256": "36d6cb413ee666ea0bfc86fbcaffb3ed0e8549b586ae36f8d910e9bfb6e5c861",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/util/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/util/utility.py",
+    "sha256": "b9aafa9b72107296ba522999ad1b1c41136bec660af79afd033c59e5bd1e6eda",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/VerilogPlaceholder.py",
+    "sha256": "3ecb850c926cfba2ccf65ad0e398469cc125683ae9127372c938424f975e8d0b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/VerilogPlaceholderConfigs.py",
+    "sha256": "d903975663e20204d5029bf5f599f306fb4f6427aac2dd46b82d0198bfba8add",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/VerilogPlaceholderPass.py",
+    "sha256": "76e16ae95dbf2632197fdd0b5fa3984e1e8dd6b28afd93be99db7fc74aa4f510",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/verilog/VerilogTranslationImportPass.py",
+    "sha256": "b9acb95f9b2d179a250aa97fdaf388c31dd86041d53a492745e95edbee0447a2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/__init__.py",
+    "sha256": "f8e0e7c077f8894956a7f92e017c1ac46fa2fde67261e0c36b8b4fa5510e9b49",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/import_/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/import_/YosysVerilatorImportPass.py",
+    "sha256": "252d044af4797a2fb1542104ee8e912739f6644e006c2a32bc07925b4e99c625",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/__init__.py",
+    "sha256": "2535c5fb01a97546628343b1debcad4c94bfb08c4e0aff6fa79f30f837053ce9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/YosysBehavioralTranslatorL1.py",
+    "sha256": "7ffdb4b3f43c3168653e56b64a12bb2c72a0c42dbb466b61b168c6c6aeadb6f7",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/YosysBehavioralTranslatorL2.py",
+    "sha256": "ce5e29b7d944a794117f740eb914e97d26f514b0f06267d37efd8d3a9a08bc76",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/YosysBehavioralTranslatorL3.py",
+    "sha256": "113a9c14b75dc9c861f3954a40144b5e97f4a62083ec768ee5a3f1e56870c412",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/YosysBehavioralTranslatorL4.py",
+    "sha256": "5a1824800781b149024fbfa4991f628a3b0a155ac1216f3331fbdb6f5078f6e1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/behavioral/YosysBehavioralTranslatorL5.py",
+    "sha256": "7c43d62432336d91d1c2f52b4270ef4b121d10434852eb8eea507489d009cdb0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/structural/__init__.py",
+    "sha256": "88b83ff55dd698a6b8733940802e9d834c33ac432e3f0ad0c6fce833c4ba8c31",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/structural/YosysStructuralTranslatorL1.py",
+    "sha256": "2eab1322e42ffb3b0e78de38ab68817051bba19100927f8686f672eeef36c129",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/structural/YosysStructuralTranslatorL2.py",
+    "sha256": "59a89b3130ad3cbb21bfbd966c039e2becdbf0c468c79a5b071f07e2faca73df",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/structural/YosysStructuralTranslatorL3.py",
+    "sha256": "76a02b8815b1b2e2258ee79d52fe3310311c075847da741567c02a4ee00b32f3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/structural/YosysStructuralTranslatorL4.py",
+    "sha256": "6e6c0370eda92dfc4e91102a86ff8fc9dd29d14a302c2abe343802ef05099e99",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/YosysTranslationPass.py",
+    "sha256": "cc314f71030926672003a6e92689914975ce8c6a3b67bed613ec52fd19826bdc",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/translation/YosysTranslator.py",
+    "sha256": "003604c442a9db22a2084db6210fdb3e75180fbe32bb823801028b8fb67deb7f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/util/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/util/utility.py",
+    "sha256": "0e7618e03ddf1ba98d63a2bcffb6d817850daa6f94ce0f9857fc5069cccb24d9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/backends/yosys/YosysTranslationImportPass.py",
+    "sha256": "f25b307a93df650a412af879651d9cca4c029d5c82f40c0bb687bf542985f8e2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/BasePass.py",
+    "sha256": "74c94adc28709fad218cd135532e322c8d214200dcb75da09b4a5fbe850c94c2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/errors.py",
+    "sha256": "a56d13927879af7b6dc503f3b262107e1da794f0fd8314b97b17ed56b0e84a26",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/mamba/__init__.py",
+    "sha256": "620b657310f713be66be5752b7cc8829295be6b552509d54dcee49ff64355e6c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/mamba/HeuristicTopoPass.py",
+    "sha256": "b6d2a446a6e3bb06084710700deee0c79f90f1914b669a7e50681d62bcc8d333",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/mamba/Mamba2020Pass.py",
+    "sha256": "738c88375edb7bc6a8d9159d4924777fc2ab33ad515d0d1fbb5ab7f48b45ea1f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/mamba/PassGroups.py",
+    "sha256": "5b259fb8234db1a974de26921e637e7414edbb97e6bb88c2d977020d5e89953b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/mamba/UnrollSimPass.py",
+    "sha256": "cbfba649f504932bf9a19e13912b66237dec4ffb67d0aea075cf18999b9e6cd9",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/PassConfigs.py",
+    "sha256": "5f4630d2377d48ab0f272b99326cbd5446dd175b5c88288986b2d85eb5241e52",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/PassGroups.py",
+    "sha256": "94d2fd4cbcf53ad78773a8c4af12176d51f4af14c0bb2f59d126e37187165e6a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/PlaceholderConfigs.py",
+    "sha256": "3ebba2a57ca17dd15f75c70a9787af1e8657dbc107a1d7f13b5e64b872573794",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/PlaceholderPass.py",
+    "sha256": "ff7474c6ee2690acb5eb196256f7eabd2564d83683ec83db605fee1e9fd90b88",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/__init__.py",
+    "sha256": "cf6738b9ab9548a26eee154c52ade2171ff6bc259de4b1f6fcfc08ab2af03c3b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/__init__.py",
+    "sha256": "caade8a5c01d52b831518ace8b3e1b1eae00536131df59998f8fe47380cf46b1",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIR.py",
+    "sha256": "5cc2586389fa91f691b7ade58337cfba4e1f0fc5c288e28c85cf0bd58b4d245c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRGenL1Pass.py",
+    "sha256": "0aa105420cd8e982c496cab0a53c88b7964d036c15e80a9b92ae190551a6255e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRGenL2Pass.py",
+    "sha256": "2ddcf9f43d05bccce17464a3e9782552b99dcaf6567782515c94dac25a289a93",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRGenL3Pass.py",
+    "sha256": "577858df803ca90fc69af48160fc239bf38c0653571f40f363546a78a22e9c7c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRGenL4Pass.py",
+    "sha256": "4631126212b2fe56a63b617e35a8303a61dea7e94966fcdc42fea3e9bc015dd5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRGenL5Pass.py",
+    "sha256": "57049fa9d0dc3f645572c2a92aca330f719c51c1b50ddf2526289280a0ea6c90",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRImplGen.py",
+    "sha256": "1285db06c227a09d86af64d6539ba192703199b212761a2b1d695f44a806a06c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRTypeCheckL1Pass.py",
+    "sha256": "356e6c183e15f6d2713f724c0f2f69de4a48020193f43fba59d279cd3891d168",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRTypeCheckL2Pass.py",
+    "sha256": "ed21bd0b75b30651045d095bc089dc1e7a7df2937d574d010b03d7447008fa5b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRTypeCheckL3Pass.py",
+    "sha256": "c5f5cc1f4767042f1eaa59552ecf494affb0182ceafd2b10e51c4ac20b313bab",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRTypeCheckL4Pass.py",
+    "sha256": "43d57defa1d01ca28fcabdade25072d3e617e53be6d429064b3e0eaab9680b2d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRTypeCheckL5Pass.py",
+    "sha256": "6f129f04b3f40d11629518195fa85ec05bb979eb85e65a7cf85c5b35c1996346",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/behavioral/BehavioralRTLIRVisualizationPass.py",
+    "sha256": "b9932eb3c59b9ac29309a8545776910d190717b88393ab4f46ca4cf987a6f357",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/errors.py",
+    "sha256": "53e1ee8605dd5fda78f9560de4c840608716f6c8007404e96cf6bade2bf45189",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/README.md",
+    "sha256": "64142e0be3e5437458ea7122d990610a97cf1c1de30afc0529fdfaf48c4059cd",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/RTLIRPass.py",
+    "sha256": "210dbffb187fd996a25ebbfcc2156ad1af27d46bb03ce2d41ffdb94f045281a6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/rtype/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/rtype/RTLIRDataType.py",
+    "sha256": "6e441a5232abfb3e0784985cc84e3ea6db4884cb945313897eaa5a475431b98d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/rtype/RTLIRType.py",
+    "sha256": "49a2a3fd78da04ce7359a9fda2d5142f94de428c0dc7ab27d7490a99bdda7a25",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/__init__.py",
+    "sha256": "23a0ab14b8789750b52df1b2f7bc1b3147abc119a0120e4102c1205588baea00",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRGenL0Pass.py",
+    "sha256": "7348d0cac7bf38526a169b57ec2fea7ad43956c082d959d73981e68c6a5083e5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRGenL1Pass.py",
+    "sha256": "7ddd67ee41868d56091ec97a875f3cc87d6f34f52b56a36ae1cd37a8549579cf",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRGenL2Pass.py",
+    "sha256": "a949f1070b1fbf9ac3a6ce6602cea485b3c3d69ab2a0abeb39cd9203c85954f6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRGenL3Pass.py",
+    "sha256": "7c966fb3ed5106d9a706a500266e81738a0f5e441e8f5bffaf744d46c8cb6a67",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRGenL4Pass.py",
+    "sha256": "ff33d20d6522976471f6096fef63816eb74bd39cee491abc794209ce08481e1e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/structural/StructuralRTLIRSignalExpr.py",
+    "sha256": "7e9cbcf08467c20eb0e6261f4a774a0fa05371128b271e503aa02e22ff1c6999",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/util/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/rtlir/util/utility.py",
+    "sha256": "ec6f29cd51188dfa1c2d8fb86555e86a81ebf4a8fe97253afcc1ac54a3d2f044",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/DynamicSchedulePass.py",
+    "sha256": "a1e19a778494af112d94dd8f8c208cc33998ceb69554f951ef19ea96f4148e3b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/GenDAGPass.py",
+    "sha256": "baec8304efb6a7814507169d24df2b3f7b67c46323e1d1651b612c9904332756",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/PrepareSimPass.py",
+    "sha256": "613b6a0566afb48ccc9f19dad37fb35ee505f4524de431419d14f60343e55ae3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/SimpleSchedulePass.py",
+    "sha256": "df11ebe03fefb4f2726906b37012ef03475b2ef0eed16054469fe26a3b1e13b0",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/SimpleTickPass.py",
+    "sha256": "0c7cb15a2a7bbe70a2a3c3a1db1e61b5b1d232d823681f4bd471b275a4b9275e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/sim/WrapGreenletPass.py",
+    "sha256": "c1f8d07d1a60592def1668c06c235f93ea9ef2f4ccba7bea776194e00743592e",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/tracing/__init__.py",
+    "sha256": "b1de7ffaa5169205ce8b2476051cea44064b3e935a81e9daf845147c2d3b51c5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/tracing/CLLineTracePass.py",
+    "sha256": "7bfaa2de56225c4515e264755888ecc625a483a09b8ded90d20a073dfd3c500a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/tracing/LineTraceParamPass.py",
+    "sha256": "969866fda13776c6bc35f3c11b2632331ea9a12615e2eef8a095093057320655",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/tracing/PrintTextWavePass.py",
+    "sha256": "df0180015ac7637fe66e9b76522950a651512bfc1c687f38f5529cf8a989842d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/passes/tracing/VcdGenerationPass.py",
+    "sha256": "fc01429a49eefafab9638e8edc73e2ed0b21bba8b52eb09a4c5fd3dc783c867a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/connects/__init__.py",
+    "sha256": "45b8469f0429b0f2caa717d11af88e2b56efee7a3534e3082de0c6b17f4a0e88",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/connects/connect_bits2bitstruct.py",
+    "sha256": "d02e6615cd76a0df2d29c67c657dc0e6e4ca1eb120cc9ecf857d8c34fae951ec",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/connects/connect_pairs.py",
+    "sha256": "94e1121428f755ca8d1dd987663b006c0d85a69577643f69708e1896ae87c78d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/dstruct/__init__.py",
+    "sha256": "faedfd4771ecbebe15cd5d91b3ed92a270904eb26e70e3ca62eb1d5033b8fb2b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/dstruct/queues.py",
+    "sha256": "ba1cea993c4a8712759185eb8f823c83ab8550a027969fd2b937021245d9b18b",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/__init__.py",
+    "sha256": "80cc9a8043cdfadf4ca8278e83b1a0bcfdbeead17ff04c35122172fc21a1af14",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/BehavioralMemory.py",
+    "sha256": "b7ff3e26a5c650f761e4f9e2349b8dde83838c68f7a281b718d3c927d63d8efb",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/ifcs/__init__.py",
+    "sha256": "07ce2419a974c47b77c8302203830bbf15926dcb66356e28a3491ebab4d3da62",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/ifcs/ifcs.py",
+    "sha256": "f123a166696db4bb2649bf0e7e6972f099e1b9d942f5fa53d97cd155a2d97e31",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/MemMsg.py",
+    "sha256": "6f40a8452a62bb52539a897952b63848059c47dd80b59025bd1fc2b51a5f3225",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/MemoryFL.py",
+    "sha256": "28c5dd51eefcb2f122cc0e91e4467cd734e95107ebe856508768875916510567",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/MemRequesterAdapterFL.py",
+    "sha256": "0bc6460bef347e4db2ec68954fe7772a7edc7e6dcea79860e52f32c2f4ccc9f5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/mem/ROM.py",
+    "sha256": "038c2f16aba55b62bf73f398479cfaba5e588b3f51fca53736dbd9fc07d7f7a6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/net/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/__init__.py",
+    "sha256": "96611eeb69876d7faa7f93813bdb7f4f47cc5a40897e3681e2f2e211114a9f55",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/arbiters.py",
+    "sha256": "ab73e4efc50d03bfbaf02b6b6a857af6e3d395d67c6420e57b54777984475e63",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/arithmetics.py",
+    "sha256": "3473ceb78d61988f6d3799178a3bc871ed4fe99e4ccf1eeb7a0984cdfd95051a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/crossbars.py",
+    "sha256": "f273fefb468b457cdbdc5927f1761d517654ed7b7ecdea6d5560dc67bc96a671",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/encoders.py",
+    "sha256": "e67b1efa4320372d116d482559d81c9e2cd3624c5410397922f2f0ae0f43c56d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/register_files.py",
+    "sha256": "41fdb5a7ae4438d22bb12a5e235f443de3f12f505b5326e3e3df1af03d7cb700",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/primitive/registers.py",
+    "sha256": "c6ed7bf7eda740d81f1235b548bee64f1af75a07902f9c384235ddab6336bd68",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/proc/__init__.py",
+    "sha256": "ba05095ee6d7f2d51568bd7a9a8d5b27602342d86dbe3a2c9accaaafe406cc05",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/proc/elf.py",
+    "sha256": "3d0f5fb91031e5bcce746ce742f0b4d6536134bf2869778f1a45aaeee84872c3",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/proc/SparseMemoryImage.py",
+    "sha256": "d82ba8e90bc845561240ef2d314345cd628d88431bc34cdca67c3aaca8d60f9c",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/reqresp/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/reqresp/ifcs/__init__.py",
+    "sha256": "62092e1e2bcf4f7a227b8aa2502c4ca5c6ebf2bf76ddb13ac85768f811d9d2f5",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/reqresp/ifcs/ifcs.py",
+    "sha256": "5f6a77715f9016f2582ae226522c506179ddfaa82034b8ee22659390e439a47d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/__init__.py",
+    "sha256": "1955ee880f6b61295d35272d8b0e7423ada3af92e620d3c771bf01f4d09e45e6",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/ifcs/__init__.py",
+    "sha256": "67ae24cf41d4a4b505fa94a28d86a8770ca4e5abe73c479e7745e3744e935241",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/ifcs/ifcs.py",
+    "sha256": "0e7cbbd2ad168a24b4e3e2d39457664b09497e4ffb0a2914975468ed1a447b78",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/IStreamBlockingAdapterFL.py",
+    "sha256": "3f833301c4d836430bc84f4474bf773c0253a3ae0ade374c6232368b129e701d",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/IStreamDeqAdapterFL.py",
+    "sha256": "9bdd8fdd1388b2df69aa893a4f586096a7d9613c53ed6985eb3c96db1d17a844",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/IStreamNonBlockingAdapterFL.py",
+    "sha256": "62674befa4baa383d0af0a11d2bc49db3cb8cc6c717022bfc76c0307e2d19f34",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/OStreamBlockingAdapterFL.py",
+    "sha256": "45ec3325714a3ed5c1361838d60d3f9b5488a941eea2f9283d70125d9b1dd447",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/OStreamEnqAdapterFL.py",
+    "sha256": "14e0c7b30bad1c8ff8a3b86879dda57c6c91a6c05a8644f0d47bc08563913dcd",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/OStreamNonBlockingAdapterFL.py",
+    "sha256": "c7c380ede4e042fb01ceb7c82d6285bef844396f843bddb4dcae7ea76423e904",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/queues.py",
+    "sha256": "11a0f2524057ad34afb6c478d8d94b785b6a4bbd2b6fd7b6894c3a5ddb9ebf7f",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/StreamSinkFL.py",
+    "sha256": "8d784192914b866a880bc11f53b306a78a81c1e3ad3f2c4283b90bdc768f8cac",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/stream/StreamSourceFL.py",
+    "sha256": "9aca48fd4de6bec6c2c6d19d7ef70171a216cdde2879ac700d87cfbbf62972ac",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/test_utils/__init__.py",
+    "sha256": "7ed0dacdbea625e56c3fe460e15e07ec555d63ba1f4e3de5b0d24e55785f1d74",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/xcel/__init__.py",
+    "sha256": "008e6812e9d45f0093eea17f0df7e4c6c1e4218c89bdcacef4cdc807734f30d2",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/xcel/ifcs/__init__.py",
+    "sha256": "728b4163148ff5d636a22599673cdd5996f579d90b9780b34cfa710a9316b828",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/xcel/ifcs/ifcs.py",
+    "sha256": "38d8142e47b6ed5fb7a263d9220c8bdfbf8682a624dd34382ec4f978f0d2214a",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/xcel/XcelMsg.py",
+    "sha256": "f32c97649a998741388061ff039067917d4bdb78b3a71830a0ea01ee2805a5ba",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/stdlib/xcel/XcelRequesterAdapterFL.py",
+    "sha256": "af96d825d5beb7ab90ef05773c298ee7e69f93ac3956e6de1ad88844120b1381",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pymtl3/version.py",
+    "sha256": "98bdf5b73a03eb379a24a5b45c3bd33459305395ee75c5773a1f09ffcb340892",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pytest_plugin/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "pytest_plugin/pytest_pymtl3.py",
+    "sha256": "2f01e3e301278c182829798f203589c918f4212425c9516ac31c2a5111ed0349",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "README.md",
+    "sha256": "b1e30e99620068298bc7842e2ca91b934123c071c10dd7b6caa975f7e83c4361",
+    "kind": "documentation"
+  },
+  {
+    "language": "pymtl3",
+    "path": "scripts/common.py",
+    "sha256": "9e4b2258101a8fc7da17ba31ef905d52fac6492a1d6fe35c15033e66b9f1c3ad",
+    "kind": "compiler_api_source"
+  },
+  {
+    "language": "pymtl3",
+    "path": "setup.py",
+    "sha256": "9f7372a0b812da02c9dba26f5367492e1d5f8d82543f4dc91dc96b8f0fd7f506",
+    "kind": "compiler_api_source"
+  }
+]

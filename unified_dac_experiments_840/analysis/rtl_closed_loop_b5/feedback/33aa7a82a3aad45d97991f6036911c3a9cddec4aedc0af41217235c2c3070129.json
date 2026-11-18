@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.backends.verilog.errors.VerilogImportError: \nError trying to perform import on s:\n- Fail to verilate model emitted_5cd6457d2bce_72acabcbee80\n  Verilator command:\n  verilator --cc --top-module emitted_5cd6457d2bce_72acabcbee80 --Mdir obj_dir_emitted_5cd6457d2bce_72acabcbee80 --assert -O3 --unroll-count 1000000 --unroll-stmts 1000000 --threads 1 --Wno-fatal --Wno-UNOPTFLAT --Wno-UNSIGNED --Wno-WIDTH emitted_5cd6457d2bce_72acabcbee80_translated.v\n\n  Verilator output:\n  %Error: emitted_5cd6457d2bce_72acabcbee80.v:42:34: syntax error, unexpected '[',\n  expecting ',' or '}'\n     42 |     full_sum <= {(total_msn & 15)[4-1:0], lsn_sum};\n        |                                  ^\n  %Error: Exiting due to 1 error(s)"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "7373d1948e10c1ef1084c674c02bbab06a85041032f94740c9ce41e0b8e7fe87",
+  "candidate_source_sha256": "f6060ca14b9f5c8a5836c8aa02cd99da41b7e9bfccb44f899145ead03c98764a",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

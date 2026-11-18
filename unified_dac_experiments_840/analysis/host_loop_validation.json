@@ -1,0 +1,184 @@
+{
+  "all_passed": true,
+  "diagnostic_only": true,
+  "reference_inputs_read": false,
+  "frozen_runtime_changed": false,
+  "adapter_sha256": "d5c3a92ed809e89bd9110a95897121c4f00e589581ed106d946dcdb751006829",
+  "checks": [
+    {
+      "fixture": "invariant",
+      "static_expected": true,
+      "passed": true
+    },
+    {
+      "fixture": "shrinking",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "break",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "return",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "attribute_write",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "unknown_call",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "alias",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "shadow_len",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "body_branch",
+      "static_expected": false,
+      "passed": true
+    },
+    {
+      "fixture": "invariant",
+      "dynamic_proof": {
+        "confirmed_host_elaboration_loop": true,
+        "uses_functional_oracle": false,
+        "loop_line": 3,
+        "guard_name": "current",
+        "threshold": 1,
+        "guard": "len(current) > 1",
+        "body_sha256": "8e049e87f1f8909d7457818b84007d057c8ac0c1c4d18d24b5e46ba653b0eb32",
+        "observed_iterations": 32,
+        "unchanged_guard_width": 4,
+        "wire_type": "pyrtl.wire.Input",
+        "source_sha256": "536794c8325fda9f59b66832e56f5a2447c2ed34d4ec6c5ce8480ada222ce356",
+        "native_len_sha256": "48895430caa067ef5eb11887ca878cebfd41722bcf57d9e76ef7cf9371f05cde",
+        "native_getitem_sha256": "faeceef5a8f3ed1c8f6f0665cd8354a06d3a755be21a3736fed9364939f4d687",
+        "evidence": "True builtin len(wire)>constant guard; fixed wire identity/width; body only integer assignments, wire slices and pass; no guard update or control-flow exit",
+        "native_probe": {
+          "constructible": false,
+          "traceback": "Traceback (most recent call last):\n  File \"/work/runtime/construction_probe.py\", line 11, in probe\n    warnings.simplefilter('always');dut=dsls[language](source,cfg);dut.reset()\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/dataset/pyhdl_eval/pyrtl.py\", line 63, in __init__\n    output_tmps = mod.TopModule( *input_signals, **config.parameters )\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/tmpeqv9ky4a/invariant.py\", line 3, in TopModule\n    while len(current)>1:\n          ^^^\n  File \"/work/adjudicate_in_container.py\", line 93, in observe\n    raise InvariantElaborationLoop('Proved invariant host elaboration loop')\nadjudicate_in_container.host_elaboration_loop.<locals>.InvariantElaborationLoop: Proved invariant host elaboration loop\n",
+          "uses_functional_oracle": false
+        }
+      },
+      "passed": true
+    },
+    {
+      "fixture": "shrinking",
+      "dynamic_proof": {
+        "confirmed_host_elaboration_loop": false,
+        "uses_functional_oracle": false,
+        "native_probe": {
+          "constructible": true,
+          "observed_cycles": 6,
+          "stimulus": [
+            {
+              "reset": 1,
+              "pattern": "zero"
+            },
+            {
+              "reset": 1,
+              "pattern": "one"
+            },
+            {
+              "reset": 1,
+              "pattern": "allones"
+            },
+            {
+              "reset": 0,
+              "pattern": "zero"
+            },
+            {
+              "reset": 0,
+              "pattern": "one"
+            },
+            {
+              "reset": 0,
+              "pattern": "allones"
+            }
+          ],
+          "warnings": [],
+          "uses_functional_oracle": false
+        }
+      },
+      "passed": true
+    },
+    {
+      "fixture": "break",
+      "dynamic_proof": {
+        "confirmed_host_elaboration_loop": false,
+        "uses_functional_oracle": false,
+        "native_probe": {
+          "constructible": true,
+          "observed_cycles": 6,
+          "stimulus": [
+            {
+              "reset": 1,
+              "pattern": "zero"
+            },
+            {
+              "reset": 1,
+              "pattern": "one"
+            },
+            {
+              "reset": 1,
+              "pattern": "allones"
+            },
+            {
+              "reset": 0,
+              "pattern": "zero"
+            },
+            {
+              "reset": 0,
+              "pattern": "one"
+            },
+            {
+              "reset": 0,
+              "pattern": "allones"
+            }
+          ],
+          "warnings": [],
+          "uses_functional_oracle": false
+        }
+      },
+      "passed": true
+    },
+    {
+      "job": "repairs/qwen3.8-flash/a593607d8b4d7a10efae409a17e062b632fd447b659a2b20403829a042e46c77",
+      "frozen_candidate_proof": {
+        "confirmed_host_elaboration_loop": true,
+        "uses_functional_oracle": false,
+        "loop_line": 26,
+        "guard_name": "current",
+        "threshold": 1,
+        "guard": "len(current) > 1",
+        "body_sha256": "38742e4c49ae2ae6cd495b02e7d3576435c83b3dbe5268a464751e25532a2d07",
+        "observed_iterations": 32,
+        "unchanged_guard_width": 4,
+        "wire_type": "pyrtl.wire.Input",
+        "source_sha256": "c55ba759ed4cee7d8f5707df27d10ce4496a222b1412bb484e2cb19b95bf5147",
+        "native_len_sha256": "48895430caa067ef5eb11887ca878cebfd41722bcf57d9e76ef7cf9371f05cde",
+        "native_getitem_sha256": "faeceef5a8f3ed1c8f6f0665cd8354a06d3a755be21a3736fed9364939f4d687",
+        "evidence": "True builtin len(wire)>constant guard; fixed wire identity/width; body only integer assignments, wire slices and pass; no guard update or control-flow exit",
+        "native_probe": {
+          "constructible": false,
+          "traceback": "Traceback (most recent call last):\n  File \"/work/runtime/construction_probe.py\", line 11, in probe\n    warnings.simplefilter('always');dut=dsls[language](source,cfg);dut.reset()\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/dataset/pyhdl_eval/pyrtl.py\", line 63, in __init__\n    output_tmps = mod.TopModule( *input_signals, **config.parameters )\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/work/runs/cases/repairs/qwen3.8-flash/a593607d8b4d7a10efae409a17e062b632fd447b659a2b20403829a042e46c77/candidate.py\", line 26, in TopModule\n    while len(current) > 1:\n          ^^^\n  File \"/work/adjudicate_in_container.py\", line 93, in observe\n    raise InvariantElaborationLoop('Proved invariant host elaboration loop')\nadjudicate_in_container.host_elaboration_loop.<locals>.InvariantElaborationLoop: Proved invariant host elaboration loop\n",
+          "uses_functional_oracle": false
+        }
+      },
+      "passed": true
+    }
+  ]
+}

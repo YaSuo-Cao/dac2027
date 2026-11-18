@@ -1,0 +1,14 @@
+{
+  "phase": "rtl",
+  "native_passed": true,
+  "rtl_passed": false,
+  "diagnostics": [
+    "pymtl3.passes.rtlir.errors.PyMTLTypeError: \nIn file candidate.py, Line 45, Col 8:\n  start = 2\n  ^\n- conflicting type Const for temporary variable start(LHS target#1 of Wire)!"
+  ],
+  "truncated": false,
+  "provenance": "JUnit exception message attributes only; no traceback body or test/reference source",
+  "junit_sha256": "2cf9c015946c163d96643ac0f9dc52748f8c453a399006adfa89e26a5ceefce3",
+  "candidate_source_sha256": "89bff3fc2044f24f6998969af77fe556c888f15601510829b20de9cebf099588",
+  "reference_source_accessed": false,
+  "failure_kind": "lowering_or_compiler"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "key": "contracts/claude-haiku-5-5/Prob12p01_seq_sreg_8b_siso",
+    "task": "Prob12p01_seq_sreg_8b_siso",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "2ad7e4b5143ff5f522c85ce1c5b30e27c891a331fd710522b541ffc3ee4e9214",
+    "prompt_sha256": "a9c1a4975ea0686b03aa48ab7441b221c19157dfe4c3c5fa810d88ab1ffd3c01"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob13p02_seq_count_3b_bin_up_en",
+    "task": "Prob13p02_seq_count_3b_bin_up_en",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "d092a99742796b078430b94562ff434cedd9614015ce96883c4c1d93418bc071",
+    "prompt_sha256": "cd22dfe7efe202ff684a5739fc5e742732e7c60bd39c6cb5dd2e33a1ad5887a2"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob14p03_seq_edge_8b_capture",
+    "task": "Prob14p03_seq_edge_8b_capture",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "f07f43b3fd7c07c4ca4088c7728d23c02d443c8b58fed587bd01262eac3256a6",
+    "prompt_sha256": "14f4e4965c2d801507caf7ab3e42b91a36c422700f463b8b7fbe031c28a02e4c"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob15p01_seq_arb_4in_variable",
+    "task": "Prob15p01_seq_arb_4in_variable",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "6e4beac47052f28265d3a926c3e5fcdef0f28f2d41166291c189fafcd3d78b56",
+    "prompt_sha256": "5b5b89d580506984fcbaec6bbc18280b798a61005c354b35d1ff70254fd53f74"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob15p04_seq_arb_4in_granthold",
+    "task": "Prob15p04_seq_arb_4in_granthold",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "a99d87fe36cfeb6994d63dd2d2d3700578d7275c312764ae411e155960478199",
+    "prompt_sha256": "786c63fc434ea874ff035c05b4c298718534ae0bbe0fb53ed8c190ba451605a2"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob15p05_seq_arb_4in_weighted",
+    "task": "Prob15p05_seq_arb_4in_weighted",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "1263c31653f42a59db54de8dd6cac09abaec51ccd4cbcc323fdf569d0e40442f",
+    "prompt_sha256": "e9ccb3c8204b05ddbc3404879ce52b0c83a90c25a17db1d7532f70be032cf3b7"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "task": "Prob16p08_seq_fsm_4s1i1o_me_dia",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "0830c99fbd297f9e04acaf5bcd3abff6dc0c93d66f7d1a3b33b7c3bd0e82146e",
+    "prompt_sha256": "b9743fd447d57ff431b83af917eed4bc64a17d41201551c5bbea69a7891efeb0"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob18p01_seq_arith_4x1b_incr",
+    "task": "Prob18p01_seq_arith_4x1b_incr",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "f0e7904045d554505c6fda9efe7d8d0499c3c5ba85ce86f961fae2d401a667a7",
+    "prompt_sha256": "63c2cb5b72ab92c24dc222e0fe969b34ee687a5a04031ea28055e2cdf1642132"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob18p02_seq_arith_4x1b_add",
+    "task": "Prob18p02_seq_arith_4x1b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "196a794861596e286c5bfaff8766a3bbe79d5175daf7ca8e2ce31fbd834ca9be",
+    "prompt_sha256": "4c7a36b1f55f1c71256d31f5945b9b46fcbaeacfe04962591ec1e7fd002fd5fd"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob18p03_seq_arith_2x4b_add",
+    "task": "Prob18p03_seq_arith_2x4b_add",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "25f754d385c4952805f95b158cde9a5b2b77f33bbeedd3139eda07e106ee5103",
+    "prompt_sha256": "9c086fd0c16356396ad8c8246d9d1ef44e69b19a47bef3bcdb4f29008537f46a"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob19p01_seq_pipe_delay_1stage",
+    "task": "Prob19p01_seq_pipe_delay_1stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "783d7009671854d28d68fa6cd646f021bdf44df39879c6d8a45654cd4081d5af",
+    "prompt_sha256": "5e420788c95c852ce11792b0fc94ebe43d09f95b87741e240a22005353012975"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob19p08_seq_pipe_minmax4_2stage",
+    "task": "Prob19p08_seq_pipe_minmax4_2stage",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "f762ecc79d6e34d1c3a53ec39753a0caafb83c98e5ee230ace565b7b406470b6",
+    "prompt_sha256": "bb051b384b9018a88cb78f381dcc675ad8f49f7fd071d79d7cdab38f4e343578"
+  },
+  {
+    "key": "contracts/claude-haiku-5-5/Prob10p05_seq_gates_8b_dffre",
+    "task": "Prob10p05_seq_gates_8b_dffre",
+    "language": "shared",
+    "arm": "C",
+    "kind": "contract",
+    "model": "claude-haiku-5-5",
+    "request_sha256": "ac2b048252e2e1f8b26d1dca6ca3981b24d40a8b4d949150daff5af9c6d8a71f",
+    "prompt_sha256": "415e5206959969e686e1b2ae71ba388ea5802f40370dcd636744fa65e934ca0c"
+  }
+]

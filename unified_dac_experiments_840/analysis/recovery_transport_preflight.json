@@ -1,0 +1,29 @@
+{
+  "http_status": 200,
+  "response": {
+    "id": "anon_receipt_d60ff9456195caaf4cf66d78",
+    "model": "claude-haiku-5-5",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "OK"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 15,
+      "completion_tokens": 4,
+      "total_tokens": 19,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "provider_protocol": "anthropic_messages",
+    "anthropic_stop_reason": "end_turn"
+  },
+  "protocol": "anthropic_messages",
+  "tested_utc": 1794465999.7422996
+}

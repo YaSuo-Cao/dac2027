@@ -1,0 +1,28 @@
+{
+  "purpose": "provider-overload recovery only; all frozen model requests unchanged",
+  "workers": 2,
+  "max_attempts_per_invocation": 24,
+  "retryable_http": [
+    0,
+    429,
+    500,
+    502,
+    503,
+    504
+  ],
+  "overload_backoff_seconds": [
+    10,
+    20,
+    40,
+    60
+  ],
+  "other_backoff_max_seconds": 60,
+  "explicit_429_counts_as_model_failure": false,
+  "billing_unknown_preserved": true,
+  "cached_responses_overwritten": false,
+  "generation_tool_sha256": "9f9fa4399250e3f6e3e62c2c1e003ebe3aa5d29b01ca5012b9ef7dd8e75ab771",
+  "retry_scheduler": "per-request delayed queue; retry waits release worker slots",
+  "new_http_start_interval_seconds": 1,
+  "mock_validation_sha256": "adf74d8bcb94e82ee54a5e68e1e28aae27a07b27bb2acc44f1f2f6c79c754621",
+  "overload_reconnect": "session header gets explicit-overload count suffix; canonical payload and requested model unchanged"
+}
